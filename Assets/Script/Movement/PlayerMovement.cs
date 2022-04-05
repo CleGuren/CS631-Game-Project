@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float moveSpeed = 5;
     public Rigidbody2D RigidBodyComponent;
+    public Animator AnimationController;
 
     Vector2 movement;
 
@@ -17,6 +18,8 @@ public class PlayerMovement : MonoBehaviour
         movement.y = Input.GetAxisRaw("Vertical");
 
         movement.Normalize();
+
+        AnimationController.SetFloat("Speed", movement.sqrMagnitude);
 
         Vector2 charScale = transform.localScale;
 
