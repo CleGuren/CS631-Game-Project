@@ -19,19 +19,15 @@ public class PlayerMovement : MonoBehaviour
 
         movement.Normalize();
 
+        AnimationController.SetFloat("Horizontal", movement.x);
+        AnimationController.SetFloat("Vertical", movement.y);
         AnimationController.SetFloat("Speed", movement.sqrMagnitude);
 
-        Vector2 charScale = transform.localScale;
-
         if (movement.x < 0) { 
-            charScale.x = -1;
+            AnimationController.SetBool("isFacingRight", false);
+        } else if (movement.x > 0) {
+            AnimationController.SetBool("isFacingRight", true);
         }
-
-        if (movement.x > 0) {
-            charScale.x = 1;
-        }
-        
-        transform.localScale = charScale;
     }
 
     void FixedUpdate() {
