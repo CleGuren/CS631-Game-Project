@@ -23,10 +23,17 @@ public class PlayerMovement : MonoBehaviour
         AnimationController.SetFloat("Vertical", movement.y);
         AnimationController.SetFloat("Speed", movement.sqrMagnitude);
 
+        // Debug.Log("movement.x =" + movement.x);
+        // if (movement.x < 0) { 
+        //     AnimationController.SetBool("isFacingRight", false);
+        // } else if (movement.x > 0) {
+        //     AnimationController.SetBool("isFacingRight", true);
+        // }
+
         if (movement.x < 0) { 
-            AnimationController.SetBool("isFacingRight", false);
+            transform.eulerAngles = new Vector3(0, 180, 0);
         } else if (movement.x > 0) {
-            AnimationController.SetBool("isFacingRight", true);
+            transform.eulerAngles = new Vector3(0, 0, 0);
         }
     }
 
