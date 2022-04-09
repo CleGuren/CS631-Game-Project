@@ -7994,7 +7994,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 565997964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.753, y: 30.28, z: 0}
+  m_LocalPosition: {x: -26.84, y: 1.97, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -31061,6 +31061,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   EntityTag: Player
+  SceneToLoad: Battle Scene
 --- !u!1 &1961655168 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2055102311959635369, guid: 7277dd75e907b27448ec1de08238d0bb,
