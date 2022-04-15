@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/axis.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-pool-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxrpc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/saaj.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-discovery-0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/json_simple-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.wsdl_1.6.2.v201012040545.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/gson-2.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
