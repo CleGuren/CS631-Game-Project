@@ -29,6 +29,9 @@ public class Constants {
 	final public static short CMSG_REGISTER = 114;
 	final public static short SMSG_REGISTER = 218;
 
+	final public static short CMSG_SPAWN_PLAYER = 150;
+	final public static short SMSG_SPAWN_PLAYER = 250;
+
 
 	final public static int USER_ID = -1;
 	final public static int OP_ID = -1;

@@ -30,6 +30,7 @@ public class GameRequestTable {
         add(Constants.CMSG_HEARTBEAT, "RequestHeartbeat");
         add(Constants.CMSG_LOGIN, "RequestLogin");
         add(Constants.CMSG_REGISTER, "RequestRegistration");
+        add(Constants.CMSG_SPAWN_PLAYER, "RequestSpawnPlayer");
     }
 
     /**

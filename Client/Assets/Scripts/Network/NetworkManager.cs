@@ -27,7 +27,7 @@ public class NetworkManager : MonoBehaviour
             StartCoroutine(RequestHeartbeat(.1f));
         }
     }
-    
+
     // // login request
     // public bool SendLoginRequest()
     // {
@@ -40,7 +40,7 @@ public class NetworkManager : MonoBehaviour
     //     }
     //     return false;
     // }
-    
+
     // // register request
     // public bool SendLoginRequest()
     // {
@@ -49,8 +49,20 @@ public class NetworkManager : MonoBehaviour
     //         Request
     //     }
     // }
-    
-    
+
+    // Request to spawn current client's player
+    public bool RequestSpawnPlayer(int x, int y)
+    {
+        if (cManager && cManager.IsConnected())
+        {
+            RequestSpawnPlayer request = new RequestSpawnPlayer();
+            request.send(x, y);
+            cManager.send(request);
+            return true;
+        }
+        return false;
+    }
+
     // check for heartbeat
     public IEnumerator RequestHeartbeat(float time)
     {

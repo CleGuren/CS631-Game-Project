@@ -14,6 +14,12 @@ public class Player {
     private String name;
     private GameClient client; // References GameClient instance
 
+    // Player Position
+    private int x;
+    private int y;
+
+    private boolean isSpawned;
+
     public Player(int player_id) {
         this.player_id = player_id;
     }
@@ -21,8 +27,16 @@ public class Player {
     public Player(int player_id, String name) {
         this.player_id = player_id;
         this.name = name;
+        this.x = 0;
+        this.y = 0;
+        this.isSpawned = false;
     }
 
+    /**************************
+        GETTER and SETTER
+    **************************/
+
+    // ID
     public int getID() {
         return player_id;
     }
@@ -31,6 +45,7 @@ public class Player {
         return this.player_id = player_id;
     }
 
+    // Name
     public String getName() {
         return name;
     }
@@ -39,10 +54,16 @@ public class Player {
         return this.name = name;
     }
 
+    // Client
     public GameClient getClient() {
         return client;
     }
 
+    public GameClient setClient(GameClient client) {
+        return this.client = client;
+    }
+
+    // Status
     public boolean getReadyStatus() {
         return isReady;
     }
@@ -50,10 +71,28 @@ public class Player {
     public void setReadyStatusOn(boolean status) {
         isReady = status;
     }
-    
 
-    public GameClient setClient(GameClient client) {
-        return this.client = client;
+    // Position
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public void setPosition(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    // IsSpawned
+    public boolean isSpawned() {
+        return isSpawned;
+    }
+
+    public void setSpawned(boolean isSpawned) {
+        this.isSpawned = isSpawned;
     }
 
     @Override
