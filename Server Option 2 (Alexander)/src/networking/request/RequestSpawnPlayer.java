@@ -8,11 +8,14 @@ import model.Player;
 import networking.response.ResponseSpawnPlayer;
 import utility.DataReader;
 import core.NetworkManager;
+import utility.Log;
+
+import javax.xml.crypto.Data;
 
 public class RequestSpawnPlayer extends GameRequest {
     // Data
-    private int x;
-    private int y;
+    private float x;
+    private float y;
 
     // Responses
     private ResponseSpawnPlayer responseSpawnPlayer;
@@ -21,8 +24,8 @@ public class RequestSpawnPlayer extends GameRequest {
 
     @Override
     public void parse() throws IOException {
-        x = DataReader.readInt(dataInput);
-        y = DataReader.readInt(dataInput);
+        x = DataReader.readFloat(dataInput);
+        y = DataReader.readFloat(dataInput);
     }
 
     @Override
@@ -34,6 +37,8 @@ public class RequestSpawnPlayer extends GameRequest {
 
         responseSpawnPlayer.setPlayer(player);
         responseSpawnPlayer.setInitialPosition(x, y);
+
+        Log.printf("User \'%s\' set initial Position x: %f, y: %f", player.getID(), x, y);
 
         NetworkManager.addResponseForUser(player.getID(), responseSpawnPlayer);
         NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseSpawnPlayer);

@@ -7,8 +7,8 @@ import utility.GamePacket;
 
 public class ResponseSpawnPlayer extends GameResponse {
     private Player player;
-    private int x;
-    private int y;
+    private float x;
+    private float y;
 
     public ResponseSpawnPlayer() { responseCode = Constants.SMSG_SPAWN_PLAYER; }
 
@@ -17,15 +17,15 @@ public class ResponseSpawnPlayer extends GameResponse {
         GamePacket packet = new GamePacket(responseCode);
         packet.addInt32(player.getID());
         packet.addString(player.getName());
-        packet.addInt32(x);
-        packet.addInt32(y);
+        packet.addFloat(x);
+        packet.addFloat(y);
 
         return packet.getBytes();
     }
 
     public void setPlayer(Player player) { this.player = player; }
 
-    public void setInitialPosition(int x, int y) {
+    public void setInitialPosition(float x, float y) {
         this.x = x;
         this.y = y;
     }

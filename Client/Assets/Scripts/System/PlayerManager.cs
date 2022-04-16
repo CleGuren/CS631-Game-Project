@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-
+    [SerializeField] private Transform spawnPoint;
     private NetworkManager networkManager;
     private MessageQueue msgQueue;
 
@@ -14,6 +14,8 @@ public class PlayerManager : MonoBehaviour
         msgQueue = networkManager.GetComponent<MessageQueue>();
 
         msgQueue.AddCallback(Constants.SMSG_SPAWN_PLAYER, OnResponseSpawnPlayer);
+
+        MakeRequestSpawnPlayer(spawnPoint.position.x, spawnPoint.position.y);
     }
 
     private void OnDestroy()
@@ -21,12 +23,7 @@ public class PlayerManager : MonoBehaviour
         msgQueue.RemoveCallback(Constants.SMSG_SPAWN_PLAYER);
     }
 
-    public void testSpawnPlayerRequest()
-    {
-        MakeRequestSpawnPlayer(5, 5);
-    }
-
-    public void MakeRequestSpawnPlayer(int x, int y)
+    public void MakeRequestSpawnPlayer(float x, float y)
     {
         networkManager.RequestSpawnPlayer(x, y);
     }
@@ -36,7 +33,7 @@ public class PlayerManager : MonoBehaviour
         ResponseSpawnPlayerEventArgs args = eventArgs as ResponseSpawnPlayerEventArgs;
 
         // Spawn Player
-        Debug.LogFormat("Response Spawn Player Result: ( %n, %s, %n, %n )");
+        Debug.LogFormat("Response Spawn Player Result: ( {0}, {1}, {2}, {3} )", args.user_id, args.username, args.x, args.y);
 
     }
 }

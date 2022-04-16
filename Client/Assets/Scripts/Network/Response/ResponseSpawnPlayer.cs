@@ -6,8 +6,8 @@ public class ResponseSpawnPlayerEventArgs : ExtendedEventArgs
 {
     public int user_id { get; set; }
     public string username { get; set; }
-    public int x { get; set; }
-    public int y { get; set; }
+    public float x { get; set; }
+    public float y { get; set; }
 
     public ResponseSpawnPlayerEventArgs()
     {
@@ -19,8 +19,8 @@ public class ResponseSpawnPlayer : NetworkResponse
 {
     private int user_id;
     private string username;
-    private int x;
-    private int y;
+    private float x;
+    private float y;
 
     public ResponseSpawnPlayer() { }
 
@@ -28,8 +28,8 @@ public class ResponseSpawnPlayer : NetworkResponse
     {
         user_id = DataReader.ReadInt(dataStream);
         username = DataReader.ReadString(dataStream);
-        x = DataReader.ReadInt(dataStream);
-        y = DataReader.ReadInt(dataStream);
+        x = DataReader.ReadFloat(dataStream);
+        y = DataReader.ReadFloat(dataStream);
     }
 
     public override ExtendedEventArgs process()

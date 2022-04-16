@@ -1,44 +1,56 @@
-public class GamePacket {
+public class GamePacket
+{
 
     private GamePacketStream buffer;
 
-    public GamePacket(short message_id) {
+    public GamePacket(short message_id)
+    {
         buffer = new GamePacketStream(message_id);
     }
 
-    public void addShort16(short val) {
+    public void addShort16(short val)
+    {
         buffer.add(val);
     }
 
-    public void addInt32(int val) {
+    public void addInt32(int val)
+    {
         buffer.add(val);
     }
 
-    public void addLong64(long val) {
+    public void addLong64(long val)
+    {
         buffer.add(val);
     }
 
-    public void addBool(bool val) {
+    public void addBool(bool val)
+    {
         buffer.add(val);
     }
 
-    public void addBytes(byte[] bytes) {
+    public void addBytes(byte[] bytes)
+    {
         buffer.add(bytes);
     }
 
-    public void addString(string val) {
-        buffer.add((short) val.Length);
+    public void addString(string val)
+    {
+        buffer.add((short)val.Length);
         buffer.add(val);
     }
-	
-    public void addFloat32(float val) {
+
+    public void addFloat32(float val)
+    {
+        buffer.add(val);
     }
-	
-    public int size() {
+
+    public int size()
+    {
         return buffer.size();
     }
-	
-    public byte[] getBytes() {
+
+    public byte[] getBytes()
+    {
         return buffer.toByteArray();
     }
 }

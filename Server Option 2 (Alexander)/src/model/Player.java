@@ -15,8 +15,8 @@ public class Player {
     private GameClient client; // References GameClient instance
 
     // Player Position
-    private int x;
-    private int y;
+    private float x;
+    private float y;
 
     private boolean isSpawned;
 
@@ -73,15 +73,15 @@ public class Player {
     }
 
     // Position
-    public int getX() {
+    public float getX() {
         return x;
     }
 
-    public int getY() {
+    public float getY() {
         return y;
     }
 
-    public void setPosition(int x, int y) {
+    public void setPosition(float x, float y) {
         this.x = x;
         this.y = y;
     }

@@ -51,7 +51,7 @@ public class NetworkManager : MonoBehaviour
     // }
 
     // Request to spawn current client's player
-    public bool RequestSpawnPlayer(int x, int y)
+    public bool RequestSpawnPlayer(float x, float y)
     {
         if (cManager && cManager.IsConnected())
         {

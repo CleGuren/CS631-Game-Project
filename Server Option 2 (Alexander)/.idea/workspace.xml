@@ -20,12 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/networking/request/RequestSpawnPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/networking/response/ResponseSpawnPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scenes/Menu/LoadingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scenes/Menu/LoadingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scripts/UI/Menu/Login.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scripts/UI/Menu/Login.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Logs/AssetImportWorker0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Temp/Assembly-CSharp.dll.hash" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Temp/Assembly-CSharp.dll.hash" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Temp/CompilationLog.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Temp/CompilationLog.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestSpawnPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestSpawnPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseSpawnPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseSpawnPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
