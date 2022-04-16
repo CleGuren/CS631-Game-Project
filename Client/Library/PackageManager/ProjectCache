@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637856076670000000
+      ticks: 637856610860000000
     m_Hash: 3975268126
   m_LockFileStatus:
     m_FilePath: /Users/jack/Desktop/CS Project/UnityWorkspace/CS631-Game-Project/Client/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637856076670000000
+      ticks: 637856610860000000
     m_Hash: 902304944
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
