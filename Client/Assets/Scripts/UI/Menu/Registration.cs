@@ -71,8 +71,8 @@ public class Registration : MonoBehaviour
                               // 1 for fail, 0 for success
         {
             Debug.Log("Unsuccessful Registration response : " + args);
-            EditorUtility.DisplayDialog("Registration unsuccessful", "Sorry, please try another username." +
-                                                             "\nClick Ok to continue execution and see responses on console", "Ok");
+            // EditorUtility.DisplayDialog("Registration unsuccessful", "Sorry, please try another username." +
+            //                                                  "\nClick Ok to continue execution and see responses on console", "Ok");
         }
         else
         {

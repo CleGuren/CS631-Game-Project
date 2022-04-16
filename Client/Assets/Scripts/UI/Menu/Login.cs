@@ -70,9 +70,11 @@ public class Login : MonoBehaviour
         ResponseLoginEventArgs args = eventArgs as ResponseLoginEventArgs;
         if (args.status == 0)
         {
+            Constants.USER_ID = args.player_id;
+
             Debug.Log("Successful Login response : " + args);
-            EditorUtility.DisplayDialog("Login Successful", "You have successfully logged in." +
-                                                             "\nClick Ok to continue execution and see responses on console", "Ok");
+            // EditorUtility.DisplayDialog("Login Successful", "You have successfully logged in." +
+            //                                                  "\nClick Ok to continue execution and see responses on console", "Ok");
             SceneManager.LoadScene("LoadingScene");
         }
         else
