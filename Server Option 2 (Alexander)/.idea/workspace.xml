@@ -20,44 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/networking/request/RequestSpawnOtherPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/Artifacts/b7/b7467da00b8c3de5fb96a8e633bd93e2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/Artifacts/c4/c4ace9a57c51b16746d41a6bcca6d871" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/LastBuild.buildreport" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/LastBuild.buildreport" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/Managed/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/Managed/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/globalgamemanagers" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/globalgamemanagers" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/globalgamemanagers.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/globalgamemanagers.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level0" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level1" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level2" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level3" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level4" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level5" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level7" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/level7" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets0.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets1.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets1.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets2.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets2.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets3.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets3.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets4.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets4.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets5.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets5.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets6.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets6.assets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets7.assets" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/Data/sharedassets7.assets" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/ScriptsOnlyCache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/PlayerDataCache/OSXUniversal/ScriptsOnlyCache.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/metadata/GameRequestTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestSpawnPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WoB_Server_Basic/networking/request/RequestSpawnPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metadata/GameRequestTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/request/RequestSpawnPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/request/RequestSpawnPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/networking/response/ResponseSpawnPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/networking/response/ResponseSpawnPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,16 +83,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
-  }
-}</component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
