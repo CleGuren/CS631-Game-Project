@@ -32,7 +32,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("RegistrationScene");
     }
 
-    public void QuitGame()  // quits the game
+    public void QuitGame()  // doesn't quit the game yet
     {
         Debug.Log("QUIT THE GAME");
         Application.Quit();

@@ -13,6 +13,7 @@
       <root url="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/gson-2.2.2.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-8.0.28.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
