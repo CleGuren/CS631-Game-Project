@@ -4,10 +4,18 @@ using UnityEngine;
 
 public class Behavior : MonoBehaviour
 {
-    public Transform target;
+    private Transform target;
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z - 10);
+        if (target != null)
+        {
+            transform.position = new Vector3(target.transform.position.x, target.transform.position.y, target.transform.position.z - 10);
+        }
+    }
+
+    public void SetCameraTarget(Transform target)
+    {
+        this.target = target;
     }
 }

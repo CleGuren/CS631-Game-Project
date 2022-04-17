@@ -15,7 +15,9 @@ public class PlayerManager : MonoBehaviour
 
         msgQueue.AddCallback(Constants.SMSG_SPAWN_PLAYER, OnResponseSpawnPlayer);
 
+        // Spawn Self
         MakeRequestSpawnPlayer(spawnPoint.position.x, spawnPoint.position.y);
+        // Spawn Other
     }
 
     private void OnDestroy()
