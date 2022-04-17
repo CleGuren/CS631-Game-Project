@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     private Animator AnimationController;
 
     public int playerID { get; set; }
+    public string username { get; set; }
 
     Vector2 movement;
 
@@ -19,7 +20,6 @@ public class Player : MonoBehaviour
     {
         RigidBodyComponent = GetComponent<Rigidbody2D>();
         AnimationController = GetComponent<Animator>();
-        SetCamera();
     }
 
     private void OnEnable()
@@ -32,11 +32,22 @@ public class Player : MonoBehaviour
         playerControls.Disable();
     }
 
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == this.gameObject.tag)
+        {
+            Physics2D.IgnoreCollision(other.collider, GetComponent<Collider2D>());
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
         /* NEW SYSTEM INPUT HANDLING */
-        movement = playerControls.ReadValue<Vector2>();
+        if (playerID == Constants.USER_ID)
+        {
+            movement = playerControls.ReadValue<Vector2>();
+        }
 
         // Animation
         AnimationController.SetFloat("Horizontal", movement.x);
@@ -60,7 +71,7 @@ public class Player : MonoBehaviour
     }
 
     // If player is client's player, set main camera to follow this player object
-    private void SetCamera()
+    public void SetCamera()
     {
         if (Constants.USER_ID == playerID)
         {

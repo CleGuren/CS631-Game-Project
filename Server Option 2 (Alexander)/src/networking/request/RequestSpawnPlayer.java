@@ -40,7 +40,8 @@ public class RequestSpawnPlayer extends GameRequest {
 
         Log.printf("User \'%s\' set initial Position x: %f, y: %f", player.getID(), x, y);
 
-        NetworkManager.addResponseForUser(player.getID(), responseSpawnPlayer);
+//        NetworkManager.addResponseForUser(player.getID(), responseSpawnPlayer);
+        Log.println("" + player.getID());
         NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseSpawnPlayer);
     }
 }

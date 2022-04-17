@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     [SerializeField] private Transform spawnPoint;
+    [SerializeField] private GameObject playerPrefab;
     private NetworkManager networkManager;
     private MessageQueue msgQueue;
 
@@ -25,6 +26,19 @@ public class PlayerManager : MonoBehaviour
         msgQueue.RemoveCallback(Constants.SMSG_SPAWN_PLAYER);
     }
 
+    // Player Spawning
+    private void SpawnPlayer(int user_id, string username)
+    {
+        GameObject newPlayer = GameObject.Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
+
+        // Camera Setting Check
+        Player newPlayerScript = newPlayer.GetComponent<Player>();
+        newPlayerScript.playerID = user_id;
+        newPlayerScript.username = username;
+        newPlayerScript.SetCamera();
+    }
+
+    // Network
     public void MakeRequestSpawnPlayer(float x, float y)
     {
         networkManager.RequestSpawnPlayer(x, y);
@@ -35,7 +49,10 @@ public class PlayerManager : MonoBehaviour
         ResponseSpawnPlayerEventArgs args = eventArgs as ResponseSpawnPlayerEventArgs;
 
         // Spawn Player
+        Debug.Log("Shouldn't be here");
+        SpawnPlayer(args.user_id, args.username);
         Debug.LogFormat("Response Spawn Player Result: ( {0}, {1}, {2}, {3} )", args.user_id, args.username, args.x, args.y);
+
 
     }
 }

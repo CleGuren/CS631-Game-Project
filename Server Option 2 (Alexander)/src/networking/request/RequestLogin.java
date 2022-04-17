@@ -48,7 +48,7 @@ public class RequestLogin extends GameRequest {
 
             ResponseName responseName = new ResponseName();
             responseName.setPlayer(player);
-            NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseName);
+//            NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseLogin);
         } else {
             Log.printf("A user has tried to join, but failed to do so.");
             responseLogin.setData((short) 1, "", id);

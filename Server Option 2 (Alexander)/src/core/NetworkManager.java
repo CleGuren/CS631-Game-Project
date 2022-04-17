@@ -35,8 +35,11 @@ public class NetworkManager {
     public static void addResponseForAllOnlinePlayers(int player_id, GameResponse response) {
         for (GameClient client : GameServer.getInstance().getActiveThreads().values()) {
             Player player = client.getPlayer();
+            Log.println("player getid: " + player.getID());
+            Log.println("player_id: " + player_id);
 
             if (player != null && client.getPlayer().getID() != player_id) {
+                Log.println("shouldn't be here");
                 client.addResponseForUpdate(response);
             }
         }
