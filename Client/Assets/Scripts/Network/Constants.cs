@@ -22,6 +22,7 @@ public class Constants
 
     public static readonly short CMSG_SPAWN_PLAYER = 150;
     public static readonly short SMSG_SPAWN_PLAYER = 250;
+    public static readonly short CMSG_SPAWN_OTHER_PLAYERS = 151;
 
     public static int USER_ID = -1;
     public static int OP_ID = -1;

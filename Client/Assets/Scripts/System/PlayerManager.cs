@@ -9,6 +9,8 @@ public class PlayerManager : MonoBehaviour
     private NetworkManager networkManager;
     private MessageQueue msgQueue;
 
+    private List<Player> players = new List<Player>();
+
     private void Start()
     {
         networkManager = GameObject.Find("Network Manager").GetComponent<NetworkManager>();
@@ -19,6 +21,7 @@ public class PlayerManager : MonoBehaviour
         // Spawn Self
         MakeRequestSpawnPlayer(spawnPoint.position.x, spawnPoint.position.y);
         // Spawn Other
+        MakeRequestSpawnOtherPlayer();
     }
 
     private void OnDestroy()
@@ -29,8 +32,17 @@ public class PlayerManager : MonoBehaviour
     // Player Spawning
     private void SpawnPlayer(int user_id, string username)
     {
-        GameObject newPlayer = GameObject.Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
+        // Don't spawn if there's duplicate
+        foreach (var p in players)
+        {
+            if (p.playerID == user_id)
+            {
+                return;
+            }
+        }
 
+        GameObject newPlayer = GameObject.Instantiate(playerPrefab, spawnPoint.transform.position, Quaternion.identity);
+        players.Add(newPlayer.GetComponent<Player>());
         // Camera Setting Check
         Player newPlayerScript = newPlayer.GetComponent<Player>();
         newPlayerScript.playerID = user_id;
@@ -44,15 +56,20 @@ public class PlayerManager : MonoBehaviour
         networkManager.RequestSpawnPlayer(x, y);
     }
 
+    public void MakeRequestSpawnOtherPlayer()
+    {
+        networkManager.RequestSpawnOtherPlayers();
+    }
+
     public void OnResponseSpawnPlayer(ExtendedEventArgs eventArgs)
     {
         ResponseSpawnPlayerEventArgs args = eventArgs as ResponseSpawnPlayerEventArgs;
 
         // Spawn Player
-        Debug.Log("Shouldn't be here");
         SpawnPlayer(args.user_id, args.username);
         Debug.LogFormat("Response Spawn Player Result: ( {0}, {1}, {2}, {3} )", args.user_id, args.username, args.x, args.y);
-
-
     }
+
+
+    // OnResponse spawn other player
 }

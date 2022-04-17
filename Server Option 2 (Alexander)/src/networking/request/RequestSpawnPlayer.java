@@ -36,7 +36,7 @@ public class RequestSpawnPlayer extends GameRequest {
         player.setSpawned(true);
 
         responseSpawnPlayer.setPlayer(player);
-        responseSpawnPlayer.setInitialPosition(x, y);
+        responseSpawnPlayer.setPosition(x, y);
 
         Log.printf("User \'%s\' set initial Position x: %f, y: %f", player.getID(), x, y);
 

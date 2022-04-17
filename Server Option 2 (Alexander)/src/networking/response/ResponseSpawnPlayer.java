@@ -25,7 +25,7 @@ public class ResponseSpawnPlayer extends GameResponse {
 
     public void setPlayer(Player player) { this.player = player; }
 
-    public void setInitialPosition(float x, float y) {
+    public void setPosition(float x, float y) {
         this.x = x;
         this.y = y;
     }

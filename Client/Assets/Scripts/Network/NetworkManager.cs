@@ -63,6 +63,18 @@ public class NetworkManager : MonoBehaviour
         return false;
     }
 
+    public bool RequestSpawnOtherPlayers()
+    {
+        if (cManager && cManager.IsConnected())
+        {
+            RequestSpawnOtherPlayers request = new RequestSpawnOtherPlayers();
+            request.send();
+            cManager.send(request);
+            return true;
+        }
+        return false;
+    }
+
     // check for heartbeat
     public IEnumerator RequestHeartbeat(float time)
     {
