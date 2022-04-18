@@ -17,6 +17,7 @@ import metadata.GameRequestTable;
 import model.Player;
 import networking.request.GameRequest;
 import networking.response.GameResponse;
+import networking.response.ResponseDespawnPlayer;
 import utility.DataReader;
 import utility.Log;
 
@@ -137,6 +138,8 @@ public class GameClient implements Runnable {
      * the server will be removed as well.
      */
     public void removePlayerData() {
+        ResponseDespawnPlayer responseDespawnPlayer = new ResponseDespawnPlayer();
+        NetworkManager.addResponseForAllOnlinePlayers(player.getID(), responseDespawnPlayer);
         GameServer.getInstance().removeActivePlayer(player.getID());
         Log.printf("User '%s' has logged off.", player.getName());
     }

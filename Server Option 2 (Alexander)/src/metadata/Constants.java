@@ -32,6 +32,8 @@ public class Constants {
 	final public static short CMSG_SPAWN_PLAYER = 150;
 	final public static short SMSG_SPAWN_PLAYER = 250;
 	final public static short CMSG_SPAWN_OTHER_PLAYER = 151;
+	final public static short CMSG_DESPAWN_PLAYER = 152;
+	final public static short SMSG_DESPAWN_PLAYER = 252;
 
 
 	final public static int USER_ID = -1;
