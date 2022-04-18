@@ -13,7 +13,7 @@ public class BattleTrigger : MonoBehaviour
     {
         if (entity.tag == "Player")
         {
-            PlayerValueStorage.CurrentPosition = GameObject.Find("Player").transform.position;
+            // PlayerValueStorage.CurrentPosition = GameObject.Find("Player").transform.position;
             SceneManager.LoadScene(SceneToLoad);
         }
     }
