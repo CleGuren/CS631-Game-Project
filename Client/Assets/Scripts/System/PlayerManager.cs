@@ -32,6 +32,10 @@ public class PlayerManager : MonoBehaviour
         msgQueue.RemoveCallback(Constants.SMSG_DESPAWN_PLAYER);
     }
 
+    private void OnApplicationQuit() {
+        MakeRequestDespawnPlayer();
+    }
+
     // Player Spawning
     private void SpawnPlayer(int user_id, string username)
     {
