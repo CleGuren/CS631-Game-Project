@@ -31,6 +31,7 @@ public class GameRequestTable {
         add(Constants.CMSG_REGISTER, "RequestRegistration");
         add(Constants.CMSG_SPAWN_PLAYER, "RequestSpawnPlayer");
         add(Constants.CMSG_SPAWN_OTHER_PLAYER, "RequestSpawnOtherPlayers");
+        add(Constants.CMSG_DESPAWN_PLAYER, "RequestDespawnPlayer");
     }
 
     /**

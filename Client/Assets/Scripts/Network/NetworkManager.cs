@@ -75,6 +75,18 @@ public class NetworkManager : MonoBehaviour
         return false;
     }
 
+    public bool RequestDespawnPlayer()
+    {
+        if (cManager && cManager.IsConnected())
+        {
+            RequestDespawnPlayer request = new RequestDespawnPlayer();
+            request.send();
+            cManager.send(request);
+            return true;
+        }
+        return false;
+    }
+
     // check for heartbeat
     public IEnumerator RequestHeartbeat(float time)
     {

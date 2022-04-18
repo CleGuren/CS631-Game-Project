@@ -79,4 +79,9 @@ public class Player : MonoBehaviour
             mainCamera.GetComponent<Behavior>().SetCameraTarget(transform);
         }
     }
+
+    public void DespawnPlayer()
+    {
+        Destroy(gameObject);
+    }
 }

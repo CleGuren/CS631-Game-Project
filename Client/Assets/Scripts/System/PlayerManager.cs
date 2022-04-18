@@ -17,6 +17,7 @@ public class PlayerManager : MonoBehaviour
         msgQueue = networkManager.GetComponent<MessageQueue>();
 
         msgQueue.AddCallback(Constants.SMSG_SPAWN_PLAYER, OnResponseSpawnPlayer);
+        msgQueue.AddCallback(Constants.SMSG_DESPAWN_PLAYER, OnResponseDespawnPlayer);
 
         // Spawn Self
         MakeRequestSpawnPlayer(spawnPoint.position.x, spawnPoint.position.y);
@@ -26,7 +27,9 @@ public class PlayerManager : MonoBehaviour
 
     private void OnDestroy()
     {
+        MakeRequestDespawnPlayer();
         msgQueue.RemoveCallback(Constants.SMSG_SPAWN_PLAYER);
+        msgQueue.RemoveCallback(Constants.SMSG_DESPAWN_PLAYER);
     }
 
     // Player Spawning
@@ -50,6 +53,22 @@ public class PlayerManager : MonoBehaviour
         newPlayerScript.SetCamera();
     }
 
+    private void DespawnPlayer(int user_id)
+    {
+        for (int i = 0; i < players.Count; i++)
+        {
+            var p = players[i];
+
+            if (p.playerID == user_id && p.playerID != Constants.USER_ID)
+            {
+                Debug.Log("Destroyed");
+                var removedPlayer = players[i];
+                players.RemoveAt(i);
+                removedPlayer.DespawnPlayer();
+            }
+        }
+    }
+
     // Network
     public void MakeRequestSpawnPlayer(float x, float y)
     {
@@ -61,6 +80,11 @@ public class PlayerManager : MonoBehaviour
         networkManager.RequestSpawnOtherPlayers();
     }
 
+    public void MakeRequestDespawnPlayer()
+    {
+        networkManager.RequestDespawnPlayer();
+    }
+
     public void OnResponseSpawnPlayer(ExtendedEventArgs eventArgs)
     {
         ResponseSpawnPlayerEventArgs args = eventArgs as ResponseSpawnPlayerEventArgs;
@@ -70,6 +94,11 @@ public class PlayerManager : MonoBehaviour
         Debug.LogFormat("Response Spawn Player Result: ( {0}, {1}, {2}, {3} )", args.user_id, args.username, args.x, args.y);
     }
 
+    public void OnResponseDespawnPlayer(ExtendedEventArgs eventArgs)
+    {
+        ResponseDespawnPlayerEventArgs args = eventArgs as ResponseDespawnPlayerEventArgs;
 
-    // OnResponse spawn other player
+        // Spawn Player
+        DespawnPlayer(args.user_id);
+    }
 }
