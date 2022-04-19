@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scripts/System/PlayerManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Library/SceneVisibilityState.asset" afterDir="false" />
@@ -76,6 +75,10 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
