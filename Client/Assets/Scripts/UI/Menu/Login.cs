@@ -76,7 +76,7 @@ public class Login : MonoBehaviour
             // EditorUtility.DisplayDialog("Login Successful", "You have successfully logged in." +
             //                                                  "\nClick Ok to continue execution and see responses on console", "Ok");
             //SceneManager.LoadScene("Tutorial");
-            SceneManager.LoadScene("Tutorial");
+            SceneManager.LoadScene("Battle Scene");
         }
         else
         {
