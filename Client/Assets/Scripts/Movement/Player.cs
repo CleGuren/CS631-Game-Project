@@ -7,9 +7,9 @@ public class Player : MonoBehaviour
 {
 
     [SerializeField] private float moveSpeed = 5;
+    [SerializeField] private Animator AnimationController;
     public InputAction playerControls;
     private Rigidbody2D RigidBodyComponent;
-    private Animator AnimationController;
 
     public int playerID { get; set; }
     public string username { get; set; }
@@ -19,7 +19,6 @@ public class Player : MonoBehaviour
     private void Start()
     {
         RigidBodyComponent = GetComponent<Rigidbody2D>();
-        AnimationController = GetComponent<Animator>();
     }
 
     private void OnEnable()
