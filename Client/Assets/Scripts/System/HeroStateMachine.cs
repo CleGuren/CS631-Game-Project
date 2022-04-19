@@ -1,16 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HeroStateMachine : MonoBehaviour
 {
-    public HeroBase Hero;
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        
-    }
+    public enum State { PROCESSING, ADDTOLIST, SELECTING, ACTION, DEAD }
+    public HeroBase myValue;
+    public State currentState;
+
 }

@@ -9,6 +9,7 @@ public class EnemyBase
     public float level;
     public float baseHP;
     public float currentHP;
+    public float maxHP;
     public float baseAtk;
     public float currentAtk;
     public float baseDef;

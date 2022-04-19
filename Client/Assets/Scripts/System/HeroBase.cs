@@ -5,14 +5,15 @@ using UnityEngine;
 [System.Serializable]
 public class HeroBase
 {
-    public string name;
-    public int level;
-    public int baseHP;
-    public int currentHP;
-    public int baseAtk;
-    public int currentAtk;
-    public int baseDef;
-    public int currentDef;
+    public string charName;
+    public float level;
+    public float baseHP;
+    public float currentHP;
+    public float maxHP;
+    public float baseAtk;
+    public float currentAtk;
+    public float baseDef;
+    public float currentDef;
     public enum EleType { FIRE, WATER, EARTH, WIND, DARK, LIGHT }
     public enum WeaponType { SWORD, DAGGER, STAFF, AXE }
     public EleType HeroEle;
