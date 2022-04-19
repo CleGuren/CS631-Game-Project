@@ -1,0 +1,8244 @@
+fileFormatVersion: 2
+guid: 792051780fce54f32b2e1a97c5a14d05
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8099876305587016046
+    second: REGmagecity_0
+  - first:
+      213: 5664632996327749055
+    second: REGmagecity_1
+  - first:
+      213: 947380086298602497
+    second: REGmagecity_2
+  - first:
+      213: 5752572680552945070
+    second: REGmagecity_3
+  - first:
+      213: 1897468919961459629
+    second: REGmagecity_4
+  - first:
+      213: 393850910467298638
+    second: REGmagecity_5
+  - first:
+      213: -7358321606518352225
+    second: REGmagecity_6
+  - first:
+      213: -3378687028750400833
+    second: REGmagecity_7
+  - first:
+      213: 3493735375722856908
+    second: REGmagecity_8
+  - first:
+      213: -320740061960298361
+    second: REGmagecity_9
+  - first:
+      213: 3228017443995867666
+    second: REGmagecity_10
+  - first:
+      213: -9100463617656692582
+    second: REGmagecity_11
+  - first:
+      213: 8144242003987176444
+    second: REGmagecity_12
+  - first:
+      213: -3482778126366346626
+    second: REGmagecity_13
+  - first:
+      213: -2122948941423655791
+    second: REGmagecity_14
+  - first:
+      213: 271944924309348033
+    second: REGmagecity_15
+  - first:
+      213: 2562604033169835312
+    second: REGmagecity_16
+  - first:
+      213: 7463311530376099518
+    second: REGmagecity_17
+  - first:
+      213: -4865339890377822948
+    second: REGmagecity_18
+  - first:
+      213: -4116183740497626595
+    second: REGmagecity_19
+  - first:
+      213: 7396468728388841525
+    second: REGmagecity_20
+  - first:
+      213: 9197547357600771173
+    second: REGmagecity_21
+  - first:
+      213: -8586814416003353369
+    second: REGmagecity_22
+  - first:
+      213: 1941543093766012510
+    second: REGmagecity_23
+  - first:
+      213: 306739919803191982
+    second: REGmagecity_24
+  - first:
+      213: -7128521888649215786
+    second: REGmagecity_25
+  - first:
+      213: -7286112240939800628
+    second: REGmagecity_26
+  - first:
+      213: 8223477368820767367
+    second: REGmagecity_27
+  - first:
+      213: 4199616362041497383
+    second: REGmagecity_28
+  - first:
+      213: -5316477474826387721
+    second: REGmagecity_29
+  - first:
+      213: -4033592895166944658
+    second: REGmagecity_30
+  - first:
+      213: 6864831762174586914
+    second: REGmagecity_31
+  - first:
+      213: 7324704670619826589
+    second: REGmagecity_32
+  - first:
+      213: -6725073428649140888
+    second: REGmagecity_33
+  - first:
+      213: -5877360460785287885
+    second: REGmagecity_34
+  - first:
+      213: -9027258135804268588
+    second: REGmagecity_35
+  - first:
+      213: -7001408967243721084
+    second: REGmagecity_36
+  - first:
+      213: -7791932348721275250
+    second: REGmagecity_37
+  - first:
+      213: 2743962288359606486
+    second: REGmagecity_38
+  - first:
+      213: -3913827890431003563
+    second: REGmagecity_39
+  - first:
+      213: 9004638205751511386
+    second: REGmagecity_40
+  - first:
+      213: 3807627863122878819
+    second: REGmagecity_41
+  - first:
+      213: -2615922885522341313
+    second: REGmagecity_42
+  - first:
+      213: 2511040770500484796
+    second: REGmagecity_43
+  - first:
+      213: 8397546731488110886
+    second: REGmagecity_44
+  - first:
+      213: 7309961247698444717
+    second: REGmagecity_45
+  - first:
+      213: 310260632940705288
+    second: REGmagecity_46
+  - first:
+      213: -1957713135103288555
+    second: REGmagecity_47
+  - first:
+      213: -3963428209349762453
+    second: REGmagecity_48
+  - first:
+      213: -5396104458640148328
+    second: REGmagecity_49
+  - first:
+      213: 3870585527097968856
+    second: REGmagecity_50
+  - first:
+      213: 272716995024081488
+    second: REGmagecity_51
+  - first:
+      213: -2338606821740145197
+    second: REGmagecity_52
+  - first:
+      213: -8631546162669674825
+    second: REGmagecity_53
+  - first:
+      213: 3183654248227914702
+    second: REGmagecity_54
+  - first:
+      213: 3309947186393076193
+    second: REGmagecity_55
+  - first:
+      213: 3589324062832312242
+    second: REGmagecity_56
+  - first:
+      213: 3091278338353755917
+    second: REGmagecity_57
+  - first:
+      213: 6722533599345702682
+    second: REGmagecity_58
+  - first:
+      213: -4603967409973355166
+    second: REGmagecity_59
+  - first:
+      213: 5136938517834322505
+    second: REGmagecity_60
+  - first:
+      213: -4427437271568899980
+    second: REGmagecity_61
+  - first:
+      213: -3761339859894750053
+    second: REGmagecity_62
+  - first:
+      213: -5529398831248778229
+    second: REGmagecity_63
+  - first:
+      213: -6129037876230633718
+    second: REGmagecity_64
+  - first:
+      213: 2103531222672266948
+    second: REGmagecity_65
+  - first:
+      213: 7498373324330654857
+    second: REGmagecity_66
+  - first:
+      213: -7882911952319576757
+    second: REGmagecity_67
+  - first:
+      213: 7103327331534919415
+    second: REGmagecity_68
+  - first:
+      213: -1808201845245266283
+    second: REGmagecity_69
+  - first:
+      213: 6400865998297187344
+    second: REGmagecity_70
+  - first:
+      213: 3792501253966382907
+    second: REGmagecity_71
+  - first:
+      213: -864454153142497984
+    second: REGmagecity_72
+  - first:
+      213: -2917886512794087278
+    second: REGmagecity_73
+  - first:
+      213: -8224916812670206764
+    second: REGmagecity_74
+  - first:
+      213: 6965799669060817438
+    second: REGmagecity_75
+  - first:
+      213: 6664182838647449307
+    second: REGmagecity_76
+  - first:
+      213: 3800987307121396490
+    second: REGmagecity_77
+  - first:
+      213: 531663597645011311
+    second: REGmagecity_78
+  - first:
+      213: -724377754052575663
+    second: REGmagecity_79
+  - first:
+      213: -1052861600685612431
+    second: REGmagecity_80
+  - first:
+      213: 6689071368403380680
+    second: REGmagecity_81
+  - first:
+      213: -4769808553254952857
+    second: REGmagecity_82
+  - first:
+      213: 6580837581970727354
+    second: REGmagecity_83
+  - first:
+      213: 4038165844112029909
+    second: REGmagecity_84
+  - first:
+      213: -7171597388603804648
+    second: REGmagecity_85
+  - first:
+      213: 3422307167521074462
+    second: REGmagecity_86
+  - first:
+      213: -6139418675722439189
+    second: REGmagecity_87
+  - first:
+      213: 4243192017528721042
+    second: REGmagecity_88
+  - first:
+      213: -8578780012741676145
+    second: REGmagecity_89
+  - first:
+      213: 2177301155735443878
+    second: REGmagecity_90
+  - first:
+      213: -2203017799453503319
+    second: REGmagecity_91
+  - first:
+      213: 784544829930605395
+    second: REGmagecity_92
+  - first:
+      213: 9029914888611782657
+    second: REGmagecity_93
+  - first:
+      213: 5395769448338758410
+    second: REGmagecity_94
+  - first:
+      213: -9139314585938949595
+    second: REGmagecity_95
+  - first:
+      213: 8673875311645265449
+    second: REGmagecity_96
+  - first:
+      213: 4695267846039967578
+    second: REGmagecity_97
+  - first:
+      213: 1029630224228538066
+    second: REGmagecity_98
+  - first:
+      213: -5757464947462479575
+    second: REGmagecity_99
+  - first:
+      213: 9166286362055282096
+    second: REGmagecity_100
+  - first:
+      213: 4647028075994591400
+    second: REGmagecity_101
+  - first:
+      213: -893603329863045418
+    second: REGmagecity_102
+  - first:
+      213: 5021133002347041833
+    second: REGmagecity_103
+  - first:
+      213: 4583202289334403372
+    second: REGmagecity_104
+  - first:
+      213: 3947810619674064020
+    second: REGmagecity_105
+  - first:
+      213: 7429758566776952050
+    second: REGmagecity_106
+  - first:
+      213: 1342278477469600010
+    second: REGmagecity_107
+  - first:
+      213: 6416754418724994947
+    second: REGmagecity_108
+  - first:
+      213: 2693576290690738116
+    second: REGmagecity_109
+  - first:
+      213: -8892538840441450102
+    second: REGmagecity_110
+  - first:
+      213: 7850926179123828863
+    second: REGmagecity_111
+  - first:
+      213: -770176295167823396
+    second: REGmagecity_112
+  - first:
+      213: 9155872442007621817
+    second: REGmagecity_113
+  - first:
+      213: 546217771130527829
+    second: REGmagecity_114
+  - first:
+      213: -3419659869775366849
+    second: REGmagecity_115
+  - first:
+      213: -4825677576602764098
+    second: REGmagecity_116
+  - first:
+      213: -1859945025678882730
+    second: REGmagecity_117
+  - first:
+      213: -53119021780230326
+    second: REGmagecity_118
+  - first:
+      213: -3861652754948288597
+    second: REGmagecity_119
+  - first:
+      213: -3544874263002374935
+    second: REGmagecity_120
+  - first:
+      213: -5289022173038386758
+    second: REGmagecity_121
+  - first:
+      213: -7557633274559249002
+    second: REGmagecity_122
+  - first:
+      213: 800008313700860409
+    second: REGmagecity_123
+  - first:
+      213: -5977527611977691939
+    second: REGmagecity_124
+  - first:
+      213: -8346886211277323471
+    second: REGmagecity_125
+  - first:
+      213: 1407991779223305696
+    second: REGmagecity_126
+  - first:
+      213: 3867180053475199556
+    second: REGmagecity_127
+  - first:
+      213: 5080669179494841940
+    second: REGmagecity_128
+  - first:
+      213: -3484186151273356586
+    second: REGmagecity_129
+  - first:
+      213: 4337642971832903508
+    second: REGmagecity_130
+  - first:
+      213: -8972922308535855513
+    second: REGmagecity_131
+  - first:
+      213: -6794086473778833477
+    second: REGmagecity_132
+  - first:
+      213: -7489998148615209707
+    second: REGmagecity_133
+  - first:
+      213: -4057695216446025311
+    second: REGmagecity_134
+  - first:
+      213: -3928939266611295570
+    second: REGmagecity_135
+  - first:
+      213: 3191029116178376185
+    second: REGmagecity_136
+  - first:
+      213: -92273839723043429
+    second: REGmagecity_137
+  - first:
+      213: 1917385647106050754
+    second: REGmagecity_138
+  - first:
+      213: 5329141075804865179
+    second: REGmagecity_139
+  - first:
+      213: 2560816487922613501
+    second: REGmagecity_140
+  - first:
+      213: 1455322471099930019
+    second: REGmagecity_141
+  - first:
+      213: -1845853623355226434
+    second: REGmagecity_142
+  - first:
+      213: 6924259733086035642
+    second: REGmagecity_143
+  - first:
+      213: 4787429181746509630
+    second: REGmagecity_144
+  - first:
+      213: -3822676740995790642
+    second: REGmagecity_145
+  - first:
+      213: -1936924267424380357
+    second: REGmagecity_146
+  - first:
+      213: 1652965973395680301
+    second: REGmagecity_147
+  - first:
+      213: -2184934176558242278
+    second: REGmagecity_148
+  - first:
+      213: -1963449826392268781
+    second: REGmagecity_149
+  - first:
+      213: -7055988737029981099
+    second: REGmagecity_150
+  - first:
+      213: 2291704690326657138
+    second: REGmagecity_151
+  - first:
+      213: 7158675670270707181
+    second: REGmagecity_152
+  - first:
+      213: -5483464198226327484
+    second: REGmagecity_153
+  - first:
+      213: 4207276636545185237
+    second: REGmagecity_154
+  - first:
+      213: 6943255071183138901
+    second: REGmagecity_155
+  - first:
+      213: -7370560882888499492
+    second: REGmagecity_156
+  - first:
+      213: 482088651602011419
+    second: REGmagecity_157
+  - first:
+      213: -7667578376540148378
+    second: REGmagecity_158
+  - first:
+      213: -5681293506857201678
+    second: REGmagecity_159
+  - first:
+      213: 8196198877669557134
+    second: REGmagecity_160
+  - first:
+      213: 3080306153337825947
+    second: REGmagecity_161
+  - first:
+      213: 3694294939164442255
+    second: REGmagecity_162
+  - first:
+      213: 3509686762794368934
+    second: REGmagecity_163
+  - first:
+      213: 5235576521012780986
+    second: REGmagecity_164
+  - first:
+      213: -6353664325626298806
+    second: REGmagecity_165
+  - first:
+      213: 7769893715256873473
+    second: REGmagecity_166
+  - first:
+      213: 6114809665260253510
+    second: REGmagecity_167
+  - first:
+      213: -1458241322820317580
+    second: REGmagecity_168
+  - first:
+      213: 5114011937100720602
+    second: REGmagecity_169
+  - first:
+      213: 8247483735944275231
+    second: REGmagecity_170
+  - first:
+      213: 4125007560824418168
+    second: REGmagecity_171
+  - first:
+      213: 8928919040750611534
+    second: REGmagecity_172
+  - first:
+      213: 5604916818079242181
+    second: REGmagecity_173
+  - first:
+      213: -6834186123714505033
+    second: REGmagecity_174
+  - first:
+      213: -8355380375125807777
+    second: REGmagecity_175
+  - first:
+      213: 3171875944260892713
+    second: REGmagecity_176
+  - first:
+      213: 8924148703033213565
+    second: REGmagecity_177
+  - first:
+      213: 5832251473926939069
+    second: REGmagecity_178
+  - first:
+      213: -7452586790480034348
+    second: REGmagecity_179
+  - first:
+      213: -3539541307273672767
+    second: REGmagecity_180
+  - first:
+      213: -3853650550130578268
+    second: REGmagecity_181
+  - first:
+      213: 6857857219722452560
+    second: REGmagecity_182
+  - first:
+      213: 3067456807923922855
+    second: REGmagecity_183
+  - first:
+      213: 2491545103519070255
+    second: REGmagecity_184
+  - first:
+      213: 8770857223581845904
+    second: REGmagecity_185
+  - first:
+      213: 8096408185039594879
+    second: REGmagecity_186
+  - first:
+      213: -4843039924567102514
+    second: REGmagecity_187
+  - first:
+      213: -681072634635881196
+    second: REGmagecity_188
+  - first:
+      213: 1011542972307778718
+    second: REGmagecity_189
+  - first:
+      213: -7723513331689322783
+    second: REGmagecity_190
+  - first:
+      213: 2788656729960845143
+    second: REGmagecity_191
+  - first:
+      213: -6272990022907343942
+    second: REGmagecity_192
+  - first:
+      213: -4941736313408861033
+    second: REGmagecity_193
+  - first:
+      213: 1180052743271073634
+    second: REGmagecity_194
+  - first:
+      213: -4012641028263454870
+    second: REGmagecity_195
+  - first:
+      213: 7910960053969656417
+    second: REGmagecity_196
+  - first:
+      213: 4041310844623269396
+    second: REGmagecity_197
+  - first:
+      213: -573856780213776314
+    second: REGmagecity_198
+  - first:
+      213: 7371917431605515685
+    second: REGmagecity_199
+  - first:
+      213: -8026188163024250990
+    second: REGmagecity_200
+  - first:
+      213: 6704734095251988355
+    second: REGmagecity_201
+  - first:
+      213: -344988179110869528
+    second: REGmagecity_202
+  - first:
+      213: -3325379112812592210
+    second: REGmagecity_203
+  - first:
+      213: 825792593440257392
+    second: REGmagecity_204
+  - first:
+      213: 2671305038363262854
+    second: REGmagecity_205
+  - first:
+      213: 5169060180233856651
+    second: REGmagecity_206
+  - first:
+      213: 6472372859276246063
+    second: REGmagecity_207
+  - first:
+      213: 6780857481057325369
+    second: REGmagecity_208
+  - first:
+      213: -6330253600558569421
+    second: REGmagecity_209
+  - first:
+      213: 91307910968728883
+    second: REGmagecity_210
+  - first:
+      213: -8947329346723703986
+    second: REGmagecity_211
+  - first:
+      213: 6096969087919020222
+    second: REGmagecity_212
+  - first:
+      213: -3947341516893245638
+    second: REGmagecity_213
+  - first:
+      213: -3121873833645519618
+    second: REGmagecity_214
+  - first:
+      213: 1952492111107019623
+    second: REGmagecity_215
+  - first:
+      213: -5372156698508081843
+    second: REGmagecity_216
+  - first:
+      213: 3616609720265001450
+    second: REGmagecity_217
+  - first:
+      213: -1924360568004297116
+    second: REGmagecity_218
+  - first:
+      213: 3674848351153497655
+    second: REGmagecity_219
+  - first:
+      213: 4510805073212010640
+    second: REGmagecity_220
+  - first:
+      213: -7657970904642814643
+    second: REGmagecity_221
+  - first:
+      213: 4895489078068584029
+    second: REGmagecity_222
+  - first:
+      213: -456619361969400905
+    second: REGmagecity_223
+  - first:
+      213: 1951034180952798804
+    second: REGmagecity_224
+  - first:
+      213: 5797645167145176572
+    second: REGmagecity_225
+  - first:
+      213: 8637651430159632509
+    second: REGmagecity_226
+  - first:
+      213: 8505842188555117694
+    second: REGmagecity_227
+  - first:
+      213: 5699741897919338152
+    second: REGmagecity_228
+  - first:
+      213: -6281846304770033271
+    second: REGmagecity_229
+  - first:
+      213: -7126604598267976813
+    second: REGmagecity_230
+  - first:
+      213: -2698013706408467476
+    second: REGmagecity_231
+  - first:
+      213: -885030006029755235
+    second: REGmagecity_232
+  - first:
+      213: 7878206212524336169
+    second: REGmagecity_233
+  - first:
+      213: 2770116535605667883
+    second: REGmagecity_234
+  - first:
+      213: 5493770671221798796
+    second: REGmagecity_235
+  - first:
+      213: 3632085344000337918
+    second: REGmagecity_236
+  - first:
+      213: -2848377625490787358
+    second: REGmagecity_237
+  - first:
+      213: -1203584401054681140
+    second: REGmagecity_238
+  - first:
+      213: 2790365093887272226
+    second: REGmagecity_239
+  - first:
+      213: 4233152165435767329
+    second: REGmagecity_240
+  - first:
+      213: 7231542539598198349
+    second: REGmagecity_241
+  - first:
+      213: -1314131134489060409
+    second: REGmagecity_242
+  - first:
+      213: 8824953111575960103
+    second: REGmagecity_243
+  - first:
+      213: 2980616504899457576
+    second: REGmagecity_244
+  - first:
+      213: 6081859330529658080
+    second: REGmagecity_245
+  - first:
+      213: -5000069398071710874
+    second: REGmagecity_246
+  - first:
+      213: -2252960920070048753
+    second: REGmagecity_247
+  - first:
+      213: -6950289778707792533
+    second: REGmagecity_248
+  - first:
+      213: 2945628455711672783
+    second: REGmagecity_249
+  - first:
+      213: 3227969554000235740
+    second: REGmagecity_250
+  - first:
+      213: -1207935779718073961
+    second: REGmagecity_251
+  - first:
+      213: -2611201157856060909
+    second: REGmagecity_252
+  - first:
+      213: 963356684896330052
+    second: REGmagecity_253
+  - first:
+      213: 4440380145797412987
+    second: REGmagecity_254
+  - first:
+      213: -3155861065439070269
+    second: REGmagecity_255
+  - first:
+      213: 38633922402617686
+    second: REGmagecity_256
+  - first:
+      213: -8073651112124057859
+    second: REGmagecity_257
+  - first:
+      213: 5926108886831310114
+    second: REGmagecity_258
+  - first:
+      213: 3090120029893504357
+    second: REGmagecity_259
+  - first:
+      213: 6298685506452787362
+    second: REGmagecity_260
+  - first:
+      213: -2747338551265312040
+    second: REGmagecity_261
+  - first:
+      213: 9162238947891129349
+    second: REGmagecity_262
+  - first:
+      213: -3947519619069095942
+    second: REGmagecity_263
+  - first:
+      213: 298067818170548340
+    second: REGmagecity_264
+  - first:
+      213: 7072385520518012498
+    second: REGmagecity_265
+  - first:
+      213: 1638735191635046064
+    second: REGmagecity_266
+  - first:
+      213: 6165040635003684390
+    second: REGmagecity_267
+  - first:
+      213: 2632945399320189597
+    second: REGmagecity_268
+  - first:
+      213: -5420722183865072922
+    second: REGmagecity_269
+  - first:
+      213: 7784213545889312865
+    second: REGmagecity_270
+  - first:
+      213: 5278984580888440093
+    second: REGmagecity_271
+  - first:
+      213: -3347284688161076130
+    second: REGmagecity_272
+  - first:
+      213: -2003734251095506573
+    second: REGmagecity_273
+  - first:
+      213: -444801304933366179
+    second: REGmagecity_274
+  - first:
+      213: 6143894358848572825
+    second: REGmagecity_275
+  - first:
+      213: 1592126103921728770
+    second: REGmagecity_276
+  - first:
+      213: 5465699838366388607
+    second: REGmagecity_277
+  - first:
+      213: -4985780510917302382
+    second: REGmagecity_278
+  - first:
+      213: 6722306745017158812
+    second: REGmagecity_279
+  - first:
+      213: -2398797297857564715
+    second: REGmagecity_280
+  - first:
+      213: 385547571445270687
+    second: REGmagecity_281
+  - first:
+      213: -7357126388146860474
+    second: REGmagecity_282
+  - first:
+      213: 1276131927444467166
+    second: REGmagecity_283
+  - first:
+      213: -4018392902320120276
+    second: REGmagecity_284
+  - first:
+      213: -1002359164143235677
+    second: REGmagecity_285
+  - first:
+      213: -5398082102035651315
+    second: REGmagecity_286
+  - first:
+      213: -2997737982587676870
+    second: REGmagecity_287
+  - first:
+      213: -5022065439092495190
+    second: REGmagecity_288
+  - first:
+      213: -2901992178987527866
+    second: REGmagecity_289
+  - first:
+      213: 1014009811599615563
+    second: REGmagecity_290
+  - first:
+      213: -1587738902433899223
+    second: REGmagecity_291
+  - first:
+      213: -938772957970752506
+    second: REGmagecity_292
+  - first:
+      213: 1321704297600997196
+    second: REGmagecity_293
+  - first:
+      213: 2849886931207351144
+    second: REGmagecity_294
+  - first:
+      213: 1881590341454398655
+    second: REGmagecity_295
+  - first:
+      213: -1161121476310699695
+    second: REGmagecity_296
+  - first:
+      213: -7240194251100049412
+    second: REGmagecity_297
+  - first:
+      213: 2333344296446074780
+    second: REGmagecity_298
+  - first:
+      213: -3284897902969067633
+    second: REGmagecity_299
+  - first:
+      213: 6361662937501622812
+    second: REGmagecity_300
+  - first:
+      213: -2489337999947019353
+    second: REGmagecity_301
+  - first:
+      213: 5579073984230550529
+    second: REGmagecity_302
+  - first:
+      213: -7028983249326385563
+    second: REGmagecity_303
+  - first:
+      213: 9181325925707546914
+    second: REGmagecity_304
+  - first:
+      213: -1235772394949577310
+    second: REGmagecity_305
+  - first:
+      213: 7825738030239139034
+    second: REGmagecity_306
+  - first:
+      213: -7676497221724946498
+    second: REGmagecity_307
+  - first:
+      213: 8730090151706089089
+    second: REGmagecity_308
+  - first:
+      213: 5905976436800454993
+    second: REGmagecity_309
+  - first:
+      213: 9214596018603293328
+    second: REGmagecity_310
+  - first:
+      213: -1733915962885675923
+    second: REGmagecity_311
+  - first:
+      213: -7868824399876470085
+    second: REGmagecity_312
+  - first:
+      213: 4976925267378232455
+    second: REGmagecity_313
+  - first:
+      213: 334326440778372490
+    second: REGmagecity_314
+  - first:
+      213: 2281438691453234700
+    second: REGmagecity_315
+  - first:
+      213: -142100769000402808
+    second: REGmagecity_316
+  - first:
+      213: -7382250985473511090
+    second: REGmagecity_317
+  - first:
+      213: 7974611963527942958
+    second: REGmagecity_318
+  - first:
+      213: -7752786935546130302
+    second: REGmagecity_319
+  - first:
+      213: -2178540157124199248
+    second: REGmagecity_320
+  - first:
+      213: -6183180963579107607
+    second: REGmagecity_321
+  - first:
+      213: -2899681115096169339
+    second: REGmagecity_322
+  - first:
+      213: 2485958951783910667
+    second: REGmagecity_323
+  - first:
+      213: 4271187894540762239
+    second: REGmagecity_324
+  - first:
+      213: 8047871542711717799
+    second: REGmagecity_325
+  - first:
+      213: 6730482183009897343
+    second: REGmagecity_326
+  - first:
+      213: -6701125939511680487
+    second: REGmagecity_327
+  - first:
+      213: -2351902724062099052
+    second: REGmagecity_328
+  - first:
+      213: -6862382588064571305
+    second: REGmagecity_329
+  - first:
+      213: -8594735382834101710
+    second: REGmagecity_330
+  - first:
+      213: 471666733553241661
+    second: REGmagecity_331
+  - first:
+      213: -989191868305553170
+    second: REGmagecity_332
+  - first:
+      213: 7451481275659767785
+    second: REGmagecity_333
+  - first:
+      213: -178872706735507616
+    second: REGmagecity_334
+  - first:
+      213: -5912694989988860353
+    second: REGmagecity_335
+  - first:
+      213: -8247027819580413682
+    second: REGmagecity_336
+  - first:
+      213: -1702703574508311735
+    second: REGmagecity_337
+  - first:
+      213: 5709763076258024031
+    second: REGmagecity_338
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: REGmagecity_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e611e1fb59a886070800000000000000
+      internalID: 8099876305587016046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5721992b1dc9e40800000000000000
+      internalID: 5664632996327749055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c6b174b25c52d00800000000000000
+      internalID: 947380086298602497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea599f0ef5e35df40800000000000000
+      internalID: 5752572680552945070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab95a2fde9255a10800000000000000
+      internalID: 1897468919961459629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e451edcf05d377500800000000000000
+      internalID: 393850910467298638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9654642c7df1e990800000000000000
+      internalID: -7358321606518352225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1418
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb2cc146c0e7c11d0800000000000000
+      internalID: -3378687028750400833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc14d2940dd3c7030800000000000000
+      internalID: 3493735375722856908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780ae9dec908c8bf0800000000000000
+      internalID: -320740061960298361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_10
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a532633c83ccc20800000000000000
+      internalID: 3228017443995867666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90e43a5e88a4b180800000000000000
+      internalID: -9100463617656692582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb987cd3f8260170800000000000000
+      internalID: 8144242003987176444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72fe622fbfaaafc0800000000000000
+      internalID: -3482778126366346626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_14
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 194c6268f25c982e0800000000000000
+      internalID: -2122948941423655791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_15
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1386
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cedde3c77426c300800000000000000
+      internalID: 271944924309348033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03542197ac2309320800000000000000
+      internalID: 2562604033169835312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6f4286b42039760800000000000000
+      internalID: 7463311530376099518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1ded7ab527da7cb0800000000000000
+      internalID: -4865339890377822948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a766d42b060e6c0800000000000000
+      internalID: -4116183740497626595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530f6ebce1985a660800000000000000
+      internalID: 7396468728388841525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_21
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c60ae479044af70800000000000000
+      internalID: 9197547357600771173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4bae598c185d880800000000000000
+      internalID: -8586814416003353369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_23
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1354
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e3904382fb1fa10800000000000000
+      internalID: 1941543093766012510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21d46f452c14400800000000000000
+      internalID: 306739919803191982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0877d5c17621d90800000000000000
+      internalID: -7128521888649215786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_26
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc76825358782ea90800000000000000
+      internalID: -7286112240939800628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a960bd819af1270800000000000000
+      internalID: 8223477368820767367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 727d66ca4d8084a30800000000000000
+      internalID: 4199616362041497383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_29
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe7b9097e31836b0800000000000000
+      internalID: -5316477474826387721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ae80bf1acc508c0800000000000000
+      internalID: -4033592895166944658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_31
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1322
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2203c33cd18c44f50800000000000000
+      internalID: 6864831762174586914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9970f8071496a560800000000000000
+      internalID: 7324704670619826589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d13fcf85dbba2a0800000000000000
+      internalID: -6725073428649140888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d77fdeccb6f6ea0800000000000000
+      internalID: -5877360460785287885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfa1afcd8cb8b280800000000000000
+      internalID: -9027258135804268588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486143ca3aff5de90800000000000000
+      internalID: -7001408967243721084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ed790ffce7dd390800000000000000
+      internalID: -7791932348721275250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d80eb2c923841620800000000000000
+      internalID: 2743962288359606486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_39
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1290
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554f7de154a4fa9c0800000000000000
+      internalID: -3913827890431003563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59cab05db6e6fc70800000000000000
+      internalID: 9004638205751511386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 361a15a2e5967d430800000000000000
+      internalID: 3807627863122878819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3240a0deff52bbd0800000000000000
+      internalID: -2615922885522341313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe5436d64209d220800000000000000
+      internalID: 2511040770500484796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629671b92441a8470800000000000000
+      internalID: 8397546731488110886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1efe26603327560800000000000000
+      internalID: 7309961247698444717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806f73ed6644e4400800000000000000
+      internalID: 310260632940705288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_47
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1258
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b5d0aa64ec4d4e0800000000000000
+      internalID: -1957713135103288555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62e1f0fa031ff8c0800000000000000
+      internalID: -3963428209349762453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8983adba59f2d15b0800000000000000
+      internalID: -5396104458640148328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_50
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d84177970517b530800000000000000
+      internalID: 3870585527097968856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0525f9c79a2e8c300800000000000000
+      internalID: 272716995024081488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d59fd07c799b8fd0800000000000000
+      internalID: -2338606821740145197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be10b73f76963880800000000000000
+      internalID: -8631546162669674825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3c949cbac9e2c20800000000000000
+      internalID: 3183654248227914702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1226
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1534edd6b4fed20800000000000000
+      internalID: 3309947186393076193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bfb1e4d737dfc130800000000000000
+      internalID: 3589324062832312242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d077f6b354d66ea20800000000000000
+      internalID: 3091278338353755917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a17f0abe0bc3b4d50800000000000000
+      internalID: 6722533599345702682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26d1013980c6b10c0800000000000000
+      internalID: -4603967409973355166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94259848d521a4740800000000000000
+      internalID: 5136938517834322505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470afc252459e82c0800000000000000
+      internalID: -4427437271568899980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94b47b63590dcbc0800000000000000
+      internalID: -3761339859894750053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1194
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cd4f91f01a343b0800000000000000
+      internalID: -5529398831248778229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07cb5c468841faa0800000000000000
+      internalID: -6129037876230633718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6d255808e313d10800000000000000
+      internalID: 2103531222672266948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c5ef57fc29f0860800000000000000
+      internalID: 7498373324330654857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1162
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b458f4648554a9290800000000000000
+      internalID: -7882911952319576757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6567fa296149260800000000000000
+      internalID: 7103327331534919415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_69
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59633f3800af7e6e0800000000000000
+      internalID: -1808201845245266283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014416356b174d850800000000000000
+      internalID: 6400865998297187344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_71
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b37c3e40ccba1a430800000000000000
+      internalID: 3792501253966382907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_72
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d845d1787d004f0800000000000000
+      internalID: -864454153142497984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_73
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290510e1da59187d0800000000000000
+      internalID: -2917886512794087278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dc77a18cb93bdd80800000000000000
+      internalID: -8224916812670206764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_75
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1130
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1257e284ed7ba060800000000000000
+      internalID: 6965799669060817438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6e5dfbbfeeb7c50800000000000000
+      internalID: 6664182838647449307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b4dbc31d1dfb430800000000000000
+      internalID: 3800987307121396490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6913a5a939d06700800000000000000
+      internalID: 531663597645011311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15e3086454e72f5f0800000000000000
+      internalID: -724377754052575663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1722c75d3fb7361f0800000000000000
+      internalID: -1052861600685612431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c96be628fa54dc50800000000000000
+      internalID: 6689071368403380680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7606e90746c3ecdb0800000000000000
+      internalID: -4769808553254952857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1098
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e7edf9e4d35b50800000000000000
+      internalID: 6580837581970727354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8b96aa0727a0830800000000000000
+      internalID: 4038165844112029909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814b62cfb2e597c90800000000000000
+      internalID: -7171597388603804648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ded589c3a7e7f20800000000000000
+      internalID: 3422307167521074462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be53a221e376ccaa0800000000000000
+      internalID: -6139418675722439189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e829698a8d2ea30800000000000000
+      internalID: 4243192017528721042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83bf4ed70d02f880800000000000000
+      internalID: -8578780012741676145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a998a48dd3573e10800000000000000
+      internalID: 2177301155735443878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_91
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1066
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a016b5cbfe4d61e0800000000000000
+      internalID: -2203017799453503319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b026abd5343ea00800000000000000
+      internalID: 784544829930605395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10067b7afb3b05d70800000000000000
+      internalID: 9029914888611782657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b132aa9bf91ea40800000000000000
+      internalID: 5395769448338758410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a00966ec1aa2180800000000000000
+      internalID: -9139314585938949595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e85a8c3abcf5870800000000000000
+      internalID: 8673875311645265449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a579688ba31f82140800000000000000
+      internalID: 4695267846039967578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6d525db3bf94e00800000000000000
+      internalID: 1029630224228538066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1034
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9216cb772206910b0800000000000000
+      internalID: -5757464947462479575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd00d791e0353f70800000000000000
+      internalID: 9166286362055282096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0bce20a6f8d7040800000000000000
+      internalID: 4647028075994591400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_102
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de286981884993f0800000000000000
+      internalID: -893603329863045418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_103
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924d2eeccd5aea540800000000000000
+      internalID: 5021133002347041833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21c885033eca9f30800000000000000
+      internalID: 4583202289334403372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494ff2a97d079c630800000000000000
+      internalID: 3947810619674064020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4d7ab4d0ecb1760800000000000000
+      internalID: 7429758566776952050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_107
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1002
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a094a3fd92bb0a210800000000000000
+      internalID: 1342278477469600010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f750b7524ec0950800000000000000
+      internalID: 6416754418724994947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7290e7d51816520800000000000000
+      internalID: 2693576290690738116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a819f101a0b579480800000000000000
+      internalID: -8892538840441450102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_111
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f789d7093c714fc60800000000000000
+      internalID: 7850926179123828863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_112
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd178187db8cf45f0800000000000000
+      internalID: -770176295167823396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b017a2e971301f70800000000000000
+      internalID: 9155872442007621817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_114
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 970
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ad3a3b2e849700800000000000000
+      internalID: 546217771130527829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f357161777dea80d0800000000000000
+      internalID: -3419659869775366849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc3606cfcfb70db0800000000000000
+      internalID: -4825677576602764098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658c7a28ad52036e0800000000000000
+      internalID: -1859945025678882730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f19f7f788434ff0800000000000000
+      internalID: -53119021780230326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf066f7747a86ac0800000000000000
+      internalID: -3861652754948288597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec915ca3a31ecec0800000000000000
+      internalID: -3544874263002374935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_121
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1e1e62b5e9996b0800000000000000
+      internalID: -5289022173038386758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 938
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 695493f2494ed1790800000000000000
+      internalID: -7557633274559249002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1cf7b92533a1b00800000000000000
+      internalID: 800008313700860409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc0bf4ae4e8b0da0800000000000000
+      internalID: -5977527611977691939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133853ce637e92c80800000000000000
+      internalID: -8346886211277323471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed764730113a8310800000000000000
+      internalID: 1407991779223305696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a8dd9f4cbfaa530800000000000000
+      internalID: 3867180053475199556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_128
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45eb01143b9228640800000000000000
+      internalID: 5080669179494841940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_129
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2240ac72fa5afc0800000000000000
+      internalID: -3484186151273356586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_130
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 906
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e1921d47623c30800000000000000
+      internalID: 4337642971832903508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766da8273b6c97380800000000000000
+      internalID: -8972922308535855513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_132
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75025495e86b1a0800000000000000
+      internalID: -6794086473778833477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51df4771e5e2e0890800000000000000
+      internalID: -7489998148615209707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1dee003bb20b7c0800000000000000
+      internalID: -4057695216446025311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaacc8dad8a9979c0800000000000000
+      internalID: -3928939266611295570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5adb90310d84c20800000000000000
+      internalID: 3191029116178376185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_137
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 874
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b952f318e6d28bef0800000000000000
+      internalID: -92273839723043429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_138
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca4039561ceb9a10800000000000000
+      internalID: 1917385647106050754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_139
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92ca4dc299e4f940800000000000000
+      internalID: 5329141075804865179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc37992709d98320800000000000000
+      internalID: 2560816487922613501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_141
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a51e8ba318523410800000000000000
+      internalID: 1455322471099930019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_142
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb64b88c8e53266e0800000000000000
+      internalID: -1845853623355226434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe522b7a89e71060800000000000000
+      internalID: 6924259733086035642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_144
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 842
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37f655d97d507240800000000000000
+      internalID: 4787429181746509630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec84cc9e1cf13fac0800000000000000
+      internalID: -3822676740995790642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_146
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a065b14a9ae15e0800000000000000
+      internalID: -1936924267424380357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cae068bc380f610800000000000000
+      internalID: 1652965973395680301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_148
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16a2a451fd8da1e0800000000000000
+      internalID: -2184934176558242278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_149
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310269329cc60c4e0800000000000000
+      internalID: -1963449826392268781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 810
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55cbb2eb0a7141e90800000000000000
+      internalID: -7055988737029981099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_151
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278540d1645cdcf10800000000000000
+      internalID: 2291704690326657138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_152
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de587b40899b85360800000000000000
+      internalID: 7158675670270707181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448c5264d52d6e3b0800000000000000
+      internalID: -5483464198226327484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d573115fcf336a30800000000000000
+      internalID: 4207276636545185237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550fcc643b56b5060800000000000000
+      internalID: 6943255071183138901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_156
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde9a0c8de186b990800000000000000
+      internalID: -7370560882888499492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_157
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b152cfc0319b0b600800000000000000
+      internalID: 482088651602011419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_158
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 778
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66dabd2571a479590800000000000000
+      internalID: -7667578376540148378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ff0b0308adf721b0800000000000000
+      internalID: -5681293506857201678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_160
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8303f3347fbeb170800000000000000
+      internalID: 8196198877669557134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9aa62550227fba20800000000000000
+      internalID: 3080306153337825947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_162
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e7b688ca5c44330800000000000000
+      internalID: 3694294939164442255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_163
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6afbf310489e4b030800000000000000
+      internalID: 3509686762794368934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_164
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf97594b1188a840800000000000000
+      internalID: 5235576521012780986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_165
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ef8f085ff33d7a0800000000000000
+      internalID: -6353664325626298806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_166
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 746
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1021d68da2534db60800000000000000
+      internalID: 7769893715256873473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_167
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64176fe2efa2cd450800000000000000
+      internalID: 6114809665260253510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_168
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ecf743e3943cbe0800000000000000
+      internalID: -1458241322820317580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_169
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9eef7f2ce98f640800000000000000
+      internalID: 5114011937100720602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_170
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1525c3c2c2f47270800000000000000
+      internalID: 8247483735944275231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f6db67588fe3930800000000000000
+      internalID: 4125007560824418168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c69246f84e9eb70800000000000000
+      internalID: 8928919040750611534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_173
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c7d931662aa8cd40800000000000000
+      internalID: 5604916818079242181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 714
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6d717fde71821a0800000000000000
+      internalID: -6834186123714505033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_175
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d2b5941d9bb0c80800000000000000
+      internalID: -8355380375125807777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_176
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 928f641bd54c40c20800000000000000
+      internalID: 3171875944260892713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d72ce0796f1f8db70800000000000000
+      internalID: 8924148703033213565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_178
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e920a0d150f050800000000000000
+      internalID: 5832251473926939069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_179
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d54bafacc7139890800000000000000
+      internalID: -7452586790480034348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c781203fe501eec0800000000000000
+      internalID: -3539541307273672767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_181
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac6afefd35158ac0800000000000000
+      internalID: -3853650550130578268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_182
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e97ed8ec00c2f50800000000000000
+      internalID: 6857857219722452560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_183
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7b828f6bbc19a20800000000000000
+      internalID: 3067456807923922855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_184
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f283e15221fb39220800000000000000
+      internalID: 2491545103519070255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_185
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099c343cc2858b970800000000000000
+      internalID: 8770857223581845904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75a9d109583c5070800000000000000
+      internalID: 8096408185039594879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_187
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecba42f19d01accb0800000000000000
+      internalID: -4843039924567102514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_188
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415f94a1c085c86f0800000000000000
+      internalID: -681072634635881196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_189
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ca27359f8b90e00800000000000000
+      internalID: 1011542972307778718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_190
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 650
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e60aa6bb8190d490800000000000000
+      internalID: -7723513331689322783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_191
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f81dd558c43b620800000000000000
+      internalID: 2788656729960845143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_192
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abbc9055fccd1f8a0800000000000000
+      internalID: -6272990022907343942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ccd91610d6b6bb0800000000000000
+      internalID: -4941736313408861033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_194
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267c5e2c7b3606010800000000000000
+      internalID: 1180052743271073634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_195
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d233ae3c3058c0800000000000000
+      internalID: -4012641028263454870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_196
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a9a29414069cd60800000000000000
+      internalID: 7910960053969656417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_197
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e24b82dce951830800000000000000
+      internalID: 4041310844623269396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_198
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 618
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640986f7c404908f0800000000000000
+      internalID: -573856780213776314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_199
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a55b5098df4e4660800000000000000
+      internalID: 7371917431605515685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_200
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2979e7ae3604d9090800000000000000
+      internalID: -8026188163024250990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_201
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fd1fce2200c0d50800000000000000
+      internalID: 6704734095251988355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_202
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e54364341b563bf0800000000000000
+      internalID: -344988179110869528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_203
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea34d45c051e9d1d0800000000000000
+      internalID: -3325379112812592210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_204
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075b72e0dfdc57b00800000000000000
+      internalID: 825792593440257392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_205
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68f7a5a77c1621520800000000000000
+      internalID: 2671305038363262854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_206
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 586
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86a479d8d03cb740800000000000000
+      internalID: 5169060180233856651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_207
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c3a0bc2dc72d950800000000000000
+      internalID: 6472372859276246063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_208
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 931d8f6d3f17a1e50800000000000000
+      internalID: 6780857481057325369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338a190b3eb6628a0800000000000000
+      internalID: -6330253600558569421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_210
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d597eaf04644100800000000000000
+      internalID: 91307910968728883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_211
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e431b183d53b4d380800000000000000
+      internalID: -8947329346723703986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_212
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb853f31519cc9450800000000000000
+      internalID: 6096969087919020222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_213
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2d66edc93839c0800000000000000
+      internalID: -3947341516893245638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_214
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 554
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc8f7e940eca4d0800000000000000
+      internalID: -3121873833645519618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_215
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7635945fa35a81b10800000000000000
+      internalID: 1952492111107019623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_216
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d45c0b312f34275b0800000000000000
+      internalID: -5372156698508081843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_217
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9ce930167c03230800000000000000
+      internalID: 3616609720265001450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_218
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eb554524c4b45e0800000000000000
+      internalID: -1924360568004297116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_219
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362fedea1faff230800000000000000
+      internalID: 3674848351153497655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_220
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090f4d79059999e30800000000000000
+      internalID: 4510805073212010640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_221
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4dfc70390c69b590800000000000000
+      internalID: -7657970904642814643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_222
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 522
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e151c016540f340800000000000000
+      internalID: 4895489078068584029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_223
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b39f3c0c13c9a9f0800000000000000
+      internalID: -456619361969400905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_224
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45636542047731b10800000000000000
+      internalID: 1951034180952798804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfdc271ff8f557050800000000000000
+      internalID: 5797645167145176572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_226
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d784f44263a1fd770800000000000000
+      internalID: 8637651430159632509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_227
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74eb549762da0670800000000000000
+      internalID: 8505842188555117694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_228
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a694e0ce0d891f40800000000000000
+      internalID: 5699741897919338152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_229
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989f496811662d8a0800000000000000
+      internalID: -6281846304770033271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_230
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 490
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393629150e6391d90800000000000000
+      internalID: -7126604598267976813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_231
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3636624dabe8ad0800000000000000
+      internalID: -2698013706408467476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_232
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9cd80b06edb7b3f0800000000000000
+      internalID: -885030006029755235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_233
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 924e9cc4fc2055d60800000000000000
+      internalID: 7878206212524336169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_234
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28263bff4e617620800000000000000
+      internalID: 2770116535605667883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_235
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8772a7715bcd3c40800000000000000
+      internalID: 5493770671221798796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_236
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7ea037062c76230800000000000000
+      internalID: 3632085344000337918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_237
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3737614a78878d0800000000000000
+      internalID: -2848377625490787358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_238
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 458
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc73fe53d520c4fe0800000000000000
+      internalID: -1203584401054681140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_239
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225ecc6d44e59b620800000000000000
+      internalID: 2790365093887272226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_240
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a79fc577d2fba30800000000000000
+      internalID: 4233152165435767329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4670ea10a99b5460800000000000000
+      internalID: 7231542539598198349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_242
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb9f7c12b443cde0800000000000000
+      internalID: -1314131134489060409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_243
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a96fe2918887a70800000000000000
+      internalID: 8824953111575960103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_244
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 822d2325be64d5920800000000000000
+      internalID: 2980616504899457576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_245
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e48d1a86da176450800000000000000
+      internalID: 6081859330529658080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_246
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 426
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b62abbf5f2c9ab0800000000000000
+      internalID: -5000069398071710874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04336adaffdbb0e0800000000000000
+      internalID: -2252960920070048753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_248
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6df71e354c9b8f90800000000000000
+      internalID: -6950289778707792533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_249
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc90afe4979f0e820800000000000000
+      internalID: 2945628455711672783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_250
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdcc5f3f43d0ccc20800000000000000
+      internalID: 3227969554000235740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_251
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7917b6aeecc8c3fe0800000000000000
+      internalID: -1207935779718073961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_252
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a96e4b16623cbd0800000000000000
+      internalID: -2611201157856060909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_253
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 394
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4416e330dc78e5d00800000000000000
+      internalID: 963356684896330052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_254
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78b3f967366f9d30800000000000000
+      internalID: 4440380145797412987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_255
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7b40ad4112434d0800000000000000
+      internalID: -3155861065439070269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_256
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65986150951498000800000000000000
+      internalID: 38633922402617686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_257
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6786de611a4ff80800000000000000
+      internalID: -8073651112124057859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_258
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225addb72a4cd3250800000000000000
+      internalID: 5926108886831310114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_259
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56d2f178bcf42ea20800000000000000
+      internalID: 3090120029893504357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_260
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a01504a81d696750800000000000000
+      internalID: 6298685506452787362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_261
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 362
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d24816c42e7fd9d0800000000000000
+      internalID: -2747338551265312040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_262
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cac4c87cfc62f70800000000000000
+      internalID: 9162238947891129349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_263
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff408142d79739c0800000000000000
+      internalID: -3947519619069095942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_264
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4700805f913f22400800000000000000
+      internalID: 298067818170548340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_265
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e9719e829262260800000000000000
+      internalID: 7072385520518012498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_266
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bea65279f4fdb610800000000000000
+      internalID: 1638735191635046064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_267
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6264e333bcf9e8550800000000000000
+      internalID: 6165040635003684390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_268
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9a9a7704e91a8420800000000000000
+      internalID: 2632945399320189597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_269
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 330
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e284acd4e9b5c4b0800000000000000
+      internalID: -5420722183865072922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_270
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160348a3af4170c60800000000000000
+      internalID: 7784213545889312865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_271
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1dae9ec188b24940800000000000000
+      internalID: 5278984580888440093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_272
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5c0e009f4e0c81d0800000000000000
+      internalID: -3347284688161076130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_273
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3714b2b905e4134e0800000000000000
+      internalID: -2003734251095506573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_274
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5601dfd19fb3d9f0800000000000000
+      internalID: -444801304933366179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_275
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d02bc1e5f734550800000000000000
+      internalID: 6143894358848572825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_276
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d91ed814e581610800000000000000
+      internalID: 1592126103921728770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_277
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 298
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f711db26b011adb40800000000000000
+      internalID: 5465699838366388607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_278
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29765b68a03fecab0800000000000000
+      internalID: -4985780510917302382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_279
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cc5f74e5e6a4d50800000000000000
+      internalID: 6722306745017158812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_280
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df68052192c5bed0800000000000000
+      internalID: -2398797297857564715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_281
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f988208397db95500800000000000000
+      internalID: 385547571445270687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_282
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64e8ada978c36e990800000000000000
+      internalID: -7357126388146860474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_283
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eddacdd0a3bb5b110800000000000000
+      internalID: 1276131927444467166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_284
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e124912fccb38c0800000000000000
+      internalID: -4018392902320120276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_285
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 266
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad82e3a6a7e612f0800000000000000
+      internalID: -1002359164143235677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_286
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0565cfade82615b0800000000000000
+      internalID: -5398082102035651315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_287
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a375a220035e566d0800000000000000
+      internalID: -2997737982587676870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_288
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2028571a0e4ab0800000000000000
+      internalID: -5022065439092495190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_289
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419c761d7d0ab7d0800000000000000
+      internalID: -2901992178987527866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_290
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46e72b1d8c721e00800000000000000
+      internalID: 1014009811599615563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_291
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92ddb5461e737f9e0800000000000000
+      internalID: -1587738902433899223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_292
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c1963f7fec8f2f0800000000000000
+      internalID: -938772957970752506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_293
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 234
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c475d945e03a75210800000000000000
+      internalID: 1321704297600997196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_294
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b64a88015dc8720800000000000000
+      internalID: 2849886931207351144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_295
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4023b4270cc1a10800000000000000
+      internalID: 1881590341454398655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_296
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1517c6f4b2ed2efe0800000000000000
+      internalID: -1161121476310699695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_297
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff2b5650b9a58b90800000000000000
+      internalID: -7240194251100049412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_298
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f1a586644b16020800000000000000
+      internalID: 2333344296446074780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_299
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f876a1ae2c2b962d0800000000000000
+      internalID: -3284897902969067633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_300
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c126d827cba294850800000000000000
+      internalID: 6361662937501622812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_301
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 202
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7abc6433748147dd0800000000000000
+      internalID: -2489337999947019353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_302
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c6fadba3adc6d40800000000000000
+      internalID: 5579073984230550529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_303
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566dab3d9f8047e90800000000000000
+      internalID: -7028983249326385563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_304
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22102e0e84f9a6f70800000000000000
+      internalID: 9181325925707546914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_305
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5fbcfdd87a9dee0800000000000000
+      internalID: -1235772394949577310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_306
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad44ba5a64b9a9c60800000000000000
+      internalID: 7825738030239139034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_307
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfbfcbd27a977590800000000000000
+      internalID: -7676497221724946498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_308
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 186d39d2db2872970800000000000000
+      internalID: 8730090151706089089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_309
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 170
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151815f274e36f150800000000000000
+      internalID: 5905976436800454993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_310
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09af3950242d0ef70800000000000000
+      internalID: 9214596018603293328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_311
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64e1d15e94efe7e0800000000000000
+      internalID: -1733915962885675923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_312
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbacf6d26e15cc290800000000000000
+      internalID: -7868824399876470085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_313
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78cdebb6927911540800000000000000
+      internalID: 4976925267378232455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_314
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a859d956024c3a400800000000000000
+      internalID: 334326440778372490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_315
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ee6ecf66c49af10800000000000000
+      internalID: 2281438691453234700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_316
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880db6d7a18270ef0800000000000000
+      internalID: -142100769000402808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_317
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 138
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41f21077d9fc8990800000000000000
+      internalID: -7382250985473511090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_318
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e23d9ab54538bae60800000000000000
+      internalID: 7974611963527942958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_319
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280db7fab51986490800000000000000
+      internalID: -7752786935546130302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_320
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc30bdf44544c1e0800000000000000
+      internalID: -2178540157124199248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_321
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e6e8eb6cade03aa0800000000000000
+      internalID: -6183180963579107607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_322
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 584c8c4936342c7d0800000000000000
+      internalID: -2899681115096169339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_323
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0d4847de76ef7220800000000000000
+      internalID: 2485958951783910667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_324
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7cfc07a2ce464b30800000000000000
+      internalID: 4271187894540762239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_325
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 106
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af8e455788cfaf60800000000000000
+      internalID: 8047871542711717799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_326
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b8665c2e9776d50800000000000000
+      internalID: 6730482183009897343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_327
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912204c4671d003a0800000000000000
+      internalID: -6701125939511680487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_328
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994102feec5c5fd0800000000000000
+      internalID: -2351902724062099052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_329
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750e595056be3c0a0800000000000000
+      internalID: -6862382588064571305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_330
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23241b7c4bd59b880800000000000000
+      internalID: -8594735382834101710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_331
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e4fc92562bb8600800000000000000
+      internalID: 471666733553241661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_332
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee841fa9c3fa542f0800000000000000
+      internalID: -989191868305553170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_333
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 74
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efcc269dbaf86760800000000000000
+      internalID: 7451481275659767785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_334
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 42
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067740f8834848df0800000000000000
+      internalID: -178872706735507616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_335
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 42
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e6b70cb33e1fda0800000000000000
+      internalID: -5912694989988860353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_336
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 42
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09252984ebac8d80800000000000000
+      internalID: -8247027819580413682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_337
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 42
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94be4abce18ce58e0800000000000000
+      internalID: -1702703574508311735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: REGmagecity_338
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 42
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a400824472d3f40800000000000000
+      internalID: 5709763076258024031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
