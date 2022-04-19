@@ -42,7 +42,7 @@ public class BattleSystem : MonoBehaviour
                 state = BattleState.PLAYERTURN;
                 break;
             case(BattleState.PLAYERTURN) : 
-                Debug.Log("Player's turn!");
+                // Debug.Log("Player's turn!");
                 if (moretest) { 
                     CharacterActionBox.SetActive(true);
                     SetupCharacterPanel();
