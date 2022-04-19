@@ -8,7 +8,6 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] private GameObject playerPrefab;
     private NetworkManager networkManager;
     private MessageQueue msgQueue;
-
     private List<Player> players = new List<Player>();
 
     private void Start()
