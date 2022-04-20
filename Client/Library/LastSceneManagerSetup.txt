@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Menu/RegistrationScene.unity
+- path: Assets/Scenes/Game/Battle Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
