@@ -44,6 +44,12 @@ TagManager:
   - name: Ground
     uniqueID: 2425651459
     locked: 0
+  - name: Back Wall
+    uniqueID: 90572001
+    locked: 0
+  - name: Plant
+    uniqueID: 344527945
+    locked: 0
   - name: Wall
     uniqueID: 3522402771
     locked: 0

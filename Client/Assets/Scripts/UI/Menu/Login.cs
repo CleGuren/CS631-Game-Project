@@ -78,6 +78,7 @@ public class Login : MonoBehaviour
             SceneManager.LoadScene("Tutorial");
             // SceneManager.LoadScene("Battle Scene");
             //SceneManager.LoadScene("Town Hub");
+           //SceneManager.LoadScene("Test Shop");
         }
         else
         {

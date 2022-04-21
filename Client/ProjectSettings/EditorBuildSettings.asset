@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game/Town Hub.unity
     guid: 18ddee4b19fc14f9189ff807cbe22e86
+  - enabled: 1
+    path: Assets/Scenes/Game/Test Shop.unity
+    guid: 339447b94bced43e5905d6681fe7ccce
   m_configObjects: {}
