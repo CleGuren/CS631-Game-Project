@@ -26,12 +26,15 @@ public class BattleSystem : MonoBehaviour
     private GameObject CharacterActionBox;
     private bool moretest;
     
+    public void Awake() {
+        CharacterActionBox = GameObject.Find("Character Action Box");
+        CharacterActionBox.SetActive(false);
+    }
+
     void Start()
     {
         state = BattleState.START;
         moretest = false;
-        CharacterActionBox = GameObject.Find("Character Action Box");
-        CharacterActionBox.SetActive(false);
     }
 
     void Update() {
@@ -87,5 +90,10 @@ public class BattleSystem : MonoBehaviour
 
     public void SetFalse() {
         moretest = false;
+    }
+
+    public void DisplayCharInformation(HeroBase CharInfo) {
+        SetTrue();
+        CharNameText.text = "Blah Bla";
     }
 }
