@@ -92,8 +92,8 @@ public class BattleSystem : MonoBehaviour
         moretest = false;
     }
 
-    public void DisplayCharInformation(HeroBase CharInfo) {
-        SetTrue();
-        CharNameText.text = "Blah Bla";
-    }
+    // public void DisplayCharInformation(HeroBase CharInfo) {
+    //     SetTrue();
+    //     CharNameText.text = "Blah Bla";
+    // }
 }
