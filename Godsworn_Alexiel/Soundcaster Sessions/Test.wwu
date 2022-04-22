@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74D9C73C-AE16-480E-BE59-AF72D66357EC}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Test" ID="{74D9C73C-AE16-480E-BE59-AF72D66357EC}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Test" ID="{76BC5E72-51AE-48D2-A9F4-19B89F1F32B1}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_Test_Gameplay_Music" ID="{1F3C0510-F32E-433F-8D2A-001D97AF6D44}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Test_Gameplay_Music" ID="{1F3D4052-5B06-41DD-B979-BA7F96EE31D6}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Test_Main_Menu_Music" ID="{9D7591DF-6610-4AC6-83F1-06D5E847A8FE}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Test_Main_Menu_Music" ID="{5B6901C6-07F8-4574-A0B7-2FAEE141C72B}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Test_2D" ID="{29BB16EE-6B3F-45EB-8B04-6B0F8F4C4983}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Test_2D" ID="{FC5F0393-E7EF-4FA3-8630-040EBDF389D1}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Test_Wood" ID="{6E96E344-9A06-4F57-B5CF-1DFF0AF46551}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Test_Wood" ID="{9FC94418-8572-4B01-ADED-7FD608375E82}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Test_Click" ID="{67E3663F-E03B-43D7-A2A7-1F7C261F24D4}" WorkUnitID="{0D16186F-304D-4B0E-9C52-C85606492F93}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Test_Unpause" ID="{F315A275-9B02-40F9-AC8E-8A898E86FB5D}"/>
+						<CurrentStateRef Name="Victory_Music_State" ID="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}"/>
+						<CurrentStateRef Name="Test_Combat" ID="{5CF77051-0A41-4E02-827F-A0F77482D3D6}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Test_MC_Victory" ID="{5FC564C3-C43D-4C92-AF6F-B06A65F238E7}"/>
+						<CurrentSwitchRef Name="Test_Env_Town" ID="{B0F8CAE2-352D-45E5-BDB4-F3A6D1BD2031}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

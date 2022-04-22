@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{65812CA0-8EE8-4A87-9237-A7BF48C455B5}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Official" ID="{65812CA0-8EE8-4A87-9237-A7BF48C455B5}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{0E71ABD0-EECF-4C3A-9B85-7C171054177B}" ShortID="809711568">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{439EE8DE-5AD3-4524-A9D8-70FF8262485B}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="UI" ID="{6C6588D9-3AB3-4002-B023-FEB772594B99}" ShortID="1010847478">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="UI" ID="{B31165CF-EB0B-4693-AD9D-F27AFE92EBC7}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_UI_Back" ID="{B63DDF4C-73B1-4F4C-B01D-B9EAE473775A}" ShortID="1016315508">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_UI_Back" ID="{4A00E75F-26F5-4DDB-A803-94241747010B}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_UI_Back.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="202278871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_UI_Back" ID="{4A00E75F-26F5-4DDB-A803-94241747010B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_UI_Confirm" ID="{5E8FE675-B9CC-4CD3-9DD3-C59EFEAF6FA8}" ShortID="1063406903">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_UI_Confirm" ID="{B9078DCC-4B1E-42D6-8427-F28E49F76946}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_UI_Confirm.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1072611532"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_UI_Confirm" ID="{B9078DCC-4B1E-42D6-8427-F28E49F76946}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_UI_Select" ID="{51A863E5-6E27-4E58-9BC1-54E96B62E229}" ShortID="328678951">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_UI_Select" ID="{AC82071F-80D5-4126-BE15-D7014F0FD832}">
+											<Language>SFX</Language>
+											<AudioFile>SFX_UI_Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="278281572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_UI_Select" ID="{AC82071F-80D5-4126-BE15-D7014F0FD832}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="3D_Env_Amb" ID="{803DF6D4-7B88-4ADC-900E-670B7C304681}" ShortID="310536073">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Env" ID="{DFB8A402-7981-4B7E-B519-66D762B31D03}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="2D_Env_Amb" ID="{519D8DB0-00D1-47FB-98B6-FAAC08798219}" ShortID="91995474">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{137132F0-3659-4C82-9E51-5A92CCE64702}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Env" ID="{DFB8A402-7981-4B7E-B519-66D762B31D03}" WorkUnitID="{0F1B7462-C2BC-43F0-9D89-955196A0EEE5}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
