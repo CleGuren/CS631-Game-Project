@@ -6,6 +6,7 @@ using UnityEngine;
 public class HeroBase
 {
     public string charName;
+    public Sprite charPortrait;
     public float level;
     public float baseHP;
     public float currentHP;

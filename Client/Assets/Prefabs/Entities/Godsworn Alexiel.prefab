@@ -130,14 +130,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Alexiel
-    level: 0
-    baseHP: 0
-    currentHP: 0
-    maxHP: 0
-    baseAtk: 0
-    currentAtk: 0
-    baseDef: 0
-    currentDef: 0
+    charPortrait: {fileID: -7708242978735913591, guid: 1371ed548a7773449a0113f0d1f911fb,
+      type: 3}
+    level: 1
+    baseHP: 50
+    currentHP: 34
+    maxHP: 50
+    baseAtk: 30
+    currentAtk: 30
+    baseDef: 35
+    currentDef: 35
     HeroEle: 0
     HeroPrefWeapon: 0
   currentState: 0
