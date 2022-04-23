@@ -14,7 +14,8 @@ public class Player : MonoBehaviour
     public int playerID { get; set; }
     public string username { get; set; }
 
-    Vector2 movement;
+    private Vector2 movement;
+    private float spawnMovementDelay = 1.8f;
 
     private void Start()
     {
@@ -22,6 +23,11 @@ public class Player : MonoBehaviour
     }
 
     private void OnEnable()
+    {
+        Invoke(nameof(EnablePlayerMovement), spawnMovementDelay);
+    }
+
+    private void EnablePlayerMovement()
     {
         playerControls.Enable();
     }
