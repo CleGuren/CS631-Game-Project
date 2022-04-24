@@ -474,6 +474,7 @@ GameObject:
   - component: {fileID: 240221475}
   - component: {fileID: 240221478}
   - component: {fileID: 240221479}
+  - component: {fileID: 240221480}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: GameMenuMusic
@@ -586,6 +587,18 @@ MonoBehaviour:
   unloadTriggerList: 958ca0ea
   bankNameInternal: 
   valueGuidInternal: 
+--- !u!114 &240221480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240221474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7752f804c2b344d819065c99508ee6d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &281577113
 GameObject:
   m_ObjectHideFlags: 0
