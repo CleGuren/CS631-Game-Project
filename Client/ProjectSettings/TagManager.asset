@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Alexiel
+  - GameMenuMusic
+  - GameTutorialMusic
+  - GameTownHubMusic
+  - GameShopMusic
+  - GameBattleMusic
   layers:
   - Default
   - TransparentFX
