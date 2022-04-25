@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1487555485184027798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 297032404229116154}
+  - component: {fileID: 1772218447533111705}
+  m_Layer: 0
+  m_Name: Alexiel's Skills
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &297032404229116154
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487555485184027798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 364.05798, y: 206.89749, z: 80}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1772218447533111705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487555485184027798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acdc2cbd13a20c64da3957a1d0ec077f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skill1Name: Sword Smash
+  skill2Name: Shield Bash
+  skill3Name: Sword Pierce
+  skill4Name: Sword Sweep
+  skill1Description: Alexiel smashes her sword downward, dealing damage.
+  skill2Description: Alexiel bashes her shield forward, dealing damage.
+  skill3Description: Alexiel pierces her sword into the enemy, dealing damage.
+  skill4Description: Alexiel sweeps her sword in an arc, dealing damage.
+  skill1_BaseDMG: 0.3
+  skill2_BaseDMG: 0.4
+  skill3_BaseDMG: 0.6
+  skill4_BaseDMG: 0.9
+  S1BaseCD: 3
+  S2BaseCD: 3
+  S3BaseCD: 5
+  S4BaseCD: 6

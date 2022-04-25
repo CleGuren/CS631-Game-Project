@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class HeroStateMachine : MonoBehaviour, IClickableObject
 {
@@ -15,6 +14,10 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     public void onClickAction() {
-        curr_BS.DisplayCharInformation(myValue);
+        curr_BS.DisplayCharInformation(this);
+    }
+
+    public float castSkill1() {
+        return myValue.mySkill.skill1DmgFormula(myValue);
     }
 }
