@@ -47,7 +47,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Melinda
-    charPortrait: {fileID: 21300000, guid: f526cde9bc70acf468e2740f3327bc9c, type: 3}
+    charPortrait: {fileID: 720233123983428293, guid: 1b052159a3f6de54eb40df7ceb4a6e5c,
+      type: 3}
+    skill1_img: {fileID: 21300000, guid: 0d5d251005f8ad448910044788948802, type: 3}
+    skill2_img: {fileID: 21300000, guid: 1eecafcd95273c644a9b3a34c26f3cc7, type: 3}
+    skill3_img: {fileID: 21300000, guid: 976522f94556aca4db5c2cacf97e5b66, type: 3}
+    skill4_img: {fileID: 21300000, guid: cbc1bedae39b2334b9ee83848188ef31, type: 3}
+    skill1_cd: 5
+    skill2_cd: 3
+    skill3_cd: 5
+    skill4_cd: 6
     level: 1
     baseHP: 35
     currentHP: 12

@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: 5296944262663640658
     second: B_witch_idle_0
+  - first:
+      213: 720233123983428293
+    second: B_witch_idle_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +117,7 @@ TextureImporter:
         width: 32
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -122,6 +125,27 @@ TextureImporter:
       bones: []
       spriteID: 2561c131eb6828940800000000000000
       internalID: 5296944262663640658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: B_witch_idle_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca8086d538cef900800000000000000
+      internalID: 720233123983428293
       vertices: []
       indices: 
       edges: []
