@@ -3,17 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DoNotDestroyMainMenu : MonoBehaviour
+public class MainMenuMusic : MonoBehaviour
 {
+    public static MainMenuMusic instance;
     private void Awake()
     {
-        GameObject[] musicObject = GameObject.FindGameObjectsWithTag("GameMenuMusic");
-        if (musicObject.Length > 1)
+        if (instance != null)
         {
-            Destroy(this.gameObject);
+            Destroy(gameObject);
         }
         else
         {
+            instance = this;
             DontDestroyOnLoad(this.gameObject);
         }
     }
