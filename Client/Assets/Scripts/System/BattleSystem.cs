@@ -45,9 +45,9 @@ public class BattleSystem : MonoBehaviour
         HP_Bar = GameObject.Find("Character HP Bar").GetComponent<Image>();
         HP_Value = GameObject.Find("HP Value").GetComponent<Text>();
         Skill1 = GameObject.Find("Skill 1").GetComponent<Button>();
-        Skill2 = GameObject.Find("Skill 1").GetComponent<Button>();
-        Skill3 = GameObject.Find("Skill 1").GetComponent<Button>();
-        Skill4 = GameObject.Find("Skill 1").GetComponent<Button>();
+        Skill2 = GameObject.Find("Skill 2").GetComponent<Button>();
+        Skill3 = GameObject.Find("Skill 3").GetComponent<Button>();
+        Skill4 = GameObject.Find("Skill 4").GetComponent<Button>();
         Skill1_CD = GameObject.Find("Skill 1 CD").GetComponent<Text>();
         Skill2_CD = GameObject.Find("Skill 2 CD").GetComponent<Text>();
         Skill3_CD = GameObject.Find("Skill 3 CD").GetComponent<Text>();
@@ -109,10 +109,18 @@ public class BattleSystem : MonoBehaviour
         CharNameText.text = CharInfo.charName;
         CharLevel.text = "Lv." + CharInfo.level;
         CharPortrait.sprite = CharInfo.charPortrait;
+        HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(CharInfo.currentHP/CharInfo.maxHP, 0, 1), HP_Bar.transform.localScale.y, HP_Bar.transform.localScale.z);
         HP_Value.text = CharInfo.currentHP + "/" + CharInfo.maxHP;
-        Skill1_CD.text = "1/2";
-        Skill2_CD.text = "2/3";
-        Skill3_CD.text = "4/5";
-        Skill4_CD.text = "5/6";
+        Skill1.image.sprite = CharInfo.skill1_img;
+        Skill2.image.sprite = CharInfo.skill2_img;
+        Skill3.image.sprite = CharInfo.skill3_img;
+        Skill4.image.sprite = CharInfo.skill4_img;
+        Skill1_CD.text = (CharInfo.skill1_cd - 1) + "/" + CharInfo.skill1_cd;
+        Skill2_CD.text = (CharInfo.skill2_cd - 1) + "/" + CharInfo.skill2_cd;
+        Skill3_CD.text = (CharInfo.skill3_cd - 1) + "/" + CharInfo.skill3_cd;
+        Skill4_CD.text = (CharInfo.skill4_cd - 1) + "/" + CharInfo.skill4_cd;
+        /*cur_cooldown = curr_cooldown + Time.deltaTime;
+        **float calc_cd = curr_cooldown / max_cooldown;
+        **Progressbar.transform.localScale = new Vector3(Mathf.clamp(calc_cd, 0, 1), Progressbar.transform.localScale.y, Progressbar.transform.localScale.z);*/
     }
 }
