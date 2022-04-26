@@ -5,6 +5,21 @@ TextureImporter:
   - first:
       213: 9083683855015346827
     second: demon-idle_0
+  - first:
+      213: 4526976818826055507
+    second: demon-idle_1
+  - first:
+      213: 6706057316634897999
+    second: demon-idle_2
+  - first:
+      213: -7633371085453104933
+    second: demon-idle_3
+  - first:
+      213: 7622220858091088904
+    second: demon-idle_4
+  - first:
+      213: 5287318541332355128
+    second: demon-idle_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -114,7 +129,7 @@ TextureImporter:
         width: 134
         height: 124
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -122,6 +137,111 @@ TextureImporter:
       bones: []
       spriteID: b820426b65abf0e70800000000000000
       internalID: 9083683855015346827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon-idle_1
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 16
+        width: 156
+        height: 93
+      alignment: 9
+      pivot: {x: 0.51551956, y: 0.68473965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f0e888e6d03de30800000000000000
+      internalID: 4526976818826055507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon-idle_2
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 18
+        width: 140
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5050376, y: 0.68196726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4eae696993b01d50800000000000000
+      internalID: 6706057316634897999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon-idle_3
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 17
+        width: 100
+        height: 93
+      alignment: 9
+      pivot: {x: 0.6387567, y: 0.67399573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd864dce071d01690800000000000000
+      internalID: -7633371085453104933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon-idle_4
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 18
+        width: 140
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5036429, y: 0.69243413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80ca7167c7197c960800000000000000
+      internalID: 7622220858091088904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: demon-idle_5
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 18
+        width: 156
+        height: 91
+      alignment: 9
+      pivot: {x: 0.5149896, y: 0.67236817}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 838937e2334506940800000000000000
+      internalID: 5287318541332355128
       vertices: []
       indices: 
       edges: []
