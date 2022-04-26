@@ -35,6 +35,7 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()  // doesn't quit the game yet
     {
         Debug.Log("QUIT THE GAME");
+        AkSoundEngine.StopAll();
         Application.Quit();
     }
 
