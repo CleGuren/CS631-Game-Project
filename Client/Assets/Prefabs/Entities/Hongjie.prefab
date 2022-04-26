@@ -95,7 +95,7 @@ GameObject:
   - component: {fileID: 1421526942056350949}
   m_Layer: 0
   m_Name: Hongjie
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -127,14 +127,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 726b0a2fe1154f142986e9202a0bf26a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Hero:
-    name: Hongjie
-    level: 1
-    baseHP: 60
-    currentHP: 60
-    baseAtk: 28
-    currentAtk: 28
-    baseDef: 35
-    currentDef: 35
-    HeroEle: 4
+  myValue:
+    charName: 
+    charPortrait: {fileID: 0}
+    skill1_img: {fileID: 0}
+    skill2_img: {fileID: 0}
+    skill3_img: {fileID: 0}
+    skill4_img: {fileID: 0}
+    skill1_cd: 0
+    skill2_cd: 0
+    skill3_cd: 0
+    skill4_cd: 0
+    level: 0
+    baseHP: 0
+    currentHP: 0
+    maxHP: 0
+    baseAtk: 0
+    currentAtk: 0
+    baseDef: 0
+    currentDef: 0
+    HeroEle: 0
     HeroPrefWeapon: 0
+    mySkill: {fileID: 0}
+  currentState: 0

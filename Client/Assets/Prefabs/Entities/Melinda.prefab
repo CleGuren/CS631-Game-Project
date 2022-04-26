@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7620598448061666141}
   m_Layer: 0
   m_Name: Melinda
-  m_TagString: Untagged
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67,6 +67,7 @@ MonoBehaviour:
     currentDef: 25
     HeroEle: 1
     HeroPrefWeapon: 2
+    mySkill: {fileID: 0}
   currentState: 0
 --- !u!61 &7620598448061666141
 BoxCollider2D:

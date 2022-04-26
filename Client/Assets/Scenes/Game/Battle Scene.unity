@@ -571,7 +571,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 527442540}
         m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
-        m_MethodName: TurnProgressed
+        m_MethodName: TurnProgress
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -807,6 +807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcf18ed3b933cf4cb82b4baf3e5342e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ActionList: []
+  playerParty: []
+  myEnemy: []
   Character1Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
     type: 3}
   Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,

@@ -4,20 +4,44 @@ using UnityEngine;
 
 public class HeroStateMachine : MonoBehaviour, IClickableObject
 {
-    public enum State { PROCESSING, ADDTOLIST, SELECTING, ACTION, DEAD }
+    public enum State { WAITING, SELECTING, ADDTOLIST, ACTION, DEAD }
     public HeroBase myValue;
     public State currentState;
     private BattleSystem curr_BS;
-
-    public void Awake() {
+    // private float curr_cooldown = 0f;
+    // private float max_cooldown = 5f;
+    void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
+    }
+
+    void Start() {
+        currentState = State.WAITING;
+    }
+
+    void Update() {
+        switch (currentState) {
+            case (State.WAITING) : 
+                //maybe do something here
+                break;
+            case (State.SELECTING) : 
+                break;
+            case (State.ADDTOLIST) : 
+                break;
+            case (State.ACTION) : 
+                break;
+            case (State.DEAD) : 
+                break;
+        }
     }
 
     public void onClickAction() {
         curr_BS.DisplayCharInformation(this);
     }
 
-    public float castSkill1() {
-        return myValue.mySkill.skill1DmgFormula(myValue);
-    }
+    // public void TakeDamage(float damageTaken) {
+    //     myValue.currentHP -= damageTaken;
+    //     if (myValue.currentHP <= 0) {
+    //         currentState = State.DEAD;
+    //     }
+    // }
 }

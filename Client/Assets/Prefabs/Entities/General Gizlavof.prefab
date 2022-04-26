@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3059094315220084326}
   m_Layer: 0
   m_Name: General Gizlavof
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,11 +49,13 @@ MonoBehaviour:
     level: 5
     baseHP: 300
     currentHP: 300
+    maxHP: 0
     baseAtk: 40
     currentAtk: 40
     baseDef: 50
     currentDef: 50
     EnemyEle: 0
+  currentState: 0
 --- !u!1 &3837015338136852906
 GameObject:
   m_ObjectHideFlags: 0
