@@ -7,6 +7,7 @@ public class AlexielSkill : BaseSkill
     public override float skill2BaseDMG { get { return 0.4f; } }
     public override float skill3BaseDMG { get { return 0.6f; } }
     public override float skill4BaseDMG { get { return 0.9f; } }
+    
     public AlexielSkill() {
         skill1Name = "Sword Smash";
         skill1Description = "Alexiel smashes her sword downward, dealing damage.";

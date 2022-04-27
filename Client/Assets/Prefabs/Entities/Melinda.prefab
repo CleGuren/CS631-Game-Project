@@ -47,7 +47,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Melinda
-    charPortrait: {fileID: 720233123983428293, guid: 1b052159a3f6de54eb40df7ceb4a6e5c,
+    charPortrait: {fileID: -8861649622056650232, guid: 1b052159a3f6de54eb40df7ceb4a6e5c,
       type: 3}
     skill1_img: {fileID: 21300000, guid: 0d5d251005f8ad448910044788948802, type: 3}
     skill2_img: {fileID: 21300000, guid: 1eecafcd95273c644a9b3a34c26f3cc7, type: 3}

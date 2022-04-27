@@ -21,6 +21,7 @@ public abstract class BaseSkill : MonoBehaviour
     public float S2BaseCD;
     public float S3BaseCD;
     public float S4BaseCD;
+    
     public float skill1DmgFormula(HeroBase myinfo) {
         return myinfo.currentAtk * skill1BaseDMG + 100;
     }

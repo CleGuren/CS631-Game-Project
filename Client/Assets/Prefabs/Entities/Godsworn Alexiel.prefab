@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Alexiel
-    charPortrait: {fileID: -7708242978735913591, guid: 1371ed548a7773449a0113f0d1f911fb,
+    charPortrait: {fileID: -7919180055458908053, guid: 1371ed548a7773449a0113f0d1f911fb,
       type: 3}
     skill1_img: {fileID: 21300000, guid: 06de8acea73049a45b1a0549c263a60f, type: 3}
     skill2_img: {fileID: 21300000, guid: 1ac7b0371f33139459fd19db864289cf, type: 3}

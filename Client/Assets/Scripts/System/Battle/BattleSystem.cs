@@ -7,10 +7,14 @@ public class BattleSystem : MonoBehaviour
 {
     public enum BattleState { START, PLAYERTURN, ENEMYTURN, VICTORIOUS, DEFEAT }
 
-    //GameObjects
-    public List<HandleTurn> ActionList = new List<HandleTurn>();
+    //Entities and Actions
+    public List<HandleTurn> EnemyActionList = new List<HandleTurn>();
+    public List<HandleTurn> CharacterActionList = new List<HandleTurn>();
     public List<GameObject> playerParty = new List<GameObject>();
     public List<GameObject> myEnemy = new List<GameObject>();
+    public HandleTurn PlayerChoice;
+
+    //GameObjects
     public GameObject Character1Prefab;
     public GameObject Character2Prefab;
     public GameObject Character3Prefab;
@@ -41,7 +45,7 @@ public class BattleSystem : MonoBehaviour
     private Button Skill4;
     
     //Conditional States
-    private BattleState curr_state;
+    public BattleState curr_state;
     private bool playerTurn;
     private bool triggerUI;
     public bool PlayerTurn {
@@ -93,9 +97,14 @@ public class BattleSystem : MonoBehaviour
                 }
                 break;
             case(BattleState.ENEMYTURN) :
-                //enemy perform actions
-                Debug.Log("Enemy Attacking");
-                if (playerTurn) {
+                if (EnemyActionList.Count > 0) {
+                    //enemy perform actions
+                    GameObject attackingEnemy = GameObject.Find(EnemyActionList[0].attackerName);
+                    EnemyStateMachine enemyState = attackingEnemy.GetComponent<EnemyStateMachine>();
+                    enemyState.HeroToAttack = EnemyActionList[0].Target;
+                    enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
+                } else {
+                    playerTurn = true;
                     curr_state = BattleState.PLAYERTURN;
                 }
                 break;
@@ -116,7 +125,7 @@ public class BattleSystem : MonoBehaviour
     }
 
     public void CollectActions(HandleTurn input) {
-        ActionList.Add(input);
+        EnemyActionList.Add(input);
     }
 
     public void TurnProgress() {
@@ -126,23 +135,6 @@ public class BattleSystem : MonoBehaviour
     public void ToPlayerturn() {
         curr_state = BattleState.PLAYERTURN;
     }
-
-    // public void DisplayCharInformation(HeroBase CharInfo) {
-    //     playerTurn = true;
-    //     CharNameText.text = CharInfo.charName;
-    //     CharLevel.text = "Lv." + CharInfo.level;
-    //     CharPortrait.sprite = CharInfo.charPortrait;
-    //     HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(CharInfo.currentHP/CharInfo.maxHP, 0, 1), HP_Bar.transform.localScale.y, HP_Bar.transform.localScale.z);
-    //     HP_Value.text = CharInfo.currentHP + "/" + CharInfo.maxHP;
-    //     Skill1.image.sprite = CharInfo.skill1_img;
-    //     Skill2.image.sprite = CharInfo.skill2_img;
-    //     Skill3.image.sprite = CharInfo.skill3_img;
-    //     Skill4.image.sprite = CharInfo.skill4_img;
-    //     Skill1_CD.text = (CharInfo.mySkill.S1BaseCD - 2) + "/" + CharInfo.skill1_cd;
-    //     Skill2_CD.text = (CharInfo.skill2_cd - 1) + "/" + CharInfo.skill2_cd;
-    //     Skill3_CD.text = (CharInfo.skill3_cd - 1) + "/" + CharInfo.skill3_cd;
-    //     Skill4_CD.text = (CharInfo.skill4_cd - 1) + "/" + CharInfo.skill4_cd;
-    // }
 
     public void DisplayCharInformation(HeroStateMachine CharInfo) {
         triggerUI = true;
@@ -159,5 +151,13 @@ public class BattleSystem : MonoBehaviour
         Skill2_CD.text = (CharInfo.myValue.skill2_cd - 1) + "/" + CharInfo.myValue.skill2_cd;
         Skill3_CD.text = (CharInfo.myValue.skill3_cd - 1) + "/" + CharInfo.myValue.skill3_cd;
         Skill4_CD.text = (CharInfo.myValue.skill4_cd - 1) + "/" + CharInfo.myValue.skill4_cd;
+    }
+
+    public void ButtonSkill1() {
+        PlayerChoice = new HandleTurn();
+    }
+
+    public void ButtonSkill2() {
+
     }
 }
