@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/CS631-Game-Project/Godsworn_Alexiel/</ProjectRoot>
+		<SourceFilesRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/CS631-Game-Project/Godsworn_Alexiel/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/CS631-Game-Project/Godsworn_Alexiel/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/CS631-Game-Project/Godsworn_Alexiel/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="959552862" Language="SFX" Hash="1145463121">
+			<ObjectPath>\SoundBanks\Test\Test_Master</ObjectPath>
+			<ShortName>Test_Master</ShortName>
+			<Path>Test_Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2754864951" Name="Play_Test_2D" ObjectPath="\Events\Test\SFX\2D_Environment\Play\Play_Test_2D" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="366237381" Language="SFX">
+							<ShortName>Test_Swords.wav</ShortName>
+							<Path>SFX/Test_Swords_D79FB2B7.wem</Path>
+						</File>
+						<File Id="725472561" Language="SFX">
+							<ShortName>Test_Nature.wav</ShortName>
+							<Path>SFX/Test_Nature_D79FB2B7.wem</Path>
+						</File>
+						<File Id="978717677" Language="SFX">
+							<ShortName>Test_Chatter.wav</ShortName>
+							<Path>SFX/Test_Chatter_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2985565D-D714-4EA0-ADBF-419893152E59}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2985565D-D714-4EA0-ADBF-419893152E59}">
+							<Media>
+								<File Id="366237381"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{7A4E748F-1297-4BAB-9E89-E67A8FB9D559}">
+							<Media>
+								<File Id="725472561"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{B0F8CAE2-352D-45E5-BDB4-F3A6D1BD2031}">
+							<Media>
+								<File Id="978717677"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="3195805575" Name="Play_Test_Click" ObjectPath="\Events\Test\SFX\2D_Environment\Play\Play_Test_Click" DurationType="OneShot" DurationMin="0.957143" DurationMax="0.957143">
+					<IncludedMemoryFiles>
+						<File Id="880725016" Language="SFX">
+							<ShortName>Test_Click.wav</ShortName>
+							<Path>SFX/Test_Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2053261897" Name="Play_Test_Gameplay_Music" ObjectPath="\Events\Test\Music\Play\Play_Test_Gameplay_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="398064322" Language="SFX">
+							<ShortName>Test_Training_Ground.wav</ShortName>
+							<Path>SFX/Test_Training_Ground_D79FB2B7.wem</Path>
+						</File>
+						<File Id="405352940" Language="SFX">
+							<ShortName>Test_Defeat.wav</ShortName>
+							<Path>SFX/Test_Defeat_D79FB2B7.wem</Path>
+						</File>
+						<File Id="447187770" Language="SFX">
+							<ShortName>Test_Victory.wav</ShortName>
+							<Path>SFX/Test_Victory_D79FB2B7.wem</Path>
+						</File>
+						<File Id="470405553" Language="SFX">
+							<ShortName>Test_Town.wav</ShortName>
+							<Path>SFX/Test_Town_D79FB2B7.wem</Path>
+						</File>
+						<File Id="924690577" Language="SFX">
+							<ShortName>Test_Boss_2.wav</ShortName>
+							<Path>SFX/Test_Boss_2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="944723289" Language="SFX">
+							<ShortName>Test_Boss_1.wav</ShortName>
+							<Path>SFX/Test_Boss_1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="964690764" Language="SFX">
+							<ShortName>Test_Combat.wav</ShortName>
+							<Path>SFX/Test_Combat_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{7CD177A4-9E3C-479C-8790-B3C632ED9044}">
+							<Media>
+								<File Id="944723289"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9F55A173-B4FA-4D6F-B85F-83C6CD8406AE}">
+							<Media>
+								<File Id="924690577"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{586FC1EC-82A7-497E-A936-56A2A86F5968}">
+							<Media>
+								<File Id="964690764"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{FA1726A0-D2E2-4B9D-83A9-4D1B5CBC6F05}">
+							<Media>
+								<File Id="405352940"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{04443143-423D-4156-A84F-D5635299E1FF}">
+							<Media>
+								<File Id="470405553"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{4762DB2C-AE1C-44FC-AAD0-CE4FB369FA80}">
+							<Media>
+								<File Id="398064322"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{5FC564C3-C43D-4C92-AF6F-B06A65F238E7}">
+							<Media>
+								<File Id="447187770"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1270031664" Name="Test_MC_TrainingGround" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_TrainingGround"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4045756732" Name="Play_Test_Main_Menu_Music" ObjectPath="\Events\Test\Music\Play\Play_Test_Main_Menu_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1068607519" Language="SFX">
+							<ShortName>Test_Main_Menu.wav</ShortName>
+							<Path>SFX/Test_Main_Menu_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2144316838" Name="Play_Test_Wood" ObjectPath="\Events\Test\SFX\2D_Environment\Play\Play_Test_Wood" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="434536453" Language="SFX">
+							<ShortName>Test_Wood.wav</ShortName>
+							<Path>SFX/Test_Wood_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1361080755" Name="Set_State_Test_Combat" ObjectPath="\Events\Test\States\Set_State_Test_Combat" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3192105708" Name="Test_Combat" ObjectPath="\States\Test\Test_Gameplay\Test_Combat"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2672476044" Name="Set_State_Test_Explore" ObjectPath="\Events\Test\States\Set_State_Test_Explore" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="984973249" Name="Test_Explore" ObjectPath="\States\Test\Test_Gameplay\Test_Explore"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2540652967" Name="Set_State_Test_Pause" ObjectPath="\Events\Test\States\Set_State_Test_Pause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2923888242" Name="Test_Pause" ObjectPath="\States\Test\Test_Pause\Test_Pause"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="4046133020" Name="Set_State_Test_Unpause" ObjectPath="\Events\Test\States\Set_State_Test_Unpause" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="4239277797" Name="Test_Unpause" ObjectPath="\States\Test\Test_Pause\Test_Unpause"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="299730725" Name="Set_Switch_Test_Env_Explore" ObjectPath="\Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_Explore" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1423323697" Name="Test_Env_Explore" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Explore"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1254795844" Name="Set_Switch_Test_Env_Town" ObjectPath="\Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_Town" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="3919577816" Name="Test_Env_Town" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Town"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="791973611" Name="Set_Switch_Test_Env_TrainingGround" ObjectPath="\Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_TrainingGround" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2033301815" Name="Test_Env_TrainingGround" ObjectPath="\Switches\Test\Test_Environment\Test_Env_TrainingGround"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="665884201" Name="Set_Switch_Test_MC_Boss1" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Boss1" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="446792245" Name="Test_MC_Boss1" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss1"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="665884202" Name="Set_Switch_Test_MC_Boss2" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Boss2" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="446792246" Name="Test_MC_Boss2" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss2"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4071425343" Name="Set_Switch_Test_MC_Combat" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Combat" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1835492787" Name="Test_MC_Combat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Combat"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1901240430" Name="Set_Switch_Test_MC_Defeat" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Defeat" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2208540002" Name="Test_MC_Defeat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Defeat"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1850472547" Name="Set_Switch_Test_MC_Town" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Town" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1661815711" Name="Test_MC_Town" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Town"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="43919916" Name="Set_Switch_Test_MC_TrainingGround" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_TrainingGround" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="1270031664" Name="Test_MC_TrainingGround" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_TrainingGround"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="2169867571" Name="Set_Switch_Test_MC_Victory" ObjectPath="\Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Victory" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2259396431" Name="Test_MC_Victory" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Victory"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="4059566757" Name="Stop_Test_2D" ObjectPath="\Events\Test\SFX\2D_Environment\Stop\Stop_Test_2D" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3023707873" Name="Stop_Test_Click" ObjectPath="\Events\Test\SFX\2D_Environment\Stop\Stop_Test_Click" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="327767067" Name="Stop_Test_Gameplay_Music" ObjectPath="\Events\Test\Music\Stop\Stop_Test_Gameplay_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3682958602" Name="Stop_Test_Main_Menu_Music" ObjectPath="\Events\Test\Music\Stop\Stop_Test_Main_Menu_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="427528452" Name="Stop_Test_Wood" ObjectPath="\Events\Test\SFX\2D_Environment\Stop\Stop_Test_Wood" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="984973249" Name="Test_Explore" ObjectPath="\States\Test\Test_Gameplay\Test_Explore" GUID="{88CF42E2-D58F-4A20-977A-163496346D5E}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2923888242" Name="Test_Pause" ObjectPath="\States\Test\Test_Pause\Test_Pause" GUID="{183D609A-3535-429D-94C2-E117DB68F7A3}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3192105708" Name="Test_Combat" ObjectPath="\States\Test\Test_Gameplay\Test_Combat" GUID="{5CF77051-0A41-4E02-827F-A0F77482D3D6}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="4239277797" Name="Test_Unpause" ObjectPath="\States\Test\Test_Pause\Test_Unpause" GUID="{F315A275-9B02-40F9-AC8E-8A898E86FB5D}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="446792245" Name="Test_MC_Boss1" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss1" GUID="{7CD177A4-9E3C-479C-8790-B3C632ED9044}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="446792246" Name="Test_MC_Boss2" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss2" GUID="{9F55A173-B4FA-4D6F-B85F-83C6CD8406AE}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1270031664" Name="Test_MC_TrainingGround" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_TrainingGround" GUID="{4762DB2C-AE1C-44FC-AAD0-CE4FB369FA80}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1423323697" Name="Test_Env_Explore" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Explore" GUID="{7A4E748F-1297-4BAB-9E89-E67A8FB9D559}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1631956748" Name="Test_Gameplay_Music" ObjectPath="\Switches\Test\Test_Gameplay_Music" GUID="{2EA2D291-D906-43FD-86E7-0E1A687FFC17}">
+					<Switches>
+						<Switch Id="2208540002" Name="Test_MC_Defeat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Defeat" GUID="{FA1726A0-D2E2-4B9D-83A9-4D1B5CBC6F05}"/>
+						<Switch Id="2259396431" Name="Test_MC_Victory" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Victory" GUID="{5FC564C3-C43D-4C92-AF6F-B06A65F238E7}"/>
+						<Switch Id="1270031664" Name="Test_MC_TrainingGround" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_TrainingGround" GUID="{4762DB2C-AE1C-44FC-AAD0-CE4FB369FA80}"/>
+						<Switch Id="1661815711" Name="Test_MC_Town" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Town" GUID="{04443143-423D-4156-A84F-D5635299E1FF}"/>
+						<Switch Id="1835492787" Name="Test_MC_Combat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Combat" GUID="{586FC1EC-82A7-497E-A936-56A2A86F5968}"/>
+						<Switch Id="446792245" Name="Test_MC_Boss1" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss1" GUID="{7CD177A4-9E3C-479C-8790-B3C632ED9044}"/>
+						<Switch Id="446792246" Name="Test_MC_Boss2" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Boss2" GUID="{9F55A173-B4FA-4D6F-B85F-83C6CD8406AE}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="1661815711" Name="Test_MC_Town" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Town" GUID="{04443143-423D-4156-A84F-D5635299E1FF}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="1835492787" Name="Test_MC_Combat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Combat" GUID="{586FC1EC-82A7-497E-A936-56A2A86F5968}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2033301815" Name="Test_Env_TrainingGround" ObjectPath="\Switches\Test\Test_Environment\Test_Env_TrainingGround" GUID="{2985565D-D714-4EA0-ADBF-419893152E59}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2208540002" Name="Test_MC_Defeat" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Defeat" GUID="{FA1726A0-D2E2-4B9D-83A9-4D1B5CBC6F05}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2259396431" Name="Test_MC_Victory" ObjectPath="\Switches\Test\Test_Gameplay_Music\Test_MC_Victory" GUID="{5FC564C3-C43D-4C92-AF6F-B06A65F238E7}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="3919577816" Name="Test_Env_Town" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Town" GUID="{B0F8CAE2-352D-45E5-BDB4-F3A6D1BD2031}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="4133548207" Name="Test_Environment" ObjectPath="\Switches\Test\Test_Environment" GUID="{4DA4E468-A65C-4EC3-A047-5E97FE6D58EE}">
+					<Switches>
+						<Switch Id="2033301815" Name="Test_Env_TrainingGround" ObjectPath="\Switches\Test\Test_Environment\Test_Env_TrainingGround" GUID="{2985565D-D714-4EA0-ADBF-419893152E59}"/>
+						<Switch Id="3919577816" Name="Test_Env_Town" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Town" GUID="{B0F8CAE2-352D-45E5-BDB4-F3A6D1BD2031}"/>
+						<Switch Id="1423323697" Name="Test_Env_Explore" ObjectPath="\Switches\Test\Test_Environment\Test_Env_Explore" GUID="{7A4E748F-1297-4BAB-9E89-E67A8FB9D559}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="343303217">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<StateGroups>
+				<StateGroup Id="89505537" Name="Gameplay" ObjectPath="\States\Official\Gameplay" GUID="{8E179258-2AF1-42A2-AD10-D3D5E9030131}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Official\Gameplay\None" GUID="{1A8E4A24-0305-489C-8C54-9AC0F8D610CA}"/>
+						<State Id="290796184" Name="Explore_State" ObjectPath="\States\Official\Gameplay\Explore_State" GUID="{6E65EFAE-7D67-4D32-8EB2-E7962BBAF12F}"/>
+						<State Id="1238077023" Name="Combat_State" ObjectPath="\States\Official\Gameplay\Combat_State" GUID="{44063334-689D-4683-9E4F-C33E1C21D211}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="991897368" Name="Test_Gameplay" ObjectPath="\States\Test\Test_Gameplay" GUID="{04B66EA2-9C28-4F60-8D07-6AECFF0A5562}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Test\Test_Gameplay\None" GUID="{B27C4483-8A3C-4F6A-8F28-D85267159B9B}"/>
+						<State Id="984973249" Name="Test_Explore" ObjectPath="\States\Test\Test_Gameplay\Test_Explore" GUID="{88CF42E2-D58F-4A20-977A-163496346D5E}"/>
+						<State Id="3192105708" Name="Test_Combat" ObjectPath="\States\Test\Test_Gameplay\Test_Combat" GUID="{5CF77051-0A41-4E02-827F-A0F77482D3D6}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="2923888242" Name="Test_Pause" ObjectPath="\States\Test\Test_Pause" GUID="{28815843-378F-44D3-8B6F-537096E7C456}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Test\Test_Pause\None" GUID="{FD5A020D-9C85-45C2-90B1-611E89147BD5}"/>
+						<State Id="2923888242" Name="Test_Pause" ObjectPath="\States\Test\Test_Pause\Test_Pause" GUID="{183D609A-3535-429D-94C2-E117DB68F7A3}"/>
+						<State Id="4239277797" Name="Test_Unpause" ObjectPath="\States\Test\Test_Pause\Test_Unpause" GUID="{F315A275-9B02-40F9-AC8E-8A898E86FB5D}"/>
+					</States>
+				</StateGroup>
+				<StateGroup Id="3092587493" Name="Pause" ObjectPath="\States\Official\Pause" GUID="{E343A3EC-368A-4778-BA11-A565EE0BA48B}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Official\Pause\None" GUID="{FC136EFC-ADDC-4A61-BE71-904309CE9FDE}"/>
+						<State Id="1944582999" Name="Pause_State" ObjectPath="\States\Official\Pause\Pause_State" GUID="{32CBAA37-18C9-4D55-A934-08C082BCE0C7}"/>
+						<State Id="1475041944" Name="Unpause_State" ObjectPath="\States\Official\Pause\Unpause_State" GUID="{1D75532B-6133-41FC-862A-A568E502C5BC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="4056684167" Language="SFX" Hash="3982930318">
+			<ObjectPath>\SoundBanks\Official\Master</ObjectPath>
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1231987938" Name="Play_Gameplay_Music" ObjectPath="\Events\Official\Music\Play\Play_Gameplay_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="37312453" Language="SFX">
+							<ShortName>Mood_Board_Intensity_Full.wav</ShortName>
+							<Path>SFX/Mood_Board_Intensity_Full_9EDFC787.wem</Path>
+						</File>
+						<File Id="46964009" Language="SFX">
+							<ShortName>Character_Select.wav</ShortName>
+							<Path>SFX/Character_Select_9EDFC787.wem</Path>
+						</File>
+						<File Id="254824592" Language="SFX">
+							<ShortName>Mood_Board_Loop_Full.wav</ShortName>
+							<Path>SFX/Mood_Board_Loop_Full_9EDFC787.wem</Path>
+						</File>
+						<File Id="285026230" Language="SFX">
+							<ShortName>MC_Combat_General_1.wav</ShortName>
+							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
+						</File>
+						<File Id="303968313" Language="SFX">
+							<ShortName>MC_Starting_Area.wav</ShortName>
+							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
+						</File>
+						<File Id="328176984" Language="SFX">
+							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
+							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+						</File>
+						<File Id="464729469" Language="SFX">
+							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
+							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+						</File>
+						<File Id="868044420" Language="SFX">
+							<ShortName>Endscreen.wav</ShortName>
+							<Path>SFX/Endscreen_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{C16FD6A4-EFCA-4011-8E4E-8C6F3F949161}">
+							<Media>
+								<File Id="254824592"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{0EDF0A6D-7222-4A09-908A-E3CC3F3393F0}">
+							<Media>
+								<File Id="285026230"/>
+								<File Id="328176984"/>
+								<File Id="464729469"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{161E0150-6553-49F1-95D6-CDDE8963814C}">
+							<Media>
+								<File Id="46964009"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1C2F42B0-CC3E-4083-8BEF-A5ADD0E8C6B9}">
+							<Media>
+								<File Id="37312453"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{C2D69E76-1D7B-4061-BFAE-8558C0850DAD}">
+							<Media>
+								<File Id="303968313"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}">
+							<Media>
+								<File Id="868044420"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2895168921" Name="Play_Main_Menu_Music" ObjectPath="\Events\Official\Music\Play\Play_Main_Menu_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="101119723" Language="SFX">
+							<ShortName>MC_Main_Menu.wav</ShortName>
+							<Path>SFX/MC_Main_Menu_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1117141914" Name="Play_SFX_UI_Back" ObjectPath="\Events\Official\SFX\UI\Play_SFX_UI_Back" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="202278871" Language="SFX">
+							<ShortName>SFX_UI_Back.wav</ShortName>
+							<Path>SFX/SFX_UI_Back_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1408733697" Name="Play_SFX_UI_Confirm" ObjectPath="\Events\Official\SFX\UI\Play_SFX_UI_Confirm" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="1072611532" Language="SFX">
+							<ShortName>SFX_UI_Confirm.wav</ShortName>
+							<Path>SFX/SFX_UI_Confirm_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2484137795" Name="Play_SFX_UI_Select" ObjectPath="\Events\Official\SFX\UI\Play_SFX_UI_Select" DurationType="OneShot" DurationMin="0.499977" DurationMax="0.499977">
+					<IncludedMemoryFiles>
+						<File Id="278281572" Language="SFX">
+							<ShortName>SFX_UI_Select.wav</ShortName>
+							<Path>SFX/SFX_UI_Select_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2761290801" Name="Set_State_Boss_Phase_1_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Boss_Phase_1_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2645897210" Name="Set_State_Boss_Phase_2_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Boss_Phase_2_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3882023610" Name="Set_State_Combat_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Combat_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="993119118" Name="Set_State_Combat_State" ObjectPath="\Events\Official\General_States\Gameplay\Set_State_Combat_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1238077023" Name="Combat_State" ObjectPath="\States\Official\Gameplay\Combat_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="130690659" Name="Set_State_Defeat_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Defeat_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="708054506" Name="Defeat_Music_State" ObjectPath="\States\Official\Music\Defeat_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="848215435" Name="Set_State_Explore_State" ObjectPath="\Events\Official\General_States\Gameplay\Set_State_Explore_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="290796184" Name="Explore_State" ObjectPath="\States\Official\Gameplay\Explore_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2198855132" Name="Set_State_Pause_State" ObjectPath="\Events\Official\General_States\Pause\Set_State_Pause_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1944582999" Name="Pause_State" ObjectPath="\States\Official\Pause\Pause_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1345844078" Name="Set_State_Town_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Town_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3691201999" Name="Town_Music_State" ObjectPath="\States\Official\Music\Town_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3735659942" Name="Set_State_Training_Ground_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Training_Ground_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="3287040219" Name="Tutorial_Area_Music_State" ObjectPath="\States\Official\Music\Tutorial_Area_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1029146047" Name="Set_State_Unpause_State" ObjectPath="\Events\Official\General_States\Pause\Set_State_Unpause_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="1475041944" Name="Unpause_State" ObjectPath="\States\Official\Pause\Unpause_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2722335064" Name="Set_State_Victory_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Victory_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3536547992" Name="Stop_Gameplay_Music" ObjectPath="\Events\Official\Music\Stop\Stop_Gameplay_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2829915331" Name="Stop_Main_Menu_Music" ObjectPath="\Events\Official\Music\Stop\Stop_Main_Menu_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="290796184" Name="Explore_State" ObjectPath="\States\Official\Gameplay\Explore_State" GUID="{6E65EFAE-7D67-4D32-8EB2-E7962BBAF12F}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="708054506" Name="Defeat_Music_State" ObjectPath="\States\Official\Music\Defeat_Music_State" GUID="{161E0150-6553-49F1-95D6-CDDE8963814C}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1238077023" Name="Combat_State" ObjectPath="\States\Official\Gameplay\Combat_State" GUID="{44063334-689D-4683-9E4F-C33E1C21D211}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1475041944" Name="Unpause_State" ObjectPath="\States\Official\Pause\Unpause_State" GUID="{1D75532B-6133-41FC-862A-A568E502C5BC}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="1944582999" Name="Pause_State" ObjectPath="\States\Official\Pause\Pause_State" GUID="{32CBAA37-18C9-4D55-A934-08C082BCE0C7}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State" GUID="{5659B455-BDE3-45CD-9810-1C05860CBD3F}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State" GUID="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State" GUID="{0EDF0A6D-7222-4A09-908A-E3CC3F3393F0}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State" GUID="{C16FD6A4-EFCA-4011-8E4E-8C6F3F949161}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3287040219" Name="Tutorial_Area_Music_State" ObjectPath="\States\Official\Music\Tutorial_Area_Music_State" GUID="{C2D69E76-1D7B-4061-BFAE-8558C0850DAD}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3691201999" Name="Town_Music_State" ObjectPath="\States\Official\Music\Town_Music_State" GUID="{1C2F42B0-CC3E-4083-8BEF-A5ADD0E8C6B9}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3991942870" Name="Music" ObjectPath="\States\Official\Music" GUID="{45343E62-F1AD-4978-8230-A13B0535C0DE}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Official\Music\None" GUID="{5167D4BA-E0C7-40D2-A7A1-52B67E79DDA3}"/>
+						<State Id="3287040219" Name="Tutorial_Area_Music_State" ObjectPath="\States\Official\Music\Tutorial_Area_Music_State" GUID="{C2D69E76-1D7B-4061-BFAE-8558C0850DAD}"/>
+						<State Id="3691201999" Name="Town_Music_State" ObjectPath="\States\Official\Music\Town_Music_State" GUID="{1C2F42B0-CC3E-4083-8BEF-A5ADD0E8C6B9}"/>
+						<State Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State" GUID="{0EDF0A6D-7222-4A09-908A-E3CC3F3393F0}"/>
+						<State Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State" GUID="{C16FD6A4-EFCA-4011-8E4E-8C6F3F949161}"/>
+						<State Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State" GUID="{5659B455-BDE3-45CD-9810-1C05860CBD3F}"/>
+						<State Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State" GUID="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}"/>
+						<State Id="708054506" Name="Defeat_Music_State" ObjectPath="\States\Official\Music\Defeat_Music_State" GUID="{161E0150-6553-49F1-95D6-CDDE8963814C}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
