@@ -1004,8 +1004,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bee73d01ff9e243cf8c471aba028148c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstInput: {fileID: 0}
-  submitButton: {fileID: 0}
+  firstInput: {fileID: 128964556}
+  submitButton: {fileID: 128964556}
 --- !u!114 &1501413779
 MonoBehaviour:
   m_ObjectHideFlags: 0
