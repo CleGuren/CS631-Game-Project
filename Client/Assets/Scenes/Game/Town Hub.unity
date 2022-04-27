@@ -2489,6 +2489,7 @@ GameObject:
   - component: {fileID: 397894331}
   - component: {fileID: 397894333}
   - component: {fileID: 397894332}
+  - component: {fileID: 397894334}
   m_Layer: 0
   m_Name: Doorway 5
   m_TagString: Untagged
@@ -2646,6 +2647,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &397894334
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397894330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 22.511091, y: 3.7042217}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.97781754, y: 0.516237}
+  m_EdgeRadius: 0
 --- !u!1 &405612790
 GameObject:
   m_ObjectHideFlags: 0
@@ -2657,6 +2684,7 @@ GameObject:
   - component: {fileID: 405612791}
   - component: {fileID: 405612793}
   - component: {fileID: 405612792}
+  - component: {fileID: 405612794}
   m_Layer: 0
   m_Name: Doorway 3
   m_TagString: Untagged
@@ -2814,6 +2842,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &405612794
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405612790}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -22.498457, y: 6.644862}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0030785, y: 0.4867587}
+  m_EdgeRadius: 0
 --- !u!1 &426494495
 GameObject:
   m_ObjectHideFlags: 0
@@ -26590,6 +26644,7 @@ GameObject:
   - component: {fileID: 1092242109}
   - component: {fileID: 1092242111}
   - component: {fileID: 1092242110}
+  - component: {fileID: 1092242112}
   m_Layer: 0
   m_Name: Doorway 2
   m_TagString: Untagged
@@ -26747,6 +26802,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1092242112
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1092242108}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -13.494678, y: -1.2396971}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0107441, y: 0.4248469}
+  m_EdgeRadius: 0
 --- !u!1 &1127920789
 GameObject:
   m_ObjectHideFlags: 0
@@ -37170,6 +37251,7 @@ GameObject:
   - component: {fileID: 1722574872}
   - component: {fileID: 1722574874}
   - component: {fileID: 1722574873}
+  - component: {fileID: 1722574875}
   m_Layer: 0
   m_Name: Doorway 4
   m_TagString: Untagged
@@ -37327,6 +37409,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1722574875
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722574871}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 13.484333, y: 1.6792295}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0314331, y: 0.4907881}
+  m_EdgeRadius: 0
 --- !u!1 &1725698646
 GameObject:
   m_ObjectHideFlags: 0
@@ -41502,6 +41610,7 @@ GameObject:
   - component: {fileID: 1959752554}
   - component: {fileID: 1959752556}
   - component: {fileID: 1959752555}
+  - component: {fileID: 1959752557}
   m_Layer: 0
   m_Name: Doorway 6
   m_TagString: Untagged
@@ -41659,6 +41768,32 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!61 &1959752557
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959752553}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 22.505566, y: 10.584221}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9888687, y: 0.35197353}
+  m_EdgeRadius: 0
 --- !u!1 &1995857676
 GameObject:
   m_ObjectHideFlags: 0
