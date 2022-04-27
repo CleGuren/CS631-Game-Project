@@ -807,9 +807,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcf18ed3b933cf4cb82b4baf3e5342e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActionList: []
+  EnemyActionList: []
+  CharacterActionList: []
   playerParty: []
   myEnemy: []
+  PlayerChoice:
+    attackerName: 
+    Type: 
+    Attacker: {fileID: 0}
+    Target: {fileID: 0}
   Character1Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
     type: 3}
   Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
@@ -827,6 +833,7 @@ MonoBehaviour:
   Enemy1Pos: {fileID: 1978149658}
   AttackButton: {fileID: 479484185}
   NoButton: {fileID: 2026196503}
+  curr_state: 0
 --- !u!4 &527442541
 Transform:
   m_ObjectHideFlags: 0
@@ -2139,7 +2146,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5632826182482884040}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: PushSkill3ToList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &390467526651986137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,7 +2202,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3822376747961567362}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: PushSkill2ToList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &523331729433121738
 GameObject:
   m_ObjectHideFlags: 0
@@ -2469,7 +2500,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4376974036098520090}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: PushSkill4ToList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &2755440904609262357
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2533,7 +2576,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4026553051500305651}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: PushSkill1ToList
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!224 &3472271211933207132
 RectTransform:
   m_ObjectHideFlags: 0

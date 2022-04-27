@@ -69,6 +69,7 @@ public class BattleSystem : MonoBehaviour
         Skill3_CD = GameObject.Find("Skill 3 CD").GetComponent<Text>();
         Skill4_CD = GameObject.Find("Skill 4 CD").GetComponent<Text>();
         CharacterActionBox.SetActive(false);
+        PlayerChoice = new HandleTurn();
     }
 
     void Start()
@@ -147,17 +148,36 @@ public class BattleSystem : MonoBehaviour
         Skill2.image.sprite = CharInfo.myValue.skill2_img;
         Skill3.image.sprite = CharInfo.myValue.skill3_img;
         Skill4.image.sprite = CharInfo.myValue.skill4_img;
-        Skill1_CD.text = (CharInfo.myValue.mySkill.S1BaseCD - 2) + "/" + CharInfo.myValue.skill1_cd;
+        // Skill1_CD.text = (CharInfo.myValue.mySkill.S1BaseCD - 2) + "/" + CharInfo.myValue.skill1_cd;
+        Skill1_CD.text = (CharInfo.myValue.skill1_cd - 1) + "/" + CharInfo.myValue.skill1_cd;
         Skill2_CD.text = (CharInfo.myValue.skill2_cd - 1) + "/" + CharInfo.myValue.skill2_cd;
         Skill3_CD.text = (CharInfo.myValue.skill3_cd - 1) + "/" + CharInfo.myValue.skill3_cd;
         Skill4_CD.text = (CharInfo.myValue.skill4_cd - 1) + "/" + CharInfo.myValue.skill4_cd;
+        ProvideTurnInput(CharInfo);
     }
 
-    public void ButtonSkill1() {
+    public void ProvideTurnInput(HeroStateMachine CharInfo) {
         PlayerChoice = new HandleTurn();
+        PlayerChoice.attackerName = CharInfo.myValue.charName;
+        PlayerChoice.Type = "Character";
+        PlayerChoice.Attacker = GameObject.Find(CharInfo.myValue.charName + "(Clone)");
+        PlayerChoice.Target = GameObject.Find(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.name + "(Clone)");
     }
 
-    public void ButtonSkill2() {
+    public void PushSkill1ToList() {
+        // PlayerChoice.skillChosen = PlayerChoice.Attacker.GetComponent<HeroStateMachine>().myValue.mySkill.skill1DmgFormula;
+        CharacterActionList.Add(PlayerChoice);
+    }
 
+    public void PushSkill2ToList() {
+        CharacterActionList.Add(PlayerChoice);
+    }
+
+    public void PushSkill3ToList() {
+        CharacterActionList.Add(PlayerChoice);
+    }
+
+    public void PushSkill4ToList() {
+        CharacterActionList.Add(PlayerChoice);
     }
 }

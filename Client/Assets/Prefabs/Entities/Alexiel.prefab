@@ -115,7 +115,7 @@ GameObject:
   - component: {fileID: 1931060655703088451}
   - component: {fileID: 6669274181291142365}
   m_Layer: 0
-  m_Name: Godsworn Alexiel
+  m_Name: Alexiel
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
