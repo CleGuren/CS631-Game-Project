@@ -48,6 +48,96 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 081c03271186c4942ac531f5a14bec3f,
       type: 2}
+  Gameplay_Set_State_Combat_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 54e4fecb6c13447b8a8e0fceed67972a,
+      type: 2}
+  Gameplay_Set_State_Explore_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0ddee82b3fcb24f8a8128d9294512561,
+      type: 2}
+  Gameplay_Set_State_Pause_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 79058bac15a97404f8bb7cb692241301,
+      type: 2}
+  Gameplay_Set_State_Unpause_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 38cb44ad3510e4963a9b4e99c133815d,
+      type: 2}
+  Play_Gameplay_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5321a8e6d2974428988b778158312fcf,
+      type: 2}
+  Play_Main_Menu_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a0820936aa9144782bb46eaf32c1e766,
+      type: 2}
+  Set_State_Boss_Phase_1_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 709d9ad87e80f41328957dc2f1a091ec,
+      type: 2}
+  Set_State_Boss_Phase_2_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c0295b00997c445cd8e8d74735ad45b4,
+      type: 2}
+  Set_State_Combat_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a21a2d7f1a0894469b44be98e52d2b43,
+      type: 2}
+  Set_State_Defeat_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 79c581231f95346dd96aa019b78ea0e8,
+      type: 2}
+  Set_State_Town_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e9ec587ccbf984b0391314feae9a64b0,
+      type: 2}
+  Set_State_Training_Ground_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3ccd84a1e62294415ad9cf83ce6e8394,
+      type: 2}
+  Set_State_Victory_Music_State:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4a9ac560db3f9459698beb0e8e2ecdc3,
+      type: 2}
+  Stop_Gameplay_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ba6f11c82124e49d0868975a38df6462,
+      type: 2}
+  Stop_Main_Menu_Music:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b5a0de024229f47d99231cd1a164f8ef,
+      type: 2}
+  Play_SFX_UI_Back:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 17d952adc489e4284aa05245a0d2cf23,
+      type: 2}
+  Play_SFX_UI_Confirm:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 03c4b879125c14a98a06fb661b990507,
+      type: 2}
+  Play_SFX_UI_Select:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b6795fc548d03408eb1405f05fdc88de,
+      type: 2}
   Gameplay_Combat_State:
     idInternal: 0
     valueGuidInternal: 
