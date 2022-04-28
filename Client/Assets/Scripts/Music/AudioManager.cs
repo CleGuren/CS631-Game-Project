@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public enum WwiseGameState
 {
@@ -15,7 +16,7 @@ public enum WwiseMusicState
     Town_Music_State, None, Training_Ground_Music_State, Victory_Music_State
 };
 
-public enum WwisePausedState
+public enum WwisePauseState
 {
     None, Pause_State, Unpause_State
 };
@@ -41,6 +42,7 @@ public class AudioManager : MonoBehaviour
     [Header ("Play Events")]
     [SerializeField] private AK.Wwise.Event Play_Gameplay_Music;
     [SerializeField] private AK.Wwise.Event Play_Main_Menu_Music;
+    [SerializeField] private AK.Wwise.Event Check_Game_State;   // audio
     
     [Header ("States Events")]
     [SerializeField] private AK.Wwise.Event Set_State_Boss_Phase_1_Music_State;
@@ -74,7 +76,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AK.Wwise.State Gameplay_Explore_State;
     [SerializeField] private AK.Wwise.State Gameplay_None;
 
-    private bool currentGameState;
+    private WwiseGameState currentGameState;
     
     // Game Music
     [Header ("Music State Variables")]
@@ -87,7 +89,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AK.Wwise.State Music_Training_Ground_Music_State;
     [SerializeField] private AK.Wwise.State Music_Victory_Music_State;
     
-    private bool currentMusicState;
+    private WwiseMusicState currentMusicState;
     
     // Game Pause
     [Header ("Pause State Variables")]
@@ -95,7 +97,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AK.Wwise.State Pause_Pause_State;
     [SerializeField] private AK.Wwise.State Pause_Unpause_State;
     
-    private bool currentPauseState;
+    private WwisePauseState currentPauseState;
 
     private void Awake()
     {
@@ -105,7 +107,20 @@ public class AudioManager : MonoBehaviour
         
     void Start()
     {
+        if (
+            SceneManager.GetActiveScene().name != "LoginScene"
+            && SceneManager.GetActiveScene().name != "RegistrationScene"
+            && SceneManager.GetActiveScene().name != "MenuScene"
+            && SceneManager.GetActiveScene().name != "OpeningScene"
+            && SceneManager.GetActiveScene().name != "OptionsScene"
+        )
+        {
+            AkSoundEngine.StopAll();
+        }
         
+        SetWiseGameState(WwiseGameState.Explore_State);
+        SetWiseMusicState(WwiseMusicState.Town_Music_State);
+        SetWwisePausedState(WwisePauseState.Unpause_State);
     }
 
     void Update()
@@ -133,8 +148,15 @@ public class AudioManager : MonoBehaviour
         {
             loadSoundBanks();
         }
+        
+        // set the enums to be off by default
+        SetWiseGameState(WwiseGameState.Gameplay_None);
+        SetWiseMusicState(WwiseMusicState.None);
+        SetWwisePausedState(WwisePauseState.None);
+        
         bIsInitialized = true;
     }
+    
     void loadSoundBanks()
     {
         if (Soundbanks.Count > 0)
@@ -154,6 +176,11 @@ public class AudioManager : MonoBehaviour
     // setup a switch - checks the current enum and switches the state to load
     void SetWiseGameState(WwiseGameState gameState)
     {
+        if (gameState == currentGameState)
+        {
+            Debug.Log("GameState is already " + gameState + ".");
+            return;
+        }
         switch (gameState)
         {
             case(WwiseGameState.Combat_State):
@@ -166,11 +193,18 @@ public class AudioManager : MonoBehaviour
                 Gameplay_None.SetValue();
                 break;
         }
+        
+        Debug.Log("New Wwise GameState: " + gameState + ".");
+        currentGameState = gameState;
     }
     
     void SetWiseMusicState(WwiseMusicState musicState)
     {
-       // if (GameState)
+        if (musicState == currentMusicState)
+        {
+            Debug.Log("GameState is already " + musicState + ".");
+            return;
+        }
         switch (musicState)
         {
             case(WwiseMusicState.None):
@@ -198,23 +232,32 @@ public class AudioManager : MonoBehaviour
                 Music_Victory_Music_State.SetValue();
                 break;
         }
+        Debug.Log("New Wwise MusicState: " + musicState + ".");
+        currentMusicState = musicState;
     }
     
-    void SetWwisePausedState(WwisePausedState pauseState)
+    void SetWwisePausedState(WwisePauseState pauseState)
     {
+        if (pauseState == currentPauseState)
+        {
+            Debug.Log("GameState is already " + pauseState + ".");
+            return;
+        }
+        
         switch (pauseState)
         {
-            case(WwisePausedState.None):
+            case(WwisePauseState.None):
                 Pause_None.SetValue();
                 break;
-            case(WwisePausedState.Pause_State):
+            case(WwisePauseState.Pause_State):
                 Pause_Pause_State.SetValue();
                 break;
-            case(WwisePausedState.Unpause_State):
+            case(WwisePauseState.Unpause_State):
                 Pause_Unpause_State.SetValue();
                 break;
         }
+        Debug.Log("New Wwise PauseState: " + pauseState + ".");
+        currentPauseState = pauseState;
     }
-    
 }
 

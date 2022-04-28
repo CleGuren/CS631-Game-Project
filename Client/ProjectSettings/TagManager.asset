@@ -11,6 +11,7 @@ TagManager:
   - GameBattleMusic
   - Enemy
   - Character
+  - AudioController
   layers:
   - Default
   - TransparentFX

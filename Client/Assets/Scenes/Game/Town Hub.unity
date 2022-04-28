@@ -5057,6 +5057,75 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1001 &435115619
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 333548851424336717, guid: d959416b9ea854dd39414e3ce0e72a20,
+        type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d959416b9ea854dd39414e3ce0e72a20, type: 3}
 --- !u!1 &451132471
 GameObject:
   m_ObjectHideFlags: 0
@@ -6739,8 +6808,6 @@ GameObject:
   - component: {fileID: 584966176}
   - component: {fileID: 584966178}
   - component: {fileID: 584966180}
-  - component: {fileID: 584966181}
-  - component: {fileID: 584966179}
   m_Layer: 0
   m_Name: Enter
   m_TagString: Untagged
@@ -6959,31 +7026,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.9999998, y: 2.017951}
   m_EdgeRadius: 0
---- !u!114 &584966179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584966174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c3f9bd7c2a1642f98bc9717494e5872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: d1bbb3b5
-  useOtherObject: 0
-  data:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4e3a49492c8914235af4e10d01bc5be4,
-      type: 2}
-  valueIdInternal: 0
-  groupIdInternal: 0
-  valueGuidInternal: 
-  groupGuidInternal: 
 --- !u!19719996 &584966180
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -7000,19 +7042,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!114 &584966181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584966174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8252e749404ce4dde9f710c6b1ba80d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerObject: {fileID: 584966174}
 --- !u!1 &593220561
 GameObject:
   m_ObjectHideFlags: 0
