@@ -29,6 +29,8 @@ public class AudioManager : MonoBehaviour
     [Header("Soundbanks")]
     [SerializeField] private List<AK.Wwise.Bank> Soundbanks;
     
+    /****** Events ******/
+    
     // Gameplay General State Events
     [Header ("General Event Gameplay States")]
     [SerializeField] private AK.Wwise.Event Gameplay_Set_State_Combat_State;
@@ -42,7 +44,7 @@ public class AudioManager : MonoBehaviour
     [Header ("Play Events")]
     [SerializeField] private AK.Wwise.Event Play_Gameplay_Music;
     [SerializeField] private AK.Wwise.Event Play_Main_Menu_Music;
-    [SerializeField] private AK.Wwise.Event Check_Game_State;   // audio
+    // [SerializeField] private AK.Wwise.Event Check_Game_State;   // audio
     
     [Header ("States Events")]
     [SerializeField] private AK.Wwise.Event Set_State_Boss_Phase_1_Music_State;
@@ -66,9 +68,7 @@ public class AudioManager : MonoBehaviour
     
     
     
-    
-    
-    
+    /****** States ******/
     
     // Game State
     [Header ("Game State Variables")]
@@ -107,20 +107,14 @@ public class AudioManager : MonoBehaviour
         
     void Start()
     {
-        if (
-            SceneManager.GetActiveScene().name != "LoginScene"
-            && SceneManager.GetActiveScene().name != "RegistrationScene"
-            && SceneManager.GetActiveScene().name != "MenuScene"
-            && SceneManager.GetActiveScene().name != "OpeningScene"
-            && SceneManager.GetActiveScene().name != "OptionsScene"
-        )
-        {
-            AkSoundEngine.StopAll();
-        }
-        
         SetWiseGameState(WwiseGameState.Explore_State);
         SetWiseMusicState(WwiseMusicState.Town_Music_State);
         SetWwisePausedState(WwisePauseState.Unpause_State);
+
+        // set the music state to town music on a gameObject
+        // in the town hub scene
+        Play_Main_Menu_Music.Post(gameObject);
+
     }
 
     void Update()
@@ -151,7 +145,7 @@ public class AudioManager : MonoBehaviour
         
         // set the enums to be off by default
         SetWiseGameState(WwiseGameState.Gameplay_None);
-        SetWiseMusicState(WwiseMusicState.None);
+        SetWiseMusicState(WwiseMusicState.Town_Music_State);
         SetWwisePausedState(WwisePauseState.None);
         
         bIsInitialized = true;
@@ -164,7 +158,6 @@ public class AudioManager : MonoBehaviour
             foreach (AK.Wwise.Bank bank in Soundbanks) // for each of the banks in the list
             {
                 bank.Load();
-                    
                 Debug.Log("Soundbanks have been loaded.");
             }
         }
