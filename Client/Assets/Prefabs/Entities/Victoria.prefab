@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8612101105135928224}
   - component: {fileID: 230857046643447520}
+  - component: {fileID: -4641197650417692736}
   m_Layer: 0
   m_Name: Victoria
   m_TagString: Character
@@ -45,28 +46,53 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myValue:
-    charName: 
+    charName: Victoria
     charPortrait: {fileID: 0}
     skill1_img: {fileID: 0}
     skill2_img: {fileID: 0}
     skill3_img: {fileID: 0}
     skill4_img: {fileID: 0}
-    skill1_cd: 0
-    skill2_cd: 0
-    skill3_cd: 0
-    skill4_cd: 0
-    level: 0
-    baseHP: 0
-    currentHP: 0
-    maxHP: 0
-    baseAtk: 0
-    currentAtk: 0
-    baseDef: 0
-    currentDef: 0
+    skill1_cd: 5
+    skill2_cd: 5
+    skill3_cd: 7
+    skill4_cd: 8
+    level: 1
+    baseHP: 45
+    currentHP: 45
+    maxHP: 45
+    baseAtk: 34
+    currentAtk: 34
+    baseDef: 30
+    currentDef: 30
     HeroEle: 0
-    HeroPrefWeapon: 0
-    mySkill: {fileID: 0}
+    HeroPrefWeapon: 1
   currentState: 0
+--- !u!61 &-4641197650417692736
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034952642621749657}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.02235794, y: 0.44941694}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.6452545, y: 1.0133685}
+  m_EdgeRadius: 0
 --- !u!1 &7839213985897093479
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 [System.Serializable]
 public class EnemyBase
 {
-    public string name;
+    public string enemyName;
     public float level;
     public float baseHP;
     public float currentHP;
@@ -14,6 +14,8 @@ public class EnemyBase
     public float currentAtk;
     public float baseDef;
     public float currentDef;
+    public float ChargeDiamond;
     public enum EleType { FIRE, WATER, EARTH, WIND, DARK, LIGHT }
     public EleType EnemyEle;
+    public List<BaseSkill> mySkill;
 }

@@ -39,7 +39,6 @@ public class MouseClickInputSystem : MonoBehaviour
 
     public void OnClick(InputAction.CallbackContext context) {
         if (context.performed) {
-                Debug.Log("I was " + context.phase);
         }
     }
 }

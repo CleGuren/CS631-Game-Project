@@ -11,5 +11,5 @@ public class HandleTurn
     public GameObject Target; //The target
 
     //which attack is performed
-
+    public BaseSkill chosenAtk;
 }

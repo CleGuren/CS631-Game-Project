@@ -816,6 +816,7 @@ MonoBehaviour:
     Type: 
     Attacker: {fileID: 0}
     Target: {fileID: 0}
+    chosenAtk: {fileID: 0}
   Character1Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
     type: 3}
   Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,

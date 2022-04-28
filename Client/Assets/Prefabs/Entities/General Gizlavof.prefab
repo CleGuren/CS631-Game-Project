@@ -45,17 +45,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Enemy:
-    name: General Gizlavof
+    enemyName: General Gizlavof
     level: 5
-    baseHP: 300
-    currentHP: 300
-    maxHP: 0
-    baseAtk: 40
+    baseHP: 100
+    currentHP: 500
+    maxHP: 500
+    baseAtk: 20
     currentAtk: 40
-    baseDef: 50
+    baseDef: 30
     currentDef: 50
+    ChargeDiamond: 3
     EnemyEle: 0
+    mySkill:
+    - {fileID: 3578982023610245155, guid: e8689ba36e89dc4478420bb1d665cf0c, type: 3}
+    - {fileID: 9162830019891061540, guid: 4515248da46958f44bfa4e9fa57373c9, type: 3}
+    - {fileID: 2129855035018406566, guid: 40cbd6d1c6e8f16449e20f46e5039cdf, type: 3}
+    - {fileID: 8753745509911889402, guid: 3b9cf8a4488d3fe4dbb4d91b58f19956, type: 3}
   currentState: 0
+  HeroToAttack: {fileID: 0}
 --- !u!1 &3837015338136852906
 GameObject:
   m_ObjectHideFlags: 0

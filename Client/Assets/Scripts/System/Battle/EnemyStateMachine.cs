@@ -12,6 +12,7 @@ public class EnemyStateMachine : MonoBehaviour
     private Vector3 startPosition;
     private BattleSystem curr_BS;
     private bool actionStarted;
+    private float currentChargeDiamond;
 
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
@@ -20,6 +21,7 @@ public class EnemyStateMachine : MonoBehaviour
     void Start() {
         currentState = State.START;
         startPosition = transform.position;
+        currentChargeDiamond = 0;
     }
 
     /*start
@@ -56,12 +58,22 @@ public class EnemyStateMachine : MonoBehaviour
 
     void ChooseAction() {
         HandleTurn myAttack = new HandleTurn();
-        myAttack.attackerName = Enemy.name + "(Clone)";
+        myAttack.attackerName = Enemy.enemyName + "(Clone)";
         myAttack.Type = "Enemy";
         myAttack.Attacker = this.gameObject;
         myAttack.Target = curr_BS.playerParty[Random.Range(0, curr_BS.playerParty.Count)];
-
-        curr_BS.CollectActions(myAttack);
+        if (currentChargeDiamond == Enemy.ChargeDiamond) {
+            //choose charge attack
+            myAttack.chosenAtk = Enemy.mySkill[Random.Range(1, Enemy.mySkill.Count)];
+            //reset charge diamond to 0
+            currentChargeDiamond = 0;
+        } else {
+            //choose regular attack
+            myAttack.chosenAtk = Enemy.mySkill[0];
+            //increase charge diamond by 1
+            currentChargeDiamond++;
+        }
+        curr_BS.CollectEnemyAction(myAttack);
     }
 
     private IEnumerator ActionTime() {
@@ -74,20 +86,22 @@ public class EnemyStateMachine : MonoBehaviour
         //plays animation
 
         //wait a bit
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         //do damge
+        DoDamage();
         //remove the action from list
         curr_BS.EnemyActionList.RemoveAt(0);
 
         actionStarted = false;
     }
 
-    // some function() {
-    //     DoDamage();
-    // }
-
-    // void DoDamage() {
-    //     float calc_damage = Enemy.currentAtk + BSM.PerformList[0].chosenAtk.atkDamage;
-    //     CharToAttack.GetComponent<HeroStateMachine>().TakeDamage(calc_damage);
-    // }
+    void DoDamage() { 
+        float calc_damage = (Enemy.currentAtk * curr_BS.EnemyActionList[0].chosenAtk.skillBaseDMG) - (0.2f * HeroToAttack.GetComponent<HeroStateMachine>().myValue.currentDef);
+        Debug.Log(Enemy.enemyName + " has performed " + curr_BS.EnemyActionList[0].chosenAtk.skillName + " and dealt " + calc_damage + " damage to " + curr_BS.EnemyActionList[0].Target.GetComponent<HeroStateMachine>().myValue.charName + "!");
+        Debug.Log(curr_BS.EnemyActionList[0].chosenAtk.skillDescription);
+        if (calc_damage <= 0) {
+            calc_damage = 0;
+        }
+        HeroToAttack.GetComponent<HeroStateMachine>().TakeDamage(calc_damage);
+    }
 }

@@ -125,7 +125,7 @@ public class BattleSystem : MonoBehaviour
         Instantiate(Enemy1Prefab, Enemy1Pos);
     }
 
-    public void CollectActions(HandleTurn input) {
+    public void CollectEnemyAction(HandleTurn input) {
         EnemyActionList.Add(input);
     }
 
@@ -148,7 +148,6 @@ public class BattleSystem : MonoBehaviour
         Skill2.image.sprite = CharInfo.myValue.skill2_img;
         Skill3.image.sprite = CharInfo.myValue.skill3_img;
         Skill4.image.sprite = CharInfo.myValue.skill4_img;
-        // Skill1_CD.text = (CharInfo.myValue.mySkill.S1BaseCD - 2) + "/" + CharInfo.myValue.skill1_cd;
         Skill1_CD.text = (CharInfo.myValue.skill1_cd - 1) + "/" + CharInfo.myValue.skill1_cd;
         Skill2_CD.text = (CharInfo.myValue.skill2_cd - 1) + "/" + CharInfo.myValue.skill2_cd;
         Skill3_CD.text = (CharInfo.myValue.skill3_cd - 1) + "/" + CharInfo.myValue.skill3_cd;
@@ -161,7 +160,7 @@ public class BattleSystem : MonoBehaviour
         PlayerChoice.attackerName = CharInfo.myValue.charName;
         PlayerChoice.Type = "Character";
         PlayerChoice.Attacker = GameObject.Find(CharInfo.myValue.charName + "(Clone)");
-        PlayerChoice.Target = GameObject.Find(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.name + "(Clone)");
+        PlayerChoice.Target = GameObject.Find(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.enemyName + "(Clone)");
     }
 
     public void PushSkill1ToList() {

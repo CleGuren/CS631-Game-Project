@@ -38,10 +38,10 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
         curr_BS.DisplayCharInformation(this);
     }
 
-    // public void TakeDamage(float damageTaken) {
-    //     myValue.currentHP -= damageTaken;
-    //     if (myValue.currentHP <= 0) {
-    //         currentState = State.DEAD;
-    //     }
-    // }
+    public void TakeDamage(float damageTaken) {
+        myValue.currentHP -= damageTaken;
+        if (myValue.currentHP <= 0) {
+            currentState = State.DEAD;
+        }
+    }
 }

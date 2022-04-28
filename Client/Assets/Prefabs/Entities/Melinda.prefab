@@ -59,7 +59,7 @@ MonoBehaviour:
     skill4_cd: 6
     level: 1
     baseHP: 35
-    currentHP: 12
+    currentHP: 35
     maxHP: 35
     baseAtk: 36
     currentAtk: 36
@@ -67,7 +67,6 @@ MonoBehaviour:
     currentDef: 25
     HeroEle: 1
     HeroPrefWeapon: 2
-    mySkill: {fileID: 0}
   currentState: 0
 --- !u!61 &7620598448061666141
 BoxCollider2D:
