@@ -6738,8 +6738,9 @@ GameObject:
   - component: {fileID: 584966177}
   - component: {fileID: 584966176}
   - component: {fileID: 584966178}
-  - component: {fileID: 584966179}
   - component: {fileID: 584966180}
+  - component: {fileID: 584966181}
+  - component: {fileID: 584966179}
   m_Layer: 0
   m_Name: Enter
   m_TagString: Untagged
@@ -6945,7 +6946,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5, y: -14.511934}
+  m_Offset: {x: -0.5, y: -13.991024}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -6956,7 +6957,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.9999998, y: 0.97613144}
+  m_Size: {x: 2.9999998, y: 2.017951}
   m_EdgeRadius: 0
 --- !u!114 &584966179
 MonoBehaviour:
@@ -6967,9 +6968,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 584966174}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 224b089bce0954baaa332b10e3553363, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c3f9bd7c2a1642f98bc9717494e5872, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triggerList: d1bbb3b5
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 4e3a49492c8914235af4e10d01bc5be4,
+      type: 2}
+  valueIdInternal: 0
+  groupIdInternal: 0
+  valueGuidInternal: 
+  groupGuidInternal: 
 --- !u!19719996 &584966180
 TilemapCollider2D:
   m_ObjectHideFlags: 0
@@ -6986,6 +7000,19 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!114 &584966181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584966174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8252e749404ce4dde9f710c6b1ba80d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: 584966174}
 --- !u!1 &593220561
 GameObject:
   m_ObjectHideFlags: 0

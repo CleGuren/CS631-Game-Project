@@ -16,6 +16,6 @@ public class SwappingMusicScene : MonoBehaviour
         )
         {
            AkSoundEngine.StopAll();
-        }       
+        }
     }
 }
