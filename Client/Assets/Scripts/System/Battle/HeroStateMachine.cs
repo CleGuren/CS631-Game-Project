@@ -8,6 +8,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public HeroBase myValue;
     public State currentState;
     private BattleSystem curr_BS;
+    private bool alive = true;
     // private float curr_cooldown = 0f;
     // private float max_cooldown = 5f;
     void Awake() {
@@ -30,6 +31,16 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             case (State.ACTION) : 
                 break;
             case (State.DEAD) : 
+                if (!alive) {
+
+                } else {
+                    //change tag
+                    //not targetable by enemies
+                    //not manageable
+                    //change color / dead animation
+                    alive = false;
+                    //reset heroinput
+                }
                 break;
         }
     }

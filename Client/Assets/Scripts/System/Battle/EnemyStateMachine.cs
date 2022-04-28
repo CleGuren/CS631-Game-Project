@@ -8,11 +8,10 @@ public class EnemyStateMachine : MonoBehaviour
     public EnemyBase Enemy;
     public State currentState;
     public GameObject HeroToAttack;
-    
-    private Vector3 startPosition;
     private BattleSystem curr_BS;
     private bool actionStarted;
-    private float currentChargeDiamond;
+    private int currentChargeDiamond;
+    public int CurrentDiamond { get {return currentChargeDiamond;} set {currentChargeDiamond = value;} } 
 
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
@@ -20,13 +19,8 @@ public class EnemyStateMachine : MonoBehaviour
 
     void Start() {
         currentState = State.START;
-        startPosition = transform.position;
         currentChargeDiamond = 0;
     }
-
-    /*start
-    choose action
-    waiting*/
 
     void Update() {
         switch (currentState) {
@@ -66,12 +60,12 @@ public class EnemyStateMachine : MonoBehaviour
             //choose charge attack
             myAttack.chosenAtk = Enemy.mySkill[Random.Range(1, Enemy.mySkill.Count)];
             //reset charge diamond to 0
-            currentChargeDiamond = 0;
+            // currentChargeDiamond = 0;
         } else {
             //choose regular attack
             myAttack.chosenAtk = Enemy.mySkill[0];
             //increase charge diamond by 1
-            currentChargeDiamond++;
+            // currentChargeDiamond++;
         }
         curr_BS.CollectEnemyAction(myAttack);
     }

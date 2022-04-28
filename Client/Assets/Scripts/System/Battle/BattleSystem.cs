@@ -28,8 +28,9 @@ public class BattleSystem : MonoBehaviour
     public Button AttackButton;
     public Button NoButton;
     
-    //Character Panel
+    //UI
     private GameObject CharacterActionBox;
+    private ChargeDiamond ChargeDiamondUI;
     private Text CharNameText;
     private Text CharLevel;
     private Text HP_Value;
@@ -47,11 +48,7 @@ public class BattleSystem : MonoBehaviour
     //Conditional States
     public BattleState curr_state;
     private bool playerTurn;
-    private bool triggerUI;
-    public bool PlayerTurn {
-        get { return playerTurn; }
-        set { playerTurn = value; }
-    } 
+    private bool triggerUI; 
     
     public void Awake() {
         CharacterActionBox = GameObject.Find("Character Action Box");
@@ -70,6 +67,7 @@ public class BattleSystem : MonoBehaviour
         Skill4_CD = GameObject.Find("Skill 4 CD").GetComponent<Text>();
         CharacterActionBox.SetActive(false);
         PlayerChoice = new HandleTurn();
+        ChargeDiamondUI = GameObject.Find("Charge Diamond Box").GetComponent<ChargeDiamond>();
     }
 
     void Start()
@@ -77,6 +75,7 @@ public class BattleSystem : MonoBehaviour
         curr_state = BattleState.START;
         playerTurn = true;
         triggerUI = false;
+        ChargeDiamondUI.HideDiamonds();
     }
 
     void Update() {
@@ -85,6 +84,7 @@ public class BattleSystem : MonoBehaviour
                 SpawnEntities();
                 playerParty.AddRange(GameObject.FindGameObjectsWithTag("Character"));
                 myEnemy.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
+                ChargeDiamondUI.SetDiamonds(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond);
                 curr_state = BattleState.PLAYERTURN;
                 break;
             case(BattleState.PLAYERTURN) : 
@@ -106,6 +106,13 @@ public class BattleSystem : MonoBehaviour
                     enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
                 } else {
                     playerTurn = true;
+                    if ((myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond == myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond)) {
+                        myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond = 0;
+                        ChargeDiamondUI.ResetDiamond();
+                    } else {
+                        myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond += 1;
+                        ChargeDiamondUI.GainDiamond();
+                    }
                     curr_state = BattleState.PLAYERTURN;
                 }
                 break;

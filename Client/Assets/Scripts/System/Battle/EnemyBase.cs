@@ -14,7 +14,7 @@ public class EnemyBase
     public float currentAtk;
     public float baseDef;
     public float currentDef;
-    public float ChargeDiamond;
+    public int ChargeDiamond;
     public enum EleType { FIRE, WATER, EARTH, WIND, DARK, LIGHT }
     public EleType EnemyEle;
     public List<BaseSkill> mySkill;
