@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: c3a60afc0e8e384fa7395c83e4c0afeb
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: c3a60afc0e8e384fa7395c83e4c0afeb
     GuidInternal: 
-    m_lastTime: -8585507587581435296
+    m_lastTime: -8585549853754775808
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 62741b0fbcc2f0439d89955196a0eee5
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 62741b0fbcc2f0439d89955196a0eee5
     GuidInternal: 
-    m_lastTime: -8585507587588496061
+    m_lastTime: -8585527654774775808
     List:
     - name: Env
       guid: 02a4b8df81797e4bb51966d762b31d03
@@ -65,7 +65,7 @@ MonoBehaviour:
       - ElementName: Env
         ObjectType: 2
         guid: 02a4b8df81797e4bb51966d762b31d03
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official\Master\SFX\Env
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official/Master/SFX/Env
     - name: Master
       guid: 3039ce3a5e79e24a8a612fd487289925
       id: 4056684167
@@ -85,7 +85,7 @@ MonoBehaviour:
       - ElementName: Master
         ObjectType: 2
         guid: 3039ce3a5e79e24a8a612fd487289925
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official\Master
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official/Master
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -99,7 +99,7 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
     - name: Music
       guid: 8246cda64fafdb42ba9055a07067609f
       id: 3991942870
@@ -122,7 +122,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 2
         guid: 8246cda64fafdb42ba9055a07067609f
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official\Master\Music
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official/Master/Music
     - name: Official
       guid: 9ed0175827016c46a595cd7802b8d3ee
       id: 4009941598
@@ -139,7 +139,7 @@ MonoBehaviour:
       - ElementName: Official
         ObjectType: 4
         guid: 9ed0175827016c46a595cd7802b8d3ee
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official
     - name: SFX
       guid: dee89e43d35a2445a9d870ff8262485b
       id: 393239870
@@ -162,7 +162,7 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 2
         guid: dee89e43d35a2445a9d870ff8262485b
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official\Master\SFX
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official/Master/SFX
     - name: Test
       guid: d4fdc2bb418e7b4db85c08d37f63dbc8
       id: 3157003241
@@ -179,7 +179,7 @@ MonoBehaviour:
       - ElementName: Test
         ObjectType: 4
         guid: d4fdc2bb418e7b4db85c08d37f63dbc8
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test
     - name: Test_Environment
       guid: fab70c255af1274faa01d5477face822
       id: 4133548207
@@ -205,7 +205,7 @@ MonoBehaviour:
       - ElementName: Test_Environment
         ObjectType: 2
         guid: fab70c255af1274faa01d5477face822
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test\Test_Master\Test_SFX\Test_Environment
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test/Test_Master/Test_SFX/Test_Environment
     - name: Test_Master
       guid: 9bf6d67b4d2c3c42b59e8b88107b9e27
       id: 959552862
@@ -225,7 +225,7 @@ MonoBehaviour:
       - ElementName: Test_Master
         ObjectType: 2
         guid: 9bf6d67b4d2c3c42b59e8b88107b9e27
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test\Test_Master
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test/Test_Master
     - name: Test_Music
       guid: 121837afaedaf2499ce1fbef3e6aa4ab
       id: 379521629
@@ -248,7 +248,7 @@ MonoBehaviour:
       - ElementName: Test_Music
         ObjectType: 2
         guid: 121837afaedaf2499ce1fbef3e6aa4ab
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test\Test_Master\Test_Music
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test/Test_Master/Test_Music
     - name: Test_SFX
       guid: cc294cf8f827c74f91085d7d25de9335
       id: 3712553433
@@ -271,7 +271,7 @@ MonoBehaviour:
       - ElementName: Test_SFX
         ObjectType: 2
         guid: cc294cf8f827c74f91085d7d25de9335
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test\Test_Master\Test_SFX
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test/Test_Master/Test_SFX
     - name: Test_UI
       guid: 9635165f2ce44546bcb88387064ce3c6
       id: 1896376002
@@ -297,7 +297,7 @@ MonoBehaviour:
       - ElementName: Test_UI
         ObjectType: 2
         guid: 9635165f2ce44546bcb88387064ce3c6
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Test\Test_Master\Test_SFX\Test_UI
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Test/Test_Master/Test_SFX/Test_UI
     - name: UI
       guid: cf6511b30beb9346ad9df27afe92ebc7
       id: 1551306167
@@ -323,9 +323,9 @@ MonoBehaviour:
       - ElementName: UI
         ObjectType: 2
         guid: cf6511b30beb9346ad9df27afe92ebc7
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Official\Master\SFX\UI
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus/Official/Master/SFX/UI
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -333,12 +333,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1e382a6caf7a134c807d15552ed82b55
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 1e382a6caf7a134c807d15552ed82b55
     GuidInternal: 
-    m_lastTime: -8585507587581525022
+    m_lastTime: -8585549853754775808
     List: []
-  - PhysicalPath: SoundBanks\Official.wwu
+  - PhysicalPath: SoundBanks/Official.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -346,10 +346,10 @@ MonoBehaviour:
     - ElementName: Official
       ObjectType: 12
       guid: 62e662e3b15f584ea7fa1e0bf74f01b3
-    ParentPath: SoundBanks\Official
+    ParentPath: SoundBanks/Official
     guid: 62e662e3b15f584ea7fa1e0bf74f01b3
     GuidInternal: 
-    m_lastTime: -8585507587581515036
+    m_lastTime: -8585527641274775808
     List:
     - name: Master
       guid: 2751ae363bb9dd44a7149085d635e481
@@ -364,8 +364,8 @@ MonoBehaviour:
       - ElementName: Master
         ObjectType: 7
         guid: 2751ae363bb9dd44a7149085d635e481
-      Path: SoundBanks\Official\Master
-  - PhysicalPath: SoundBanks\Test.wwu
+      Path: SoundBanks/Official/Master
+  - PhysicalPath: SoundBanks/Test.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -373,10 +373,10 @@ MonoBehaviour:
     - ElementName: Test
       ObjectType: 12
       guid: c83486f15f9f8c45bbb58879680876bd
-    ParentPath: SoundBanks\Test
+    ParentPath: SoundBanks/Test
     guid: c83486f15f9f8c45bbb58879680876bd
     GuidInternal: 
-    m_lastTime: -8585507587581515036
+    m_lastTime: -8585527641654775808
     List:
     - name: Test_Master
       guid: 59125325cb4e7f4dbce8858b9f14eace
@@ -391,9 +391,9 @@ MonoBehaviour:
       - ElementName: Test_Master
         ObjectType: 7
         guid: 59125325cb4e7f4dbce8858b9f14eace
-      Path: SoundBanks\Test\Test_Master
+      Path: SoundBanks/Test/Test_Master
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -401,12 +401,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1b94de36e339fc4893fd99a00b289419
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: 1b94de36e339fc4893fd99a00b289419
     GuidInternal: 
-    m_lastTime: -8585507587598422490
+    m_lastTime: -8585527639754775808
     List: []
-  - PhysicalPath: Events\Official.wwu
+  - PhysicalPath: Events/Official.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -414,10 +414,10 @@ MonoBehaviour:
     - ElementName: Official
       ObjectType: 12
       guid: 5b4a0c2f505a8c43b343c5cf02aa827a
-    ParentPath: Events\Official
+    ParentPath: Events/Official
     guid: 5b4a0c2f505a8c43b343c5cf02aa827a
     GuidInternal: 
-    m_lastTime: -8585507587598422490
+    m_lastTime: -8585505614674775808
     List:
     - name: Gameplay
       guid: 182110817e4f3748910c6f6fa6083796
@@ -435,7 +435,7 @@ MonoBehaviour:
       - ElementName: Gameplay
         ObjectType: 4
         guid: 182110817e4f3748910c6f6fa6083796
-      Path: Events\Official\General_States\Gameplay
+      Path: Events/Official/General_States/Gameplay
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -452,7 +452,7 @@ MonoBehaviour:
       - ElementName: General_States
         ObjectType: 4
         guid: 206d40d614256e4cb61c0271985b2aae
-      Path: Events\Official\General_States
+      Path: Events/Official/General_States
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -469,7 +469,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 8e7402409967e541bcfad92266f2920d
-      Path: Events\Official\Music
+      Path: Events/Official/Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -489,7 +489,7 @@ MonoBehaviour:
       - ElementName: Pause
         ObjectType: 4
         guid: ea5f16a6867a934a99183a4c15d09bb6
-      Path: Events\Official\General_States\Pause
+      Path: Events/Official/General_States/Pause
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -509,7 +509,7 @@ MonoBehaviour:
       - ElementName: Play
         ObjectType: 4
         guid: 96e64dad53cbc343baa66a5cc4e6c384
-      Path: Events\Official\Music\Play
+      Path: Events/Official/Music/Play
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -532,7 +532,7 @@ MonoBehaviour:
       - ElementName: Play_Gameplay_Music
         ObjectType: 3
         guid: bd0ec144de5f7d478e7ff6b9c5173f67
-      Path: Events\Official\Music\Play\Play_Gameplay_Music
+      Path: Events/Official/Music/Play/Play_Gameplay_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -555,7 +555,7 @@ MonoBehaviour:
       - ElementName: Play_Main_Menu_Music
         ObjectType: 3
         guid: 5103051584e5fa43bb718ebaf9a8eacb
-      Path: Events\Official\Music\Play\Play_Main_Menu_Music
+      Path: Events/Official/Music/Play/Play_Main_Menu_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -578,7 +578,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_UI_Back
         ObjectType: 3
         guid: a12399f05ab6c341baf94673fabf00f9
-      Path: Events\Official\SFX\UI\Play_SFX_UI_Back
+      Path: Events/Official/SFX/UI/Play_SFX_UI_Back
       maxAttenuation: 0
       maxDuration: 0.999977
       minDuration: 0.999977
@@ -601,7 +601,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_UI_Confirm
         ObjectType: 3
         guid: 05deda0524fd574a97a8aac46b652502
-      Path: Events\Official\SFX\UI\Play_SFX_UI_Confirm
+      Path: Events/Official/SFX/UI/Play_SFX_UI_Confirm
       maxAttenuation: 0
       maxDuration: 0.999977
       minDuration: 0.999977
@@ -624,7 +624,7 @@ MonoBehaviour:
       - ElementName: Play_SFX_UI_Select
         ObjectType: 3
         guid: 949c5a38c8c8de48bc9e0ed8be101df5
-      Path: Events\Official\SFX\UI\Play_SFX_UI_Select
+      Path: Events/Official/SFX/UI/Play_SFX_UI_Select
       maxAttenuation: 0
       maxDuration: 0.499977
       minDuration: 0.499977
@@ -647,7 +647,7 @@ MonoBehaviour:
       - ElementName: Set_State_Boss_Phase_1_Music_State
         ObjectType: 3
         guid: 38401be15155b14eb99f1f2ad9dcd0d5
-      Path: Events\Official\Music\States\Set_State_Boss_Phase_1_Music_State
+      Path: Events/Official/Music/States/Set_State_Boss_Phase_1_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
       - ElementName: Set_State_Boss_Phase_2_Music_State
         ObjectType: 3
         guid: c37192f77c5eb44d9f01b82c1db0759d
-      Path: Events\Official\Music\States\Set_State_Boss_Phase_2_Music_State
+      Path: Events/Official/Music/States/Set_State_Boss_Phase_2_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -693,7 +693,7 @@ MonoBehaviour:
       - ElementName: Set_State_Combat_Music_State
         ObjectType: 3
         guid: e5ce84f58a6dd348b5082ede7723f8a5
-      Path: Events\Official\Music\States\Set_State_Combat_Music_State
+      Path: Events/Official/Music/States/Set_State_Combat_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -716,7 +716,7 @@ MonoBehaviour:
       - ElementName: Set_State_Combat_State
         ObjectType: 3
         guid: 7653c91b7ed62e4fa46383b4c0bb4c88
-      Path: Events\Official\General_States\Gameplay\Set_State_Combat_State
+      Path: Events/Official/General_States/Gameplay/Set_State_Combat_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -739,7 +739,7 @@ MonoBehaviour:
       - ElementName: Set_State_Defeat_Music_State
         ObjectType: 3
         guid: 62f81e037c968d4485f30c7dd539272e
-      Path: Events\Official\Music\States\Set_State_Defeat_Music_State
+      Path: Events/Official/Music/States/Set_State_Defeat_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
       - ElementName: Set_State_Explore_State
         ObjectType: 3
         guid: bf1d38806c087d409b6b43a78ed91372
-      Path: Events\Official\General_States\Gameplay\Set_State_Explore_State
+      Path: Events/Official/General_States/Gameplay/Set_State_Explore_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -785,7 +785,7 @@ MonoBehaviour:
       - ElementName: Set_State_Pause_State
         ObjectType: 3
         guid: 4e36ffa24a57db41b5dbccb542070bb7
-      Path: Events\Official\General_States\Pause\Set_State_Pause_State
+      Path: Events/Official/General_States/Pause/Set_State_Pause_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -808,7 +808,7 @@ MonoBehaviour:
       - ElementName: Set_State_Town_Music_State
         ObjectType: 3
         guid: fc274d2297f919489d786accaa080b16
-      Path: Events\Official\Music\States\Set_State_Town_Music_State
+      Path: Events/Official/Music/States/Set_State_Town_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -831,7 +831,7 @@ MonoBehaviour:
       - ElementName: Set_State_Training_Ground_Music_State
         ObjectType: 3
         guid: 1ac83933fe36c7439345ebd6b2c32dcd
-      Path: Events\Official\Music\States\Set_State_Training_Ground_Music_State
+      Path: Events/Official/Music/States/Set_State_Training_Ground_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -854,7 +854,7 @@ MonoBehaviour:
       - ElementName: Set_State_Unpause_State
         ObjectType: 3
         guid: 953a33549e5ac64e84440240616b7d00
-      Path: Events\Official\General_States\Pause\Set_State_Unpause_State
+      Path: Events/Official/General_States/Pause/Set_State_Unpause_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -877,7 +877,7 @@ MonoBehaviour:
       - ElementName: Set_State_Victory_Music_State
         ObjectType: 3
         guid: c691b2ae0d3e5044969f0aed3d3fd110
-      Path: Events\Official\Music\States\Set_State_Victory_Music_State
+      Path: Events/Official/Music/States/Set_State_Victory_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -894,7 +894,7 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 322640b8339a6b4f96d87472f0ede5f8
-      Path: Events\Official\SFX
+      Path: Events/Official/SFX
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -914,7 +914,7 @@ MonoBehaviour:
       - ElementName: States
         ObjectType: 4
         guid: 43e199fd0a4fb74084606bdf8fa0f2af
-      Path: Events\Official\Music\States
+      Path: Events/Official/Music/States
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -934,7 +934,7 @@ MonoBehaviour:
       - ElementName: Stop
         ObjectType: 4
         guid: 101e72e419300e48b92ddc815aa721df
-      Path: Events\Official\Music\Stop
+      Path: Events/Official/Music/Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -957,7 +957,7 @@ MonoBehaviour:
       - ElementName: Stop_Gameplay_Music
         ObjectType: 3
         guid: 28d20fb06462c6439f876da2f09387e4
-      Path: Events\Official\Music\Stop\Stop_Gameplay_Music
+      Path: Events/Official/Music/Stop/Stop_Gameplay_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -980,7 +980,7 @@ MonoBehaviour:
       - ElementName: Stop_Main_Menu_Music
         ObjectType: 3
         guid: a38a9b348d99bf4a98d52f501431ae3b
-      Path: Events\Official\Music\Stop\Stop_Main_Menu_Music
+      Path: Events/Official/Music/Stop/Stop_Main_Menu_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1000,11 +1000,11 @@ MonoBehaviour:
       - ElementName: UI
         ObjectType: 4
         guid: e67712ac4e8d9a43b94794b4432f40cb
-      Path: Events\Official\SFX\UI
+      Path: Events/Official/SFX/UI
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-  - PhysicalPath: Events\Test.wwu
+  - PhysicalPath: Events/Test.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -1012,10 +1012,10 @@ MonoBehaviour:
     - ElementName: Test
       ObjectType: 12
       guid: 6f18160d4d300e4b9c52c85606492f93
-    ParentPath: Events\Test
+    ParentPath: Events/Test
     guid: 6f18160d4d300e4b9c52c85606492f93
     GuidInternal: 
-    m_lastTime: -8585507587598412501
+    m_lastTime: -8585543171454775808
     List:
     - name: 2D_Env_Switches
       guid: cf73a71da3c0434cbc1a71e3a07caa68
@@ -1036,7 +1036,7 @@ MonoBehaviour:
       - ElementName: 2D_Env_Switches
         ObjectType: 4
         guid: cf73a71da3c0434cbc1a71e3a07caa68
-      Path: Events\Test\SFX\2D_Environment\2D_Env_Switches
+      Path: Events/Test/SFX/2D_Environment/2D_Env_Switches
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1056,7 +1056,7 @@ MonoBehaviour:
       - ElementName: 2D_Environment
         ObjectType: 4
         guid: 3c62aeaf7ccb644991c250668bbf9f23
-      Path: Events\Test\SFX\2D_Environment
+      Path: Events/Test/SFX/2D_Environment
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1073,7 +1073,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 4
         guid: 8432dea01017f04dbeeb93861ab39870
-      Path: Events\Test\Music
+      Path: Events/Test/Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1093,7 +1093,7 @@ MonoBehaviour:
       - ElementName: Music_Switches
         ObjectType: 4
         guid: 35deef496949c045b0291fc23c593290
-      Path: Events\Test\Music\Music_Switches
+      Path: Events/Test/Music/Music_Switches
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1113,7 +1113,7 @@ MonoBehaviour:
       - ElementName: Play
         ObjectType: 4
         guid: 7780759d571b324fa1f2b271ff2e4bd9
-      Path: Events\Test\Music\Play
+      Path: Events/Test/Music/Play
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1136,7 +1136,7 @@ MonoBehaviour:
       - ElementName: Play
         ObjectType: 4
         guid: 211ae3eebc84d6499375c8e104e5051d
-      Path: Events\Test\SFX\2D_Environment\Play
+      Path: Events/Test/SFX/2D_Environment/Play
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1162,7 +1162,7 @@ MonoBehaviour:
       - ElementName: Play_Test_2D
         ObjectType: 3
         guid: ee16bb293f6beb458b046b0f8f4c4983
-      Path: Events\Test\SFX\2D_Environment\Play\Play_Test_2D
+      Path: Events/Test/SFX/2D_Environment/Play/Play_Test_2D
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1188,7 +1188,7 @@ MonoBehaviour:
       - ElementName: Play_Test_Click
         ObjectType: 3
         guid: 3f66e3673be0d743a2a71f7c261f24d4
-      Path: Events\Test\SFX\2D_Environment\Play\Play_Test_Click
+      Path: Events/Test/SFX/2D_Environment/Play/Play_Test_Click
       maxAttenuation: 0
       maxDuration: 0.957143
       minDuration: 0.957143
@@ -1211,7 +1211,7 @@ MonoBehaviour:
       - ElementName: Play_Test_Gameplay_Music
         ObjectType: 3
         guid: 10053c1f2ef33f438d2a001d97af6d44
-      Path: Events\Test\Music\Play\Play_Test_Gameplay_Music
+      Path: Events/Test/Music/Play/Play_Test_Gameplay_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1234,7 +1234,7 @@ MonoBehaviour:
       - ElementName: Play_Test_Main_Menu_Music
         ObjectType: 3
         guid: df91759d1066c64a83f106d5e847a8fe
-      Path: Events\Test\Music\Play\Play_Test_Main_Menu_Music
+      Path: Events/Test/Music/Play/Play_Test_Main_Menu_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1260,7 +1260,7 @@ MonoBehaviour:
       - ElementName: Play_Test_Wood
         ObjectType: 3
         guid: 44e3966e069a574fb5cf1dff0af46551
-      Path: Events\Test\SFX\2D_Environment\Play\Play_Test_Wood
+      Path: Events/Test/SFX/2D_Environment/Play/Play_Test_Wood
       maxAttenuation: 20
       maxDuration: -1
       minDuration: -1
@@ -1280,7 +1280,7 @@ MonoBehaviour:
       - ElementName: Set_State_Test_Combat
         ObjectType: 3
         guid: adabdb5871ba594e8587518e4af85bc4
-      Path: Events\Test\States\Set_State_Test_Combat
+      Path: Events/Test/States/Set_State_Test_Combat
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1300,7 +1300,7 @@ MonoBehaviour:
       - ElementName: Set_State_Test_Explore
         ObjectType: 3
         guid: f60165eb8e2e654b8afe3af123a87236
-      Path: Events\Test\States\Set_State_Test_Explore
+      Path: Events/Test/States/Set_State_Test_Explore
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1320,7 +1320,7 @@ MonoBehaviour:
       - ElementName: Set_State_Test_Pause
         ObjectType: 3
         guid: 910e2669b93fd34688c53b2632be1987
-      Path: Events\Test\States\Set_State_Test_Pause
+      Path: Events/Test/States/Set_State_Test_Pause
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1340,7 +1340,7 @@ MonoBehaviour:
       - ElementName: Set_State_Test_Unpause
         ObjectType: 3
         guid: e9b30bcbc5ebbe4b86b58842bae5c55f
-      Path: Events\Test\States\Set_State_Test_Unpause
+      Path: Events/Test/States/Set_State_Test_Unpause
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1366,7 +1366,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_Env_Explore
         ObjectType: 3
         guid: 14a8692fefd8f54daf9480fe90a63d7f
-      Path: Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_Explore
+      Path: Events/Test/SFX/2D_Environment/2D_Env_Switches/Set_Switch_Test_Env_Explore
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1392,7 +1392,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_Env_Town
         ObjectType: 3
         guid: 76fc9c53a72d294d85b494e44ff88ec0
-      Path: Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_Town
+      Path: Events/Test/SFX/2D_Environment/2D_Env_Switches/Set_Switch_Test_Env_Town
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1418,7 +1418,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_Env_TrainingGround
         ObjectType: 3
         guid: 47381d0bd59abe4687d295d9cf246be9
-      Path: Events\Test\SFX\2D_Environment\2D_Env_Switches\Set_Switch_Test_Env_TrainingGround
+      Path: Events/Test/SFX/2D_Environment/2D_Env_Switches/Set_Switch_Test_Env_TrainingGround
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1441,7 +1441,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Boss1
         ObjectType: 3
         guid: a44e7c55b8929a4e836a2621c67b41e5
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Boss1
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Boss1
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1464,7 +1464,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Boss2
         ObjectType: 3
         guid: 02c47b0386a39044a0afefce4eea0cb6
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Boss2
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Boss2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1487,7 +1487,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Combat
         ObjectType: 3
         guid: c598e4fc8547b84d8b8b81cc0fae3e8a
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Combat
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Combat
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1510,7 +1510,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Defeat
         ObjectType: 3
         guid: d6b2deb9cc5e4445b51ee3147495fc8e
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Defeat
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Defeat
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1533,7 +1533,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Town
         ObjectType: 3
         guid: 5009ecd95e124c4bb86ff7d09c52a05c
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Town
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Town
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1556,7 +1556,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_TrainingGround
         ObjectType: 3
         guid: 9d3c75359e3c644c82a0908a60557a45
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_TrainingGround
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_TrainingGround
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1579,7 +1579,7 @@ MonoBehaviour:
       - ElementName: Set_Switch_Test_MC_Victory
         ObjectType: 3
         guid: 0bf04d35ad55a44b948bf2937d46e293
-      Path: Events\Test\Music\Music_Switches\Set_Switch_Test_MC_Victory
+      Path: Events/Test/Music/Music_Switches/Set_Switch_Test_MC_Victory
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1596,7 +1596,7 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: e3c623065b08d548b61e6dabcaea461d
-      Path: Events\Test\SFX
+      Path: Events/Test/SFX
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1613,7 +1613,7 @@ MonoBehaviour:
       - ElementName: States
         ObjectType: 4
         guid: 626c87a52fc9a543a800a4d078edff2f
-      Path: Events\Test\States
+      Path: Events/Test/States
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1633,7 +1633,7 @@ MonoBehaviour:
       - ElementName: Stop
         ObjectType: 4
         guid: 2285be3dfd54764994c71bc932806ca6
-      Path: Events\Test\Music\Stop
+      Path: Events/Test/Music/Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1656,7 +1656,7 @@ MonoBehaviour:
       - ElementName: Stop
         ObjectType: 4
         guid: 1ec04c5448f3cb4ea02831408e927958
-      Path: Events\Test\SFX\2D_Environment\Stop
+      Path: Events/Test/SFX/2D_Environment/Stop
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -1682,7 +1682,7 @@ MonoBehaviour:
       - ElementName: Stop_Test_2D
         ObjectType: 3
         guid: 93035ffcefe7a34f8630040ebdf389d1
-      Path: Events\Test\SFX\2D_Environment\Stop\Stop_Test_2D
+      Path: Events/Test/SFX/2D_Environment/Stop/Stop_Test_2D
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1708,7 +1708,7 @@ MonoBehaviour:
       - ElementName: Stop_Test_Click
         ObjectType: 3
         guid: b6b5e46f3a4a5d48a6a8ef63abd62e30
-      Path: Events\Test\SFX\2D_Environment\Stop\Stop_Test_Click
+      Path: Events/Test/SFX/2D_Environment/Stop/Stop_Test_Click
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1731,7 +1731,7 @@ MonoBehaviour:
       - ElementName: Stop_Test_Gameplay_Music
         ObjectType: 3
         guid: 52403d1f065bdd41b979ba7f96ee31d6
-      Path: Events\Test\Music\Stop\Stop_Test_Gameplay_Music
+      Path: Events/Test/Music/Stop/Stop_Test_Gameplay_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1754,7 +1754,7 @@ MonoBehaviour:
       - ElementName: Stop_Test_Main_Menu_Music
         ObjectType: 3
         guid: c601695bf8077445a0b72faee141c72b
-      Path: Events\Test\Music\Stop\Stop_Test_Main_Menu_Music
+      Path: Events/Test/Music/Stop/Stop_Test_Main_Menu_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1780,12 +1780,12 @@ MonoBehaviour:
       - ElementName: Stop_Test_Wood
         ObjectType: 3
         guid: 1844c99f7285014baded7fd608375e82
-      Path: Events\Test\SFX\2D_Environment\Stop\Stop_Test_Wood
+      Path: Events/Test/SFX/2D_Environment/Stop/Stop_Test_Wood
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1793,13 +1793,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 5ab81a52983bf24a8bb62ada36cd15df
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: 5ab81a52983bf24a8bb62ada36cd15df
     GuidInternal: 
-    m_lastTime: -8585507587598392516
+    m_lastTime: -8585549853754775808
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1807,12 +1807,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 8dcce9b5045ff74c905c6b9dcce8e644
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: 8dcce9b5045ff74c905c6b9dcce8e644
     GuidInternal: 
-    m_lastTime: -8585507587581485068
+    m_lastTime: -8585527658054775808
     List: []
-  - PhysicalPath: States\Official.wwu
+  - PhysicalPath: States/Official.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1820,10 +1820,10 @@ MonoBehaviour:
     - ElementName: Official
       ObjectType: 12
       guid: 185cf2165ab7c24b9a8c48bc743260e1
-    ParentPath: States\Official
+    ParentPath: States/Official
     guid: 185cf2165ab7c24b9a8c48bc743260e1
     GuidInternal: 
-    m_lastTime: -8585507587581475074
+    m_lastTime: -8585505614674775808
     List:
     - name: Gameplay
       guid: 5892178ef12aa242ad10d3d5e9030131
@@ -1838,7 +1838,7 @@ MonoBehaviour:
       - ElementName: Gameplay
         ObjectType: 9
         guid: 5892178ef12aa242ad10d3d5e9030131
-      Path: States\Official\Gameplay
+      Path: States/Official/Gameplay
       values:
       - name: Combat_State
         guid: 343306449d6883469e4fc33e1c21d211
@@ -1904,7 +1904,7 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 9
         guid: 623e3445adf178498230a13b0535c0de
-      Path: States\Official\Music
+      Path: States/Official/Music
       values:
       - name: Boss_Phase_1_Music_State
         guid: a4d66fc1caef11408e4e8c6f3f949161
@@ -2050,7 +2050,7 @@ MonoBehaviour:
       - ElementName: Pause
         ObjectType: 9
         guid: eca343e38a367847ba11a565ee0ba48b
-      Path: States\Official\Pause
+      Path: States/Official/Pause
       values:
       - name: None
         guid: fc6e13fcdcad614abe71904309ce9fde
@@ -2103,7 +2103,7 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-  - PhysicalPath: States\Test.wwu
+  - PhysicalPath: States/Test.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -2111,10 +2111,10 @@ MonoBehaviour:
     - ElementName: Test
       ObjectType: 12
       guid: a958488ca212ec4dbb1c4b83fd76bfb0
-    ParentPath: States\Test
+    ParentPath: States/Test
     guid: a958488ca212ec4dbb1c4b83fd76bfb0
     GuidInternal: 
-    m_lastTime: -8585507587581475074
+    m_lastTime: -8585543172314775808
     List:
     - name: Test_Gameplay
       guid: a26eb604289c604f8d076aecff0a5562
@@ -2129,7 +2129,7 @@ MonoBehaviour:
       - ElementName: Test_Gameplay
         ObjectType: 9
         guid: a26eb604289c604f8d076aecff0a5562
-      Path: States\Test\Test_Gameplay
+      Path: States/Test/Test_Gameplay
       values:
       - name: None
         guid: 83447cb23c8a6a4f8f28d85267159b9b
@@ -2195,7 +2195,7 @@ MonoBehaviour:
       - ElementName: Test_Pause
         ObjectType: 9
         guid: 435881288f37d3448b6f537096e7c456
-      Path: States\Test\Test_Pause
+      Path: States/Test/Test_Pause
       values:
       - name: None
         guid: 0d025afd859cc24590b1611e89147bd5
@@ -2249,7 +2249,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -2257,12 +2257,12 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 6793268ccd0b8d469d739c3fc408497f
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 6793268ccd0b8d469d739c3fc408497f
     GuidInternal: 
-    m_lastTime: -8585507587581465083
+    m_lastTime: -8585549243134775808
     List: []
-  - PhysicalPath: Switches\Official.wwu
+  - PhysicalPath: Switches/Official.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -2270,10 +2270,10 @@ MonoBehaviour:
     - ElementName: Official
       ObjectType: 12
       guid: e5005d462edcd94fade4600dd267965e
-    ParentPath: Switches\Official
+    ParentPath: Switches/Official
     guid: e5005d462edcd94fade4600dd267965e
     GuidInternal: 
-    m_lastTime: -8585507587581455096
+    m_lastTime: -8585527658054775808
     List:
     - name: Env_Amb
       guid: c07eb409ee33cb49a8575cf3b6d5f388
@@ -2288,7 +2288,7 @@ MonoBehaviour:
       - ElementName: Env_Amb
         ObjectType: 11
         guid: c07eb409ee33cb49a8575cf3b6d5f388
-      Path: Switches\Official\Env_Amb
+      Path: Switches/Official/Env_Amb
       values:
       - name: Env_Explore_Amb
         guid: dfb337b84a5d57418f47bc14b69090c0
@@ -2341,7 +2341,7 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
-  - PhysicalPath: Switches\Test.wwu
+  - PhysicalPath: Switches/Test.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -2349,10 +2349,10 @@ MonoBehaviour:
     - ElementName: Test
       ObjectType: 12
       guid: 395bb15eb0410945b73beba21cc860d3
-    ParentPath: Switches\Test
+    ParentPath: Switches/Test
     guid: 395bb15eb0410945b73beba21cc860d3
     GuidInternal: 
-    m_lastTime: -8585507587581455096
+    m_lastTime: -8585543172314775808
     List:
     - name: Test_Environment
       guid: 68e4a44d5ca6c34ea0475e97fe6d58ee
@@ -2367,7 +2367,7 @@ MonoBehaviour:
       - ElementName: Test_Environment
         ObjectType: 11
         guid: 68e4a44d5ca6c34ea0475e97fe6d58ee
-      Path: Switches\Test\Test_Environment
+      Path: Switches/Test/Test_Environment
       values:
       - name: Test_Env_Explore
         guid: 8f744e7a9712ab4b9e89e67a8fb9d559
@@ -2433,7 +2433,7 @@ MonoBehaviour:
       - ElementName: Test_Gameplay_Music
         ObjectType: 11
         guid: 91d2a22e06d9fd4386e70e1a687ffc17
-      Path: Switches\Test\Test_Gameplay_Music
+      Path: Switches/Test/Test_Gameplay_Music
       values:
       - name: Test_MC_Boss1
         guid: a477d17c3c9e9c478790b3c632ed9044
@@ -2551,7 +2551,7 @@ MonoBehaviour:
       ValueIcons: []
       valuesInternal: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -2559,14 +2559,14 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: ece500bd99c6d64aa557c7aa19eb898c
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: ece500bd99c6d64aa557c7aa19eb898c
     GuidInternal: 
-    m_lastTime: -8585507587581445108
+    m_lastTime: -8585549853754775808
     List: []
-  ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
-  AutoSyncSelection: 0
+  ExpandedFileSystemItemIds: 01000000020000000400000005000000060000000700000008000000090000000c0000000d000000110000001d00000020000000210000002200000023000000240000002500000026000000270000002d0000003c0000003d0000004300000045000000460000004a00000089000000
+  ExpandedWaapiItemIds: 4300000045000000460000004a00000089000000
+  AutoSyncSelection: 1
   autoPopulateEnabled: 1
-  currentDataSource: 0
+  currentDataSource: 1
   CurrentPluginConfig: 
