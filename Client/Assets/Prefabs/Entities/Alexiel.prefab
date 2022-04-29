@@ -170,6 +170,12 @@ MonoBehaviour:
     currentDef: 35
     HeroEle: 0
     HeroPrefWeapon: 0
+    mySkill:
+    - {fileID: 3578982023610245155, guid: e8689ba36e89dc4478420bb1d665cf0c, type: 3}
+    - {fileID: 5317851600925770369, guid: c968b268e9b203d4ab3e08be78c28d11, type: 3}
+    - {fileID: 6775395649805154752, guid: 49a48bbe6246e9a47853054940d52e51, type: 3}
+    - {fileID: 6608715283831959698, guid: bb4ea9958ba53dc4ab372de8233f4111, type: 3}
+    - {fileID: 3331974850351097474, guid: 736381212e6497d4d87bc3b487e657a3, type: 3}
   currentState: 0
 --- !u!61 &6669274181291142365
 BoxCollider2D:

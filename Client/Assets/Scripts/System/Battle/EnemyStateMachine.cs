@@ -59,13 +59,9 @@ public class EnemyStateMachine : MonoBehaviour
         if (currentChargeDiamond == Enemy.ChargeDiamond) {
             //choose charge attack
             myAttack.chosenAtk = Enemy.mySkill[Random.Range(1, Enemy.mySkill.Count)];
-            //reset charge diamond to 0
-            // currentChargeDiamond = 0;
         } else {
             //choose regular attack
             myAttack.chosenAtk = Enemy.mySkill[0];
-            //increase charge diamond by 1
-            // currentChargeDiamond++;
         }
         curr_BS.CollectEnemyAction(myAttack);
     }
@@ -97,5 +93,14 @@ public class EnemyStateMachine : MonoBehaviour
             calc_damage = 0;
         }
         HeroToAttack.GetComponent<HeroStateMachine>().TakeDamage(calc_damage);
+    }
+
+    public void TakeDamage(float damageTaken) {
+        Enemy.currentHP -= damageTaken;
+        if (Enemy.currentHP <= 0) {
+            currentState = State.DEAD;
+        }
+        Debug.Log("Taken damage = " + damageTaken);
+        Debug.Log("Enemy's hp: " + Enemy.currentHP);
     }
 }

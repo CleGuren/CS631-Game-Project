@@ -27,6 +27,7 @@ public class BattleSystem : MonoBehaviour
     public Transform Enemy1Pos;
     public Button AttackButton;
     public Button NoButton;
+    private HeroStateMachine SelectedChar;
     
     //UI
     private GameObject CharacterActionBox;
@@ -40,6 +41,7 @@ public class BattleSystem : MonoBehaviour
     private Text Skill4_CD;
     private Image CharPortrait;
     private Image HP_Bar;
+    private Image Boss_HP_Bar;
     private Button Skill1;
     private Button Skill2;
     private Button Skill3;
@@ -56,6 +58,7 @@ public class BattleSystem : MonoBehaviour
         CharNameText = GameObject.Find("Character Name").GetComponent<Text>();
         CharLevel = GameObject.Find("Character Level").GetComponent<Text>();
         HP_Bar = GameObject.Find("Character HP Bar").GetComponent<Image>();
+        Boss_HP_Bar = GameObject.Find("Boss Health Bar").GetComponent<Image>();
         HP_Value = GameObject.Find("HP Value").GetComponent<Text>();
         Skill1 = GameObject.Find("Skill 1").GetComponent<Button>();
         Skill2 = GameObject.Find("Skill 2").GetComponent<Button>();
@@ -91,6 +94,10 @@ public class BattleSystem : MonoBehaviour
                 if (triggerUI) { 
                     CharacterActionBox.SetActive(true);
                 }
+                if (CharacterActionList.Count > 0) {
+                    CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().currentState = HeroStateMachine.State.ACTION;
+                }
+                Boss_HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentHP/myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.maxHP, 0, 1), Boss_HP_Bar.transform.localScale.y, Boss_HP_Bar.transform.localScale.z);
                 if (!playerTurn) {
                     triggerUI = false;
                     CharacterActionBox.SetActive(false);
@@ -146,6 +153,7 @@ public class BattleSystem : MonoBehaviour
 
     public void DisplayCharInformation(HeroStateMachine CharInfo) {
         triggerUI = true;
+        SelectedChar = CharInfo;
         CharNameText.text = CharInfo.myValue.charName;
         CharLevel.text = "Lv." + CharInfo.myValue.level;
         CharPortrait.sprite = CharInfo.myValue.charPortrait;
@@ -159,31 +167,35 @@ public class BattleSystem : MonoBehaviour
         Skill2_CD.text = (CharInfo.myValue.skill2_cd - 1) + "/" + CharInfo.myValue.skill2_cd;
         Skill3_CD.text = (CharInfo.myValue.skill3_cd - 1) + "/" + CharInfo.myValue.skill3_cd;
         Skill4_CD.text = (CharInfo.myValue.skill4_cd - 1) + "/" + CharInfo.myValue.skill4_cd;
-        ProvideTurnInput(CharInfo);
     }
 
-    public void ProvideTurnInput(HeroStateMachine CharInfo) {
+    HandleTurn ProvideTurnInput(HeroStateMachine CharInfo, int skillNumber) {
         PlayerChoice = new HandleTurn();
         PlayerChoice.attackerName = CharInfo.myValue.charName;
         PlayerChoice.Type = "Character";
         PlayerChoice.Attacker = GameObject.Find(CharInfo.myValue.charName + "(Clone)");
         PlayerChoice.Target = GameObject.Find(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.enemyName + "(Clone)");
+        PlayerChoice.chosenAtk = PlayerChoice.Attacker.GetComponent<HeroStateMachine>().myValue.mySkill[skillNumber];
+        return PlayerChoice;
     }
 
     public void PushSkill1ToList() {
-        // PlayerChoice.skillChosen = PlayerChoice.Attacker.GetComponent<HeroStateMachine>().myValue.mySkill.skill1DmgFormula;
-        CharacterActionList.Add(PlayerChoice);
+        Debug.Log("You chose skill 1");
+        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1));
     }
 
     public void PushSkill2ToList() {
-        CharacterActionList.Add(PlayerChoice);
+        Debug.Log("You chose skill 2");
+        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2));
     }
 
     public void PushSkill3ToList() {
-        CharacterActionList.Add(PlayerChoice);
+        Debug.Log("You chose skill 3");
+        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3));
     }
 
     public void PushSkill4ToList() {
-        CharacterActionList.Add(PlayerChoice);
+        Debug.Log("You chose skill 4");
+        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4));
     }
 }

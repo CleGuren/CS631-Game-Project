@@ -27,5 +27,5 @@ public class HeroBase
     public enum WeaponType { SWORD, DAGGER, STAFF, AXE }
     public EleType HeroEle;
     public WeaponType HeroPrefWeapon;
-    // public BaseSkill mySkill;
+    public List<BaseSkill> mySkill;
 }

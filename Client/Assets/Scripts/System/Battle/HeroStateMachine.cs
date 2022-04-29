@@ -9,8 +9,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public State currentState;
     private BattleSystem curr_BS;
     private bool alive = true;
-    // private float curr_cooldown = 0f;
-    // private float max_cooldown = 5f;
+    private bool actionStarted;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
     }
@@ -28,14 +27,17 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 break;
             case (State.ADDTOLIST) : 
                 break;
-            case (State.ACTION) : 
+            case (State.ACTION) :
+                StartCoroutine(ActionTime());
+                currentState = State.WAITING;
                 break;
             case (State.DEAD) : 
                 if (!alive) {
-
+                    return;
                 } else {
                     //change tag
                     //not targetable by enemies
+                    curr_BS.playerParty.Remove(this.gameObject);
                     //not manageable
                     //change color / dead animation
                     alive = false;
@@ -43,6 +45,25 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 }
                 break;
         }
+    }
+
+    private IEnumerator ActionTime() {
+        if (actionStarted) {
+            yield break;
+        }
+
+        actionStarted = true;
+
+        //plays animation
+
+        //wait a bit
+        yield return new WaitForSeconds(1f);
+        //do damge
+        DoDamage();
+        //remove the action from list
+        curr_BS.CharacterActionList.RemoveAt(0);
+
+        actionStarted = false;
     }
 
     public void onClickAction() {
@@ -54,5 +75,14 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
         if (myValue.currentHP <= 0) {
             currentState = State.DEAD;
         }
+    }
+
+    void DoDamage() {
+        //(Enemy.currentAtk * curr_BS.EnemyActionList[0].chosenAtk.skillBaseDMG) - (0.2f * HeroToAttack.GetComponent<HeroStateMachine>().myValue.currentDef);
+        float calc_damage = myValue.currentAtk * curr_BS.CharacterActionList[0].chosenAtk.skillBaseDMG - 0.2f * curr_BS.myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentDef;
+        if (calc_damage <= 0) {
+            calc_damage = 1;
+        }
+        curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
     }
 }
