@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
 public enum WwiseGameState
@@ -107,19 +108,38 @@ public class AudioManager : MonoBehaviour
         
     void Start()
     {
-        SetWiseGameState(WwiseGameState.Explore_State);
-        SetWiseMusicState(WwiseMusicState.Town_Music_State);
-        SetWwisePausedState(WwisePauseState.Unpause_State);
-
         // set the music state to town music on a gameObject
         // in the town hub scene
-        Play_Main_Menu_Music.Post(gameObject);
-
+      // Play_Main_Menu_Music.Post(gameObject);
     }
 
     void Update()
     {
-        
+        // if (
+        //     SceneManager.GetActiveScene().name != "LoginScene"
+        //     && SceneManager.GetActiveScene().name != "RegistrationScene"
+        //     && SceneManager.GetActiveScene().name != "MenuScene"
+        //     && SceneManager.GetActiveScene().name != "OpeningScene"
+        //     && SceneManager.GetActiveScene().name != "OptionsScene"
+        //     
+        //     // AND main music isn't already running
+        //     //&& IsEventIDActive
+        // )
+        // {
+        //     Debug.Log("The music was paused");
+        //     Stop_Main_Menu_Music.Post(gameObject);
+        // }
+        //
+        // if (SceneManager.GetActiveScene().name == "Town Hub" && currentMusicState != WwiseMusicState.Town_Music_State /* AND town hub music isn't playing */)
+        // {
+        //     SetWiseGameState(WwiseGameState.Explore_State);
+        //     SetWiseMusicState(WwiseMusicState.Town_Music_State);
+        //     SetWwisePausedState(WwisePauseState.None);
+        //     Set_State_Town_Music_State.Post(gameObject);
+        //     Debug.Log("Current state " + currentMusicState + ".");
+        //     Debug.Log("Current state " + currentGameState + ".");
+        //     Debug.Log("Current state " + currentPauseState + ".");
+        // }
     }
 
     void Initialize()
@@ -145,7 +165,7 @@ public class AudioManager : MonoBehaviour
         
         // set the enums to be off by default
         SetWiseGameState(WwiseGameState.Gameplay_None);
-        SetWiseMusicState(WwiseMusicState.Town_Music_State);
+        SetWiseMusicState(WwiseMusicState.None);
         SetWwisePausedState(WwisePauseState.None);
         
         bIsInitialized = true;
