@@ -11,6 +11,7 @@ public class EnemyStateMachine : MonoBehaviour
     private BattleSystem curr_BS;
     private bool actionStarted;
     private int currentChargeDiamond;
+    [SerializeField] private DamageDisplayManager DDM;
     public int CurrentDiamond { get {return currentChargeDiamond;} set {currentChargeDiamond = value;} } 
 
     void Awake() {
@@ -96,11 +97,10 @@ public class EnemyStateMachine : MonoBehaviour
     }
 
     public void TakeDamage(float damageTaken) {
+        DDM.displayDamage(damageTaken);
         Enemy.currentHP -= damageTaken;
         if (Enemy.currentHP <= 0) {
             currentState = State.DEAD;
         }
-        Debug.Log("Taken damage = " + damageTaken);
-        Debug.Log("Enemy's hp: " + Enemy.currentHP);
     }
 }

@@ -180,22 +180,18 @@ public class BattleSystem : MonoBehaviour
     }
 
     public void PushSkill1ToList() {
-        Debug.Log("You chose skill 1");
         CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1));
     }
 
     public void PushSkill2ToList() {
-        Debug.Log("You chose skill 2");
         CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2));
     }
 
     public void PushSkill3ToList() {
-        Debug.Log("You chose skill 3");
         CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3));
     }
 
     public void PushSkill4ToList() {
-        Debug.Log("You chose skill 4");
         CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4));
     }
 }

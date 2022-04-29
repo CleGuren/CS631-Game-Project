@@ -10,6 +10,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     private BattleSystem curr_BS;
     private bool alive = true;
     private bool actionStarted;
+    [SerializeField] private DamageDisplayManager DDM;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
     }
@@ -71,6 +72,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     public void TakeDamage(float damageTaken) {
+        DDM.displayDamage(damageTaken);
         myValue.currentHP -= damageTaken;
         if (myValue.currentHP <= 0) {
             currentState = State.DEAD;
@@ -78,7 +80,6 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     void DoDamage() {
-        //(Enemy.currentAtk * curr_BS.EnemyActionList[0].chosenAtk.skillBaseDMG) - (0.2f * HeroToAttack.GetComponent<HeroStateMachine>().myValue.currentDef);
         float calc_damage = myValue.currentAtk * curr_BS.CharacterActionList[0].chosenAtk.skillBaseDMG - 0.2f * curr_BS.myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentDef;
         if (calc_damage <= 0) {
             calc_damage = 1;
