@@ -5,16 +5,17 @@ using UnityEngine;
 public class DamageDisplayManager : MonoBehaviour
 {
     [SerializeField] private GameObject dmgPrefab;
+    [SerializeField] private Transform spawnArea;
 
     public void displayDamage(float dmg)
     {
-        GameObject newDmg = Instantiate(dmgPrefab, Vector3.zero, Quaternion.identity) as GameObject;
-        newDmg.transform.parent = this.gameObject.transform;
+        GameObject newDmg = Instantiate(dmgPrefab, Vector3.zero, Quaternion.identity, spawnArea) as GameObject;
+        newDmg.transform.localPosition = Vector3.zero;
 
-        DamageInfoManager dmgInfoManager = newDmg.GetComponent<DamageInfoManager>();
+        DamageInfoTMPManager dmgInfoTMPManager = newDmg.GetComponent<DamageInfoTMPManager>();
         // Set Dmg Number
-        dmgInfoManager.setDamage((int)dmg);
+        dmgInfoTMPManager.setDamage((int)dmg);
         // Show Dmg
-        dmgInfoManager.show("fade");
+        dmgInfoTMPManager.show("fade");
     }
 }

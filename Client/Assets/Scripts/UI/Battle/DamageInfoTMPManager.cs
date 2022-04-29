@@ -1,18 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class DamageInfoManager : MonoBehaviour
+public class DamageInfoTMPManager : MonoBehaviour
 {
+    [SerializeField] private TextMeshProUGUI TMP;
+    [SerializeField] private Animator animator;
+
     public void setDamage(int amount)
     {
-        TextMesh textMesh = this.GetComponent<TextMesh>();
-        textMesh.text = amount.ToString();
+        TMP.text = amount.ToString();
     }
 
     public void show(string animation)
     {
-        Animator animator = this.gameObject.GetComponent<Animator>();
         animator.SetTrigger(animation);
     }
 
