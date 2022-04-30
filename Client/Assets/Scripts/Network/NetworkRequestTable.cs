@@ -17,6 +17,7 @@ public class NetworkRequestTable
         add(Constants.CMSG_STATUS, "StatusTest");
         add(Constants.CMSG_SPAWN_PLAYER, "RequestSpawnPlayer");
         add(Constants.CMSG_DESPAWN_PLAYER, "RequestDespawnPlayer");
+        add(Constants.CMSG_MOVE, "RequestMove");
     }
 
     public static void add(short request_id, string name)

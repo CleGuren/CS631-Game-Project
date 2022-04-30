@@ -17,6 +17,7 @@ public class NetworkResponseTable
         add(Constants.SMSG_STATUS, "StatusTest"); // 220
         add(Constants.SMSG_SPAWN_PLAYER, "ResponseSpawnPlayer");
         add(Constants.SMSG_DESPAWN_PLAYER, "ResponseDespawnPlayer");
+        add(Constants.SMSG_MOVE, "ResponseMove");
     }
 
     public static void add(short response_id, string name)

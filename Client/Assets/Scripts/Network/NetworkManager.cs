@@ -101,4 +101,14 @@ public class NetworkManager : MonoBehaviour
 
         StartCoroutine(RequestHeartbeat(time));
     }
+
+    public bool RequestMove(int id, float x, float y) {
+        if (cManager && cManager.IsConnected()) {
+            RequestMove reqeust = new RequestMove();
+            reqeust.send(id, x, y);
+            cManager.send(reqeust);
+            return true;
+        }
+        return false;
+    }
 }

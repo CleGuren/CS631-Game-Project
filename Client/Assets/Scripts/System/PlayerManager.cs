@@ -17,6 +17,7 @@ public class PlayerManager : MonoBehaviour
 
         msgQueue.AddCallback(Constants.SMSG_SPAWN_PLAYER, OnResponseSpawnPlayer);
         msgQueue.AddCallback(Constants.SMSG_DESPAWN_PLAYER, OnResponseDespawnPlayer);
+        msgQueue.AddCallback(Constants.SMSG_MOVE, OnResponseMove);
 
         // Spawn Self
         MakeRequestSpawnPlayer(spawnPoint.position.x, spawnPoint.position.y);
@@ -103,5 +104,25 @@ public class PlayerManager : MonoBehaviour
 
         // Spawn Player
         DespawnPlayer(args.user_id);
+    }
+
+    public void OnResponseMove(ExtendedEventArgs eventArgs) {
+        ResponseMoveEventArgs args = eventArgs as ResponseMoveEventArgs;
+        if (args.status == 0) {
+            for (int i = 0; i < players.Count; i++)
+        {
+            var p = players[i];
+
+            if (p.playerID == args.player_id && p.playerID != Constants.USER_ID)
+            {
+                Debug.Log("Success Move: " + args);
+                p.responseMove(args.player_id, args.x, args.y);
+            }
+        }
+            
+        }
+        else {
+            Debug.Log("Move Failed");
+        }
     }
 }
