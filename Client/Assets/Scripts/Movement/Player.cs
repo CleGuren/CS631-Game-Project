@@ -17,15 +17,11 @@ public class Player : MonoBehaviour
     public int playerID { get; set; }
     public string username { get; set; }
 
-<<<<<<< HEAD
     private Vector2 movement;
     private float spawnMovementDelay = 1.8f;
-=======
     private int otherID;
     private Vector2 otherMove;
 
-    Vector2 movement;
->>>>>>> test
 
     private void Start()
     {
