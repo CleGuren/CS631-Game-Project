@@ -7,6 +7,6 @@ public class GameManager : MonoBehaviour
     {
         private bool useNetwork;
         private NetworkManager networkManager;
-        
-        
+
+        public static AK.Wwise.Event startMainMusicEvent;
     }

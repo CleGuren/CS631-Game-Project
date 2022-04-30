@@ -4,6 +4,7 @@ using UnityEditor;
 using UnityEngine.UI;
 public class Login : MonoBehaviour
 {
+    [SerializeField] private AK.Wwise.Event current;
     // button login
     public InputField UsernameInput;
     public InputField PasswordInput;
@@ -41,6 +42,10 @@ public class Login : MonoBehaviour
 
     public void LoginButtonClick()
     {
+        var theThing = GameObject.FindGameObjectWithTag("GameMenuMusic");
+        Debug.Log("The other game event is: " + theThing + ".");
+        Debug.Log("The stored event is: " + GameManager.startMainMusicEvent + ".");
+        Destroy(theThing);
         user_id = user_id.Trim();
         password = password.Trim();
         if (user_id.Length == 0)
@@ -77,6 +82,8 @@ public class Login : MonoBehaviour
             //                                                  "\nClick Ok to continue execution and see responses on console", "Ok");
             //SceneManager.LoadScene("Tutorial");
              //SceneManager.LoadScene("Battle Scene");
+             Debug.Log("Current game object: " + gameObject + ".");
+             current.Stop(gameObject);
             SceneManager.LoadScene("Town Hub");
            //SceneManager.LoadScene("Test Shop");
         }
