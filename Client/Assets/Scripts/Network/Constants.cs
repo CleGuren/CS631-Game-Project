@@ -25,6 +25,8 @@ public class Constants
     public static readonly short CMSG_SPAWN_OTHER_PLAYERS = 151;
     public static readonly short CMSG_DESPAWN_PLAYER = 152;
     public static readonly short SMSG_DESPAWN_PLAYER = 252;
+    public static readonly short CMSG_MOVE = 105;
+    public static readonly short SMSG_MOVE = 205;
 
     public static int USER_ID = -1;
     public static int OP_ID = -1;
