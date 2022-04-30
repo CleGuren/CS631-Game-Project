@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca39fa99367a8415c85000a626c1f3ec, type: 3}
   m_Name: C2D69E76-1D7B-4061-BFAE-8558C0850DAD
   m_EditorClassIdentifier: 
-  objectName: Tutorial_Area_Music_State
-  id: 3287040219
+  objectName: Training_Ground_Music_State
+  id: 3008940497
   guid: C2D69E76-1D7B-4061-BFAE-8558C0850DAD
   WwiseStateGroupReference: {fileID: 11400000, guid: 29a8cb4cb24654842bf8c3f600be1f89,
     type: 2}

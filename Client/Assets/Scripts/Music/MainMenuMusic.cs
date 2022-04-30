@@ -9,12 +9,7 @@ public class MainMenuMusic : MonoBehaviour
     public static MainMenuMusic instance;
     
    [SerializeField] private AK.Wwise.Event currentEvent;
-
-   private void Start()
-   {
-       
-   }
-
+   
    private void Awake()
    {
         GameManager.startMainMusicEvent = currentEvent;
