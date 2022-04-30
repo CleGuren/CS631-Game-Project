@@ -32,7 +32,7 @@ public class MouseClickInputSystem : MonoBehaviour
         Ray ray = mainCamera.ScreenPointToRay(playerIS.Player.Position.ReadValue<Vector2>());
         RaycastHit2D hits2D = Physics2D.GetRayIntersection(ray);
         if (hits2D.collider != null) {
-            Debug.Log("2D hit: " + hits2D.collider.tag);
+            // Debug.Log("2D hit: " + hits2D.collider.tag);
             hits2D.collider.GetComponent<IClickableObject>().onClickAction();
         }
     }

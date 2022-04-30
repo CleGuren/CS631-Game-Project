@@ -7,5 +7,6 @@ public class SwordSlash : BaseSkill
         skillName = "Sword Slash";
         skillDescription = "Alexiel smashes her sword downward, dealing damage.";
         skillBaseDMG = 0.3f;
+        skillCooldown = 3;
     }
 }

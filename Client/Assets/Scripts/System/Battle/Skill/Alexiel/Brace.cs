@@ -8,5 +8,6 @@ public class Brace : BaseSkill
         skillName = "Brace";
         skillDescription = "Alexiel braces herself, mitigating incoming damage by 60%";
         skillBaseDMG = 0.6f;
+        skillCooldown = 3;
     }
 }

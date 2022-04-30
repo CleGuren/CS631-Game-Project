@@ -7,15 +7,21 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public enum State { WAITING, SELECTING, ADDTOLIST, ACTION, DEAD }
     public HeroBase myValue;
     public State currentState;
+    public List<int> CurrentSkillCdList;
     private BattleSystem curr_BS;
     private bool alive = true;
     private bool actionStarted;
     [SerializeField] private DamageDisplayManager DDM;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
+        CurrentSkillCdList = new List<int>();
     }
 
     void Start() {
+        for (int i = 0; i < myValue.mySkill.Count; ++i) {
+            int cdNumber = myValue.mySkill[i].skillCooldown;
+            CurrentSkillCdList.Add(cdNumber);
+        }
         currentState = State.WAITING;
     }
 
@@ -85,5 +91,25 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             calc_damage = 1;
         }
         curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
+    }
+
+    public int SkillCurrentCD(int skillNumber) {
+        return CurrentSkillCdList[skillNumber];
+    }
+
+    public int SkillCD(int skillNumber) {
+        return myValue.mySkill[skillNumber].skillCooldown;
+    }
+
+    public void SkillEnterCooldown(int skillNumber) {
+        CurrentSkillCdList[skillNumber] = 0;
+    }
+
+    public void UpdateSkillCD() {
+        for (int i = 1; i < CurrentSkillCdList.Count; ++i) {
+            if (CurrentSkillCdList[i] < myValue.mySkill[i].skillCooldown) {
+                CurrentSkillCdList[i] += 1;
+            }
+        }
     }
 }

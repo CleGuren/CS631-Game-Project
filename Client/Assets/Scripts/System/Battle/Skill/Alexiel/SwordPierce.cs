@@ -8,5 +8,6 @@ public class SwordPierce : BaseSkill
         skillName = "Sword Pierce";
         skillDescription = "Alexiel pierces her opponent with her sword, dealing massive damage.";
         skillBaseDMG = 1.1f;
+        skillCooldown = 6;
     }
 }
