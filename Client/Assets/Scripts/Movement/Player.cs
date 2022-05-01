@@ -21,6 +21,7 @@ public class Player : MonoBehaviour
     private float spawnMovementDelay = 1.8f;
     private int otherID;
     private Vector2 otherMove;
+    private Vector2 prevMove;
 
 
     private void Start()
@@ -28,6 +29,8 @@ public class Player : MonoBehaviour
         RigidBodyComponent = GetComponent<Rigidbody2D>();
         mainObject = GameObject.Find("Network Manager");
         cManager = mainObject.GetComponent<ConnectionManager>();
+        prevMove.x = 0;
+        prevMove.y = 0;
     }
 
     private void OnEnable()
@@ -60,15 +63,15 @@ public class Player : MonoBehaviour
         if (playerID == Constants.USER_ID)
         {
             movement = playerControls.ReadValue<Vector2>();
-            if (movement.x != 0 || movement.y != 0) {
+            if (movement.x != prevMove.x || movement.y != prevMove.y) {
                 cManager.send(requestMove(playerID, movement.x, movement.y));
+                prevMove.x = movement.x;
+                prevMove.y = movement.y;
             }
         }
 
         if (playerID == otherID) {
             movement = otherMove;
-            otherMove.x = 0;
-            otherMove.y = 0;
         }
 
         // Animation
