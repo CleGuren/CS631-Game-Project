@@ -12,9 +12,6 @@ public class EnterTutorialFromTownHub : MonoBehaviour
         if (entity.CompareTag("Player"))
         {
             var theThing = GameObject.FindGameObjectWithTag("GameTownHubMusic");
-            
-            // Debug.Log("The other game event is: " + theThing + ".");
-            // Debug.Log("The stored event is: " + GameManager.startTownHubMusicEvent + ".");
             Destroy(theThing);
             Debug.Log("Collision Detected");
             SceneManager.LoadScene("Tutorial");
