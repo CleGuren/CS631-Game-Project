@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class BattleSystem : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class BattleSystem : MonoBehaviour
     private Text Skill2_CD;
     private Text Skill3_CD;
     private Text Skill4_CD;
+    [SerializeField]private TextMeshProUGUI TurnIndicator;
     private Image CharPortrait;
     private Image HP_Bar;
     private Image Boss_HP_Bar;
@@ -46,6 +48,7 @@ public class BattleSystem : MonoBehaviour
     private Button Skill2;
     private Button Skill3;
     private Button Skill4;
+    private int turnNumber;
     
     //Conditional States
     public BattleState curr_state;
@@ -68,6 +71,7 @@ public class BattleSystem : MonoBehaviour
         Skill2_CD = GameObject.Find("Skill 2 CD").GetComponent<Text>();
         Skill3_CD = GameObject.Find("Skill 3 CD").GetComponent<Text>();
         Skill4_CD = GameObject.Find("Skill 4 CD").GetComponent<Text>();
+        TurnIndicator = GameObject.Find("Turn Number").GetComponent<TextMeshProUGUI>();
         CharacterActionBox.SetActive(false);
         PlayerChoice = new HandleTurn();
         ChargeDiamondUI = GameObject.Find("Charge Diamond Box").GetComponent<ChargeDiamond>();
@@ -79,6 +83,8 @@ public class BattleSystem : MonoBehaviour
         playerTurn = true;
         triggerUI = false;
         ChargeDiamondUI.HideDiamonds();
+        turnNumber = 1;
+        TurnIndicator.text = turnNumber.ToString();
     }
 
     void Update() {
@@ -120,6 +126,11 @@ public class BattleSystem : MonoBehaviour
                         myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond += 1;
                         ChargeDiamondUI.GainDiamond();
                     }
+                    for (int i = 0; i < playerParty.Count; i++) {
+                        playerParty[i].GetComponent<HeroStateMachine>().UpdateSkillCD();
+                    }
+                    turnNumber++;
+                    TurnIndicator.text = turnNumber.ToString();
                     curr_state = BattleState.PLAYERTURN;
                 }
                 break;
@@ -143,8 +154,32 @@ public class BattleSystem : MonoBehaviour
         EnemyActionList.Add(input);
     }
 
+    // -1 dead player
+    //  0 normal attack
+    //  1 double attack
+    //  2 triple attack 
     public void TurnProgress() {
         playerTurn = false;
+        for (int i = 0; i < playerParty.Count; i++) {
+            pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0), playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice());
+        }
+
+    }
+
+    void pushNormalAttack(HandleTurn CharInfo, int MA_Data) {
+        if (MA_Data == 2) {
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt triple attacks!");
+        } else if (MA_Data == 1) {
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt double attacks!");
+        } else if (MA_Data == 0) {
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt a single attacks!");
+        } else Debug.Log("Dead chat don't attack.");
     }
 
     public void ToPlayerturn() {
@@ -159,14 +194,14 @@ public class BattleSystem : MonoBehaviour
         CharPortrait.sprite = CharInfo.myValue.charPortrait;
         HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(CharInfo.myValue.currentHP/CharInfo.myValue.maxHP, 0, 1), HP_Bar.transform.localScale.y, HP_Bar.transform.localScale.z);
         HP_Value.text = CharInfo.myValue.currentHP + "/" + CharInfo.myValue.maxHP;
-        Skill1.image.sprite = CharInfo.myValue.skill1_img;
-        Skill2.image.sprite = CharInfo.myValue.skill2_img;
-        Skill3.image.sprite = CharInfo.myValue.skill3_img;
-        Skill4.image.sprite = CharInfo.myValue.skill4_img;
-        Skill1_CD.text = (CharInfo.myValue.skill1_cd - 1) + "/" + CharInfo.myValue.skill1_cd;
-        Skill2_CD.text = (CharInfo.myValue.skill2_cd - 1) + "/" + CharInfo.myValue.skill2_cd;
-        Skill3_CD.text = (CharInfo.myValue.skill3_cd - 1) + "/" + CharInfo.myValue.skill3_cd;
-        Skill4_CD.text = (CharInfo.myValue.skill4_cd - 1) + "/" + CharInfo.myValue.skill4_cd;
+        Skill1.image.sprite = CharInfo.myValue.mySkill[1].skillIcon;
+        Skill2.image.sprite = CharInfo.myValue.mySkill[2].skillIcon;
+        Skill3.image.sprite = CharInfo.myValue.mySkill[3].skillIcon;
+        Skill4.image.sprite = CharInfo.myValue.mySkill[4].skillIcon;
+        Skill1_CD.text = CharInfo.SkillCurrentCD(1) + "/" + CharInfo.SkillCD(1);
+        Skill2_CD.text = CharInfo.SkillCurrentCD(2) + "/" + CharInfo.SkillCD(2);
+        Skill3_CD.text = CharInfo.SkillCurrentCD(3) + "/" + CharInfo.SkillCD(3);
+        Skill4_CD.text = CharInfo.SkillCurrentCD(4) + "/" + CharInfo.SkillCD(4);
     }
 
     HandleTurn ProvideTurnInput(HeroStateMachine CharInfo, int skillNumber) {
@@ -180,18 +215,42 @@ public class BattleSystem : MonoBehaviour
     }
 
     public void PushSkill1ToList() {
-        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1));
+        if (SelectedChar.SkillCurrentCD(1) < SelectedChar.SkillCD(1)) {
+            Debug.Log(SelectedChar.myValue.mySkill[1].skillName + " is on cooldown.");
+        } else {
+            CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1));
+            SelectedChar.SkillEnterCooldown(1);
+            Skill1_CD.text = SelectedChar.SkillCurrentCD(1) + "/" + SelectedChar.SkillCD(1);
+        }
     }
 
     public void PushSkill2ToList() {
-        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2));
+        if (SelectedChar.SkillCurrentCD(2) < SelectedChar.SkillCD(2)) {
+            Debug.Log(SelectedChar.myValue.mySkill[2].skillName + " is on cooldown.");
+        } else {
+            CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2));
+            SelectedChar.SkillEnterCooldown(2);
+            Skill2_CD.text = SelectedChar.SkillCurrentCD(2) + "/" + SelectedChar.SkillCD(2);
+        }
     }
 
     public void PushSkill3ToList() {
-        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3));
+        if (SelectedChar.SkillCurrentCD(3) < SelectedChar.SkillCD(3)) {
+            Debug.Log(SelectedChar.myValue.mySkill[3].skillName + " is on cooldown.");
+        } else {
+            CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3));
+            SelectedChar.SkillEnterCooldown(3);
+            Skill3_CD.text = SelectedChar.SkillCurrentCD(3) + "/" + SelectedChar.SkillCD(3);
+        }
     }
 
     public void PushSkill4ToList() {
-        CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4));
+        if (SelectedChar.SkillCurrentCD(4) < SelectedChar.SkillCD(4)) {
+            Debug.Log(SelectedChar.myValue.mySkill[4].skillName + " is on cooldown.");
+        } else {
+            CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4));
+            SelectedChar.SkillEnterCooldown(4);
+            Skill4_CD.text = SelectedChar.SkillCurrentCD(4) + "/" + SelectedChar.SkillCD(4);
+        }
     }
 }

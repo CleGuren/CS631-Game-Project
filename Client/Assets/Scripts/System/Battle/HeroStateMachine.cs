@@ -7,15 +7,21 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public enum State { WAITING, SELECTING, ADDTOLIST, ACTION, DEAD }
     public HeroBase myValue;
     public State currentState;
+    public List<int> CurrentSkillCdList;
     private BattleSystem curr_BS;
     private bool alive = true;
     private bool actionStarted;
     [SerializeField] private DamageDisplayManager DDM;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
+        CurrentSkillCdList = new List<int>();
     }
 
     void Start() {
+        for (int i = 0; i < myValue.mySkill.Count; ++i) {
+            int cdNumber = myValue.mySkill[i].skillCooldown;
+            CurrentSkillCdList.Add(cdNumber);
+        }
         currentState = State.WAITING;
     }
 
@@ -58,9 +64,14 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
         //plays animation
 
         //wait a bit
-        yield return new WaitForSeconds(1f);
-        //do damge
-        DoDamage();
+        // if (isNormalAttack) {
+        //     yield return new WaitForSeconds(0.5f);
+        //     DoDamage();
+        // } else {
+            yield return new WaitForSeconds(1f);
+            //do damge
+            DoDamage();
+        // }
         //remove the action from list
         curr_BS.CharacterActionList.RemoveAt(0);
 
@@ -85,5 +96,37 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             calc_damage = 1;
         }
         curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
+    }
+
+    public int SkillCurrentCD(int skillNumber) {
+        return CurrentSkillCdList[skillNumber];
+    }
+
+    public int SkillCD(int skillNumber) {
+        return myValue.mySkill[skillNumber].skillCooldown;
+    }
+
+    public void SkillEnterCooldown(int skillNumber) {
+        CurrentSkillCdList[skillNumber] = 0;
+    }
+
+    public void UpdateSkillCD() {
+        for (int i = 1; i < CurrentSkillCdList.Count; ++i) {
+            if (CurrentSkillCdList[i] < myValue.mySkill[i].skillCooldown) {
+                CurrentSkillCdList[i] += 1;
+            }
+        }
+    }
+
+    public int RollMA_Dice() {
+        if (currentState != State.DEAD) {
+            int DA_Dice = Random.Range(0, 100);
+            int TA_Dice = Random.Range(0, 100);
+            if (DA_Dice < myValue.baseDA) {
+                return 1;
+            } else if (TA_Dice < myValue.baseTA) {
+                return 2;
+            } else return 0;
+        } else return -1;
     }
 }

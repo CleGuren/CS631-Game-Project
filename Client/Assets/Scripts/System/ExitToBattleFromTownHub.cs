@@ -9,6 +9,8 @@ public class ExitToBattleFromTownHub : MonoBehaviour
     {
         if (entity.CompareTag("Player"))
         {
+            var theThing = GameObject.FindGameObjectWithTag("GameTownHubMusic");
+            Destroy(theThing);
             Debug.Log("Collision Detected");
             SceneManager.LoadScene("Battle Scene");
         }

@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	89505537	Gameplay			\Official\Gameplay	
 	991897368	Test_Gameplay			\Test\Test_Gameplay	
+	1174995064	InOut			\Official\InOut	
 	2923888242	Test_Pause			\Test\Test_Pause	
 	3092587493	Pause			\Official\Pause	
 	3991942870	Music			\Official\Music	
@@ -12,6 +13,9 @@ State	ID	Name	State Group			Notes
 	748895195	None	Test_Gameplay			
 	984973249	Test_Explore	Test_Gameplay			
 	3192105708	Test_Combat	Test_Gameplay			
+	144697359	Outdoor	InOut			
+	340398852	Indoor	InOut			
+	748895195	None	InOut			
 	748895195	None	Test_Pause			
 	2923888242	Test_Pause	Test_Pause			
 	4239277797	Test_Unpause	Test_Pause			
@@ -20,11 +24,10 @@ State	ID	Name	State Group			Notes
 	1944582999	Pause_State	Pause			
 	708054506	Defeat_Music_State	Music			
 	748895195	None	Music			
-	2103070271	Boss_Phase_2_Music_State	Music			
 	2109510071	Victory_Music_State	Music			
 	2471068395	Combat_Music_State	Music			
 	2868198236	Boss_Phase_1_Music_State	Music			
-	3008940497	Training_Ground_Music_State	Music			
+	3287040219	Tutorial_Area_Music_State	Music			
 	3691201999	Town_Music_State	Music			
 
 Custom State	ID	Name	State Group	Owner		Notes

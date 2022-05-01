@@ -287,7 +287,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3154392071">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2399977795">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -322,25 +322,61 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="1431081420">
+		<SoundBank Id="4056684167" Language="SFX" Hash="3512717303">
 			<ObjectPath>\SoundBanks\Official\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1231987938" Name="Play_Gameplay_Music" ObjectPath="\Events\Official\Music\Play\Play_Gameplay_Music" DurationType="Infinite">
+				<Event Id="3174479978" Name="Play_Ambiance" ObjectPath="\Events\Official\SFX\2D_Ambance\Play_Ambiance" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="37312453" Language="SFX">
-							<ShortName>Mood_Board_Intensity_Full.wav</ShortName>
-							<Path>SFX\Mood_Board_Intensity_Full_9EDFC787.wem</Path>
+						<File Id="51291083" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
 						</File>
-						<File Id="46964009" Language="SFX">
-							<ShortName>Character_Select.wav</ShortName>
-							<Path>SFX\Character_Select_9EDFC787.wem</Path>
+						<File Id="190270889" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
 						</File>
-						<File Id="254824592" Language="SFX">
-							<ShortName>Mood_Board_Loop_Full.wav</ShortName>
-							<Path>SFX\Mood_Board_Loop_Full_9EDFC787.wem</Path>
+						<File Id="311786162" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
 						</File>
+						<File Id="404496039" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="418656758" Language="SFX">
+							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+						</File>
+						<File Id="427976571" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+						</File>
+						<File Id="444886750" Language="SFX">
+							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+						</File>
+						<File Id="448990572" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="675582577" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="963589475" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+						</File>
+						<File Id="984130452" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3870811733" Name="Play_Boss_Phase_1_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Play\Play_Boss_Phase_1_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
 							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
@@ -357,32 +393,109 @@
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
 							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
-						<File Id="868044420" Language="SFX">
-							<ShortName>Endscreen.wav</ShortName>
-							<Path>SFX\Endscreen_9EDFC787.wem</Path>
+						<File Id="476317864" Language="SFX">
+							<ShortName>MC_Victory.wav</ShortName>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+						</File>
+						<File Id="604209776" Language="SFX">
+							<ShortName>MC_Town.wav</ShortName>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+						</File>
+						<File Id="838428080" Language="SFX">
+							<ShortName>MC_Defeat.wav</ShortName>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="3155474038" Name="Play_Combat_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Play\Play_Combat_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="285026230" Language="SFX">
+							<ShortName>MC_Combat_General_1.wav</ShortName>
+							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
+						</File>
+						<File Id="303968313" Language="SFX">
+							<ShortName>MC_Starting_Area.wav</ShortName>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+						</File>
+						<File Id="328176984" Language="SFX">
+							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
+							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+						</File>
+						<File Id="464729469" Language="SFX">
+							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
+							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+						</File>
+						<File Id="476317864" Language="SFX">
+							<ShortName>MC_Victory.wav</ShortName>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+						</File>
+						<File Id="604209776" Language="SFX">
+							<ShortName>MC_Town.wav</ShortName>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+						</File>
+						<File Id="838428080" Language="SFX">
+							<ShortName>MC_Defeat.wav</ShortName>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="1231987938" Name="Play_Gameplay_Music" ObjectPath="\Events\Official\Music\Play\Play_Gameplay_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="285026230" Language="SFX">
+							<ShortName>MC_Combat_General_1.wav</ShortName>
+							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
+						</File>
+						<File Id="303968313" Language="SFX">
+							<ShortName>MC_Starting_Area.wav</ShortName>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+						</File>
+						<File Id="328176984" Language="SFX">
+							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
+							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+						</File>
+						<File Id="464729469" Language="SFX">
+							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
+							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+						</File>
+						<File Id="476317864" Language="SFX">
+							<ShortName>MC_Victory.wav</ShortName>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+						</File>
+						<File Id="604209776" Language="SFX">
+							<ShortName>MC_Town.wav</ShortName>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+						</File>
+						<File Id="838428080" Language="SFX">
+							<ShortName>MC_Defeat.wav</ShortName>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{C16FD6A4-EFCA-4011-8E4E-8C6F3F949161}">
 							<Media>
-								<File Id="254824592"/>
+								<File Id="285026230"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{0EDF0A6D-7222-4A09-908A-E3CC3F3393F0}">
 							<Media>
-								<File Id="285026230"/>
 								<File Id="328176984"/>
 								<File Id="464729469"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{161E0150-6553-49F1-95D6-CDDE8963814C}">
 							<Media>
-								<File Id="46964009"/>
+								<File Id="838428080"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{1C2F42B0-CC3E-4083-8BEF-A5ADD0E8C6B9}">
 							<Media>
-								<File Id="37312453"/>
+								<File Id="604209776"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{C2D69E76-1D7B-4061-BFAE-8558C0850DAD}">
@@ -392,19 +505,128 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}">
 							<Media>
-								<File Id="868044420"/>
+								<File Id="476317864"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
-					<ActionSetState>
-						<ActionSetStateEntry Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State"/>
-					</ActionSetState>
 				</Event>
 				<Event Id="2895168921" Name="Play_Main_Menu_Music" ObjectPath="\Events\Official\Music\Play\Play_Main_Menu_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="101119723" Language="SFX">
 							<ShortName>MC_Main_Menu.wav</ShortName>
 							<Path>SFX\MC_Main_Menu_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1109520104" Name="Play_SFX_Boss_Roar" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Roar" DurationType="OneShot" DurationMin="3.499977" DurationMax="3.499977">
+					<IncludedMemoryFiles>
+						<File Id="441871621" Language="SFX">
+							<ShortName>SFX_Boss_Roar.wav</ShortName>
+							<Path>SFX\SFX_Boss_Roar_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="362650367" Name="Play_SFX_Boss_Scream" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Scream" DurationType="OneShot" DurationMin="2.499977" DurationMax="2.499977">
+					<IncludedMemoryFiles>
+						<File Id="252686037" Language="SFX">
+							<ShortName>SFX_Boss_Scream.wav</ShortName>
+							<Path>SFX\SFX_Boss_Scream_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3759158871" Name="Play_SFX_Boss_Screech" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Screech" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="1001673628" Language="SFX">
+							<ShortName>SFX_Boss_Screech.wav</ShortName>
+							<Path>SFX\SFX_Boss_Screech_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1111697546" Name="Play_SFX_Boss_Yell" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Yell" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="113824687" Language="SFX">
+							<ShortName>SFX_Boss_Yell.wav</ShortName>
+							<Path>SFX\SFX_Boss_Yell_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2752594136" Name="Play_SFX_Combat_Attack_Bow" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Bow" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<IncludedMemoryFiles>
+						<File Id="725704615" Language="SFX">
+							<ShortName>SFX_Combat_Attack_Bow.wav</ShortName>
+							<Path>SFX\SFX_Combat_Attack_Bow_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1598775888" Name="Play_SFX_Combat_Attack_Fire" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Fire" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<IncludedMemoryFiles>
+						<File Id="1058053633" Language="SFX">
+							<ShortName>SFX_Combat_Attack_Fire.wav</ShortName>
+							<Path>SFX\SFX_Combat_Attack_Fire_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="413138120" Name="Play_SFX_Combat_Attack_Magic_" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Magic_" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<IncludedMemoryFiles>
+						<File Id="141268377" Language="SFX">
+							<ShortName>SFX_Combat_Attack_Magic .wav</ShortName>
+							<Path>SFX\SFX_Combat_Attack_Magic _3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4013471751" Name="Play_SFX_Combat_Attack_Sword" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Sword" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="423694452" Language="SFX">
+							<ShortName>SFX_Combat_Attack_Sword.wav</ShortName>
+							<Path>SFX\SFX_Combat_Attack_Sword_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3939099487" Name="Play_SFX_Combat_Damage_General" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_General" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="864828214" Language="SFX">
+							<ShortName>SFX_Combat_Damage_General.wav</ShortName>
+							<Path>SFX\SFX_Combat_Damage_General_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2856064598" Name="Play_SFX_Combat_Damage_Magic" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_Magic" DurationType="OneShot" DurationMin="2.999977" DurationMax="2.999977">
+					<IncludedMemoryFiles>
+						<File Id="784198079" Language="SFX">
+							<ShortName>SFX_Combat_Damage_Magic.wav</ShortName>
+							<Path>SFX\SFX_Combat_Damage_Magic_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3918087091" Name="Play_SFX_Combat_Damage_Melee" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_Melee" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="186591648" Language="SFX">
+							<ShortName>SFX_Combat_Damage_Melee.wav</ShortName>
+							<Path>SFX\SFX_Combat_Damage_Melee_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3368541447" Name="Play_SFX_Combat_Throw" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Throw" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="823087282" Language="SFX">
+							<ShortName>SFX_Combat_Throw.wav</ShortName>
+							<Path>SFX\SFX_Combat_Throw_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1705212850" Name="Play_SFX_Player_Spawn_Float" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Player_Spawn_Float" DurationType="OneShot" DurationMin="4.5" DurationMax="4.5">
+					<IncludedMemoryFiles>
+						<File Id="981204708" Language="SFX">
+							<ShortName>SFX_Player_Spawn_Float.wav</ShortName>
+							<Path>SFX\SFX_Player_Spawn_Float_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4035179051" Name="Play_SFX_Player_Spawn_Land" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Player_Spawn_Land" DurationType="OneShot" DurationMin="0.5" DurationMax="0.5">
+					<IncludedMemoryFiles>
+						<File Id="709775079" Language="SFX">
+							<ShortName>SFX_Player_Spawn_Land.wav</ShortName>
+							<Path>SFX\SFX_Player_Spawn_Land_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -432,14 +654,69 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3208464042" Name="Play_Town_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Play\Play_Town_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="418656758" Language="SFX">
+							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+						</File>
+						<File Id="444886750" Language="SFX">
+							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+						</File>
+						<File Id="604209776" Language="SFX">
+							<ShortName>MC_Town.wav</ShortName>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2396534832" Name="Play_Tutorial_Area_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Play\Play_Tutorial_Area_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="51291083" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
+						</File>
+						<File Id="190270889" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="303968313" Language="SFX">
+							<ShortName>MC_Starting_Area.wav</ShortName>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+						</File>
+						<File Id="311786162" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
+						</File>
+						<File Id="404496039" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="427976571" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+						</File>
+						<File Id="448990572" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="675582577" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="963589475" Language="SFX">
+							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+						</File>
+						<File Id="984130452" Language="SFX">
+							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
+							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2761290801" Name="Set_State_Boss_Phase_1_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Boss_Phase_1_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
 						<ActionSetStateEntry Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2645897210" Name="Set_State_Boss_Phase_2_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Boss_Phase_2_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
-					<ActionSetState>
-						<ActionSetStateEntry Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State"/>
 					</ActionSetState>
 				</Event>
 				<Event Id="3882023610" Name="Set_State_Combat_Music_State" ObjectPath="\Events\Official\Music\States\Set_State_Combat_Music_State" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
@@ -487,8 +764,13 @@
 						<ActionSetStateEntry Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="2839405212" Name="Stop_Ambiance" ObjectPath="\Events\Official\SFX\2D_Ambance\Stop_Ambiance" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2441257819" Name="Stop_Boss_Phase_1_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Boss_Phase_1_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="970928956" Name="Stop_Combat_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Combat_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3536547992" Name="Stop_Gameplay_Music" ObjectPath="\Events\Official\Music\Stop\Stop_Gameplay_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2829915331" Name="Stop_Main_Menu_Music" ObjectPath="\Events\Official\Music\Stop\Stop_Main_Menu_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2800207448" Name="Stop_Town_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Town_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1217006078" Name="Stop_Tutorial_Area_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Tutorial_Area_Music" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<StateGroups>
 				<StateGroup Id="290796184" Name="Explore_State" ObjectPath="\States\Official\Gameplay\Explore_State" GUID="{6E65EFAE-7D67-4D32-8EB2-E7962BBAF12F}">
@@ -504,9 +786,6 @@
 					<States/>
 				</StateGroup>
 				<StateGroup Id="1944582999" Name="Pause_State" ObjectPath="\States\Official\Pause\Pause_State" GUID="{32CBAA37-18C9-4D55-A934-08C082BCE0C7}">
-					<States/>
-				</StateGroup>
-				<StateGroup Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State" GUID="{5659B455-BDE3-45CD-9810-1C05860CBD3F}">
 					<States/>
 				</StateGroup>
 				<StateGroup Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State" GUID="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}">
@@ -531,7 +810,6 @@
 						<State Id="3691201999" Name="Town_Music_State" ObjectPath="\States\Official\Music\Town_Music_State" GUID="{1C2F42B0-CC3E-4083-8BEF-A5ADD0E8C6B9}"/>
 						<State Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State" GUID="{0EDF0A6D-7222-4A09-908A-E3CC3F3393F0}"/>
 						<State Id="2868198236" Name="Boss_Phase_1_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_1_Music_State" GUID="{C16FD6A4-EFCA-4011-8E4E-8C6F3F949161}"/>
-						<State Id="2103070271" Name="Boss_Phase_2_Music_State" ObjectPath="\States\Official\Music\Boss_Phase_2_Music_State" GUID="{5659B455-BDE3-45CD-9810-1C05860CBD3F}"/>
 						<State Id="2109510071" Name="Victory_Music_State" ObjectPath="\States\Official\Music\Victory_Music_State" GUID="{18CD610B-7B5D-43C9-8C28-6091CAFD821C}"/>
 						<State Id="708054506" Name="Defeat_Music_State" ObjectPath="\States\Official\Music\Defeat_Music_State" GUID="{161E0150-6553-49F1-95D6-CDDE8963814C}"/>
 					</States>

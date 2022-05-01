@@ -33,7 +33,7 @@ public class EnemyStateMachine : MonoBehaviour
                 break;
             case (State.CHOOSE_ACTION) : 
                 ChooseAction();
-                Debug.Log("ActionList.count: " + curr_BS.EnemyActionList.Count);
+                // Debug.Log("ActionList.count: " + curr_BS.EnemyActionList.Count);
                 currentState = State.WAITING;
                 break;
             case (State.WAITING) : 

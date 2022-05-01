@@ -9,6 +9,8 @@ public class ExitTestShop : MonoBehaviour
     {
         if (entity.CompareTag("Player"))
         {
+            // var theThing = GameObject.FindGameObjectWithTag("GameTownHubMusic");
+            // Destroy(theThing);
             Debug.Log("Collision Detected");
             SceneManager.LoadScene("Town Hub");
         }
