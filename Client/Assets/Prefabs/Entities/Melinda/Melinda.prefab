@@ -50,14 +50,6 @@ MonoBehaviour:
     charName: Melinda
     charPortrait: {fileID: -8861649622056650232, guid: 1b052159a3f6de54eb40df7ceb4a6e5c,
       type: 3}
-    skill1_img: {fileID: 21300000, guid: 0d5d251005f8ad448910044788948802, type: 3}
-    skill2_img: {fileID: 21300000, guid: 1eecafcd95273c644a9b3a34c26f3cc7, type: 3}
-    skill3_img: {fileID: 21300000, guid: e4bff369984dd6e4aac7241e5f30e089, type: 3}
-    skill4_img: {fileID: 21300000, guid: cbc1bedae39b2334b9ee83848188ef31, type: 3}
-    skill1_cd: 5
-    skill2_cd: 3
-    skill3_cd: 5
-    skill4_cd: 6
     level: 1
     baseHP: 35
     currentHP: 35
@@ -66,15 +58,18 @@ MonoBehaviour:
     currentAtk: 36
     baseDef: 25
     currentDef: 25
+    baseDA: 20
+    baseTA: 15
     HeroEle: 1
     HeroPrefWeapon: 2
     mySkill:
-    - {fileID: 3578982023610245155, guid: e8689ba36e89dc4478420bb1d665cf0c, type: 3}
+    - {fileID: 8870550550550828733, guid: 3516def465995664784478fed533e381, type: 3}
     - {fileID: 1652663021377907933, guid: 8cd2b7d12d1c1e44195c8bd460af2eea, type: 3}
     - {fileID: 4720928308568738689, guid: a52c6dd2f8b964b4caf0b08c6a5ffe5d, type: 3}
     - {fileID: 3531920372806964912, guid: 46a24b36fbaa4854a8405cf5cb85727a, type: 3}
     - {fileID: 2443980004358583306, guid: c8a1125daa532d2449cd9aaaf40c67b9, type: 3}
   currentState: 0
+  CurrentSkillCdList: 
   DDM: {fileID: 7766030879878179497}
 --- !u!61 &7620598448061666141
 BoxCollider2D:

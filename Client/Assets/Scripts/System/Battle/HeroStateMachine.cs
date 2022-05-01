@@ -64,9 +64,14 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
         //plays animation
 
         //wait a bit
-        yield return new WaitForSeconds(1f);
-        //do damge
-        DoDamage();
+        // if (isNormalAttack) {
+        //     yield return new WaitForSeconds(0.5f);
+        //     DoDamage();
+        // } else {
+            yield return new WaitForSeconds(1f);
+            //do damge
+            DoDamage();
+        // }
         //remove the action from list
         curr_BS.CharacterActionList.RemoveAt(0);
 
@@ -111,5 +116,17 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 CurrentSkillCdList[i] += 1;
             }
         }
+    }
+
+    public int RollMA_Dice() {
+        if (currentState != State.DEAD) {
+            int DA_Dice = Random.Range(0, 100);
+            int TA_Dice = Random.Range(0, 100);
+            if (DA_Dice < myValue.baseDA) {
+                return 1;
+            } else if (TA_Dice < myValue.baseTA) {
+                return 2;
+            } else return 0;
+        } else return -1;
     }
 }

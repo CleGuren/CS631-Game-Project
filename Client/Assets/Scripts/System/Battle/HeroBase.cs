@@ -15,6 +15,8 @@ public class HeroBase
     public float currentAtk;
     public float baseDef;
     public float currentDef;
+    public int baseDA;
+    public int baseTA;
     public enum EleType { FIRE, WATER, EARTH, WIND, DARK, LIGHT }
     public enum WeaponType { SWORD, DAGGER, STAFF, AXE }
     public EleType HeroEle;

@@ -153,14 +153,6 @@ MonoBehaviour:
     charName: Alexiel
     charPortrait: {fileID: -7919180055458908053, guid: 1371ed548a7773449a0113f0d1f911fb,
       type: 3}
-    skill1_img: {fileID: 21300000, guid: 06de8acea73049a45b1a0549c263a60f, type: 3}
-    skill2_img: {fileID: 21300000, guid: 1ac7b0371f33139459fd19db864289cf, type: 3}
-    skill3_img: {fileID: 21300000, guid: 61d6525509237f04da7e7d517e4c8bb7, type: 3}
-    skill4_img: {fileID: 21300000, guid: 883681c2026da8244bb13c61ef4864c5, type: 3}
-    skill1_cd: 3
-    skill2_cd: 3
-    skill3_cd: 5
-    skill4_cd: 6
     level: 1
     baseHP: 50
     currentHP: 50
@@ -169,15 +161,18 @@ MonoBehaviour:
     currentAtk: 30
     baseDef: 35
     currentDef: 35
+    baseDA: 35
+    baseTA: 25
     HeroEle: 0
     HeroPrefWeapon: 0
     mySkill:
-    - {fileID: 3578982023610245155, guid: e8689ba36e89dc4478420bb1d665cf0c, type: 3}
+    - {fileID: 8870550550550828733, guid: 3516def465995664784478fed533e381, type: 3}
     - {fileID: 5317851600925770369, guid: c968b268e9b203d4ab3e08be78c28d11, type: 3}
     - {fileID: 6775395649805154752, guid: 49a48bbe6246e9a47853054940d52e51, type: 3}
     - {fileID: 6608715283831959698, guid: bb4ea9958ba53dc4ab372de8233f4111, type: 3}
     - {fileID: 3331974850351097474, guid: 736381212e6497d4d87bc3b487e657a3, type: 3}
   currentState: 0
+  CurrentSkillCdList: 
   DDM: {fileID: 6609767257376858358}
 --- !u!61 &6669274181291142365
 BoxCollider2D:

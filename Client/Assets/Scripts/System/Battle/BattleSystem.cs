@@ -154,8 +154,32 @@ public class BattleSystem : MonoBehaviour
         EnemyActionList.Add(input);
     }
 
+    // -1 dead player
+    //  0 normal attack
+    //  1 double attack
+    //  2 triple attack 
     public void TurnProgress() {
         playerTurn = false;
+        for (int i = 0; i < playerParty.Count; i++) {
+            pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0), playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice());
+        }
+
+    }
+
+    void pushNormalAttack(HandleTurn CharInfo, int MA_Data) {
+        if (MA_Data == 2) {
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt triple attacks!");
+        } else if (MA_Data == 1) {
+            CharacterActionList.Add(CharInfo);
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt double attacks!");
+        } else if (MA_Data == 0) {
+            CharacterActionList.Add(CharInfo);
+            Debug.Log(CharInfo.attackerName +" dealt a single attacks!");
+        } else Debug.Log("Dead chat don't attack.");
     }
 
     public void ToPlayerturn() {

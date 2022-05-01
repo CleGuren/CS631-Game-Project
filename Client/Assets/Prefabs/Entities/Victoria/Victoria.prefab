@@ -48,15 +48,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Victoria
-    charPortrait: {fileID: 0}
-    skill1_img: {fileID: 0}
-    skill2_img: {fileID: 0}
-    skill3_img: {fileID: 0}
-    skill4_img: {fileID: 0}
-    skill1_cd: 5
-    skill2_cd: 5
-    skill3_cd: 7
-    skill4_cd: 8
+    charPortrait: {fileID: -1681938229949886541, guid: cd5f704845506d245a7d0a7ee6d67f6b,
+      type: 3}
     level: 1
     baseHP: 45
     currentHP: 45
@@ -65,10 +58,18 @@ MonoBehaviour:
     currentAtk: 34
     baseDef: 30
     currentDef: 30
+    baseDA: 25
+    baseTA: 35
     HeroEle: 0
     HeroPrefWeapon: 1
-    mySkill: []
+    mySkill:
+    - {fileID: 8870550550550828733, guid: 3516def465995664784478fed533e381, type: 3}
+    - {fileID: 2929066218874599382, guid: 82920ca903cd4874bbf76d157845775d, type: 3}
+    - {fileID: 1650171841076020297, guid: 19fa6f60c2320cd4e8860525b0c41f44, type: 3}
+    - {fileID: 6741892660492326360, guid: 0f0e9eb6902f0c940b05ef60840cc9d7, type: 3}
+    - {fileID: 7330821544912893561, guid: 3d0b4e4cf4c2f2849894c55fcf4506da, type: 3}
   currentState: 0
+  CurrentSkillCdList: 
   DDM: {fileID: 1064431832514560691}
 --- !u!61 &-4641197650417692736
 BoxCollider2D:

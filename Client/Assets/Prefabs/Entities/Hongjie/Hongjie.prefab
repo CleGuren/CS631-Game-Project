@@ -151,15 +151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myValue:
     charName: Hongjie
-    charPortrait: {fileID: 0}
-    skill1_img: {fileID: 0}
-    skill2_img: {fileID: 0}
-    skill3_img: {fileID: 0}
-    skill4_img: {fileID: 0}
-    skill1_cd: 2
-    skill2_cd: 3
-    skill3_cd: 3
-    skill4_cd: 4
+    charPortrait: {fileID: -7783813424544337531, guid: 1c9c4f112c9ebea4eb081613f447c5c2,
+      type: 3}
     level: 1
     baseHP: 50
     currentHP: 50
@@ -168,10 +161,18 @@ MonoBehaviour:
     currentAtk: 33
     baseDef: 45
     currentDef: 45
+    baseDA: 25
+    baseTA: 20
     HeroEle: 4
     HeroPrefWeapon: 0
-    mySkill: []
+    mySkill:
+    - {fileID: 8870550550550828733, guid: 3516def465995664784478fed533e381, type: 3}
+    - {fileID: 6320902575164952252, guid: 70beafbe5560c044283c759b877c1b10, type: 3}
+    - {fileID: 7222524710944941902, guid: 2b1d7bd5a4b36564c8cd868a079df33b, type: 3}
+    - {fileID: 5146200704743560589, guid: d8f0a93ebdba59441a1b1a955820c7e6, type: 3}
+    - {fileID: 962026604471691083, guid: 79ad12e9c7380dd4b888fea29ddc078c, type: 3}
   currentState: 0
+  CurrentSkillCdList: 
   DDM: {fileID: 339216980447625645}
 --- !u!61 &7377451940057361709
 BoxCollider2D:
