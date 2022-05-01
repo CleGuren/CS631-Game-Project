@@ -5,7 +5,7 @@ using UnityEngine;
 public class SetMusicStateExit : MonoBehaviour
 {
     public AK.Wwise.State onTriggerExitState;
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other) 
     {
         if (other.CompareTag("Player"))
         {

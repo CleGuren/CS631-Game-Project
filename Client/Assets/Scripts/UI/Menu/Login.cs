@@ -46,6 +46,7 @@ public class Login : MonoBehaviour
         Debug.Log("The other game event is: " + theThing + ".");
         Debug.Log("The stored event is: " + GameManager.startMainMusicEvent + ".");
         Destroy(theThing);
+        
         user_id = user_id.Trim();
         password = password.Trim();
         if (user_id.Length == 0)

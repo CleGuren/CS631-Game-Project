@@ -360,7 +360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -144.20993, y: 186.79}
+  m_AnchoredPosition: {x: -144.2099, y: 186.78998}
   m_SizeDelta: {x: -558.44, y: -427.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165300615
@@ -2175,6 +2175,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TempScript, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1104808655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2578,9 +2590,10 @@ GameObject:
   - component: {fileID: 1490304790}
   - component: {fileID: 1490304789}
   - component: {fileID: 1490304788}
+  - component: {fileID: 1490304791}
   m_Layer: 0
   m_Name: Audio Source
-  m_TagString: Untagged
+  m_TagString: GameBattleMusic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2594,22 +2607,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1490304787}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c3f9bd7c2a1642f98bc9717494e5872, type: 3}
+  m_Script: {fileID: 11500000, guid: e7e2b547498d7403a9e877b430142210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerList: f7e1664c
+  triggerList: ae8d9d44
   useOtherObject: 0
   data:
     idInternal: 0
     valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ae5c7845c5e224fd8832f0990e0c51fc,
+    WwiseObjectReference: {fileID: 11400000, guid: 081c03271186c4942ac531f5a14bec3f,
       type: 2}
-  valueIdInternal: 0
-  groupIdInternal: 0
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
   valueGuidInternal: 
-  groupGuidInternal: 
 --- !u!114 &1490304789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2646,6 +2659,36 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1490304791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490304787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a50fbd530204b5d9c3fc1db88f165c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: ae8d9d44
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: a79f9754ac3f84b279199350d3dd759b,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &1529846439
 GameObject:
   m_ObjectHideFlags: 0

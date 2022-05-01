@@ -2375,7 +2375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &373842943
 Transform:
   m_ObjectHideFlags: 0
@@ -2409,11 +2409,6 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 4e3a49492c8914235af4e10d01bc5be4,
       type: 2}
-  currentEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e9ec587ccbf984b0391314feae9a64b0,
-      type: 2}
 --- !u!114 &373842945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2446,7 +2441,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.5, y: -13.979589}
@@ -5649,12 +5644,11 @@ GameObject:
   - component: {fileID: 475681100}
   - component: {fileID: 475681099}
   - component: {fileID: 475681101}
-  - component: {fileID: 475681102}
   - component: {fileID: 475681103}
-  - component: {fileID: 475681104}
+  - component: {fileID: 475681102}
   m_Layer: 0
   m_Name: Audio Source
-  m_TagString: Untagged
+  m_TagString: GameTownHubMusic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5749,33 +5743,15 @@ MonoBehaviour:
   currentEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 5321a8e6d2974428988b778158312fcf,
+    WwiseObjectReference: {fileID: 11400000, guid: 6605a0eface9c43d1921d7d2dbe12dcf,
       type: 2}
---- !u!114 &475681104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475681098}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c3f9bd7c2a1642f98bc9717494e5872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  triggerList: f7e1664c
-  useOtherObject: 0
-  data:
+  currentState:
     idInternal: 0
     valueGuidInternal: 
     groupIdInternal: 0
     groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 4e3a49492c8914235af4e10d01bc5be4,
+    WwiseObjectReference: {fileID: 11400000, guid: e3ac2d74d99a645e5804526eafff1e12,
       type: 2}
-  valueIdInternal: 0
-  groupIdInternal: 0
-  valueGuidInternal: 
-  groupGuidInternal: 
 --- !u!1 &477780207
 GameObject:
   m_ObjectHideFlags: 0
@@ -7892,7 +7868,7 @@ GameObject:
   - component: {fileID: 678679154}
   m_Layer: 0
   m_Name: Scene
-  m_TagString: GameTownHubMusic
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40687,113 +40663,6 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
---- !u!1001 &1758490473
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 333548851424336706, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336707, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336717, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_Name
-      value: AudioManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 333548851424336717, guid: d959416b9ea854dd39414e3ce0e72a20,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d959416b9ea854dd39414e3ce0e72a20, type: 3}
---- !u!1 &1758490474 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 333548851424336717, guid: d959416b9ea854dd39414e3ce0e72a20,
-    type: 3}
-  m_PrefabInstance: {fileID: 1758490473}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1758490475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1758490474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8e57e8937417461ca012041ed30e5b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1 &1799020156
 GameObject:
   m_ObjectHideFlags: 0

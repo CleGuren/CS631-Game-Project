@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 62741b0fbcc2f0439d89955196a0eee5
     GuidInternal: 
-    m_lastTime: -8585527654774775808
+    m_lastTime: -8585503944854775808
     List:
     - name: Env
       guid: 02a4b8df81797e4bb51966d762b31d03
@@ -404,7 +404,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 1b94de36e339fc4893fd99a00b289419
     GuidInternal: 
-    m_lastTime: -8585527639754775808
+    m_lastTime: -8585502473654775808
     List: []
   - PhysicalPath: Events/Official.wwu
     PathAndIcons:
@@ -417,8 +417,48 @@ MonoBehaviour:
     ParentPath: Events/Official
     guid: 5b4a0c2f505a8c43b343c5cf02aa827a
     GuidInternal: 
-    m_lastTime: -8585505614674775808
+    m_lastTime: -8585502463114775808
     List:
+    - name: 2D_Ambance
+      guid: d3f47c9537a38046ae6d1cb5aa567612
+      id: 3405362655
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: 2D_Ambance
+        ObjectType: 4
+        guid: d3f47c9537a38046ae6d1cb5aa567612
+      Path: Events/Official/SFX/2D_Ambance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Combat
+      guid: 64310291b2640a499a6fabde95e92502
+      id: 2764240573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      Path: Events/Official/SFX/Combat
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Gameplay
       guid: 182110817e4f3748910c6f6fa6083796
       id: 89505537
@@ -453,6 +493,26 @@ MonoBehaviour:
         ObjectType: 4
         guid: 206d40d614256e4cb61c0271985b2aae
       Path: Events/Official/General_States
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Misc
+      guid: a0a44b44fea97a4e8327751cef33dfe9
+      id: 3062523257
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      Path: Events/Official/SFX/Misc
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -494,6 +554,26 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Play
+      guid: 27008470b00ea4418aa298196079f00d
+      id: 1256202815
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play
       guid: 96e64dad53cbc343baa66a5cc4e6c384
       id: 1256202815
       PathAndIcons:
@@ -510,6 +590,75 @@ MonoBehaviour:
         ObjectType: 4
         guid: 96e64dad53cbc343baa66a5cc4e6c384
       Path: Events/Official/Music/Play
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Ambiance
+      guid: 1aff65fd0e5ef445b02733edcedbcc70
+      id: 3174479978
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: 2D_Ambance
+        ObjectType: 4
+        guid: d3f47c9537a38046ae6d1cb5aa567612
+      - ElementName: Play_Ambiance
+        ObjectType: 3
+        guid: 1aff65fd0e5ef445b02733edcedbcc70
+      Path: Events/Official/SFX/2D_Ambance/Play_Ambiance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Boss_Phase_1_Music
+      guid: e7d2efc6224eaa45b303c2cd4a9998d1
+      id: 3870811733
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      - ElementName: Play_Boss_Phase_1_Music
+        ObjectType: 3
+        guid: e7d2efc6224eaa45b303c2cd4a9998d1
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play/Play_Boss_Phase_1_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Combat_Music
+      guid: e411772c7bc448479b0b3f84f44fac47
+      id: 3155474038
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      - ElementName: Play_Combat_Music
+        ObjectType: 3
+        guid: e411772c7bc448479b0b3f84f44fac47
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play/Play_Combat_Music
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -559,6 +708,328 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_Boss_Roar
+      guid: 5bf9c333eeeba94cb8d8abf4210d6f63
+      id: 1109520104
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Boss_Roar
+        ObjectType: 3
+        guid: 5bf9c333eeeba94cb8d8abf4210d6f63
+      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Roar
+      maxAttenuation: 0
+      maxDuration: 3.499977
+      minDuration: 3.499977
+    - name: Play_SFX_Boss_Scream
+      guid: 874623517e654a47a54057b91df1f465
+      id: 362650367
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Boss_Scream
+        ObjectType: 3
+        guid: 874623517e654a47a54057b91df1f465
+      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Scream
+      maxAttenuation: 0
+      maxDuration: 2.499977
+      minDuration: 2.499977
+    - name: Play_SFX_Boss_Screech
+      guid: 44bda3777b466a489511b7aedb69e583
+      id: 3759158871
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Boss_Screech
+        ObjectType: 3
+        guid: 44bda3777b466a489511b7aedb69e583
+      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Screech
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Boss_Yell
+      guid: cacc65d3d1654542872e0d92e5d32fda
+      id: 1111697546
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Boss_Yell
+        ObjectType: 3
+        guid: cacc65d3d1654542872e0d92e5d32fda
+      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Yell
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Combat_Attack_Bow
+      guid: 5272e947af790d40860cffb854abe632
+      id: 2752594136
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Attack_Bow
+        ObjectType: 3
+        guid: 5272e947af790d40860cffb854abe632
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Bow
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
+    - name: Play_SFX_Combat_Attack_Fire
+      guid: 69103c65d486f649ad1835d145e21fa1
+      id: 1598775888
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Attack_Fire
+        ObjectType: 3
+        guid: 69103c65d486f649ad1835d145e21fa1
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Fire
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
+    - name: Play_SFX_Combat_Attack_Magic_
+      guid: 54c7fccbede8074fb6fc05d5e590ded9
+      id: 413138120
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Attack_Magic_
+        ObjectType: 3
+        guid: 54c7fccbede8074fb6fc05d5e590ded9
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Magic_
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
+    - name: Play_SFX_Combat_Attack_Sword
+      guid: 9aa616e851914d48897b444fdca875cb
+      id: 4013471751
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Attack_Sword
+        ObjectType: 3
+        guid: 9aa616e851914d48897b444fdca875cb
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Sword
+      maxAttenuation: 0
+      maxDuration: 0.999977
+      minDuration: 0.999977
+    - name: Play_SFX_Combat_Damage_General
+      guid: 46bcbd25da544045a59ca5f7e58a90df
+      id: 3939099487
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Damage_General
+        ObjectType: 3
+        guid: 46bcbd25da544045a59ca5f7e58a90df
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_General
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Combat_Damage_Magic
+      guid: 5fbd38881d1845459318e12e9ab7a44e
+      id: 2856064598
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Damage_Magic
+        ObjectType: 3
+        guid: 5fbd38881d1845459318e12e9ab7a44e
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_Magic
+      maxAttenuation: 0
+      maxDuration: 2.999977
+      minDuration: 2.999977
+    - name: Play_SFX_Combat_Damage_Melee
+      guid: 7906f6bb6a2f6a499d7c949c0cb7022e
+      id: 3918087091
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Damage_Melee
+        ObjectType: 3
+        guid: 7906f6bb6a2f6a499d7c949c0cb7022e
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_Melee
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: Play_SFX_Combat_Throw
+      guid: 727ffd966d84cd4ab7249db4cd655655
+      id: 3368541447
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Play_SFX_Combat_Throw
+        ObjectType: 3
+        guid: 727ffd966d84cd4ab7249db4cd655655
+      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Throw
+      maxAttenuation: 0
+      maxDuration: 0.999977
+      minDuration: 0.999977
+    - name: Play_SFX_Player_Spawn_Float
+      guid: 22a555a8a2b4624aaaf867f415c8ad11
+      id: 1705212850
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Player_Spawn_Float
+        ObjectType: 3
+        guid: 22a555a8a2b4624aaaf867f415c8ad11
+      Path: Events/Official/SFX/Misc/Play_SFX_Player_Spawn_Float
+      maxAttenuation: 0
+      maxDuration: 4.5
+      minDuration: 4.5
+    - name: Play_SFX_Player_Spawn_Land
+      guid: 665baadcbd6f984ba46ae9e5574622ee
+      id: 4035179051
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Player_Spawn_Land
+        ObjectType: 3
+        guid: 665baadcbd6f984ba46ae9e5574622ee
+      Path: Events/Official/SFX/Misc/Play_SFX_Player_Spawn_Land
+      maxAttenuation: 0
+      maxDuration: 0.5
+      minDuration: 0.5
     - name: Play_SFX_UI_Back
       guid: a12399f05ab6c341baf94673fabf00f9
       id: 1117141914
@@ -628,6 +1099,69 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.499977
       minDuration: 0.499977
+    - name: Play_Town_Music
+      guid: da47e10edfc9df41a644f81e379d25d5
+      id: 3208464042
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      - ElementName: Play_Town_Music
+        ObjectType: 3
+        guid: da47e10edfc9df41a644f81e379d25d5
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play/Play_Town_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_Tutorial_Area_Music
+      guid: 293f96a86c6bc94fb69aadba5fbe5b48
+      id: 2396534832
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      - ElementName: Play_Tutorial_Area_Music
+        ObjectType: 3
+        guid: 293f96a86c6bc94fb69aadba5fbe5b48
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play/Play_Tutorial_Area_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SeparatedMusicAndAmbEvents
+      guid: 6b7574759120964cbb7c30c578dbe06a
+      id: 3438893109
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      Path: Events/Official/SeparatedMusicAndAmbEvents
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Set_State_Boss_Phase_1_Music_State
       guid: 38401be15155b14eb99f1f2ad9dcd0d5
       id: 2761290801
@@ -648,29 +1182,6 @@ MonoBehaviour:
         ObjectType: 3
         guid: 38401be15155b14eb99f1f2ad9dcd0d5
       Path: Events/Official/Music/States/Set_State_Boss_Phase_1_Music_State
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
-    - name: Set_State_Boss_Phase_2_Music_State
-      guid: c37192f77c5eb44d9f01b82c1db0759d
-      id: 2645897210
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Official
-        ObjectType: 12
-        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
-      - ElementName: Music
-        ObjectType: 4
-        guid: 8e7402409967e541bcfad92266f2920d
-      - ElementName: States
-        ObjectType: 4
-        guid: 43e199fd0a4fb74084606bdf8fa0f2af
-      - ElementName: Set_State_Boss_Phase_2_Music_State
-        ObjectType: 3
-        guid: c37192f77c5eb44d9f01b82c1db0759d
-      Path: Events/Official/Music/States/Set_State_Boss_Phase_2_Music_State
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -919,6 +1430,26 @@ MonoBehaviour:
       maxDuration: -1
       minDuration: -1
     - name: Stop
+      guid: 268e7724e3ce7f41a29149c52b78ef7b
+      id: 788884573
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Stop
+        ObjectType: 4
+        guid: 268e7724e3ce7f41a29149c52b78ef7b
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Stop
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop
       guid: 101e72e419300e48b92ddc815aa721df
       id: 788884573
       PathAndIcons:
@@ -938,6 +1469,75 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Stop_Ambiance
+      guid: 73ea16e2fa0ce842ac9a6ec4e727baba
+      id: 2839405212
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: 2D_Ambance
+        ObjectType: 4
+        guid: d3f47c9537a38046ae6d1cb5aa567612
+      - ElementName: Stop_Ambiance
+        ObjectType: 3
+        guid: 73ea16e2fa0ce842ac9a6ec4e727baba
+      Path: Events/Official/SFX/2D_Ambance/Stop_Ambiance
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Boss_Phase_1_Music
+      guid: 20378ed5bee1bd4da82364a16c5a3513
+      id: 2441257819
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Stop
+        ObjectType: 4
+        guid: 268e7724e3ce7f41a29149c52b78ef7b
+      - ElementName: Stop_Boss_Phase_1_Music
+        ObjectType: 3
+        guid: 20378ed5bee1bd4da82364a16c5a3513
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Stop/Stop_Boss_Phase_1_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Combat_Music
+      guid: 12112a48e52aa54fb009573e5b1cca06
+      id: 970928956
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Stop
+        ObjectType: 4
+        guid: 268e7724e3ce7f41a29149c52b78ef7b
+      - ElementName: Stop_Combat_Music
+        ObjectType: 3
+        guid: 12112a48e52aa54fb009573e5b1cca06
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Stop/Stop_Combat_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_Gameplay_Music
       guid: 28d20fb06462c6439f876da2f09387e4
       id: 3536547992
@@ -981,6 +1581,52 @@ MonoBehaviour:
         ObjectType: 3
         guid: a38a9b348d99bf4a98d52f501431ae3b
       Path: Events/Official/Music/Stop/Stop_Main_Menu_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Town_Music
+      guid: 645b27cf69a8904f8a03d3b419fdbbe8
+      id: 2800207448
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Stop
+        ObjectType: 4
+        guid: 268e7724e3ce7f41a29149c52b78ef7b
+      - ElementName: Stop_Town_Music
+        ObjectType: 3
+        guid: 645b27cf69a8904f8a03d3b419fdbbe8
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Stop/Stop_Town_Music
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_Tutorial_Area_Music
+      guid: ee8f82cc23efa542b560ffcf29b088e8
+      id: 1217006078
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Stop
+        ObjectType: 4
+        guid: 268e7724e3ce7f41a29149c52b78ef7b
+      - ElementName: Stop_Tutorial_Area_Music
+        ObjectType: 3
+        guid: ee8f82cc23efa542b560ffcf29b088e8
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Stop/Stop_Tutorial_Area_Music
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -1823,7 +2469,7 @@ MonoBehaviour:
     ParentPath: States/Official
     guid: 185cf2165ab7c24b9a8c48bc743260e1
     GuidInternal: 
-    m_lastTime: -8585505614674775808
+    m_lastTime: -8585504131294775808
     List:
     - name: Gameplay
       guid: 5892178ef12aa242ad10d3d5e9030131
@@ -1891,6 +2537,72 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: InOut
+      guid: 6e921b0b8ee4e54981b4e0a6c3fa283f
+      id: 1174995064
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 185cf2165ab7c24b9a8c48bc743260e1
+      - ElementName: InOut
+        ObjectType: 9
+        guid: 6e921b0b8ee4e54981b4e0a6c3fa283f
+      Path: States/Official/InOut
+      values:
+      - name: Indoor
+        guid: b679fff8fa78dc44aad94b89cf669a8f
+        id: 340398852
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Official
+          ObjectType: 12
+          guid: 185cf2165ab7c24b9a8c48bc743260e1
+        - ElementName: InOut
+          ObjectType: 9
+          guid: 6e921b0b8ee4e54981b4e0a6c3fa283f
+        - ElementName: Indoor
+          ObjectType: 8
+          guid: b679fff8fa78dc44aad94b89cf669a8f
+      - name: None
+        guid: b7c152dfbe87a64687a52d9ad393695e
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Official
+          ObjectType: 12
+          guid: 185cf2165ab7c24b9a8c48bc743260e1
+        - ElementName: InOut
+          ObjectType: 9
+          guid: 6e921b0b8ee4e54981b4e0a6c3fa283f
+        - ElementName: None
+          ObjectType: 8
+          guid: b7c152dfbe87a64687a52d9ad393695e
+      - name: Outdoor
+        guid: 345153a1e31d634ebff1e7f499277f46
+        id: 144697359
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Official
+          ObjectType: 12
+          guid: 185cf2165ab7c24b9a8c48bc743260e1
+        - ElementName: InOut
+          ObjectType: 9
+          guid: 6e921b0b8ee4e54981b4e0a6c3fa283f
+        - ElementName: Outdoor
+          ObjectType: 8
+          guid: 345153a1e31d634ebff1e7f499277f46
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: Music
       guid: 623e3445adf178498230a13b0535c0de
       id: 3991942870
@@ -1922,22 +2634,6 @@ MonoBehaviour:
         - ElementName: Boss_Phase_1_Music_State
           ObjectType: 8
           guid: a4d66fc1caef11408e4e8c6f3f949161
-      - name: Boss_Phase_2_Music_State
-        guid: 55b45956e3bdcd4598101c05860cbd3f
-        id: 2103070271
-        PathAndIcons:
-        - ElementName: States
-          ObjectType: 5
-          guid: 00000000000000000000000000000000
-        - ElementName: Official
-          ObjectType: 12
-          guid: 185cf2165ab7c24b9a8c48bc743260e1
-        - ElementName: Music
-          ObjectType: 9
-          guid: 623e3445adf178498230a13b0535c0de
-        - ElementName: Boss_Phase_2_Music_State
-          ObjectType: 8
-          guid: 55b45956e3bdcd4598101c05860cbd3f
       - name: Combat_Music_State
         guid: 6d0adf0e2272094a908ae3cc3f3393f0
         id: 2471068395
@@ -2002,9 +2698,9 @@ MonoBehaviour:
         - ElementName: Town_Music_State
           ObjectType: 8
           guid: b0422f1c3ecc83408befa5add0e8c6b9
-      - name: Training_Ground_Music_State
+      - name: Tutorial_Area_Music_State
         guid: 769ed6c27b1d6140bfae8558c0850dad
-        id: 3008940497
+        id: 3287040219
         PathAndIcons:
         - ElementName: States
           ObjectType: 5
@@ -2015,7 +2711,7 @@ MonoBehaviour:
         - ElementName: Music
           ObjectType: 9
           guid: 623e3445adf178498230a13b0535c0de
-        - ElementName: Training_Ground_Music_State
+        - ElementName: Tutorial_Area_Music_State
           ObjectType: 8
           guid: 769ed6c27b1d6140bfae8558c0850dad
       - name: Victory_Music_State
@@ -2564,7 +3260,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585549853754775808
     List: []
-  ExpandedFileSystemItemIds: 010000000200000004000000050000000600000007000000090000000b0000000d000000100000001100000012000000130000001d0000001f000000210000002200000023000000240000002500000027000000280000002f000000320000003c0000003d000000450000004600000047000000490000004e00000057000000590000005a0000005e0000006c0000007600000078000000
+  ExpandedFileSystemItemIds: 0100000002000000040000000500000006000000070000000b0000000d0000000e0000000f000000100000001100000012000000130000001d0000001f00000021000000220000002400000027000000280000002a0000002b0000002f0000003100000032000000330000003400000036000000370000003c000000450000004600000047000000490000004a0000004e0000004f00000057000000590000005a0000005e00000063000000650000006c0000006e0000007400000076000000780000007b0000007f000000870000009400000096000000
   ExpandedWaapiItemIds: 4300000045000000460000004a00000089000000
   AutoSyncSelection: 1
   autoPopulateEnabled: 1

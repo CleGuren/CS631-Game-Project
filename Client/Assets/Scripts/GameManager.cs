@@ -9,4 +9,8 @@ public class GameManager : MonoBehaviour
         private NetworkManager networkManager;
 
         public static AK.Wwise.Event startMainMusicEvent;
+        public static AK.Wwise.Event startTownHubMusicEvent;
+        public static AK.Wwise.Event startBattleEvent;
+        public static AK.Wwise.Event startTutorialEvent
+            ;
     }
