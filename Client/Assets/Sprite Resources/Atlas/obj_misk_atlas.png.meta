@@ -266,6 +266,12 @@ TextureImporter:
   - first:
       213: 3067174671756813153
     second: obj_misk_atlas_87
+  - first:
+      213: -140352098138780130
+    second: obj_misk_atlas_88
+  - first:
+      213: -6865439063366291565
+    second: obj_misk_atlas_89
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -715,10 +721,10 @@ TextureImporter:
       name: obj_misk_atlas_17
       rect:
         serializedVersion: 2
-        x: 960
-        y: 1000
-        width: 16
-        height: 24
+        x: 904
+        y: 992
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -736,10 +742,10 @@ TextureImporter:
       name: obj_misk_atlas_18
       rect:
         serializedVersion: 2
-        x: 976
-        y: 1000
-        width: 16
-        height: 24
+        x: 800
+        y: 992
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -757,10 +763,10 @@ TextureImporter:
       name: obj_misk_atlas_19
       rect:
         serializedVersion: 2
-        x: 960
-        y: 984
-        width: 16
-        height: 16
+        x: 800
+        y: 912
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -778,10 +784,10 @@ TextureImporter:
       name: obj_misk_atlas_20
       rect:
         serializedVersion: 2
-        x: 976
-        y: 984
-        width: 16
-        height: 16
+        x: 800
+        y: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,10 +805,10 @@ TextureImporter:
       name: obj_misk_atlas_21
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 983
-        width: 8
-        height: 41
+        x: 904
+        y: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -820,10 +826,10 @@ TextureImporter:
       name: obj_misk_atlas_22
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 919
-        width: 8
-        height: 41
+        x: 904
+        y: 928
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -841,10 +847,10 @@ TextureImporter:
       name: obj_misk_atlas_23
       rect:
         serializedVersion: 2
-        x: 984
-        y: 887
-        width: 16
-        height: 9
+        x: 904
+        y: 896
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -854,48 +860,6 @@ TextureImporter:
       bones: []
       spriteID: 59c61167dbf1e47f0800000000000000
       internalID: -626528399567786859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_24
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 919
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8d80d66650409110800000000000000
-      internalID: 1265582235127418253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: obj_misk_atlas_25
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 768
-        width: 8
-        height: 128
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7da716d2cfcbd7de0800000000000000
-      internalID: -1333702123352655145
       vertices: []
       indices: 
       edges: []
@@ -2056,13 +2020,76 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: obj_misk_atlas_87
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 544
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163e3260d1bc09a20800000000000000
+      internalID: 3067174671756813153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_misk_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 992
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d80d66650409110800000000000000
+      internalID: 1265582235127418253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_misk_atlas_25
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 928
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7da716d2cfcbd7de0800000000000000
+      internalID: -1333702123352655145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: obj_misk_atlas_81
       rect:
         serializedVersion: 2
-        x: 976
-        y: 919
-        width: 16
-        height: 18
+        x: 992
+        y: 960
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2080,10 +2107,10 @@ TextureImporter:
       name: obj_misk_atlas_82
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 983
-        width: 8
-        height: 41
+        x: 992
+        y: 896
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2101,10 +2128,10 @@ TextureImporter:
       name: obj_misk_atlas_83
       rect:
         serializedVersion: 2
-        x: 1016
-        y: 919
-        width: 8
-        height: 41
+        x: 928
+        y: 864
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2122,10 +2149,10 @@ TextureImporter:
       name: obj_misk_atlas_84
       rect:
         serializedVersion: 2
-        x: 856
-        y: 896
-        width: 16
-        height: 128
+        x: 904
+        y: 986
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2143,10 +2170,10 @@ TextureImporter:
       name: obj_misk_atlas_85
       rect:
         serializedVersion: 2
-        x: 960
-        y: 855
-        width: 64
-        height: 9
+        x: 512
+        y: 564
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2164,10 +2191,10 @@ TextureImporter:
       name: obj_misk_atlas_86
       rect:
         serializedVersion: 2
-        x: 888
-        y: 768
-        width: 8
-        height: 128
+        x: 512
+        y: 596
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2182,22 +2209,43 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: obj_misk_atlas_87
+      name: obj_misk_atlas_88
       rect:
         serializedVersion: 2
-        x: 97
-        y: 544
-        width: 63
-        height: 63
+        x: 544
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163e3260d1bc09a20800000000000000
-      internalID: 3067174671756813153
+      spriteID: e1e05f6a28e5d0ef0800000000000000
+      internalID: -140352098138780130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obj_misk_atlas_89
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 553
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39f26f8eb8f09b0a0800000000000000
+      internalID: -6865439063366291565
       vertices: []
       indices: 
       edges: []
