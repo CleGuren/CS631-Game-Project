@@ -1379,7 +1379,6 @@ MonoBehaviour:
   Enemy1Pos: {fileID: 1978149658}
   AttackButton: {fileID: 479484185}
   NoButton: {fileID: 2026196503}
-  TurnIndicator: {fileID: 0}
   curr_state: 0
 --- !u!4 &527442541
 Transform:

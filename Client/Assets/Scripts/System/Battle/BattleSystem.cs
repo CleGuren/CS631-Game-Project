@@ -6,7 +6,7 @@ using TMPro;
 
 public class BattleSystem : MonoBehaviour
 {
-    public enum BattleState { START, PLAYERTURN, ENEMYTURN, VICTORIOUS, DEFEAT }
+    public enum BattleState { START, PLAYERTURN, TRANSITIONING, ENEMYTURN, VICTORIOUS, DEFEAT }
 
     //Entities and Actions
     public List<HandleTurn> EnemyActionList = new List<HandleTurn>();
@@ -40,7 +40,7 @@ public class BattleSystem : MonoBehaviour
     private Text Skill2_CD;
     private Text Skill3_CD;
     private Text Skill4_CD;
-    [SerializeField]private TextMeshProUGUI TurnIndicator;
+    private TextMeshProUGUI TurnIndicator;
     private Image CharPortrait;
     private Image HP_Bar;
     private Image Boss_HP_Bar;
@@ -110,6 +110,8 @@ public class BattleSystem : MonoBehaviour
                     curr_state = BattleState.ENEMYTURN;
                 }
                 break;
+            // case(BattleState.TRANSITIONING) :
+            //     break;
             case(BattleState.ENEMYTURN) :
                 if (EnemyActionList.Count > 0) {
                     //enemy perform actions
@@ -159,11 +161,10 @@ public class BattleSystem : MonoBehaviour
     //  1 double attack
     //  2 triple attack 
     public void TurnProgress() {
-        playerTurn = false;
         for (int i = 0; i < playerParty.Count; i++) {
             pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0), playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice());
         }
-
+        playerTurn = false;
     }
 
     void pushNormalAttack(HandleTurn CharInfo, int MA_Data) {
