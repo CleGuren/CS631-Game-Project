@@ -9,7 +9,7 @@ public class MainMenuMusic : MonoBehaviour
     //public static MainMenuMusic instance;
     
    [SerializeField] private AK.Wwise.Event currentEvent;
-   [SerializeField] private AK.Wwise.Event stopEvent;
+   //[SerializeField] private AK.Wwise.Event stopEvent;
    
    private void Start()
    {
@@ -21,7 +21,7 @@ public class MainMenuMusic : MonoBehaviour
 
    private void OnDestroy()
    {
-       stopEvent.Post(gameObject);
+      // stopEvent.Post(gameObject);
        currentEvent.Stop(gameObject);
    }
 }

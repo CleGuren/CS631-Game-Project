@@ -6127,6 +6127,7 @@ GameObject:
   - component: {fileID: 475681101}
   - component: {fileID: 475681103}
   - component: {fileID: 475681102}
+  - component: {fileID: 475681104}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: GameTownHubMusic
@@ -6226,13 +6227,41 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: 6605a0eface9c43d1921d7d2dbe12dcf,
       type: 2}
-  currentState:
+  stopEvent:
     idInternal: 0
     valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: e3ac2d74d99a645e5804526eafff1e12,
+    WwiseObjectReference: {fileID: 11400000, guid: e39d1b0ccd69342b992071853e5b9811,
       type: 2}
+--- !u!114 &475681104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 475681098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a50fbd530204b5d9c3fc1db88f165c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 958ca0ea
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e39d1b0ccd69342b992071853e5b9811,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &477780207
 GameObject:
   m_ObjectHideFlags: 0
