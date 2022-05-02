@@ -14,7 +14,8 @@ public class ChangeInput : MonoBehaviour
     private EventSystem eventSystem;
     public Selectable firstInput;
     public Button submitButton;
-   // public Scene currentScene = SceneManager.GetActiveScene();
+    
+    // public Scene currentScene = SceneManager.GetActiveScene();
 
     // Start is called before the first frame update
     void Start()

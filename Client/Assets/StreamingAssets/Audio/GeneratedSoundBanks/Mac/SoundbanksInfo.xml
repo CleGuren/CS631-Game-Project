@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/</ProjectRoot>
+		<SourceFilesRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="959552862" Language="SFX" Hash="1962955191">
+		<SoundBank Id="959552862" Language="SFX" Hash="1145463121">
 			<ObjectPath>\SoundBanks\Test\Test_Master</ObjectPath>
 			<ShortName>Test_Master</ShortName>
 			<Path>Test_Master.bnk</Path>
@@ -20,15 +20,15 @@
 					<IncludedMemoryFiles>
 						<File Id="366237381" Language="SFX">
 							<ShortName>Test_Swords.wav</ShortName>
-							<Path>SFX\Test_Swords_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Swords_D79FB2B7.wem</Path>
 						</File>
 						<File Id="725472561" Language="SFX">
 							<ShortName>Test_Nature.wav</ShortName>
-							<Path>SFX\Test_Nature_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Nature_D79FB2B7.wem</Path>
 						</File>
 						<File Id="978717677" Language="SFX">
 							<ShortName>Test_Chatter.wav</ShortName>
-							<Path>SFX\Test_Chatter_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Chatter_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{2985565D-D714-4EA0-ADBF-419893152E59}</DefaultSwitchValue>
@@ -54,7 +54,7 @@
 					<IncludedMemoryFiles>
 						<File Id="880725016" Language="SFX">
 							<ShortName>Test_Click.wav</ShortName>
-							<Path>SFX\Test_Click_10C4C929.wem</Path>
+							<Path>SFX/Test_Click_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -62,31 +62,31 @@
 					<IncludedMemoryFiles>
 						<File Id="398064322" Language="SFX">
 							<ShortName>Test_Training_Ground.wav</ShortName>
-							<Path>SFX\Test_Training_Ground_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Training_Ground_D79FB2B7.wem</Path>
 						</File>
 						<File Id="405352940" Language="SFX">
 							<ShortName>Test_Defeat.wav</ShortName>
-							<Path>SFX\Test_Defeat_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Defeat_D79FB2B7.wem</Path>
 						</File>
 						<File Id="447187770" Language="SFX">
 							<ShortName>Test_Victory.wav</ShortName>
-							<Path>SFX\Test_Victory_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Victory_D79FB2B7.wem</Path>
 						</File>
 						<File Id="470405553" Language="SFX">
 							<ShortName>Test_Town.wav</ShortName>
-							<Path>SFX\Test_Town_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Town_D79FB2B7.wem</Path>
 						</File>
 						<File Id="924690577" Language="SFX">
 							<ShortName>Test_Boss_2.wav</ShortName>
-							<Path>SFX\Test_Boss_2_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Boss_2_D79FB2B7.wem</Path>
 						</File>
 						<File Id="944723289" Language="SFX">
 							<ShortName>Test_Boss_1.wav</ShortName>
-							<Path>SFX\Test_Boss_1_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Boss_1_D79FB2B7.wem</Path>
 						</File>
 						<File Id="964690764" Language="SFX">
 							<ShortName>Test_Combat.wav</ShortName>
-							<Path>SFX\Test_Combat_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Combat_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -134,7 +134,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1068607519" Language="SFX">
 							<ShortName>Test_Main_Menu.wav</ShortName>
-							<Path>SFX\Test_Main_Menu_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Main_Menu_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -142,7 +142,7 @@
 					<IncludedMemoryFiles>
 						<File Id="434536453" Language="SFX">
 							<ShortName>Test_Wood.wav</ShortName>
-							<Path>SFX\Test_Wood_D79FB2B7.wem</Path>
+							<Path>SFX/Test_Wood_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -322,7 +322,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="3512717303">
+		<SoundBank Id="4056684167" Language="SFX" Hash="223809817">
 			<ObjectPath>\SoundBanks\Official\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -331,47 +331,47 @@
 					<IncludedMemoryFiles>
 						<File Id="51291083" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="190270889" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
 						</File>
 						<File Id="311786162" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
 						</File>
 						<File Id="404496039" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
 						</File>
 						<File Id="418656758" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Town_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="427976571" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="444886750" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Town_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="448990572" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
 						</File>
 						<File Id="675582577" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
 						</File>
 						<File Id="963589475" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="984130452" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -379,31 +379,31 @@
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+							<Path>SFX/MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
@@ -414,31 +414,31 @@
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+							<Path>SFX/MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
@@ -449,31 +449,31 @@
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+							<Path>SFX/MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -514,7 +514,7 @@
 					<IncludedMemoryFiles>
 						<File Id="101119723" Language="SFX">
 							<ShortName>MC_Main_Menu.wav</ShortName>
-							<Path>SFX\MC_Main_Menu_9EDFC787.wem</Path>
+							<Path>SFX/MC_Main_Menu_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -522,7 +522,7 @@
 					<IncludedMemoryFiles>
 						<File Id="441871621" Language="SFX">
 							<ShortName>SFX_Boss_Roar.wav</ShortName>
-							<Path>SFX\SFX_Boss_Roar_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Boss_Roar_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -530,7 +530,7 @@
 					<IncludedMemoryFiles>
 						<File Id="252686037" Language="SFX">
 							<ShortName>SFX_Boss_Scream.wav</ShortName>
-							<Path>SFX\SFX_Boss_Scream_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Boss_Scream_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -538,7 +538,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1001673628" Language="SFX">
 							<ShortName>SFX_Boss_Screech.wav</ShortName>
-							<Path>SFX\SFX_Boss_Screech_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Boss_Screech_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -546,7 +546,7 @@
 					<IncludedMemoryFiles>
 						<File Id="113824687" Language="SFX">
 							<ShortName>SFX_Boss_Yell.wav</ShortName>
-							<Path>SFX\SFX_Boss_Yell_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Boss_Yell_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -554,7 +554,7 @@
 					<IncludedMemoryFiles>
 						<File Id="725704615" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Bow.wav</ShortName>
-							<Path>SFX\SFX_Combat_Attack_Bow_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Attack_Bow_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -562,7 +562,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1058053633" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Fire.wav</ShortName>
-							<Path>SFX\SFX_Combat_Attack_Fire_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Attack_Fire_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -570,7 +570,7 @@
 					<IncludedMemoryFiles>
 						<File Id="141268377" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Magic .wav</ShortName>
-							<Path>SFX\SFX_Combat_Attack_Magic _3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Attack_Magic _3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -578,7 +578,7 @@
 					<IncludedMemoryFiles>
 						<File Id="423694452" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Sword.wav</ShortName>
-							<Path>SFX\SFX_Combat_Attack_Sword_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Attack_Sword_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -586,7 +586,7 @@
 					<IncludedMemoryFiles>
 						<File Id="864828214" Language="SFX">
 							<ShortName>SFX_Combat_Damage_General.wav</ShortName>
-							<Path>SFX\SFX_Combat_Damage_General_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Damage_General_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -594,7 +594,7 @@
 					<IncludedMemoryFiles>
 						<File Id="784198079" Language="SFX">
 							<ShortName>SFX_Combat_Damage_Magic.wav</ShortName>
-							<Path>SFX\SFX_Combat_Damage_Magic_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Damage_Magic_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -602,7 +602,7 @@
 					<IncludedMemoryFiles>
 						<File Id="186591648" Language="SFX">
 							<ShortName>SFX_Combat_Damage_Melee.wav</ShortName>
-							<Path>SFX\SFX_Combat_Damage_Melee_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Damage_Melee_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -610,7 +610,7 @@
 					<IncludedMemoryFiles>
 						<File Id="823087282" Language="SFX">
 							<ShortName>SFX_Combat_Throw.wav</ShortName>
-							<Path>SFX\SFX_Combat_Throw_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Combat_Throw_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -618,7 +618,7 @@
 					<IncludedMemoryFiles>
 						<File Id="981204708" Language="SFX">
 							<ShortName>SFX_Player_Spawn_Float.wav</ShortName>
-							<Path>SFX\SFX_Player_Spawn_Float_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Player_Spawn_Float_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -626,7 +626,7 @@
 					<IncludedMemoryFiles>
 						<File Id="709775079" Language="SFX">
 							<ShortName>SFX_Player_Spawn_Land.wav</ShortName>
-							<Path>SFX\SFX_Player_Spawn_Land_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Player_Spawn_Land_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -634,7 +634,7 @@
 					<IncludedMemoryFiles>
 						<File Id="202278871" Language="SFX">
 							<ShortName>SFX_UI_Back.wav</ShortName>
-							<Path>SFX\SFX_UI_Back_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_UI_Back_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -642,7 +642,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1072611532" Language="SFX">
 							<ShortName>SFX_UI_Confirm.wav</ShortName>
-							<Path>SFX\SFX_UI_Confirm_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_UI_Confirm_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -650,7 +650,7 @@
 					<IncludedMemoryFiles>
 						<File Id="278281572" Language="SFX">
 							<ShortName>SFX_UI_Select.wav</ShortName>
-							<Path>SFX\SFX_UI_Select_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_UI_Select_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -658,15 +658,15 @@
 					<IncludedMemoryFiles>
 						<File Id="418656758" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Town_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="444886750" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Town_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX\MC_Town_9EDFC787.wem</Path>
+							<Path>SFX/MC_Town_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -674,43 +674,43 @@
 					<IncludedMemoryFiles>
 						<File Id="51291083" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="190270889" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="311786162" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
 						</File>
 						<File Id="404496039" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
 						</File>
 						<File Id="427976571" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="448990572" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
 						</File>
 						<File Id="675582577" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
 						</File>
 						<File Id="963589475" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+							<Path>SFX/SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="984130452" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
-							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+							<Path>SFX/SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
