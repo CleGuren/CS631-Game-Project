@@ -63,14 +63,16 @@ public class Player : MonoBehaviour
         if (playerID == Constants.USER_ID)
         {
             movement = playerControls.ReadValue<Vector2>();
-            if (movement.x != prevMove.x || movement.y != prevMove.y) {
+            if (movement.x != prevMove.x || movement.y != prevMove.y)
+            {
                 cManager.send(requestMove(playerID, movement.x, movement.y));
                 prevMove.x = movement.x;
                 prevMove.y = movement.y;
             }
         }
 
-        if (playerID == otherID) {
+        if (playerID == otherID)
+        {
             movement = otherMove;
         }
 
@@ -110,6 +112,12 @@ public class Player : MonoBehaviour
         Destroy(gameObject);
     }
 
+    public void Teleport(float x, float y)
+    {
+        transform.position = new Vector3(x, y, transform.position.z);
+        // Network Send over teleport location x, y
+    }
+
     public RequestMove requestMove(int id, float x, float y)
     {
         RequestMove request = new RequestMove();
@@ -118,11 +126,12 @@ public class Player : MonoBehaviour
         return request;
     }
 
-    public void responseMove(int id, float x, float y) {
+    public void responseMove(int id, float x, float y)
+    {
         otherID = id;
         otherMove.x = x;
         otherMove.y = y;
     }
 
-    
+
 }
