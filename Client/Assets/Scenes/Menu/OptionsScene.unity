@@ -560,7 +560,7 @@ MonoBehaviour:
   clickEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b6795fc548d03408eb1405f05fdc88de,
+    WwiseObjectReference: {fileID: 11400000, guid: 17d952adc489e4284aa05245a0d2cf23,
       type: 2}
 --- !u!114 &982200529
 MonoBehaviour:
@@ -773,10 +773,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstInput: {fileID: 982200525}
   submitButton: {fileID: 982200525}
-  selectEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
 --- !u!114 &1053438799
 MonoBehaviour:
   m_ObjectHideFlags: 0
