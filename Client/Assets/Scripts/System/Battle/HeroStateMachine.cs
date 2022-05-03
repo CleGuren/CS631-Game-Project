@@ -8,9 +8,10 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public HeroBase myValue;
     public State currentState;
     public List<int> CurrentSkillCdList;
+    public Animator characterAnimator;
+    public bool endOfAction = false;
     private BattleSystem curr_BS;
     private bool alive = true;
-    private bool actionStarted;
     [SerializeField] private DamageDisplayManager DDM;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
@@ -35,8 +36,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             case (State.ADDTOLIST) : 
                 break;
             case (State.ACTION) :
-                StartCoroutine(ActionTime());
-                currentState = State.WAITING;
+                // StartCoroutine(ActionTime());
                 break;
             case (State.DEAD) : 
                 if (!alive) {
@@ -54,28 +54,42 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
         }
     }
 
-    private IEnumerator ActionTime() {
-        if (actionStarted) {
-            yield break;
-        }
+    // private IEnumerator ActionTime() {
+    //     if (actionStarted) {
+    //         yield break;
+    //     }
 
-        actionStarted = true;
+    //     actionStarted = true;
 
+    //     //plays animation
+    //     if (curr_BS.CharacterActionList[0].chosenAtk == myValue.mySkill[0]) {
+    //         if (curr_BS.CharacterActionList[0].MA_Data == 1) {
+    //             characterAnimator.Play("Attack");
+    //         } else if (curr_BS.CharacterActionList[0].MA_Data == 2) {
+    //             characterAnimator.Play("Double Attack");
+    //         } else characterAnimator.Play("Triple Attack");
+    //     } else {
+    //         DoDamage();
+    //     }
+    //     //remove the action from list
+
+    //     actionStarted = false;
+    // }
+
+    public void ActionTime() {
         //plays animation
-
-        //wait a bit
-        // if (isNormalAttack) {
-        //     yield return new WaitForSeconds(0.5f);
-        //     DoDamage();
-        // } else {
-            yield return new WaitForSeconds(1f);
-            //do damge
+        currentState = State.ACTION;
+        if (curr_BS.CharacterActionList[0].chosenAtk == myValue.mySkill[0]) {
+            if (curr_BS.CharacterActionList[0].MA_Data == 1) {
+                characterAnimator.Play("Attack");
+            } else if (curr_BS.CharacterActionList[0].MA_Data == 2) {
+                characterAnimator.Play("Double Attack");
+            } else characterAnimator.Play("Triple Attack");
+        } else {
             DoDamage();
-        // }
-        //remove the action from list
-        curr_BS.CharacterActionList.RemoveAt(0);
-
-        actionStarted = false;
+            curr_BS.CharacterActionList.RemoveAt(0);
+            currentState = State.WAITING;
+        }
     }
 
     public void onClickAction() {
@@ -123,10 +137,21 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             int DA_Dice = Random.Range(0, 100);
             int TA_Dice = Random.Range(0, 100);
             if (DA_Dice < myValue.baseDA) {
-                return 1;
-            } else if (TA_Dice < myValue.baseTA) {
                 return 2;
-            } else return 0;
+            } else if (TA_Dice < myValue.baseTA) {
+                return 3;
+            } else return 1;
         } else return -1;
+    }
+
+    public void AnimationDone() {
+        characterAnimator.Play("Idle");
+        curr_BS.CharacterActionList.RemoveAt(0);
+        endOfAction = true;
+        currentState = State.WAITING;
+    }
+
+    public bool isIdle() {
+        return currentState == State.WAITING ? true : false;
     }
 }

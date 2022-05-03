@@ -1361,15 +1361,14 @@ MonoBehaviour:
     Type: 
     Attacker: {fileID: 0}
     Target: {fileID: 0}
+    MA_Data: 0
     chosenAtk: {fileID: 0}
-  Character1Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
+  Character1Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
     type: 3}
-  Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
+  Character2Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
     type: 3}
-  Character3Prefab: {fileID: 1034952642621749657, guid: ff06ea81330de2a40b14fd984f53bff7,
-    type: 3}
-  Character4Prefab: {fileID: 8260132309819607115, guid: d2ad0d7190445424589bce48ea13b770,
-    type: 3}
+  Character3Prefab: {fileID: 0}
+  Character4Prefab: {fileID: 0}
   Enemy1Prefab: {fileID: 3059094315220084323, guid: ac05c7817d5406243a1b445336744fb3,
     type: 3}
   Character1Pos: {fileID: 820840886}

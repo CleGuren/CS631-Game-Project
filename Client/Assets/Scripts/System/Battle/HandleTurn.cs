@@ -9,6 +9,7 @@ public class HandleTurn
     public string Type;
     public GameObject Attacker; //Who is attacking
     public GameObject Target; //The target
+    public int MA_Data;
 
     //which attack is performed
     public BaseSkill chosenAtk;
