@@ -225,7 +225,7 @@ MonoBehaviour:
     currentAtk: 30
     baseDef: 35
     currentDef: 35
-    baseDA: 99
+    baseDA: 35
     baseTA: 1
     HeroEle: 0
     HeroPrefWeapon: 0
@@ -238,6 +238,7 @@ MonoBehaviour:
   currentState: 0
   CurrentSkillCdList: 
   characterAnimator: {fileID: 7914805942392811012}
+  endOfAction: 0
   DDM: {fileID: 6609767257376858358}
 --- !u!61 &6669274181291142365
 BoxCollider2D:
