@@ -147,8 +147,8 @@ MonoBehaviour:
     currentAtk: 36
     baseDef: 25
     currentDef: 25
-    baseDA: 20
-    baseTA: 1
+    baseDA: 50
+    baseTA: 40
     HeroEle: 1
     HeroPrefWeapon: 2
     mySkill:
@@ -283,7 +283,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.21875, y: 0.125}
+  m_Size: {x: 0.6875, y: 0.78125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
@@ -530,7 +530,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.6875, y: 0.78125}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 0
