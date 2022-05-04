@@ -308,8 +308,8 @@ MonoBehaviour:
     currentAtk: 30
     baseDef: 35
     currentDef: 35
-    baseDA: 35
-    baseTA: 1
+    baseDA: 50
+    baseTA: 45
     HeroEle: 0
     HeroPrefWeapon: 0
     mySkill:

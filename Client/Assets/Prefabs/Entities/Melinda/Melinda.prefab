@@ -148,7 +148,7 @@ MonoBehaviour:
     baseDef: 25
     currentDef: 25
     baseDA: 50
-    baseTA: 40
+    baseTA: 35
     HeroEle: 1
     HeroPrefWeapon: 2
     mySkill:
