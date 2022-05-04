@@ -6,7 +6,7 @@ using TMPro;
 
 public class BattleSystem : MonoBehaviour
 {
-    public enum BattleState { START, PLAYERTURN, ENEMYTURN, VICTORIOUS, DEFEAT }
+    public enum BattleState { START, PLAYERTURN, ENEMYTURN, TRANSITIONING, VICTORIOUS, DEFEAT }
 
     //Entities and Actions
     public List<HandleTurn> EnemyActionList = new List<HandleTurn>();
@@ -54,6 +54,8 @@ public class BattleSystem : MonoBehaviour
     public BattleState curr_state;
     private bool playerTurn;
     private bool triggerUI; 
+    private bool victorious = true;
+    private bool defeat = true;
     
     public void Awake() {
         CharacterActionBox = GameObject.Find("Character Action Box");
@@ -87,6 +89,7 @@ public class BattleSystem : MonoBehaviour
     }
 
     void Update() {
+        //Optimized for single enemy
         switch(curr_state) {
             case(BattleState.START) : 
                 SpawnEntities();
@@ -96,21 +99,30 @@ public class BattleSystem : MonoBehaviour
                 curr_state = BattleState.PLAYERTURN;
                 break;
             case(BattleState.PLAYERTURN) : 
+                //action queued
                 if (CharacterActionList.Count > 0) {
+                    //only perform action when character is idling
                     if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle()) { 
                         CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().ActionTime();
+                        //switch to victorious state if no enemy remaining
+                    }
+                    if (EnemiesAreDead()) {
+                        CharacterActionList.Clear();
+                        curr_state = BattleState.VICTORIOUS;
                     }
                 }
+                //update boss hp bar
                 Boss_HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentHP/myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.maxHP, 0, 1), Boss_HP_Bar.transform.localScale.y, Boss_HP_Bar.transform.localScale.z);
+                //player have initiated turn progress
                 if (!playerTurn) {
+                    //turn off ui, no more input
                     CharacterActionBox.SetActive(false);
+                    //proceed to enemy turn after characters are done performing their action
                     if (charactersCompletedAction()) {
                         curr_state = BattleState.ENEMYTURN;
                     }
                 }
                 break;
-            // case(BattleState.TRANSITIONING) :
-            //     break;
             case(BattleState.ENEMYTURN) :
                 if (EnemyActionList.Count > 0) {
                     //enemy perform actions
@@ -130,13 +142,25 @@ public class BattleSystem : MonoBehaviour
                         playerParty[i].GetComponent<HeroStateMachine>().UpdateSkillCD();
                     }
                     UpdateTurn();
-                    curr_state = BattleState.PLAYERTURN;
+                    curr_state = BattleState.TRANSITIONING;
                 }
                 break;
+            case(BattleState.TRANSITIONING) :
+                if (CharsAreDead()) {
+                    curr_state = BattleState.DEFEAT;
+                } else curr_state = BattleState.PLAYERTURN;
+                break; 
             case(BattleState.VICTORIOUS) : 
-
+                if (victorious) {
+                    victorious = false;
+                    Debug.Log("You Won!");
+                }
                 break;
-            case(BattleState.DEFEAT) : 
+            case(BattleState.DEFEAT) :
+                if (defeat) {
+                    defeat = false;
+                    Debug.Log("You Lost!");
+                } 
                 break;
         }
     }
@@ -261,5 +285,25 @@ public class BattleSystem : MonoBehaviour
             SelectedChar.SkillEnterCooldown(4);
             Skill4_CD.text = SelectedChar.SkillCurrentCD(4) + "/" + SelectedChar.SkillCD(4);
         }
+    }
+
+    public bool CharsAreDead() {
+        bool deadCheck = true;
+        for (int i = 0; i < playerParty.Count; i++) {
+            if (playerParty[i].GetComponent<HeroStateMachine>().currentState == HeroStateMachine.State.DEAD) {
+                deadCheck &= true;
+            } else deadCheck &= false;
+        }
+        return deadCheck;
+    }
+
+    public bool EnemiesAreDead() {
+        bool deadCheck = true;
+        for (int i = 0; i < myEnemy.Count; i++) {
+            if (myEnemy[i].GetComponent<EnemyStateMachine>().currentState == EnemyStateMachine.State.DEAD) {
+                deadCheck &= true;
+            } else deadCheck &= false;
+        }
+        return deadCheck;
     }
 }

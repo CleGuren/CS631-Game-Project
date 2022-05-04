@@ -90,6 +90,9 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             calc_damage = 1;
         }
         curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
+        if (curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().currentState == EnemyStateMachine.State.DEAD) {
+            characterAnimator.Play("Idle");
+        }
     }
 
     public int SkillCurrentCD(int skillNumber) {

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class EnemyStateMachine : MonoBehaviour
 {
-    public enum State { START, CHOOSE_ACTION, WAITING, PERFORM_ACTION, DEAD }
+    public enum State { START, IDLE, CHOOSE_ACTION, WAITING, PERFORM_ACTION, DEAD }
     public EnemyBase Enemy;
     public State currentState;
     public GameObject HeroToAttack;
     private BattleSystem curr_BS;
-    private bool actionStarted;
     private int currentChargeDiamond;
+    private bool alive = true;
     [SerializeField] private DamageDisplayManager DDM;
     public int CurrentDiamond { get {return currentChargeDiamond;} set {currentChargeDiamond = value;} } 
 
@@ -31,6 +31,8 @@ public class EnemyStateMachine : MonoBehaviour
                 //opening trigger or enemy opening animation
                 currentState = State.CHOOSE_ACTION;
                 break;
+            case (State.IDLE) : 
+                break;
             case (State.CHOOSE_ACTION) : 
                 ChooseAction();
                 // Debug.Log("ActionList.count: " + curr_BS.EnemyActionList.Count);
@@ -43,10 +45,18 @@ public class EnemyStateMachine : MonoBehaviour
                 }
                 break;
             case(State.PERFORM_ACTION) : 
-                StartCoroutine(ActionTime());
-                currentState = State.WAITING;
+                ActionTime();
+                if (curr_BS.CharsAreDead()) {
+                    currentState = State.IDLE;
+                } else currentState = State.WAITING;
                 break;
             case (State.DEAD) : 
+                if (!alive) {
+                    return;
+                } else {
+                    alive = false;
+                    curr_BS.myEnemy.Remove(this.gameObject);
+                }
                 break;
         }
     }
@@ -67,23 +77,14 @@ public class EnemyStateMachine : MonoBehaviour
         curr_BS.CollectEnemyAction(myAttack);
     }
 
-    private IEnumerator ActionTime() {
-        if (actionStarted) {
-            yield break;
-        }
-
-        actionStarted = true;
-
+    void ActionTime() {
         //plays animation
-
-        //wait a bit
-        yield return new WaitForSeconds(1f);
-        //do damge
         DoDamage();
+        //wait a bit
+        // yield return new WaitForSeconds(2f);
+        //do damge
         //remove the action from list
         curr_BS.EnemyActionList.RemoveAt(0);
-
-        actionStarted = false;
     }
 
     void DoDamage() { 
