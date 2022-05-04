@@ -119,7 +119,6 @@ public class BattleSystem : MonoBehaviour
                     enemyState.HeroToAttack = EnemyActionList[0].Target;
                     enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
                 } else {
-                    playerTurn = true;
                     if ((myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond == myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond)) {
                         myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond = 0;
                         ChargeDiamondUI.ResetDiamond();
@@ -156,6 +155,7 @@ public class BattleSystem : MonoBehaviour
         for (int i = 0; i < playerParty.Count; i++) {
             playerParty[i].GetComponent<HeroStateMachine>().endOfAction = false;
         }
+        playerTurn = true;
     }
 
     public void CollectEnemyAction(HandleTurn input) {
@@ -168,10 +168,12 @@ public class BattleSystem : MonoBehaviour
     //  2 double attack
     //  3 triple attack 
     public void TurnProgress() {
-        for (int i = 0; i < playerParty.Count; i++) {
-            pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0, playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice()));
+        if (playerTurn) {
+            for (int i = 0; i < playerParty.Count; i++) {
+                pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0, playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice()));
+            }
+            playerTurn = false;
         }
-        playerTurn = false;
     }
 
     bool charactersCompletedAction() {

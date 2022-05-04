@@ -42,39 +42,17 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 if (!alive) {
                     return;
                 } else {
-                    //change tag
+                    alive = false;
+                    //plays animation
+                    characterAnimator.Play("Dead");
                     //not targetable by enemies
                     curr_BS.playerParty.Remove(this.gameObject);
                     //not manageable
                     //change color / dead animation
-                    alive = false;
-                    //reset heroinput
                 }
                 break;
         }
     }
-
-    // private IEnumerator ActionTime() {
-    //     if (actionStarted) {
-    //         yield break;
-    //     }
-
-    //     actionStarted = true;
-
-    //     //plays animation
-    //     if (curr_BS.CharacterActionList[0].chosenAtk == myValue.mySkill[0]) {
-    //         if (curr_BS.CharacterActionList[0].MA_Data == 1) {
-    //             characterAnimator.Play("Attack");
-    //         } else if (curr_BS.CharacterActionList[0].MA_Data == 2) {
-    //             characterAnimator.Play("Double Attack");
-    //         } else characterAnimator.Play("Triple Attack");
-    //     } else {
-    //         DoDamage();
-    //     }
-    //     //remove the action from list
-
-    //     actionStarted = false;
-    // }
 
     public void ActionTime() {
         //plays animation
@@ -93,7 +71,9 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     public void onClickAction() {
-        curr_BS.DisplayCharInformation(this);
+        if (alive) {
+            curr_BS.DisplayCharInformation(this);
+        }
     }
 
     public void TakeDamage(float damageTaken) {
