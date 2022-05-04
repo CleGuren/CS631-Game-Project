@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="" />
+    <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Double Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Double Attack.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Sprite.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Sprite.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Town Hub.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Town Hub.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
