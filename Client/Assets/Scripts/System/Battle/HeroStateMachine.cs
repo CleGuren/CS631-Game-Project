@@ -36,7 +36,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
             case (State.ADDTOLIST) : 
                 break;
             case (State.ACTION) :
-                // StartCoroutine(ActionTime());
+                ActionTime();
                 break;
             case (State.DEAD) : 
                 if (!alive) {
@@ -56,7 +56,6 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
 
     public void ActionTime() {
         //plays animation
-        currentState = State.ACTION;
         if (curr_BS.CharacterActionList[0].chosenAtk == myValue.mySkill[0]) {
             if (curr_BS.CharacterActionList[0].MA_Data == 1) {
                 characterAnimator.Play("Attack");
@@ -64,9 +63,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 characterAnimator.Play("Double Attack");
             } else characterAnimator.Play("Triple Attack");
         } else {
-            DoDamage();
-            curr_BS.CharacterActionList.RemoveAt(0);
-            currentState = State.WAITING;
+            characterAnimator.Play("Skill");
         }
     }
 
@@ -78,6 +75,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
 
     public void TakeDamage(float damageTaken) {
         DDM.displayDamage(damageTaken);
+        characterAnimator.Play("Take Damage");
         myValue.currentHP -= damageTaken;
         if (myValue.currentHP <= 0) {
             currentState = State.DEAD;
@@ -128,9 +126,19 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     public void AnimationDone() {
+        //return to default 
+        characterAnimator.Play("Idle");
+        //only applies when characters are attacking
+        if (curr_BS.CharacterActionList.Count > 0) {
+            curr_BS.CharacterActionList.RemoveAt(0);
+            endOfAction = true;
+            currentState = State.WAITING;
+        }
+    }
+
+    public void SkillAnimationDone() {
         characterAnimator.Play("Idle");
         curr_BS.CharacterActionList.RemoveAt(0);
-        endOfAction = true;
         currentState = State.WAITING;
     }
 

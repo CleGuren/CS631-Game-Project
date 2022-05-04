@@ -103,7 +103,7 @@ public class BattleSystem : MonoBehaviour
                 if (CharacterActionList.Count > 0) {
                     //only perform action when character is idling
                     if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle()) { 
-                        CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().ActionTime();
+                        CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().currentState = HeroStateMachine.State.ACTION;
                         //switch to victorious state if no enemy remaining
                     }
                     if (EnemiesAreDead()) {
