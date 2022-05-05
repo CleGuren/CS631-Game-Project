@@ -3651,6 +3651,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7157f58975b1465e8db9e0fc2c83fe95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e3ac2d74d99a645e5804526eafff1e12,
+      type: 2}
   stopEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -3668,6 +3675,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49b4b95b2ca94d578fd22e474bd30d73, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e3ac2d74d99a645e5804526eafff1e12,
+      type: 2}
   stopEvent:
     idInternal: 0
     valueGuidInternal: 
