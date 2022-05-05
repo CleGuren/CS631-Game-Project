@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using TMPro;
 
 public class BattleSystem : MonoBehaviour
@@ -154,6 +155,7 @@ public class BattleSystem : MonoBehaviour
                     CharacterActionBox.SetActive(false);
                     victorious = false;
                     Debug.Log("You Won!");
+                    StartCoroutine(DelayTime(5f, "EndScene"));
                 }
                 break;
             case(BattleState.DEFEAT) :
@@ -161,6 +163,7 @@ public class BattleSystem : MonoBehaviour
                     CharacterActionBox.SetActive(false);
                     defeat = false;
                     Debug.Log("You Lost!");
+                    StartCoroutine(DelayTime(3f, "EndScene"));
                 } 
                 break;
         }
@@ -187,6 +190,11 @@ public class BattleSystem : MonoBehaviour
         EnemyActionList.Add(input);
     }
 
+    private IEnumerator DelayTime(float timer, string SceneName) {
+        yield return new WaitForSeconds(timer);
+        SceneManager.LoadScene(SceneName);
+    }
+
     // -1 dead player
     //  0 not normal attack
     //  1 normal attack
@@ -203,6 +211,7 @@ public class BattleSystem : MonoBehaviour
 
     bool charactersCompletedAction() {
         bool actionState = true;
+
         for (int i = 0; i < playerParty.Count; i++) {
             actionState &= playerParty[i].GetComponent<HeroStateMachine>().endOfAction;
         }

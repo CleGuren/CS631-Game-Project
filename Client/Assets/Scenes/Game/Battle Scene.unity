@@ -1363,9 +1363,9 @@ MonoBehaviour:
     Target: {fileID: 0}
     MA_Data: 0
     chosenAtk: {fileID: 0}
-  Character1Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
+  Character1Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
     type: 3}
-  Character2Prefab: {fileID: 8209649553307769896, guid: 9a43878b239e192468a40da4c32b277d,
+  Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
     type: 3}
   Character3Prefab: {fileID: 0}
   Character4Prefab: {fileID: 0}
