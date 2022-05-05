@@ -30,9 +30,11 @@ public class PlayerManager : MonoBehaviour
         MakeRequestDespawnPlayer();
         msgQueue.RemoveCallback(Constants.SMSG_SPAWN_PLAYER);
         msgQueue.RemoveCallback(Constants.SMSG_DESPAWN_PLAYER);
+        msgQueue.RemoveCallback(Constants.SMSG_MOVE);
     }
 
-    private void OnApplicationQuit() {
+    private void OnApplicationQuit()
+    {
         MakeRequestDespawnPlayer();
     }
 
@@ -106,22 +108,25 @@ public class PlayerManager : MonoBehaviour
         DespawnPlayer(args.user_id);
     }
 
-    public void OnResponseMove(ExtendedEventArgs eventArgs) {
+    public void OnResponseMove(ExtendedEventArgs eventArgs)
+    {
         ResponseMoveEventArgs args = eventArgs as ResponseMoveEventArgs;
-        if (args.status == 0) {
-            for (int i = 0; i < players.Count; i++)
+        if (args.status == 0)
         {
-            var p = players[i];
-
-            if (p.playerID == args.player_id && p.playerID != Constants.USER_ID)
+            for (int i = 0; i < players.Count; i++)
             {
-                Debug.Log("Success Move: " + args);
-                p.responseMove(args.player_id, args.x, args.y);
+                var p = players[i];
+
+                if (p.playerID == args.player_id && p.playerID != Constants.USER_ID)
+                {
+                    Debug.Log("Success Move: " + args);
+                    p.responseMove(args.player_id, args.x, args.y);
+                }
             }
+
         }
-            
-        }
-        else {
+        else
+        {
             Debug.Log("Move Failed");
         }
     }
