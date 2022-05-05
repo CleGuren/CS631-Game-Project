@@ -172,7 +172,7 @@ public class BattleSystem : MonoBehaviour
     void SpawnEntities() {
         Instantiate(Character1Prefab, Character1Pos);
         Instantiate(Character2Prefab, Character2Pos);
-        // Instantiate(Character3Prefab, Character3Pos);
+        Instantiate(Character3Prefab, Character3Pos);
         // Instantiate(Character4Prefab, Character4Pos);
         Instantiate(Enemy1Prefab, Enemy1Pos);
     }
