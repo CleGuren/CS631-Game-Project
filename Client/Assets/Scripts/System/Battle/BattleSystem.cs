@@ -107,7 +107,6 @@ public class BattleSystem : MonoBehaviour
                         //switch to victorious state if no enemy remaining
                     }
                     if (EnemiesAreDead()) {
-                        CharacterActionList.Clear();
                         curr_state = BattleState.VICTORIOUS;
                     }
                 }
@@ -152,12 +151,14 @@ public class BattleSystem : MonoBehaviour
                 break; 
             case(BattleState.VICTORIOUS) : 
                 if (victorious) {
+                    CharacterActionBox.SetActive(false);
                     victorious = false;
                     Debug.Log("You Won!");
                 }
                 break;
             case(BattleState.DEFEAT) :
                 if (defeat) {
+                    CharacterActionBox.SetActive(false);
                     defeat = false;
                     Debug.Log("You Lost!");
                 } 

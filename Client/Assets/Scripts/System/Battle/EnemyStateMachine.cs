@@ -55,6 +55,7 @@ public class EnemyStateMachine : MonoBehaviour
                     return;
                 } else {
                     alive = false;
+                    EnemyAnimator.Play("Dead");
                     curr_BS.myEnemy.Remove(this.gameObject);
                 }
                 break;

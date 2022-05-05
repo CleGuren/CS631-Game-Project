@@ -68,7 +68,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     public void onClickAction() {
-        if (alive) {
+        if (alive && curr_BS.curr_state == BattleSystem.BattleState.PLAYERTURN) {
             curr_BS.DisplayCharInformation(this);
         }
     }
@@ -83,13 +83,15 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     }
 
     void DoDamage() {
-        float calc_damage = myValue.currentAtk * curr_BS.CharacterActionList[0].chosenAtk.skillBaseDMG - 0.2f * curr_BS.myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentDef;
-        if (calc_damage <= 0) {
-            calc_damage = 1;
-        }
-        curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
-        if (curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().currentState == EnemyStateMachine.State.DEAD) {
+        if (curr_BS.EnemiesAreDead()) {
             characterAnimator.Play("Idle");
+            currentState = State.WAITING;
+        } else {
+            float calc_damage = myValue.currentAtk * curr_BS.CharacterActionList[0].chosenAtk.skillBaseDMG - 0.2f * curr_BS.myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentDef;
+            if (calc_damage <= 0) {
+                calc_damage = 1;
+            }
+            curr_BS.CharacterActionList[0].Target.GetComponent<EnemyStateMachine>().TakeDamage(calc_damage);
         }
     }
 
