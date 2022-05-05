@@ -5,7 +5,7 @@ using UnityEngine.EventSystems;
 public class OverlayText : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
     public GameObject overlayText;
-    private bool hoverOver = false;
+    
     public void Start()
     {
         overlayText.SetActive(false);
@@ -19,6 +19,6 @@ public class OverlayText : MonoBehaviour, IPointerEnterHandler, IPointerExitHand
     void IPointerExitHandler.OnPointerExit(PointerEventData eventData)
     {
         overlayText.SetActive(false);
-          
+         
     }
 }
