@@ -360,7 +360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -144.2099, y: 186.78998}
+  m_AnchoredPosition: {x: -144.20996, y: 186.78998}
   m_SizeDelta: {x: -558.44, y: -427.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165300615
@@ -2589,6 +2589,7 @@ GameObject:
   - component: {fileID: 1490304789}
   - component: {fileID: 1490304788}
   - component: {fileID: 1490304791}
+  - component: {fileID: 1490304792}
   m_Layer: 0
   m_Name: Audio Source
   m_TagString: GameBattleMusic
@@ -2678,6 +2679,36 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a79f9754ac3f84b279199350d3dd759b,
+      type: 2}
+  useCallbacks: 0
+  Callbacks: []
+  playingId: 0
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1490304792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1490304787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8a50fbd530204b5d9c3fc1db88f165c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 958ca0ea
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ee8774ceaa34848bfaad4badbfbd54a0,
       type: 2}
   useCallbacks: 0
   Callbacks: []
