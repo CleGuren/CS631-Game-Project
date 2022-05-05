@@ -8,12 +8,12 @@ public class EnemyStateMachine : MonoBehaviour
     public EnemyBase Enemy;
     public State currentState;
     public GameObject HeroToAttack;
+    public Animator EnemyAnimator;
     private BattleSystem curr_BS;
     private int currentChargeDiamond;
     private bool alive = true;
     [SerializeField] private DamageDisplayManager DDM;
     public int CurrentDiamond { get {return currentChargeDiamond;} set {currentChargeDiamond = value;} } 
-
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
     }
@@ -79,12 +79,9 @@ public class EnemyStateMachine : MonoBehaviour
 
     void ActionTime() {
         //plays animation
-        DoDamage();
-        //wait a bit
-        // yield return new WaitForSeconds(2f);
-        //do damge
-        //remove the action from list
-        curr_BS.EnemyActionList.RemoveAt(0);
+        if (curr_BS.EnemyActionList[0].chosenAtk == Enemy.mySkill[0]) {
+            EnemyAnimator.Play("Attack");
+        } else EnemyAnimator.Play("Special");
     }
 
     void DoDamage() { 
@@ -103,5 +100,10 @@ public class EnemyStateMachine : MonoBehaviour
         if (Enemy.currentHP <= 0) {
             currentState = State.DEAD;
         }
+    }
+
+    public void AnimationDone() {
+        EnemyAnimator.Play("Idle");
+        curr_BS.EnemyActionList.RemoveAt(0);
     }
 }
