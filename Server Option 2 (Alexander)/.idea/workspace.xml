@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca50f9d1-b623-4afa-8b01-27d3086535b2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Double Attack.anim" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Double Attack.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Sprite.controller" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Animations/Battle/Char1/Sprite.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Town Hub.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Town Hub.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Tutorial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Client/Assets/Scenes/Game/Tutorial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +72,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  }
+}</component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -202,6 +201,9 @@
       <workItem from="1650231342468" duration="47000" />
       <workItem from="1650231418738" duration="20000" />
       <workItem from="1650231507746" duration="1649000" />
+      <workItem from="1651651342524" duration="556000" />
+      <workItem from="1651724542056" duration="9124000" />
+      <workItem from="1651795233830" duration="993000" />
     </task>
     <servers />
   </component>
