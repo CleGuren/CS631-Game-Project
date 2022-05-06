@@ -12,6 +12,8 @@ public class EnemyStateMachine : MonoBehaviour
     private BattleSystem curr_BS;
     private int currentChargeDiamond;
     private bool alive = true;
+    [SerializeField] private bool actionStarted;
+    [SerializeField] private bool animFinished;
     [SerializeField] private DamageDisplayManager DDM;
     public int CurrentDiamond { get {return currentChargeDiamond;} set {currentChargeDiamond = value;} } 
     void Awake() {
@@ -19,6 +21,8 @@ public class EnemyStateMachine : MonoBehaviour
     }
 
     void Start() {
+        animFinished = false;
+        actionStarted = false;
         currentState = State.START;
         currentChargeDiamond = 0;
     }
@@ -46,9 +50,13 @@ public class EnemyStateMachine : MonoBehaviour
                 break;
             case(State.PERFORM_ACTION) : 
                 ActionTime();
-                if (curr_BS.CharsAreDead()) {
-                    currentState = State.IDLE;
-                } else currentState = State.WAITING;
+                if (animFinished) {
+                    animFinished = false;
+                    actionStarted = false;
+                    if (curr_BS.CharsAreDead()) {
+                        currentState = State.IDLE;
+                    } else currentState = State.WAITING;
+                }
                 break;
             case (State.DEAD) : 
                 if (!alive) {
@@ -80,9 +88,12 @@ public class EnemyStateMachine : MonoBehaviour
 
     void ActionTime() {
         //plays animation
-        if (curr_BS.EnemyActionList[0].chosenAtk == Enemy.mySkill[0]) {
-            EnemyAnimator.Play("Attack");
-        } else EnemyAnimator.Play("Special");
+        if (!actionStarted) {
+            actionStarted = true;
+            if (curr_BS.EnemyActionList[0].chosenAtk == Enemy.mySkill[0]) {
+                EnemyAnimator.Play("Attack");
+            } else EnemyAnimator.Play("Special");
+        }
     }
 
     void DoDamage() { 
@@ -106,5 +117,10 @@ public class EnemyStateMachine : MonoBehaviour
     public void AnimationDone() {
         EnemyAnimator.Play("Idle");
         curr_BS.EnemyActionList.RemoveAt(0);
+        animFinished = true;
+    }
+
+    public bool isIdle() {
+        return currentState == State.WAITING ? true : false;
     }
 }

@@ -37,6 +37,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 break;
             case (State.ACTION) :
                 ActionTime();
+                Debug.Log("performing action");
                 break;
             case (State.DEAD) : 
                 if (!alive) {
