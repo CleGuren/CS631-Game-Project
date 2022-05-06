@@ -194,6 +194,9 @@ TextureImporter:
   - first:
       213: -3715960832873067078
     second: Fullmain_63
+  - first:
+      213: -5189679710933565580
+    second: Fullmain_64
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1161,7 +1164,7 @@ TextureImporter:
         serializedVersion: 2
         x: 100
         y: 224
-        width: 84
+        width: 50
         height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1634,6 +1637,27 @@ TextureImporter:
       bones: []
       spriteID: abd065d7f414e6cc0800000000000000
       internalID: -3715960832873067078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fullmain_64
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 224
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fb0cb8ccd8af7b0800000000000000
+      internalID: -5189679710933565580
       vertices: []
       indices: 
       edges: []
