@@ -1707,12 +1707,12 @@ RectTransform:
   m_Children:
   - {fileID: 1048301401}
   m_Father: {fileID: 1515092900}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -6.880005}
-  m_SizeDelta: {x: 0, y: -43.25}
+  m_AnchoredPosition: {x: 0, y: 4.2071075}
+  m_SizeDelta: {x: 0, y: -21.075}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707487016
 MonoBehaviour:
@@ -2012,8 +2012,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.00015258789, y: 0}
-  m_SizeDelta: {x: 8.45, y: 0}
+  m_AnchoredPosition: {x: 0.00015258789, y: -14.380005}
+  m_SizeDelta: {x: 8.45, y: -28.76}
   m_Pivot: {x: 1, y: 0.5}
 --- !u!114 &1021798821
 MonoBehaviour:
@@ -2058,8 +2058,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 806508310}
   m_HandleRect: {fileID: 806508309}
   m_Direction: 2
-  m_Value: 0.0000048988923
-  m_Size: 0.10045399
+  m_Value: 0.000004751185
+  m_Size: 0.10620674
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2645,16 +2645,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1115090712}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1515092900}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 148.37, y: 179.84}
+  m_AnchoredPosition: {x: 148.1, y: 179.24942}
   m_SizeDelta: {x: 15.5, y: 17}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115090714
@@ -2700,7 +2700,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1115090715}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: CloseBattleLog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1115090715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,7 +2764,7 @@ GameObject:
   - component: {fileID: 1119185979}
   - component: {fileID: 1119185978}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: BL Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2797,14 +2809,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu ex et nulla
-    pretium convallis eget vel nisl. Sed dictum massa ac nibh facilisis, a pellentesque
-    orci accumsan. Proin id finibus eros. Vivamus nec ipsum eget nunc auctor dignissim
-    ac sed libero. Suspendisse quis cursus lectus. Sed condimentum eu dolor et finibus.
-    Integer fermentum, magna ut ultricies bibendum, nunc leo laoreet arcu, vel condimentum
-    nibh velit gravida purus. Phasellus convallis diam in luctus vehicula. Mauris
-    non neque vitae elit euismod fringilla nec a magna. Etiam vulputate nibh a mattis
-    vulputate. Fusc
+  m_text: Enter stuff here...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2831,8 +2836,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2951,7 +2956,7 @@ GameObject:
   - component: {fileID: 1292966364}
   - component: {fileID: 1292966363}
   m_Layer: 5
-  m_Name: Battle Log Button
+  m_Name: Open Battle Log Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3019,7 +3024,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1292966364}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527442540}
+        m_TargetAssemblyTypeName: BattleSystem, Assembly-CSharp
+        m_MethodName: OpenBattleLog
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1292966364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3526,8 +3543,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1115090713}
   - {fileID: 707487015}
+  - {fileID: 1115090713}
   m_Father: {fileID: 1883418607}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
