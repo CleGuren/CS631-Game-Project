@@ -25,7 +25,7 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("RegistrationScene");
     }
 
-    public void QuitGame()  // doesn't quit the game yet
+    public void QuitGame()  
     {
         Debug.Log("QUIT THE GAME");
         AkSoundEngine.StopAll();
