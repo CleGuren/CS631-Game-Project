@@ -30,7 +30,7 @@ public class BattleSystem : MonoBehaviour
     public Button AttackButton;
     public Button NoButton;
     private HeroStateMachine SelectedChar;
-    
+
     //UI
     private GameObject CharacterActionBox;
     private GameObject BattleLog;
@@ -52,16 +52,17 @@ public class BattleSystem : MonoBehaviour
     private Button Skill3;
     private Button Skill4;
     private int turnNumber;
-    
+
     //Conditional States
     public BattleState curr_state;
     private bool playerTurn;
-    private bool triggerUI; 
+    private bool triggerUI;
     private bool BLOpened = false;
     private bool victorious = true;
     private bool defeat = true;
-    
-    public void Awake() {
+
+    public void Awake()
+    {
         CharacterActionBox = GameObject.Find("Character Action Box");
         CharPortrait = GameObject.Find("Character Portrait").GetComponent<Image>();
         CharNameText = GameObject.Find("Character Name").GetComponent<Text>();
@@ -93,94 +94,117 @@ public class BattleSystem : MonoBehaviour
         ChargeDiamondUI.HideDiamonds();
         turnNumber = 1;
         TurnIndicator.text = turnNumber.ToString();
-        BlText.text = "[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n"; 
+        // BlText.text = "[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n";
+        BlText.text = string.Format("<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
     }
 
-    void Update() {
+    void Update()
+    {
         //Optimized for single enemy
-        switch(curr_state) {
-            case(BattleState.START) : 
+        switch (curr_state)
+        {
+            case (BattleState.START):
                 SpawnEntities();
                 playerParty.AddRange(GameObject.FindGameObjectsWithTag("Character"));
                 myEnemy.AddRange(GameObject.FindGameObjectsWithTag("Enemy"));
                 ChargeDiamondUI.SetDiamonds(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond);
                 curr_state = BattleState.PLAYERTURN;
                 break;
-            case(BattleState.PLAYERTURN) : 
+            case (BattleState.PLAYERTURN):
                 //action queued
-                if (CharacterActionList.Count > 0) {
+                if (CharacterActionList.Count > 0)
+                {
                     //only perform action when character is idling
-                    if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle()) { 
+                    if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle())
+                    {
                         CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().currentState = HeroStateMachine.State.ACTION;
-                        BlText.text += ("> " + CharacterActionList[0].attackerName + " performed " + CharacterActionList[0].chosenAtk.skillName + "\n");
-                    //switch to victorious state if no enemy remaining
+                        // BlText.text += ("> " + CharacterActionList[0].attackerName + " performed " + CharacterActionList[0].chosenAtk.skillName + "\n");
+                        BlText.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, CharacterActionList[0].chosenAtk.skillName);
+                        //switch to victorious state if no enemy remaining
                     }
-                    if (EnemiesAreDead()) {
+                    if (EnemiesAreDead())
+                    {
                         curr_state = BattleState.VICTORIOUS;
                     }
                 }
                 //update boss hp bar
-                Boss_HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentHP/myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.maxHP, 0, 1), Boss_HP_Bar.transform.localScale.y, Boss_HP_Bar.transform.localScale.z);
+                Boss_HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.currentHP / myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.maxHP, 0, 1), Boss_HP_Bar.transform.localScale.y, Boss_HP_Bar.transform.localScale.z);
                 //player have initiated turn progress
-                if (!playerTurn) {
+                if (!playerTurn)
+                {
                     //turn off ui, no more input
                     CharacterActionBox.SetActive(false);
                     //proceed to enemy turn after characters are done performing their action
-                    if (charactersCompletedAction()) {
+                    if (charactersCompletedAction())
+                    {
                         curr_state = BattleState.ENEMYTURN;
                     }
                 }
                 break;
-            case(BattleState.ENEMYTURN) :
-                if (EnemyActionList.Count > 0) {
+            case (BattleState.ENEMYTURN):
+                if (EnemyActionList.Count > 0)
+                {
                     //enemy perform actions
-                    if (EnemyActionList[0].Attacker.GetComponent<EnemyStateMachine>().isIdle()) {
+                    if (EnemyActionList[0].Attacker.GetComponent<EnemyStateMachine>().isIdle())
+                    {
                         GameObject attackingEnemy = GameObject.Find(EnemyActionList[0].attackerName);
                         EnemyStateMachine enemyState = attackingEnemy.GetComponent<EnemyStateMachine>();
                         enemyState.HeroToAttack = EnemyActionList[0].Target;
                         enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
-                        BlText.text += ("> " + EnemyActionList[0].attackerName + " performed " + EnemyActionList[0].chosenAtk.skillName + "\n");
+                        // BlText.text += ("> " + EnemyActionList[0].attackerName + " performed " + EnemyActionList[0].chosenAtk.skillName + "\n");
+                        BlText.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", EnemyActionList[0].attackerName, EnemyActionList[0].chosenAtk.skillName);
                     }
-                } else {
-                    if ((myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond == myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond)) {
+                }
+                else
+                {
+                    if ((myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond == myEnemy[0].GetComponent<EnemyStateMachine>().Enemy.ChargeDiamond))
+                    {
                         myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond = 0;
                         ChargeDiamondUI.ResetDiamond();
-                    } else {
+                    }
+                    else
+                    {
                         myEnemy[0].GetComponent<EnemyStateMachine>().CurrentDiamond += 1;
                         ChargeDiamondUI.GainDiamond();
                     }
-                    for (int i = 0; i < playerParty.Count; i++) {
+                    for (int i = 0; i < playerParty.Count; i++)
+                    {
                         playerParty[i].GetComponent<HeroStateMachine>().UpdateSkillCD();
                     }
                     UpdateTurn();
                     curr_state = BattleState.TRANSITIONING;
                 }
                 break;
-            case(BattleState.TRANSITIONING) :
-                if (CharsAreDead()) {
+            case (BattleState.TRANSITIONING):
+                if (CharsAreDead())
+                {
                     curr_state = BattleState.DEFEAT;
-                } else curr_state = BattleState.PLAYERTURN;
-                break; 
-            case(BattleState.VICTORIOUS) : 
-                if (victorious) {
+                }
+                else curr_state = BattleState.PLAYERTURN;
+                break;
+            case (BattleState.VICTORIOUS):
+                if (victorious)
+                {
                     CharacterActionBox.SetActive(false);
                     victorious = false;
                     Debug.Log("You Won!");
                     StartCoroutine(DelayTime(5f, "EndScene"));
                 }
                 break;
-            case(BattleState.DEFEAT) :
-                if (defeat) {
+            case (BattleState.DEFEAT):
+                if (defeat)
+                {
                     CharacterActionBox.SetActive(false);
                     defeat = false;
                     Debug.Log("You Lost!");
                     StartCoroutine(DelayTime(3f, "EndScene"));
-                } 
+                }
                 break;
         }
     }
 
-    void SpawnEntities() {
+    void SpawnEntities()
+    {
         Instantiate(Character1Prefab, Character1Pos);
         Instantiate(Character2Prefab, Character2Pos);
         Instantiate(Character3Prefab, Character3Pos);
@@ -188,21 +212,27 @@ public class BattleSystem : MonoBehaviour
         Instantiate(Enemy1Prefab, Enemy1Pos);
     }
 
-    void UpdateTurn() {
+    void UpdateTurn()
+    {
         turnNumber++;
         TurnIndicator.text = turnNumber.ToString();
-        BlText.text += ("\n[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n");
-        for (int i = 0; i < playerParty.Count; i++) {
+        // BlText.text += ("\n[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n");
+        BlText.text += string.Format("\n\n<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
+
+        for (int i = 0; i < playerParty.Count; i++)
+        {
             playerParty[i].GetComponent<HeroStateMachine>().endOfAction = false;
         }
         playerTurn = true;
     }
 
-    public void CollectEnemyAction(HandleTurn input) {
+    public void CollectEnemyAction(HandleTurn input)
+    {
         EnemyActionList.Add(input);
     }
 
-    private IEnumerator DelayTime(float timer, string SceneName) {
+    private IEnumerator DelayTime(float timer, string SceneName)
+    {
         yield return new WaitForSeconds(timer);
         SceneManager.LoadScene(SceneName);
     }
@@ -212,51 +242,65 @@ public class BattleSystem : MonoBehaviour
     //  1 normal attack
     //  2 double attack
     //  3 triple attack 
-    public void TurnProgress() {
-        if (playerTurn) {
-            for (int i = 0; i < playerParty.Count; i++) {
+    public void TurnProgress()
+    {
+        if (playerTurn)
+        {
+            for (int i = 0; i < playerParty.Count; i++)
+            {
                 pushNormalAttack(ProvideTurnInput(playerParty[i].GetComponent<HeroStateMachine>(), 0, playerParty[i].GetComponent<HeroStateMachine>().RollMA_Dice()));
             }
             playerTurn = false;
         }
     }
 
-    bool charactersCompletedAction() {
+    bool charactersCompletedAction()
+    {
         bool actionState = true;
 
-        for (int i = 0; i < playerParty.Count; i++) {
+        for (int i = 0; i < playerParty.Count; i++)
+        {
             actionState &= playerParty[i].GetComponent<HeroStateMachine>().endOfAction;
         }
         return actionState;
     }
 
-    void pushNormalAttack(HandleTurn CharInfo) {
-        if (CharInfo.MA_Data > 0) {
+    void pushNormalAttack(HandleTurn CharInfo)
+    {
+        if (CharInfo.MA_Data > 0)
+        {
             CharacterActionList.Add(CharInfo);
-        } else Debug.Log("Dead character cannot attack.");
+        }
+        else Debug.Log("Dead character cannot attack.");
     }
 
-    public void OpenBattleLog() {
-        if (BLOpened) {
+    public void OpenBattleLog()
+    {
+        if (BLOpened)
+        {
             CloseBattleLog();
-        } else {
-            BLOpened = true;   
+        }
+        else
+        {
+            BLOpened = true;
             BattleLog.SetActive(true);
         }
     }
 
-    public void CloseBattleLog() {
+    public void CloseBattleLog()
+    {
         BLOpened = false;
         BattleLog.SetActive(false);
     }
 
-    public void DisplayCharInformation(HeroStateMachine CharInfo) {
+    public void DisplayCharInformation(HeroStateMachine CharInfo)
+    {
         CharacterActionBox.SetActive(true);
         SelectedChar = CharInfo;
         CharNameText.text = CharInfo.myValue.charName;
         CharLevel.text = "Lv." + CharInfo.myValue.level;
         CharPortrait.sprite = CharInfo.myValue.charPortrait;
-        HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(CharInfo.myValue.currentHP/CharInfo.myValue.maxHP, 0, 1), HP_Bar.transform.localScale.y, HP_Bar.transform.localScale.z);
+        HP_Bar.transform.localScale = new Vector3(Mathf.Clamp(CharInfo.myValue.currentHP / CharInfo.myValue.maxHP, 0, 1), HP_Bar.transform.localScale.y, HP_Bar.transform.localScale.z);
         HP_Value.text = CharInfo.myValue.currentHP + "/" + CharInfo.myValue.maxHP;
         Skill1.image.sprite = CharInfo.myValue.mySkill[1].skillIcon;
         Skill2.image.sprite = CharInfo.myValue.mySkill[2].skillIcon;
@@ -268,7 +312,8 @@ public class BattleSystem : MonoBehaviour
         Skill4_CD.text = CharInfo.SkillCurrentCD(4) + "/" + CharInfo.SkillCD(4);
     }
 
-    HandleTurn ProvideTurnInput(HeroStateMachine CharInfo, int skillNumber, int MA_Data) {
+    HandleTurn ProvideTurnInput(HeroStateMachine CharInfo, int skillNumber, int MA_Data)
+    {
         PlayerChoice = new HandleTurn();
         PlayerChoice.attackerName = CharInfo.myValue.charName;
         PlayerChoice.Type = "Character";
@@ -279,62 +324,86 @@ public class BattleSystem : MonoBehaviour
         return PlayerChoice;
     }
 
-    public void PushSkill1ToList() {
-        if (SelectedChar.SkillCurrentCD(1) < SelectedChar.SkillCD(1)) {
+    public void PushSkill1ToList()
+    {
+        if (SelectedChar.SkillCurrentCD(1) < SelectedChar.SkillCD(1))
+        {
             Debug.Log(SelectedChar.myValue.mySkill[1].skillName + " is on cooldown.");
-        } else {
+        }
+        else
+        {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1, 0));
             SelectedChar.SkillEnterCooldown(1);
             Skill1_CD.text = SelectedChar.SkillCurrentCD(1) + "/" + SelectedChar.SkillCD(1);
         }
     }
 
-    public void PushSkill2ToList() {
-        if (SelectedChar.SkillCurrentCD(2) < SelectedChar.SkillCD(2)) {
+    public void PushSkill2ToList()
+    {
+        if (SelectedChar.SkillCurrentCD(2) < SelectedChar.SkillCD(2))
+        {
             Debug.Log(SelectedChar.myValue.mySkill[2].skillName + " is on cooldown.");
-        } else {
+        }
+        else
+        {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2, 0));
             SelectedChar.SkillEnterCooldown(2);
             Skill2_CD.text = SelectedChar.SkillCurrentCD(2) + "/" + SelectedChar.SkillCD(2);
         }
     }
 
-    public void PushSkill3ToList() {
-        if (SelectedChar.SkillCurrentCD(3) < SelectedChar.SkillCD(3)) {
+    public void PushSkill3ToList()
+    {
+        if (SelectedChar.SkillCurrentCD(3) < SelectedChar.SkillCD(3))
+        {
             Debug.Log(SelectedChar.myValue.mySkill[3].skillName + " is on cooldown.");
-        } else {
+        }
+        else
+        {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3, 0));
             SelectedChar.SkillEnterCooldown(3);
             Skill3_CD.text = SelectedChar.SkillCurrentCD(3) + "/" + SelectedChar.SkillCD(3);
         }
     }
 
-    public void PushSkill4ToList() {
-        if (SelectedChar.SkillCurrentCD(4) < SelectedChar.SkillCD(4)) {
+    public void PushSkill4ToList()
+    {
+        if (SelectedChar.SkillCurrentCD(4) < SelectedChar.SkillCD(4))
+        {
             Debug.Log(SelectedChar.myValue.mySkill[4].skillName + " is on cooldown.");
-        } else {
+        }
+        else
+        {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4, 0));
             SelectedChar.SkillEnterCooldown(4);
             Skill4_CD.text = SelectedChar.SkillCurrentCD(4) + "/" + SelectedChar.SkillCD(4);
         }
     }
 
-    public bool CharsAreDead() {
+    public bool CharsAreDead()
+    {
         bool deadCheck = true;
-        for (int i = 0; i < playerParty.Count; i++) {
-            if (playerParty[i].GetComponent<HeroStateMachine>().currentState == HeroStateMachine.State.DEAD) {
+        for (int i = 0; i < playerParty.Count; i++)
+        {
+            if (playerParty[i].GetComponent<HeroStateMachine>().currentState == HeroStateMachine.State.DEAD)
+            {
                 deadCheck &= true;
-            } else deadCheck &= false;
+            }
+            else deadCheck &= false;
         }
         return deadCheck;
     }
 
-    public bool EnemiesAreDead() {
+    public bool EnemiesAreDead()
+    {
         bool deadCheck = true;
-        for (int i = 0; i < myEnemy.Count; i++) {
-            if (myEnemy[i].GetComponent<EnemyStateMachine>().currentState == EnemyStateMachine.State.DEAD) {
+        for (int i = 0; i < myEnemy.Count; i++)
+        {
+            if (myEnemy[i].GetComponent<EnemyStateMachine>().currentState == EnemyStateMachine.State.DEAD)
+            {
                 deadCheck &= true;
-            } else deadCheck &= false;
+            }
+            else deadCheck &= false;
         }
         return deadCheck;
     }
