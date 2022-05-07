@@ -5642,7 +5642,7 @@ SortingGroup:
   m_Enabled: 1
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
 --- !u!212 &261117474
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5734,14 +5734,14 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.109375, y: 0.59375}
-      - {x: -0.328125, y: 0.375}
-      - {x: -0.328125, y: -0.15625}
+    - - {x: -0.20369089, y: -0.2629509}
+      - {x: -0.2180898, y: -0.2694931}
+      - {x: -0.2338091, y: -0.32130432}
       - {x: -0.265625, y: -0.375}
       - {x: -0.171875, y: -0.59375}
       - {x: 0.203125, y: -0.59375}
-      - {x: 0.328125, y: -0.5625}
-      - {x: 0.328125, y: 0.59375}
+      - {x: 0.24166875, y: -0.54677963}
+      - {x: 0.15521254, y: -0.24723434}
 --- !u!1001 &268260485
 PrefabInstance:
   m_ObjectHideFlags: 0

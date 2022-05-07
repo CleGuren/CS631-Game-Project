@@ -29051,9 +29051,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -645873183
-  m_SortingLayer: 7
-  m_SortingOrder: 0
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 2806060530409525734, guid: d9931c10fcad84840bec7dbf65ae26a2,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -29105,14 +29105,15 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.109375, y: 0.59375}
-      - {x: -0.328125, y: 0.375}
-      - {x: -0.328125, y: -0.15625}
+    - - {x: 0.18688476, y: -0.330891}
+      - {x: -0.03902149, y: -0.35543123}
+      - {x: -0.24192333, y: -0.29559904}
+      - {x: -0.027017564, y: -0.34416676}
       - {x: -0.265625, y: -0.375}
       - {x: -0.171875, y: -0.59375}
       - {x: 0.203125, y: -0.59375}
       - {x: 0.328125, y: -0.5625}
-      - {x: 0.328125, y: 0.59375}
+      - {x: 0.20196818, y: -0.33415756}
 --- !u!1001 &449125076
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31738,8 +31739,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 2281159582846828405, guid: 1502103b458d7b0499c1baacee73d49a,
     type: 3}
@@ -112780,9 +112781,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -645873183
-  m_SortingLayer: 7
-  m_SortingOrder: 2
+  m_SortingLayerID: -1869315837
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300042, guid: c3a0ffcab94f86043aa02beca70d680b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -112802,7 +112803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1965790477}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.8068104, y: 4.962, z: 0}
+  m_LocalPosition: {x: -6.8068104, y: 5, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
