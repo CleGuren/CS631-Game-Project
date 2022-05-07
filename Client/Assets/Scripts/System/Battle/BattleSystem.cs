@@ -32,7 +32,8 @@ public class BattleSystem : MonoBehaviour
     private HeroStateMachine SelectedChar;
 
     //UI
-    private GameObject CharacterActionBox;
+    private GameObject CharacterPanel;
+    private GameObject BottomLog;
     private GameObject BattleLog;
     private ChargeDiamond ChargeDiamondUI;
     private Text CharNameText;
@@ -43,7 +44,8 @@ public class BattleSystem : MonoBehaviour
     private Text Skill3_CD;
     private Text Skill4_CD;
     private TextMeshProUGUI TurnIndicator;
-    private TextMeshProUGUI BlText;
+    private TextMeshProUGUI BlText1;
+    private TextMeshProUGUI BlText2;
     private Image CharPortrait;
     private Image HP_Bar;
     private Image Boss_HP_Bar;
@@ -63,7 +65,8 @@ public class BattleSystem : MonoBehaviour
 
     public void Awake()
     {
-        CharacterActionBox = GameObject.Find("Character Action Box");
+        CharacterPanel = GameObject.Find("Character Panel");
+        BottomLog = GameObject.Find("Bottom Log Panel");
         CharPortrait = GameObject.Find("Character Portrait").GetComponent<Image>();
         CharNameText = GameObject.Find("Character Name").GetComponent<Text>();
         CharLevel = GameObject.Find("Character Level").GetComponent<Text>();
@@ -80,8 +83,10 @@ public class BattleSystem : MonoBehaviour
         Skill4_CD = GameObject.Find("Skill 4 CD").GetComponent<Text>();
         TurnIndicator = GameObject.Find("Turn Number").GetComponent<TextMeshProUGUI>();
         BattleLog = GameObject.Find("Battle Log Panel");
-        BlText = GameObject.Find("BL Text").GetComponent<TextMeshProUGUI>();
-        CharacterActionBox.SetActive(false);
+        BlText1 = GameObject.Find("BL Text (1)").GetComponent<TextMeshProUGUI>();
+        BlText2 = GameObject.Find("BL Text (2)").GetComponent<TextMeshProUGUI>();
+        BottomLog.SetActive(false);
+        CharacterPanel.SetActive(false);
         BattleLog.SetActive(false);
         PlayerChoice = new HandleTurn();
         ChargeDiamondUI = GameObject.Find("Charge Diamond Box").GetComponent<ChargeDiamond>();
@@ -94,8 +99,7 @@ public class BattleSystem : MonoBehaviour
         ChargeDiamondUI.HideDiamonds();
         turnNumber = 1;
         TurnIndicator.text = turnNumber.ToString();
-        // BlText.text = "[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n";
-        BlText.text = string.Format("<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
+        BlText2.text = BlText1.text = string.Format("<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
     }
 
     void Update()
@@ -115,11 +119,10 @@ public class BattleSystem : MonoBehaviour
                 if (CharacterActionList.Count > 0)
                 {
                     //only perform action when character is idling
-                    if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle())
+                    if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle()) 
                     {
                         CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().currentState = HeroStateMachine.State.ACTION;
-                        // BlText.text += ("> " + CharacterActionList[0].attackerName + " performed " + CharacterActionList[0].chosenAtk.skillName + "\n");
-                        BlText.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, CharacterActionList[0].chosenAtk.skillName);
+                        BlText2.text = BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, CharacterActionList[0].chosenAtk.skillName);
                         //switch to victorious state if no enemy remaining
                     }
                     if (EnemiesAreDead())
@@ -133,7 +136,9 @@ public class BattleSystem : MonoBehaviour
                 if (!playerTurn)
                 {
                     //turn off ui, no more input
-                    CharacterActionBox.SetActive(false);
+                    CharacterPanel.SetActive(false);
+                    CloseBattleLog();
+                    BottomLog.SetActive(true);
                     //proceed to enemy turn after characters are done performing their action
                     if (charactersCompletedAction())
                     {
@@ -151,8 +156,7 @@ public class BattleSystem : MonoBehaviour
                         EnemyStateMachine enemyState = attackingEnemy.GetComponent<EnemyStateMachine>();
                         enemyState.HeroToAttack = EnemyActionList[0].Target;
                         enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
-                        // BlText.text += ("> " + EnemyActionList[0].attackerName + " performed " + EnemyActionList[0].chosenAtk.skillName + "\n");
-                        BlText.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", EnemyActionList[0].attackerName, EnemyActionList[0].chosenAtk.skillName);
+                        BlText2.text = BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", EnemyActionList[0].attackerName, EnemyActionList[0].chosenAtk.skillName);
                     }
                 }
                 else
@@ -185,7 +189,7 @@ public class BattleSystem : MonoBehaviour
             case (BattleState.VICTORIOUS):
                 if (victorious)
                 {
-                    CharacterActionBox.SetActive(false);
+                    CharacterPanel.SetActive(false);
                     victorious = false;
                     Debug.Log("You Won!");
                     StartCoroutine(DelayTime(5f, "EndScene"));
@@ -194,7 +198,7 @@ public class BattleSystem : MonoBehaviour
             case (BattleState.DEFEAT):
                 if (defeat)
                 {
-                    CharacterActionBox.SetActive(false);
+                    CharacterPanel.SetActive(false);
                     defeat = false;
                     Debug.Log("You Lost!");
                     StartCoroutine(DelayTime(3f, "EndScene"));
@@ -203,8 +207,7 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
-    void SpawnEntities()
-    {
+    void SpawnEntities() {
         Instantiate(Character1Prefab, Character1Pos);
         Instantiate(Character2Prefab, Character2Pos);
         Instantiate(Character3Prefab, Character3Pos);
@@ -216,14 +219,13 @@ public class BattleSystem : MonoBehaviour
     {
         turnNumber++;
         TurnIndicator.text = turnNumber.ToString();
-        // BlText.text += ("\n[\t\tTurn " + turnNumber.ToString() + "\t\t]\n\n");
-        BlText.text += string.Format("\n\n<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
-
+        BlText2.text = BlText1.text += string.Format("\n\n<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
         for (int i = 0; i < playerParty.Count; i++)
         {
             playerParty[i].GetComponent<HeroStateMachine>().endOfAction = false;
         }
         playerTurn = true;
+        BottomLog.SetActive(false);
     }
 
     public void CollectEnemyAction(HandleTurn input)
@@ -274,16 +276,14 @@ public class BattleSystem : MonoBehaviour
         else Debug.Log("Dead character cannot attack.");
     }
 
-    public void OpenBattleLog()
-    {
-        if (BLOpened)
-        {
-            CloseBattleLog();
-        }
-        else
-        {
-            BLOpened = true;
-            BattleLog.SetActive(true);
+    public void OpenBattleLog() {
+        if (playerTurn) {
+            if (BLOpened) {
+                CloseBattleLog();
+            } else {
+                BLOpened = true;
+                BattleLog.SetActive(true);
+            }
         }
     }
 
@@ -295,7 +295,7 @@ public class BattleSystem : MonoBehaviour
 
     public void DisplayCharInformation(HeroStateMachine CharInfo)
     {
-        CharacterActionBox.SetActive(true);
+        CharacterPanel.SetActive(true);
         SelectedChar = CharInfo;
         CharNameText.text = CharInfo.myValue.charName;
         CharLevel.text = "Lv." + CharInfo.myValue.level;
@@ -324,56 +324,32 @@ public class BattleSystem : MonoBehaviour
         return PlayerChoice;
     }
 
-    public void PushSkill1ToList()
-    {
-        if (SelectedChar.SkillCurrentCD(1) < SelectedChar.SkillCD(1))
-        {
-            Debug.Log(SelectedChar.myValue.mySkill[1].skillName + " is on cooldown.");
-        }
-        else
-        {
+    public void PushSkill1ToList() {
+        if (!BLOpened && SelectedChar.SkillCurrentCD(1) == SelectedChar.SkillCD(1)) {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 1, 0));
             SelectedChar.SkillEnterCooldown(1);
             Skill1_CD.text = SelectedChar.SkillCurrentCD(1) + "/" + SelectedChar.SkillCD(1);
         }
     }
 
-    public void PushSkill2ToList()
-    {
-        if (SelectedChar.SkillCurrentCD(2) < SelectedChar.SkillCD(2))
-        {
-            Debug.Log(SelectedChar.myValue.mySkill[2].skillName + " is on cooldown.");
-        }
-        else
-        {
+    public void PushSkill2ToList() {
+        if (!BLOpened && SelectedChar.SkillCurrentCD(2) == SelectedChar.SkillCD(2)) {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 2, 0));
             SelectedChar.SkillEnterCooldown(2);
             Skill2_CD.text = SelectedChar.SkillCurrentCD(2) + "/" + SelectedChar.SkillCD(2);
         }
     }
 
-    public void PushSkill3ToList()
-    {
-        if (SelectedChar.SkillCurrentCD(3) < SelectedChar.SkillCD(3))
-        {
-            Debug.Log(SelectedChar.myValue.mySkill[3].skillName + " is on cooldown.");
-        }
-        else
-        {
+    public void PushSkill3ToList() {
+        if (!BLOpened && SelectedChar.SkillCurrentCD(3) == SelectedChar.SkillCD(3)) {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 3, 0));
             SelectedChar.SkillEnterCooldown(3);
             Skill3_CD.text = SelectedChar.SkillCurrentCD(3) + "/" + SelectedChar.SkillCD(3);
         }
     }
 
-    public void PushSkill4ToList()
-    {
-        if (SelectedChar.SkillCurrentCD(4) < SelectedChar.SkillCD(4))
-        {
-            Debug.Log(SelectedChar.myValue.mySkill[4].skillName + " is on cooldown.");
-        }
-        else
-        {
+    public void PushSkill4ToList() {
+        if (!BLOpened && SelectedChar.SkillCurrentCD(4) == SelectedChar.SkillCD(4)) {
             CharacterActionList.Add(ProvideTurnInput(SelectedChar, 4, 0));
             SelectedChar.SkillEnterCooldown(4);
             Skill4_CD.text = SelectedChar.SkillCurrentCD(4) + "/" + SelectedChar.SkillCD(4);
