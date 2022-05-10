@@ -46,6 +46,7 @@ public class BattleSystem : MonoBehaviour
     private TextMeshProUGUI TurnIndicator;
     private TextMeshProUGUI BlText1;
     private TextMeshProUGUI BlText2;
+    private TextMeshProUGUI BlText3;
     private Image CharPortrait;
     private Image HP_Bar;
     private Image Boss_HP_Bar;
@@ -85,6 +86,7 @@ public class BattleSystem : MonoBehaviour
         BattleLog = GameObject.Find("Battle Log Panel");
         BlText1 = GameObject.Find("BL Text (1)").GetComponent<TextMeshProUGUI>();
         BlText2 = GameObject.Find("BL Text (2)").GetComponent<TextMeshProUGUI>();
+        BlText3 = GameObject.Find("BL Text (3)").GetComponent<TextMeshProUGUI>();
         BottomLog.SetActive(false);
         CharacterPanel.SetActive(false);
         BattleLog.SetActive(false);
@@ -99,7 +101,8 @@ public class BattleSystem : MonoBehaviour
         ChargeDiamondUI.HideDiamonds();
         turnNumber = 1;
         TurnIndicator.text = turnNumber.ToString();
-        BlText2.text = BlText1.text = string.Format("<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
+        BlText3.text = BlText1.text = string.Format("<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
+        BlText2.text = "";
     }
 
     void Update()
@@ -122,9 +125,12 @@ public class BattleSystem : MonoBehaviour
                     if (CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().isIdle()) 
                     {
                         CharacterActionList[0].Attacker.GetComponent<HeroStateMachine>().currentState = HeroStateMachine.State.ACTION;
-                        BlText2.text = BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, CharacterActionList[0].chosenAtk.skillName);
-                        //switch to victorious state if no enemy remaining
+                        BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, LogAttackPerformed(CharacterActionList[0].MA_Data));  
+                        if (CharacterActionList[0].chosenAtk.skillName == "Attack") {
+                            BlText2.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", CharacterActionList[0].attackerName, LogAttackPerformed(CharacterActionList[0].MA_Data));
+                        }
                     }
+                    //switch to victorious state if no enemy remaining
                     if (EnemiesAreDead())
                     {
                         curr_state = BattleState.VICTORIOUS;
@@ -156,7 +162,7 @@ public class BattleSystem : MonoBehaviour
                         EnemyStateMachine enemyState = attackingEnemy.GetComponent<EnemyStateMachine>();
                         enemyState.HeroToAttack = EnemyActionList[0].Target;
                         enemyState.currentState = EnemyStateMachine.State.PERFORM_ACTION;
-                        BlText2.text = BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", EnemyActionList[0].attackerName, EnemyActionList[0].chosenAtk.skillName);
+                        BlText1.text += string.Format("<align=\"left\">> <b>{0}</b> performed <b>{1}</b>\n", EnemyActionList[0].attackerName, EnemyActionList[0].chosenAtk.skillName);
                     }
                 }
                 else
@@ -221,24 +227,30 @@ public class BattleSystem : MonoBehaviour
     {
         turnNumber++;
         TurnIndicator.text = turnNumber.ToString();
-        BlText2.text = BlText1.text += string.Format("\n\n<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
+        BlText1.text += BlText3.text = string.Format("\n\n<align=\"center\"><b><uppercase>[<space=8em>Turn {0}<space=8em>]</uppercase></b>\n\n", turnNumber.ToString());
         for (int i = 0; i < playerParty.Count; i++)
         {
             playerParty[i].GetComponent<HeroStateMachine>().endOfAction = false;
         }
         playerTurn = true;
         BottomLog.SetActive(false);
+        BlText2.text = "";
     }
 
-    public void CollectEnemyAction(HandleTurn input)
-    {
-        EnemyActionList.Add(input);
-    }
 
     private IEnumerator DelayTime(float timer, string SceneName)
     {
         yield return new WaitForSeconds(timer);
         SceneManager.LoadScene(SceneName);
+    }
+
+    public string LogAttackPerformed(int MA_Data) {
+        return MA_Data == 1 ? "Single Attack" : MA_Data == 2 ? "Double Attack" : MA_Data == 3 ? "Triple Attack" : CharacterActionList[0].chosenAtk.skillName;
+    }
+
+    public void CollectEnemyAction(HandleTurn input)
+    {
+        EnemyActionList.Add(input);
     }
 
     // -1 dead player
