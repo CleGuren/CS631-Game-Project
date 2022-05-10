@@ -404,7 +404,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: 1b94de36e339fc4893fd99a00b289419
     GuidInternal: 
-    m_lastTime: -8585502473654775808
+    m_lastTime: -8585495460974775808
     List: []
   - PhysicalPath: Events/Official.wwu
     PathAndIcons:
@@ -417,7 +417,7 @@ MonoBehaviour:
     ParentPath: Events/Official
     guid: 5b4a0c2f505a8c43b343c5cf02aa827a
     GuidInternal: 
-    m_lastTime: -8585502463114775808
+    m_lastTime: -8585495460974775808
     List:
     - name: 2D_Ambance
       guid: d3f47c9537a38046ae6d1cb5aa567612
@@ -436,6 +436,52 @@ MonoBehaviour:
         ObjectType: 4
         guid: d3f47c9537a38046ae6d1cb5aa567612
       Path: Events/Official/SFX/2D_Ambance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Alexiel
+      guid: d500bd8350ffe54eb9b1168e2341c77c
+      id: 2359006417
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      Path: Events/Official/SFX/Combat/Alexiel
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Boss
+      guid: 4334b99e6e81c645a94c17ed81c852af
+      id: 1560169506
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 4334b99e6e81c645a94c17ed81c852af
+      Path: Events/Official/SFX/Combat/Boss
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -479,6 +525,29 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: General
+      guid: 88338757c8442c478c60b75a37eaa736
+      id: 133642231
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
+      Path: Events/Official/SFX/Combat/General
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: General_States
       guid: 206d40d614256e4cb61c0271985b2aae
       id: 1621876272
@@ -493,6 +562,52 @@ MonoBehaviour:
         ObjectType: 4
         guid: 206d40d614256e4cb61c0271985b2aae
       Path: Events/Official/General_States
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hongjie
+      guid: 69f559274f8c854289209c2d87ffe66b
+      id: 502419929
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      Path: Events/Official/SFX/Combat/Hongjie
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Melinda
+      guid: 343536a5526a8746a1b53a9f7ccd4731
+      id: 2015692865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      Path: Events/Official/SFX/Combat/Melinda
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -662,6 +777,52 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Credits_Music
+      guid: b2f2c44d115630488c8257aa262e8202
+      id: 3825865420
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SeparatedMusicAndAmbEvents
+        ObjectType: 4
+        guid: 6b7574759120964cbb7c30c578dbe06a
+      - ElementName: Play
+        ObjectType: 4
+        guid: 27008470b00ea4418aa298196079f00d
+      - ElementName: Play_Credits_Music
+        ObjectType: 3
+        guid: b2f2c44d115630488c8257aa262e8202
+      Path: Events/Official/SeparatedMusicAndAmbEvents/Play/Play_Credits_Music
+      maxAttenuation: 0
+      maxDuration: 99.47406
+      minDuration: 99.47406
+    - name: Play_Footsteps
+      guid: 75de90739d43a143bfa247900cb67c82
+      id: 3854155799
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_Footsteps
+        ObjectType: 3
+        guid: 75de90739d43a143bfa247900cb67c82
+      Path: Events/Official/SFX/Misc/Play_Footsteps
+      maxAttenuation: 0
+      maxDuration: 0.124989
+      minDuration: 0.124989
     - name: Play_Gameplay_Music
       guid: bd0ec144de5f7d478e7ff6b9c5173f67
       id: 1231987938
@@ -685,6 +846,84 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_HongjieDouble
+      guid: a9d2249ab2283e4ea05fad67a675ec01
+      id: 418152907
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_HongjieDouble
+        ObjectType: 3
+        guid: a9d2249ab2283e4ea05fad67a675ec01
+      Path: Events/Official/SFX/Combat/Hongjie/Play_HongjieDouble
+      maxAttenuation: 0
+      maxDuration: 3.685034
+      minDuration: 3.685034
+    - name: Play_HongjieSingle
+      guid: a0f3214a77e2bd4a9f107bc2fdcb6bbe
+      id: 3462013688
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_HongjieSingle
+        ObjectType: 3
+        guid: a0f3214a77e2bd4a9f107bc2fdcb6bbe
+      Path: Events/Official/SFX/Combat/Hongjie/Play_HongjieSingle
+      maxAttenuation: 0
+      maxDuration: 2.6
+      minDuration: 2.6
+    - name: Play_HongjieTriple
+      guid: 5e65ff061546ef44a622223788c7fd4e
+      id: 495685996
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_HongjieTriple
+        ObjectType: 3
+        guid: 5e65ff061546ef44a622223788c7fd4e
+      Path: Events/Official/SFX/Combat/Hongjie/Play_HongjieTriple
+      maxAttenuation: 0
+      maxDuration: 3.421995
+      minDuration: 3.421995
     - name: Play_Main_Menu_Music
       guid: 5103051584e5fa43bb718ebaf9a8eacb
       id: 2895168921
@@ -708,6 +947,188 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_SFX_Alexiel_Attack_Double_1
+      guid: 71f67dfaef75fe4a979dd76dc2d4c3c1
+      id: 3398230421
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Attack_Double_1
+        ObjectType: 3
+        guid: 71f67dfaef75fe4a979dd76dc2d4c3c1
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Attack_Double_1
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Alexiel_Attack_Single_1
+      guid: 2f5b55531d09f2488f40e8e1ceed6545
+      id: 8162858
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Attack_Single_1
+        ObjectType: 3
+        guid: 2f5b55531d09f2488f40e8e1ceed6545
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Attack_Single_1
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Alexiel_Attack_Triple_1
+      guid: d12dd5292d15da4dbdd2565e97f7316e
+      id: 1852515278
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Attack_Triple_1
+        ObjectType: 3
+        guid: d12dd5292d15da4dbdd2565e97f7316e
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Attack_Triple_1
+      maxAttenuation: 0
+      maxDuration: 3.499977
+      minDuration: 3.499977
+    - name: Play_SFX_Alexiel_Attack_Triple_2
+      guid: 02114858e6d4054eae7d115618b83cd0
+      id: 1852515277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Attack_Triple_2
+        ObjectType: 3
+        guid: 02114858e6d4054eae7d115618b83cd0
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Attack_Triple_2
+      maxAttenuation: 0
+      maxDuration: 2.5
+      minDuration: 2.5
+    - name: Play_SFX_Alexiel_Death_1
+      guid: 8031d13907e0224a84912a6ab30ea9fa
+      id: 3405422559
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Death_1
+        ObjectType: 3
+        guid: 8031d13907e0224a84912a6ab30ea9fa
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Death_1
+      maxAttenuation: 0
+      maxDuration: 0.999977
+      minDuration: 0.999977
+    - name: Play_SFX_Alexiel_Death_2
+      guid: 25ee0b689d566f429ab95d8e174f4ffb
+      id: 3405422556
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Death_2
+        ObjectType: 3
+        guid: 25ee0b689d566f429ab95d8e174f4ffb
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Death_2
+      maxAttenuation: 0
+      maxDuration: 0.749977
+      minDuration: 0.749977
+    - name: Play_SFX_Alexiel_Skill_1
+      guid: 85846a94d223d640b35a34dcd20bb62b
+      id: 179287266
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Alexiel
+        ObjectType: 4
+        guid: d500bd8350ffe54eb9b1168e2341c77c
+      - ElementName: Play_SFX_Alexiel_Skill_1
+        ObjectType: 3
+        guid: 85846a94d223d640b35a34dcd20bb62b
+      Path: Events/Official/SFX/Combat/Alexiel/Play_SFX_Alexiel_Skill_1
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
     - name: Play_SFX_Boss_Roar
       guid: 5bf9c333eeeba94cb8d8abf4210d6f63
       id: 1109520104
@@ -721,13 +1142,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 322640b8339a6b4f96d87472f0ede5f8
-      - ElementName: Misc
+      - ElementName: Combat
         ObjectType: 4
-        guid: a0a44b44fea97a4e8327751cef33dfe9
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 4334b99e6e81c645a94c17ed81c852af
       - ElementName: Play_SFX_Boss_Roar
         ObjectType: 3
         guid: 5bf9c333eeeba94cb8d8abf4210d6f63
-      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Roar
+      Path: Events/Official/SFX/Combat/Boss/Play_SFX_Boss_Roar
       maxAttenuation: 0
       maxDuration: 3.499977
       minDuration: 3.499977
@@ -744,13 +1168,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 322640b8339a6b4f96d87472f0ede5f8
-      - ElementName: Misc
+      - ElementName: Combat
         ObjectType: 4
-        guid: a0a44b44fea97a4e8327751cef33dfe9
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 4334b99e6e81c645a94c17ed81c852af
       - ElementName: Play_SFX_Boss_Scream
         ObjectType: 3
         guid: 874623517e654a47a54057b91df1f465
-      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Scream
+      Path: Events/Official/SFX/Combat/Boss/Play_SFX_Boss_Scream
       maxAttenuation: 0
       maxDuration: 2.499977
       minDuration: 2.499977
@@ -767,13 +1194,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 322640b8339a6b4f96d87472f0ede5f8
-      - ElementName: Misc
+      - ElementName: Combat
         ObjectType: 4
-        guid: a0a44b44fea97a4e8327751cef33dfe9
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 4334b99e6e81c645a94c17ed81c852af
       - ElementName: Play_SFX_Boss_Screech
         ObjectType: 3
         guid: 44bda3777b466a489511b7aedb69e583
-      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Screech
+      Path: Events/Official/SFX/Combat/Boss/Play_SFX_Boss_Screech
       maxAttenuation: 0
       maxDuration: 1.499977
       minDuration: 1.499977
@@ -790,13 +1220,16 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 4
         guid: 322640b8339a6b4f96d87472f0ede5f8
-      - ElementName: Misc
+      - ElementName: Combat
         ObjectType: 4
-        guid: a0a44b44fea97a4e8327751cef33dfe9
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Boss
+        ObjectType: 4
+        guid: 4334b99e6e81c645a94c17ed81c852af
       - ElementName: Play_SFX_Boss_Yell
         ObjectType: 3
         guid: cacc65d3d1654542872e0d92e5d32fda
-      Path: Events/Official/SFX/Misc/Play_SFX_Boss_Yell
+      Path: Events/Official/SFX/Combat/Boss/Play_SFX_Boss_Yell
       maxAttenuation: 0
       maxDuration: 1.499977
       minDuration: 1.499977
@@ -816,10 +1249,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Attack_Bow
         ObjectType: 3
         guid: 5272e947af790d40860cffb854abe632
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Bow
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Attack_Bow
       maxAttenuation: 0
       maxDuration: 2.5
       minDuration: 2.5
@@ -839,10 +1275,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Attack_Fire
         ObjectType: 3
         guid: 69103c65d486f649ad1835d145e21fa1
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Fire
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Attack_Fire
       maxAttenuation: 0
       maxDuration: 2.5
       minDuration: 2.5
@@ -862,10 +1301,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Attack_Magic_
         ObjectType: 3
         guid: 54c7fccbede8074fb6fc05d5e590ded9
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Magic_
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Attack_Magic_
       maxAttenuation: 0
       maxDuration: 2.5
       minDuration: 2.5
@@ -885,10 +1327,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Attack_Sword
         ObjectType: 3
         guid: 9aa616e851914d48897b444fdca875cb
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Attack_Sword
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Attack_Sword
       maxAttenuation: 0
       maxDuration: 0.999977
       minDuration: 0.999977
@@ -908,10 +1353,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Damage_General
         ObjectType: 3
         guid: 46bcbd25da544045a59ca5f7e58a90df
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_General
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Damage_General
       maxAttenuation: 0
       maxDuration: 1.499977
       minDuration: 1.499977
@@ -931,10 +1379,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Damage_Magic
         ObjectType: 3
         guid: 5fbd38881d1845459318e12e9ab7a44e
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_Magic
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Damage_Magic
       maxAttenuation: 0
       maxDuration: 2.999977
       minDuration: 2.999977
@@ -954,10 +1405,13 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Damage_Melee
         ObjectType: 3
         guid: 7906f6bb6a2f6a499d7c949c0cb7022e
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Damage_Melee
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Damage_Melee
       maxAttenuation: 0
       maxDuration: 1.5
       minDuration: 1.5
@@ -977,13 +1431,273 @@ MonoBehaviour:
       - ElementName: Combat
         ObjectType: 4
         guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: General
+        ObjectType: 4
+        guid: 88338757c8442c478c60b75a37eaa736
       - ElementName: Play_SFX_Combat_Throw
         ObjectType: 3
         guid: 727ffd966d84cd4ab7249db4cd655655
-      Path: Events/Official/SFX/Combat/Play_SFX_Combat_Throw
+      Path: Events/Official/SFX/Combat/General/Play_SFX_Combat_Throw
       maxAttenuation: 0
       maxDuration: 0.999977
       minDuration: 0.999977
+    - name: Play_SFX_Hongjie_Death_1
+      guid: 4372a1e8c70a424fab5169d00daa411f
+      id: 1085728863
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_SFX_Hongjie_Death_1
+        ObjectType: 3
+        guid: 4372a1e8c70a424fab5169d00daa411f
+      Path: Events/Official/SFX/Combat/Hongjie/Play_SFX_Hongjie_Death_1
+      maxAttenuation: 0
+      maxDuration: 2.624989
+      minDuration: 2.624989
+    - name: Play_SFX_Hongjie_Skill_1
+      guid: 3f9800a0717bd5418854de5906e0bf29
+      id: 2154560866
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_SFX_Hongjie_Skill_1
+        ObjectType: 3
+        guid: 3f9800a0717bd5418854de5906e0bf29
+      Path: Events/Official/SFX/Combat/Hongjie/Play_SFX_Hongjie_Skill_1
+      maxAttenuation: 0
+      maxDuration: 0.999977
+      minDuration: 0.999977
+    - name: Play_SFX_Hongjie_Skill_2
+      guid: da779b835ebe7242914cc3e720a2dad9
+      id: 2154560865
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Hongjie
+        ObjectType: 4
+        guid: 69f559274f8c854289209c2d87ffe66b
+      - ElementName: Play_SFX_Hongjie_Skill_2
+        ObjectType: 3
+        guid: da779b835ebe7242914cc3e720a2dad9
+      Path: Events/Official/SFX/Combat/Hongjie/Play_SFX_Hongjie_Skill_2
+      maxAttenuation: 0
+      maxDuration: 0.874989
+      minDuration: 0.874989
+    - name: Play_SFX_Melinda_Attack_Double_1
+      guid: 956cb58f6e016c478ac53410c49adcd6
+      id: 865318681
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Attack_Double_1
+        ObjectType: 3
+        guid: 956cb58f6e016c478ac53410c49adcd6
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Attack_Double_1
+      maxAttenuation: 0
+      maxDuration: 0.749977
+      minDuration: 0.749977
+    - name: Play_SFX_Melinda_Attack_Double_2
+      guid: 2cea0f8a6907f84791f7d7ae3923f13e
+      id: 865318682
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Attack_Double_2
+        ObjectType: 3
+        guid: 2cea0f8a6907f84791f7d7ae3923f13e
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Attack_Double_2
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Melinda_Attack_Single_1
+      guid: cfd4625c3dbdd046831b4f0ad9bea3df
+      id: 2721821142
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Attack_Single_1
+        ObjectType: 3
+        guid: cfd4625c3dbdd046831b4f0ad9bea3df
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Attack_Single_1
+      maxAttenuation: 0
+      maxDuration: 2.624989
+      minDuration: 2.624989
+    - name: Play_SFX_Melinda_Attack_Triple_1
+      guid: 2837bac47a0bfe4a940a021791b26aa8
+      id: 45001282
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Attack_Triple_1
+        ObjectType: 3
+        guid: 2837bac47a0bfe4a940a021791b26aa8
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Attack_Triple_1
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: Play_SFX_Melinda_Death_1
+      guid: f7dd12741fa7b14eb5e65909930e27f9
+      id: 3813323771
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Death_1
+        ObjectType: 3
+        guid: f7dd12741fa7b14eb5e65909930e27f9
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Death_1
+      maxAttenuation: 0
+      maxDuration: 1.999977
+      minDuration: 1.999977
+    - name: Play_SFX_Melinda_Skill_1
+      guid: 0f162f1242830a46b2d9dfcbde0a6534
+      id: 1077868630
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Melinda
+        ObjectType: 4
+        guid: 343536a5526a8746a1b53a9f7ccd4731
+      - ElementName: Play_SFX_Melinda_Skill_1
+        ObjectType: 3
+        guid: 0f162f1242830a46b2d9dfcbde0a6534
+      Path: Events/Official/SFX/Combat/Melinda/Play_SFX_Melinda_Skill_1
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
+    - name: Play_SFX_Page_Turn
+      guid: 5cdb37a00b66f049901c0efc25d55478
+      id: 2066181787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Misc
+        ObjectType: 4
+        guid: a0a44b44fea97a4e8327751cef33dfe9
+      - ElementName: Play_SFX_Page_Turn
+        ObjectType: 3
+        guid: 5cdb37a00b66f049901c0efc25d55478
+      Path: Events/Official/SFX/Misc/Play_SFX_Page_Turn
+      maxAttenuation: 0
+      maxDuration: 0.817113
+      minDuration: 0.817113
     - name: Play_SFX_Player_Spawn_Float
       guid: 22a555a8a2b4624aaaf867f415c8ad11
       id: 1705212850
@@ -1099,6 +1813,266 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.499977
       minDuration: 0.499977
+    - name: Play_SFX_Victoria_Attack_Double_1
+      guid: dde1cd1e133b2146a268af66b82c62f6
+      id: 1962550936
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Double_1
+        ObjectType: 3
+        guid: dde1cd1e133b2146a268af66b82c62f6
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Double_1
+      maxAttenuation: 0
+      maxDuration: 0.999977
+      minDuration: 0.999977
+    - name: Play_SFX_Victoria_Attack_Double_2
+      guid: f93d68a8a2bde54a9e05d0120bef67be
+      id: 1962550939
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Double_2
+        ObjectType: 3
+        guid: f93d68a8a2bde54a9e05d0120bef67be
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Double_2
+      maxAttenuation: 0
+      maxDuration: 0.874989
+      minDuration: 0.874989
+    - name: Play_SFX_Victoria_Attack_Single_1
+      guid: 9a9b714dcebfba43992d08a02337ee09
+      id: 3468754479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Single_1
+        ObjectType: 3
+        guid: 9a9b714dcebfba43992d08a02337ee09
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Single_1
+      maxAttenuation: 0
+      maxDuration: 0.624989
+      minDuration: 0.624989
+    - name: Play_SFX_Victoria_Attack_Single_2
+      guid: dcb95fb2abe4cd4899be55f0aac69b4e
+      id: 3468754476
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Single_2
+        ObjectType: 3
+        guid: dcb95fb2abe4cd4899be55f0aac69b4e
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Single_2
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: Play_SFX_Victoria_Attack_Triple_1
+      guid: 25883d6903424d4ba446a3a78bc22439
+      id: 3215674931
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Triple_1
+        ObjectType: 3
+        guid: 25883d6903424d4ba446a3a78bc22439
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Triple_1
+      maxAttenuation: 0
+      maxDuration: 2.999977
+      minDuration: 2.999977
+    - name: Play_SFX_Victoria_Attack_Triple_2
+      guid: 6104da178dec2941b73c5e36233758b7
+      id: 3215674928
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Attack_Triple_2
+        ObjectType: 3
+        guid: 6104da178dec2941b73c5e36233758b7
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Attack_Triple_2
+      maxAttenuation: 0
+      maxDuration: 1.874989
+      minDuration: 1.874989
+    - name: Play_SFX_Victoria_Death_1
+      guid: 44ba2a45e0db1140961c036485b03664
+      id: 4208950430
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Death_1
+        ObjectType: 3
+        guid: 44ba2a45e0db1140961c036485b03664
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Death_1
+      maxAttenuation: 0
+      maxDuration: 1.999977
+      minDuration: 1.999977
+    - name: Play_SFX_Victoria_Death_2
+      guid: dd631b674555644fb9cb0776a0ea1776
+      id: 4208950429
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Death_2
+        ObjectType: 3
+        guid: dd631b674555644fb9cb0776a0ea1776
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Death_2
+      maxAttenuation: 0
+      maxDuration: 1.5
+      minDuration: 1.5
+    - name: Play_SFX_Victoria_Death_3
+      guid: 42d565afb21c2b439be9d083d54b88ff
+      id: 4208950428
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Death_3
+        ObjectType: 3
+        guid: 42d565afb21c2b439be9d083d54b88ff
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Death_3
+      maxAttenuation: 0
+      maxDuration: 0.75
+      minDuration: 0.75
+    - name: Play_SFX_Victoria_Skill_1
+      guid: b7053ceadf56744489a3ac7698341c6a
+      id: 3952961231
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      - ElementName: Play_SFX_Victoria_Skill_1
+        ObjectType: 3
+        guid: b7053ceadf56744489a3ac7698341c6a
+      Path: Events/Official/SFX/Combat/Victoria/Play_SFX_Victoria_Skill_1
+      maxAttenuation: 0
+      maxDuration: 1.499977
+      minDuration: 1.499977
     - name: Play_Town_Music
       guid: da47e10edfc9df41a644f81e379d25d5
       id: 3208464042
@@ -1647,6 +2621,29 @@ MonoBehaviour:
         ObjectType: 4
         guid: e67712ac4e8d9a43b94794b4432f40cb
       Path: Events/Official/SFX/UI
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Victoria
+      guid: 8d1497592fd1d9498864afcc59301c70
+      id: 963825122
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Official
+        ObjectType: 12
+        guid: 5b4a0c2f505a8c43b343c5cf02aa827a
+      - ElementName: SFX
+        ObjectType: 4
+        guid: 322640b8339a6b4f96d87472f0ede5f8
+      - ElementName: Combat
+        ObjectType: 4
+        guid: 64310291b2640a499a6fabde95e92502
+      - ElementName: Victoria
+        ObjectType: 4
+        guid: 8d1497592fd1d9498864afcc59301c70
+      Path: Events/Official/SFX/Combat/Victoria
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -3260,7 +4257,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585549853754775808
     List: []
-  ExpandedFileSystemItemIds: 010000000200000004000000050000000600000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000002300000025000000290000003400000035000000360000003e0000004000000041000000420000004300000044000000460000004a000000590000005a0000006300000065000000660000006a0000006e00000074000000760000007b000000
+  ExpandedFileSystemItemIds: 010000000200000004000000050000000600000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000230000002500000029000000340000003500000036000000370000003e0000004000000041000000420000004300000044000000460000004a000000590000005a0000006300000065000000660000006a0000006e00000074000000760000007b000000
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/</ProjectRoot>
-		<SourceFilesRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/kinmehaeru/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Desktop/Homework4GameCombined/Godsworn_Alexiel/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="959552862" Language="SFX" Hash="1145463121">
+		<SoundBank Id="959552862" Language="SFX" Hash="1962955191">
 			<ObjectPath>\SoundBanks\Test\Test_Master</ObjectPath>
 			<ShortName>Test_Master</ShortName>
 			<Path>Test_Master.bnk</Path>
@@ -20,15 +20,15 @@
 					<IncludedMemoryFiles>
 						<File Id="366237381" Language="SFX">
 							<ShortName>Test_Swords.wav</ShortName>
-							<Path>SFX/Test_Swords_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Swords_D79FB2B7.wem</Path>
 						</File>
 						<File Id="725472561" Language="SFX">
 							<ShortName>Test_Nature.wav</ShortName>
-							<Path>SFX/Test_Nature_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Nature_D79FB2B7.wem</Path>
 						</File>
 						<File Id="978717677" Language="SFX">
 							<ShortName>Test_Chatter.wav</ShortName>
-							<Path>SFX/Test_Chatter_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Chatter_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{2985565D-D714-4EA0-ADBF-419893152E59}</DefaultSwitchValue>
@@ -54,7 +54,7 @@
 					<IncludedMemoryFiles>
 						<File Id="880725016" Language="SFX">
 							<ShortName>Test_Click.wav</ShortName>
-							<Path>SFX/Test_Click_10C4C929.wem</Path>
+							<Path>SFX\Test_Click_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -62,31 +62,31 @@
 					<IncludedMemoryFiles>
 						<File Id="398064322" Language="SFX">
 							<ShortName>Test_Training_Ground.wav</ShortName>
-							<Path>SFX/Test_Training_Ground_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Training_Ground_D79FB2B7.wem</Path>
 						</File>
 						<File Id="405352940" Language="SFX">
 							<ShortName>Test_Defeat.wav</ShortName>
-							<Path>SFX/Test_Defeat_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Defeat_D79FB2B7.wem</Path>
 						</File>
 						<File Id="447187770" Language="SFX">
 							<ShortName>Test_Victory.wav</ShortName>
-							<Path>SFX/Test_Victory_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Victory_D79FB2B7.wem</Path>
 						</File>
 						<File Id="470405553" Language="SFX">
 							<ShortName>Test_Town.wav</ShortName>
-							<Path>SFX/Test_Town_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Town_D79FB2B7.wem</Path>
 						</File>
 						<File Id="924690577" Language="SFX">
 							<ShortName>Test_Boss_2.wav</ShortName>
-							<Path>SFX/Test_Boss_2_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Boss_2_D79FB2B7.wem</Path>
 						</File>
 						<File Id="944723289" Language="SFX">
 							<ShortName>Test_Boss_1.wav</ShortName>
-							<Path>SFX/Test_Boss_1_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Boss_1_D79FB2B7.wem</Path>
 						</File>
 						<File Id="964690764" Language="SFX">
 							<ShortName>Test_Combat.wav</ShortName>
-							<Path>SFX/Test_Combat_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Combat_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -134,7 +134,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1068607519" Language="SFX">
 							<ShortName>Test_Main_Menu.wav</ShortName>
-							<Path>SFX/Test_Main_Menu_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Main_Menu_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -142,7 +142,7 @@
 					<IncludedMemoryFiles>
 						<File Id="434536453" Language="SFX">
 							<ShortName>Test_Wood.wav</ShortName>
-							<Path>SFX/Test_Wood_D79FB2B7.wem</Path>
+							<Path>SFX\Test_Wood_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -322,7 +322,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="4056684167" Language="SFX" Hash="223809817">
+		<SoundBank Id="4056684167" Language="SFX" Hash="1920745457">
 			<ObjectPath>\SoundBanks\Official\Master</ObjectPath>
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
@@ -331,47 +331,47 @@
 					<IncludedMemoryFiles>
 						<File Id="51291083" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="190270889" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
 						</File>
 						<File Id="311786162" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
 						</File>
 						<File Id="404496039" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
 						</File>
 						<File Id="418656758" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="427976571" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="444886750" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="448990572" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
 						</File>
 						<File Id="675582577" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
 						</File>
 						<File Id="963589475" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="984130452" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -379,31 +379,31 @@
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX/MC_Town_9EDFC787.wem</Path>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
@@ -414,66 +414,110 @@
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX/MC_Town_9EDFC787.wem</Path>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<ActionSetState>
 						<ActionSetStateEntry Id="2471068395" Name="Combat_Music_State" ObjectPath="\States\Official\Music\Combat_Music_State"/>
 					</ActionSetState>
 				</Event>
+				<Event Id="3825865420" Name="Play_Credits_Music" ObjectPath="\Events\Official\SeparatedMusicAndAmbEvents\Play\Play_Credits_Music" DurationType="OneShot" DurationMin="99.47406" DurationMax="99.47406">
+					<IncludedMemoryFiles>
+						<File Id="67232300" Language="SFX">
+							<ShortName>MC_Godsworn_Credits.wav</ShortName>
+							<Path>SFX\MC_Godsworn_Credits_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3854155799" Name="Play_Footsteps" ObjectPath="\Events\Official\SFX\Misc\Play_Footsteps" DurationType="OneShot" DurationMin="0.124989" DurationMax="0.124989">
+					<IncludedMemoryFiles>
+						<File Id="152556958" Language="SFX">
+							<ShortName>SFX_Footstep_4.wav</ShortName>
+							<Path>SFX\SFX_Footstep_4_3F75BDB9.wem</Path>
+						</File>
+						<File Id="196529180" Language="SFX">
+							<ShortName>SFX_Footstep_6.wav</ShortName>
+							<Path>SFX\SFX_Footstep_6_3F75BDB9.wem</Path>
+						</File>
+						<File Id="281313376" Language="SFX">
+							<ShortName>SFX_Footstep_2.wav</ShortName>
+							<Path>SFX\SFX_Footstep_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="326699772" Language="SFX">
+							<ShortName>SFX_Footstep_7.wav</ShortName>
+							<Path>SFX\SFX_Footstep_7_3F75BDB9.wem</Path>
+						</File>
+						<File Id="381353015" Language="SFX">
+							<ShortName>SFX_Footstep_1.wav</ShortName>
+							<Path>SFX\SFX_Footstep_1_3F75BDB9.wem</Path>
+						</File>
+						<File Id="414873020" Language="SFX">
+							<ShortName>SFX_Footstep_8.wav</ShortName>
+							<Path>SFX\SFX_Footstep_8_3F75BDB9.wem</Path>
+						</File>
+						<File Id="540170223" Language="SFX">
+							<ShortName>SFX_Footstep_3.wav</ShortName>
+							<Path>SFX\SFX_Footstep_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="731195298" Language="SFX">
+							<ShortName>SFX_Footstep_5.wav</ShortName>
+							<Path>SFX\SFX_Footstep_5_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1231987938" Name="Play_Gameplay_Music" ObjectPath="\Events\Official\Music\Play\Play_Gameplay_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="285026230" Language="SFX">
 							<ShortName>MC_Combat_General_1.wav</ShortName>
-							<Path>SFX/MC_Combat_General_1_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="328176984" Language="SFX">
 							<ShortName>MC_Combat_General_2_Loop.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Loop_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Loop_9EDFC787.wem</Path>
 						</File>
 						<File Id="464729469" Language="SFX">
 							<ShortName>MC_Combat_General_2_Intro.wav</ShortName>
-							<Path>SFX/MC_Combat_General_2_Intro_9EDFC787.wem</Path>
+							<Path>SFX\MC_Combat_General_2_Intro_9EDFC787.wem</Path>
 						</File>
 						<File Id="476317864" Language="SFX">
 							<ShortName>MC_Victory.wav</ShortName>
-							<Path>SFX/MC_Victory_9EDFC787.wem</Path>
+							<Path>SFX\MC_Victory_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX/MC_Town_9EDFC787.wem</Path>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
 						</File>
 						<File Id="838428080" Language="SFX">
 							<ShortName>MC_Defeat.wav</ShortName>
-							<Path>SFX/MC_Defeat_9EDFC787.wem</Path>
+							<Path>SFX\MC_Defeat_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -510,107 +554,267 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="418152907" Name="Play_HongjieDouble" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_HongjieDouble" DurationType="OneShot" DurationMin="3.685034" DurationMax="3.685034">
+					<IncludedMemoryFiles>
+						<File Id="726610915" Language="SFX">
+							<ShortName>HongjieDouble.wav</ShortName>
+							<Path>SFX\HongjieDouble_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3462013688" Name="Play_HongjieSingle" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_HongjieSingle" DurationType="OneShot" DurationMin="2.6" DurationMax="2.6">
+					<IncludedMemoryFiles>
+						<File Id="726552638" Language="SFX">
+							<ShortName>HongjieSingle.wav</ShortName>
+							<Path>SFX\HongjieSingle_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="495685996" Name="Play_HongjieTriple" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_HongjieTriple" DurationType="OneShot" DurationMin="3.421995" DurationMax="3.421995">
+					<IncludedMemoryFiles>
+						<File Id="912947235" Language="SFX">
+							<ShortName>HongjieTriple.wav</ShortName>
+							<Path>SFX\HongjieTriple_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2895168921" Name="Play_Main_Menu_Music" ObjectPath="\Events\Official\Music\Play\Play_Main_Menu_Music" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="101119723" Language="SFX">
 							<ShortName>MC_Main_Menu.wav</ShortName>
-							<Path>SFX/MC_Main_Menu_9EDFC787.wem</Path>
+							<Path>SFX\MC_Main_Menu_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1109520104" Name="Play_SFX_Boss_Roar" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Roar" DurationType="OneShot" DurationMin="3.499977" DurationMax="3.499977">
+				<Event Id="3398230421" Name="Play_SFX_Alexiel_Attack_Double_1" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Double_1" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="8808691" Language="SFX">
+							<ShortName>SFX_Alexiel_Attack_Double_1.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Attack_Double_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="8162858" Name="Play_SFX_Alexiel_Attack_Single_1" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Single_1" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="129533174" Language="SFX">
+							<ShortName>SFX_Alexiel_Attack_Single_1.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Attack_Single_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1852515278" Name="Play_SFX_Alexiel_Attack_Triple_1" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Triple_1" DurationType="OneShot" DurationMin="3.499977" DurationMax="3.499977">
+					<IncludedMemoryFiles>
+						<File Id="987334859" Language="SFX">
+							<ShortName>SFX_Alexiel_Attack_Triple_1.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Attack_Triple_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1852515277" Name="Play_SFX_Alexiel_Attack_Triple_2" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Triple_2" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<IncludedMemoryFiles>
+						<File Id="728286345" Language="SFX">
+							<ShortName>SFX_Alexiel_Attack_Triple_2.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Attack_Triple_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3405422559" Name="Play_SFX_Alexiel_Death_1" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Death_1" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="903372833" Language="SFX">
+							<ShortName>SFX_Alexiel_Death_1.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Death_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3405422556" Name="Play_SFX_Alexiel_Death_2" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Death_2" DurationType="OneShot" DurationMin="0.749977" DurationMax="0.749977">
+					<IncludedMemoryFiles>
+						<File Id="289741829" Language="SFX">
+							<ShortName>SFX_Alexiel_Death_2.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Death_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="179287266" Name="Play_SFX_Alexiel_Skill_1" ObjectPath="\Events\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Skill_1" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="745378345" Language="SFX">
+							<ShortName>SFX_Alexiel_Skill_1.wav</ShortName>
+							<Path>SFX\SFX_Alexiel_Skill_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1109520104" Name="Play_SFX_Boss_Roar" ObjectPath="\Events\Official\SFX\Combat\Boss\Play_SFX_Boss_Roar" DurationType="OneShot" DurationMin="3.499977" DurationMax="3.499977">
 					<IncludedMemoryFiles>
 						<File Id="441871621" Language="SFX">
 							<ShortName>SFX_Boss_Roar.wav</ShortName>
-							<Path>SFX/SFX_Boss_Roar_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Boss_Roar_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="362650367" Name="Play_SFX_Boss_Scream" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Scream" DurationType="OneShot" DurationMin="2.499977" DurationMax="2.499977">
+				<Event Id="362650367" Name="Play_SFX_Boss_Scream" ObjectPath="\Events\Official\SFX\Combat\Boss\Play_SFX_Boss_Scream" DurationType="OneShot" DurationMin="2.499977" DurationMax="2.499977">
 					<IncludedMemoryFiles>
 						<File Id="252686037" Language="SFX">
 							<ShortName>SFX_Boss_Scream.wav</ShortName>
-							<Path>SFX/SFX_Boss_Scream_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Boss_Scream_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3759158871" Name="Play_SFX_Boss_Screech" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Screech" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+				<Event Id="3759158871" Name="Play_SFX_Boss_Screech" ObjectPath="\Events\Official\SFX\Combat\Boss\Play_SFX_Boss_Screech" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
 					<IncludedMemoryFiles>
 						<File Id="1001673628" Language="SFX">
 							<ShortName>SFX_Boss_Screech.wav</ShortName>
-							<Path>SFX/SFX_Boss_Screech_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Boss_Screech_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1111697546" Name="Play_SFX_Boss_Yell" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Boss_Yell" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+				<Event Id="1111697546" Name="Play_SFX_Boss_Yell" ObjectPath="\Events\Official\SFX\Combat\Boss\Play_SFX_Boss_Yell" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
 					<IncludedMemoryFiles>
 						<File Id="113824687" Language="SFX">
 							<ShortName>SFX_Boss_Yell.wav</ShortName>
-							<Path>SFX/SFX_Boss_Yell_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Boss_Yell_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2752594136" Name="Play_SFX_Combat_Attack_Bow" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Bow" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+				<Event Id="2752594136" Name="Play_SFX_Combat_Attack_Bow" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Bow" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
 					<IncludedMemoryFiles>
 						<File Id="725704615" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Bow.wav</ShortName>
-							<Path>SFX/SFX_Combat_Attack_Bow_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Attack_Bow_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1598775888" Name="Play_SFX_Combat_Attack_Fire" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Fire" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+				<Event Id="1598775888" Name="Play_SFX_Combat_Attack_Fire" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Fire" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
 					<IncludedMemoryFiles>
 						<File Id="1058053633" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Fire.wav</ShortName>
-							<Path>SFX/SFX_Combat_Attack_Fire_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Attack_Fire_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="413138120" Name="Play_SFX_Combat_Attack_Magic_" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Magic_" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+				<Event Id="413138120" Name="Play_SFX_Combat_Attack_Magic_" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Magic_" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
 					<IncludedMemoryFiles>
 						<File Id="141268377" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Magic .wav</ShortName>
-							<Path>SFX/SFX_Combat_Attack_Magic _3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Attack_Magic _3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4013471751" Name="Play_SFX_Combat_Attack_Sword" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Attack_Sword" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+				<Event Id="4013471751" Name="Play_SFX_Combat_Attack_Sword" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Sword" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
 					<IncludedMemoryFiles>
 						<File Id="423694452" Language="SFX">
 							<ShortName>SFX_Combat_Attack_Sword.wav</ShortName>
-							<Path>SFX/SFX_Combat_Attack_Sword_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Attack_Sword_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3939099487" Name="Play_SFX_Combat_Damage_General" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_General" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+				<Event Id="3939099487" Name="Play_SFX_Combat_Damage_General" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Damage_General" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
 					<IncludedMemoryFiles>
 						<File Id="864828214" Language="SFX">
 							<ShortName>SFX_Combat_Damage_General.wav</ShortName>
-							<Path>SFX/SFX_Combat_Damage_General_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Damage_General_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2856064598" Name="Play_SFX_Combat_Damage_Magic" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_Magic" DurationType="OneShot" DurationMin="2.999977" DurationMax="2.999977">
+				<Event Id="2856064598" Name="Play_SFX_Combat_Damage_Magic" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Damage_Magic" DurationType="OneShot" DurationMin="2.999977" DurationMax="2.999977">
 					<IncludedMemoryFiles>
 						<File Id="784198079" Language="SFX">
 							<ShortName>SFX_Combat_Damage_Magic.wav</ShortName>
-							<Path>SFX/SFX_Combat_Damage_Magic_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Damage_Magic_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3918087091" Name="Play_SFX_Combat_Damage_Melee" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Damage_Melee" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+				<Event Id="3918087091" Name="Play_SFX_Combat_Damage_Melee" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Damage_Melee" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
 					<IncludedMemoryFiles>
 						<File Id="186591648" Language="SFX">
 							<ShortName>SFX_Combat_Damage_Melee.wav</ShortName>
-							<Path>SFX/SFX_Combat_Damage_Melee_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Damage_Melee_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3368541447" Name="Play_SFX_Combat_Throw" ObjectPath="\Events\Official\SFX\Combat\Play_SFX_Combat_Throw" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+				<Event Id="3368541447" Name="Play_SFX_Combat_Throw" ObjectPath="\Events\Official\SFX\Combat\General\Play_SFX_Combat_Throw" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
 					<IncludedMemoryFiles>
 						<File Id="823087282" Language="SFX">
 							<ShortName>SFX_Combat_Throw.wav</ShortName>
-							<Path>SFX/SFX_Combat_Throw_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Combat_Throw_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1085728863" Name="Play_SFX_Hongjie_Death_1" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Death_1" DurationType="OneShot" DurationMin="2.624989" DurationMax="2.624989">
+					<IncludedMemoryFiles>
+						<File Id="481228875" Language="SFX">
+							<ShortName>SFX_Hongjie_Death_1.wav</ShortName>
+							<Path>SFX\SFX_Hongjie_Death_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2154560866" Name="Play_SFX_Hongjie_Skill_1" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Skill_1" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="971186556" Language="SFX">
+							<ShortName>SFX_Hongjie_Skill_1.wav</ShortName>
+							<Path>SFX\SFX_Hongjie_Skill_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2154560865" Name="Play_SFX_Hongjie_Skill_2" ObjectPath="\Events\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Skill_2" DurationType="OneShot" DurationMin="0.874989" DurationMax="0.874989">
+					<IncludedMemoryFiles>
+						<File Id="291058598" Language="SFX">
+							<ShortName>SFX_Hongjie_Skill_2.wav</ShortName>
+							<Path>SFX\SFX_Hongjie_Skill_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="865318681" Name="Play_SFX_Melinda_Attack_Double_1" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Double_1" DurationType="OneShot" DurationMin="0.749977" DurationMax="0.749977">
+					<IncludedMemoryFiles>
+						<File Id="134665449" Language="SFX">
+							<ShortName>SFX_Melinda_Attack_Double_1.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Attack_Double_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="865318682" Name="Play_SFX_Melinda_Attack_Double_2" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Double_2" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="602253891" Language="SFX">
+							<ShortName>SFX_Melinda_Attack_Double_2.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Attack_Double_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2721821142" Name="Play_SFX_Melinda_Attack_Single_1" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Single_1" DurationType="OneShot" DurationMin="2.624989" DurationMax="2.624989">
+					<IncludedMemoryFiles>
+						<File Id="68471464" Language="SFX">
+							<ShortName>SFX_Melinda_Attack_Single_1.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Attack_Single_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="45001282" Name="Play_SFX_Melinda_Attack_Triple_1" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Triple_1" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="179355901" Language="SFX">
+							<ShortName>SFX_Melinda_Attack_Triple_1.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Attack_Triple_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3813323771" Name="Play_SFX_Melinda_Death_1" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Death_1" DurationType="OneShot" DurationMin="1.999977" DurationMax="1.999977">
+					<IncludedMemoryFiles>
+						<File Id="75975690" Language="SFX">
+							<ShortName>SFX_Melinda_Death_1.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Death_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1077868630" Name="Play_SFX_Melinda_Skill_1" ObjectPath="\Events\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Skill_1" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="682063107" Language="SFX">
+							<ShortName>SFX_Melinda_Skill_1.wav</ShortName>
+							<Path>SFX\SFX_Melinda_Skill_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2066181787" Name="Play_SFX_Page_Turn" ObjectPath="\Events\Official\SFX\Misc\Play_SFX_Page_Turn" DurationType="OneShot" DurationMin="0.817113" DurationMax="0.817113">
+					<IncludedMemoryFiles>
+						<File Id="328845731" Language="SFX">
+							<ShortName>SFX_Page_Turn.wav</ShortName>
+							<Path>SFX\SFX_Page_Turn_73B8771F.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -618,7 +822,7 @@
 					<IncludedMemoryFiles>
 						<File Id="981204708" Language="SFX">
 							<ShortName>SFX_Player_Spawn_Float.wav</ShortName>
-							<Path>SFX/SFX_Player_Spawn_Float_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Player_Spawn_Float_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -626,7 +830,7 @@
 					<IncludedMemoryFiles>
 						<File Id="709775079" Language="SFX">
 							<ShortName>SFX_Player_Spawn_Land.wav</ShortName>
-							<Path>SFX/SFX_Player_Spawn_Land_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Player_Spawn_Land_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -634,7 +838,7 @@
 					<IncludedMemoryFiles>
 						<File Id="202278871" Language="SFX">
 							<ShortName>SFX_UI_Back.wav</ShortName>
-							<Path>SFX/SFX_UI_Back_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_UI_Back_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -642,7 +846,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1072611532" Language="SFX">
 							<ShortName>SFX_UI_Confirm.wav</ShortName>
-							<Path>SFX/SFX_UI_Confirm_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_UI_Confirm_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -650,7 +854,87 @@
 					<IncludedMemoryFiles>
 						<File Id="278281572" Language="SFX">
 							<ShortName>SFX_UI_Select.wav</ShortName>
-							<Path>SFX/SFX_UI_Select_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_UI_Select_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1962550936" Name="Play_SFX_Victoria_Attack_Double_1" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Double_1" DurationType="OneShot" DurationMin="0.999977" DurationMax="0.999977">
+					<IncludedMemoryFiles>
+						<File Id="969200923" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Double_1.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Double_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1962550939" Name="Play_SFX_Victoria_Attack_Double_2" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Double_2" DurationType="OneShot" DurationMin="0.874989" DurationMax="0.874989">
+					<IncludedMemoryFiles>
+						<File Id="17469603" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Double_2.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Double_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3468754479" Name="Play_SFX_Victoria_Attack_Single_1" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Single_1" DurationType="OneShot" DurationMin="0.624989" DurationMax="0.624989">
+					<IncludedMemoryFiles>
+						<File Id="1026404859" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Single_1.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Single_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3468754476" Name="Play_SFX_Victoria_Attack_Single_2" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Single_2" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="390574330" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Single_2.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Single_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3215674931" Name="Play_SFX_Victoria_Attack_Triple_1" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Triple_1" DurationType="OneShot" DurationMin="2.999977" DurationMax="2.999977">
+					<IncludedMemoryFiles>
+						<File Id="705598463" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Triple_1.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Triple_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3215674928" Name="Play_SFX_Victoria_Attack_Triple_2" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Triple_2" DurationType="OneShot" DurationMin="1.874989" DurationMax="1.874989">
+					<IncludedMemoryFiles>
+						<File Id="509064666" Language="SFX">
+							<ShortName>SFX_Victoria_Attack_Triple_2.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Attack_Triple_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4208950430" Name="Play_SFX_Victoria_Death_1" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_1" DurationType="OneShot" DurationMin="1.999977" DurationMax="1.999977">
+					<IncludedMemoryFiles>
+						<File Id="488359456" Language="SFX">
+							<ShortName>SFX_Victoria_Death_1.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Death_1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4208950429" Name="Play_SFX_Victoria_Death_2" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_2" DurationType="OneShot" DurationMin="1.5" DurationMax="1.5">
+					<IncludedMemoryFiles>
+						<File Id="164738855" Language="SFX">
+							<ShortName>SFX_Victoria_Death_2.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Death_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4208950428" Name="Play_SFX_Victoria_Death_3" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_3" DurationType="OneShot" DurationMin="0.75" DurationMax="0.75">
+					<IncludedMemoryFiles>
+						<File Id="709768988" Language="SFX">
+							<ShortName>SFX_Victoria_Death_3.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Death_3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3952961231" Name="Play_SFX_Victoria_Skill_1" ObjectPath="\Events\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Skill_1" DurationType="OneShot" DurationMin="1.499977" DurationMax="1.499977">
+					<IncludedMemoryFiles>
+						<File Id="24919479" Language="SFX">
+							<ShortName>SFX_Victoria_Skill_1.wav</ShortName>
+							<Path>SFX\SFX_Victoria_Skill_1_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -658,15 +942,15 @@
 					<IncludedMemoryFiles>
 						<File Id="418656758" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Town_2_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Town_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="444886750" Language="SFX">
 							<ShortName>SFX_Ambiance_Town_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Town_3_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Town_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="604209776" Language="SFX">
 							<ShortName>MC_Town.wav</ShortName>
-							<Path>SFX/MC_Town_9EDFC787.wem</Path>
+							<Path>SFX\MC_Town_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -674,43 +958,43 @@
 					<IncludedMemoryFiles>
 						<File Id="51291083" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem</Path>
 						</File>
 						<File Id="190270889" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem</Path>
 						</File>
 						<File Id="303968313" Language="SFX">
 							<ShortName>MC_Starting_Area.wav</ShortName>
-							<Path>SFX/MC_Starting_Area_9EDFC787.wem</Path>
+							<Path>SFX\MC_Starting_Area_9EDFC787.wem</Path>
 						</File>
 						<File Id="311786162" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_5.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem</Path>
 						</File>
 						<File Id="404496039" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_6.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem</Path>
 						</File>
 						<File Id="427976571" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_1.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem</Path>
 						</File>
 						<File Id="448990572" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_1.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem</Path>
 						</File>
 						<File Id="675582577" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_3.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem</Path>
 						</File>
 						<File Id="963589475" Language="SFX">
 							<ShortName>SFX_Ambiance_Starting_Area_2.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
+							<Path>SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem</Path>
 						</File>
 						<File Id="984130452" Language="SFX">
 							<ShortName>SFX_Ambiance_Chimes_4.wav</ShortName>
-							<Path>SFX/SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
+							<Path>SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

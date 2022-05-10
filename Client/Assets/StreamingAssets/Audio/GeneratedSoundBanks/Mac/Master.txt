@@ -1,45 +1,77 @@
 Event	ID	Name			Wwise Object Path	Notes
+	8162858	Play_SFX_Alexiel_Attack_Single_1			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Single_1	
+	45001282	Play_SFX_Melinda_Attack_Triple_1			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Triple_1	
 	130690659	Set_State_Defeat_Music_State			\Official\Music\States\Set_State_Defeat_Music_State	
-	362650367	Play_SFX_Boss_Scream			\Official\SFX\Misc\Play_SFX_Boss_Scream	
-	413138120	Play_SFX_Combat_Attack_Magic_			\Official\SFX\Combat\Play_SFX_Combat_Attack_Magic_	
+	179287266	Play_SFX_Alexiel_Skill_1			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Skill_1	
+	362650367	Play_SFX_Boss_Scream			\Official\SFX\Combat\Boss\Play_SFX_Boss_Scream	
+	413138120	Play_SFX_Combat_Attack_Magic_			\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Magic_	
+	418152907	Play_HongjieDouble			\Official\SFX\Combat\Hongjie\Play_HongjieDouble	
+	495685996	Play_HongjieTriple			\Official\SFX\Combat\Hongjie\Play_HongjieTriple	
 	848215435	Set_State_Explore_State			\Official\General_States\Gameplay\Set_State_Explore_State	
+	865318681	Play_SFX_Melinda_Attack_Double_1			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Double_1	
+	865318682	Play_SFX_Melinda_Attack_Double_2			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Double_2	
 	970928956	Stop_Combat_Music			\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Combat_Music	
 	993119118	Set_State_Combat_State			\Official\General_States\Gameplay\Set_State_Combat_State	
 	1029146047	Set_State_Unpause_State			\Official\General_States\Pause\Set_State_Unpause_State	
-	1109520104	Play_SFX_Boss_Roar			\Official\SFX\Misc\Play_SFX_Boss_Roar	
-	1111697546	Play_SFX_Boss_Yell			\Official\SFX\Misc\Play_SFX_Boss_Yell	
+	1077868630	Play_SFX_Melinda_Skill_1			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Skill_1	
+	1085728863	Play_SFX_Hongjie_Death_1			\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Death_1	
+	1109520104	Play_SFX_Boss_Roar			\Official\SFX\Combat\Boss\Play_SFX_Boss_Roar	
+	1111697546	Play_SFX_Boss_Yell			\Official\SFX\Combat\Boss\Play_SFX_Boss_Yell	
 	1117141914	Play_SFX_UI_Back			\Official\SFX\UI\Play_SFX_UI_Back	
 	1217006078	Stop_Tutorial_Area_Music			\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Tutorial_Area_Music	
 	1231987938	Play_Gameplay_Music			\Official\Music\Play\Play_Gameplay_Music	
 	1345844078	Set_State_Town_Music_State			\Official\Music\States\Set_State_Town_Music_State	
 	1408733697	Play_SFX_UI_Confirm			\Official\SFX\UI\Play_SFX_UI_Confirm	
-	1598775888	Play_SFX_Combat_Attack_Fire			\Official\SFX\Combat\Play_SFX_Combat_Attack_Fire	
+	1598775888	Play_SFX_Combat_Attack_Fire			\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Fire	
 	1705212850	Play_SFX_Player_Spawn_Float			\Official\SFX\Misc\Play_SFX_Player_Spawn_Float	
+	1852515277	Play_SFX_Alexiel_Attack_Triple_2			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Triple_2	
+	1852515278	Play_SFX_Alexiel_Attack_Triple_1			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Triple_1	
+	1962550936	Play_SFX_Victoria_Attack_Double_1			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Double_1	
+	1962550939	Play_SFX_Victoria_Attack_Double_2			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Double_2	
+	2066181787	Play_SFX_Page_Turn			\Official\SFX\Misc\Play_SFX_Page_Turn	
+	2154560865	Play_SFX_Hongjie_Skill_2			\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Skill_2	
+	2154560866	Play_SFX_Hongjie_Skill_1			\Official\SFX\Combat\Hongjie\Play_SFX_Hongjie_Skill_1	
 	2198855132	Set_State_Pause_State			\Official\General_States\Pause\Set_State_Pause_State	
 	2396534832	Play_Tutorial_Area_Music			\Official\SeparatedMusicAndAmbEvents\Play\Play_Tutorial_Area_Music	
 	2441257819	Stop_Boss_Phase_1_Music			\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Boss_Phase_1_Music	
 	2484137795	Play_SFX_UI_Select			\Official\SFX\UI\Play_SFX_UI_Select	
+	2721821142	Play_SFX_Melinda_Attack_Single_1			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Attack_Single_1	
 	2722335064	Set_State_Victory_Music_State			\Official\Music\States\Set_State_Victory_Music_State	
-	2752594136	Play_SFX_Combat_Attack_Bow			\Official\SFX\Combat\Play_SFX_Combat_Attack_Bow	
+	2752594136	Play_SFX_Combat_Attack_Bow			\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Bow	
 	2761290801	Set_State_Boss_Phase_1_Music_State			\Official\Music\States\Set_State_Boss_Phase_1_Music_State	
 	2800207448	Stop_Town_Music			\Official\SeparatedMusicAndAmbEvents\Stop\Stop_Town_Music	
 	2829915331	Stop_Main_Menu_Music			\Official\Music\Stop\Stop_Main_Menu_Music	
 	2839405212	Stop_Ambiance			\Official\SFX\2D_Ambance\Stop_Ambiance	
-	2856064598	Play_SFX_Combat_Damage_Magic			\Official\SFX\Combat\Play_SFX_Combat_Damage_Magic	
+	2856064598	Play_SFX_Combat_Damage_Magic			\Official\SFX\Combat\General\Play_SFX_Combat_Damage_Magic	
 	2895168921	Play_Main_Menu_Music			\Official\Music\Play\Play_Main_Menu_Music	
 	3155474038	Play_Combat_Music			\Official\SeparatedMusicAndAmbEvents\Play\Play_Combat_Music	
 	3174479978	Play_Ambiance			\Official\SFX\2D_Ambance\Play_Ambiance	
 	3208464042	Play_Town_Music			\Official\SeparatedMusicAndAmbEvents\Play\Play_Town_Music	
-	3368541447	Play_SFX_Combat_Throw			\Official\SFX\Combat\Play_SFX_Combat_Throw	
+	3215674928	Play_SFX_Victoria_Attack_Triple_2			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Triple_2	
+	3215674931	Play_SFX_Victoria_Attack_Triple_1			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Triple_1	
+	3368541447	Play_SFX_Combat_Throw			\Official\SFX\Combat\General\Play_SFX_Combat_Throw	
+	3398230421	Play_SFX_Alexiel_Attack_Double_1			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Attack_Double_1	
+	3405422556	Play_SFX_Alexiel_Death_2			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Death_2	
+	3405422559	Play_SFX_Alexiel_Death_1			\Official\SFX\Combat\Alexiel\Play_SFX_Alexiel_Death_1	
+	3462013688	Play_HongjieSingle			\Official\SFX\Combat\Hongjie\Play_HongjieSingle	
+	3468754476	Play_SFX_Victoria_Attack_Single_2			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Single_2	
+	3468754479	Play_SFX_Victoria_Attack_Single_1			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Attack_Single_1	
 	3536547992	Stop_Gameplay_Music			\Official\Music\Stop\Stop_Gameplay_Music	
 	3735659942	Set_State_Training_Ground_Music_State			\Official\Music\States\Set_State_Training_Ground_Music_State	
-	3759158871	Play_SFX_Boss_Screech			\Official\SFX\Misc\Play_SFX_Boss_Screech	
+	3759158871	Play_SFX_Boss_Screech			\Official\SFX\Combat\Boss\Play_SFX_Boss_Screech	
+	3813323771	Play_SFX_Melinda_Death_1			\Official\SFX\Combat\Melinda\Play_SFX_Melinda_Death_1	
+	3825865420	Play_Credits_Music			\Official\SeparatedMusicAndAmbEvents\Play\Play_Credits_Music	
+	3854155799	Play_Footsteps			\Official\SFX\Misc\Play_Footsteps	
 	3870811733	Play_Boss_Phase_1_Music			\Official\SeparatedMusicAndAmbEvents\Play\Play_Boss_Phase_1_Music	
 	3882023610	Set_State_Combat_Music_State			\Official\Music\States\Set_State_Combat_Music_State	
-	3918087091	Play_SFX_Combat_Damage_Melee			\Official\SFX\Combat\Play_SFX_Combat_Damage_Melee	
-	3939099487	Play_SFX_Combat_Damage_General			\Official\SFX\Combat\Play_SFX_Combat_Damage_General	
-	4013471751	Play_SFX_Combat_Attack_Sword			\Official\SFX\Combat\Play_SFX_Combat_Attack_Sword	
+	3918087091	Play_SFX_Combat_Damage_Melee			\Official\SFX\Combat\General\Play_SFX_Combat_Damage_Melee	
+	3939099487	Play_SFX_Combat_Damage_General			\Official\SFX\Combat\General\Play_SFX_Combat_Damage_General	
+	3952961231	Play_SFX_Victoria_Skill_1			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Skill_1	
+	4013471751	Play_SFX_Combat_Attack_Sword			\Official\SFX\Combat\General\Play_SFX_Combat_Attack_Sword	
 	4035179051	Play_SFX_Player_Spawn_Land			\Official\SFX\Misc\Play_SFX_Player_Spawn_Land	
+	4208950428	Play_SFX_Victoria_Death_3			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_3	
+	4208950429	Play_SFX_Victoria_Death_2			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_2	
+	4208950430	Play_SFX_Victoria_Death_1			\Official\SFX\Combat\Victoria\Play_SFX_Victoria_Death_1	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1174995064	InOut			\Official\InOut	
@@ -76,45 +108,85 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1071755271	Defeat_Music_State	Music	\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Town_Amb		
 
 Effect plug-ins	ID	Name	Type				Notes
+	38522793	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	290932134	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	570389807	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	51291083	SFX_Ambiance_Starting_Area_3	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_3		763315
-	101119723	MC_Main_Menu	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Main_Menu_9EDFC787.wem		\Interactive Music Hierarchy\Official\Main_Menu_Music\MC_Main_Menu\MC_Main_Menu		2173440
-	113824687	SFX_Boss_Yell	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Yell_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Yell		18630
-	141268377	SFX_Combat_Attack_Magic 	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Magic _3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Magic 		32727
-	186591648	SFX_Combat_Damage_Melee	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_Melee_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_Melee		10630
-	190270889	SFX_Ambiance_Chimes_2	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_2		49409
-	202278871	SFX_UI_Back	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Back_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Back		14780
-	252686037	SFX_Boss_Scream	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Scream_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Scream		33719
-	278281572	SFX_UI_Select	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Select_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Select		8128
-	285026230	MC_Combat_General_1	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_1_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Boss_Phase_1_Music\MC_Boss\MC_Combat_General_1		1996402
-	303968313	MC_Starting_Area	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Starting_Area_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Tutorial_Area_Music\MC_Starting_Area\MC_Starting_Area		2007468
-	311786162	SFX_Ambiance_Chimes_5	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_5		66308
-	328176984	MC_Combat_General_2_Loop	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_2_Loop_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Combat_Music\MC_Combat_General_2_Loop\MC_Combat_General_2_Loop		2310147
-	404496039	SFX_Ambiance_Chimes_6	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_6		27846
-	418656758	SFX_Ambiance_Town_2	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Town_2_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Town_Amb\SFX_Ambiance_Town_2		935604
-	423694452	SFX_Combat_Attack_Sword	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Sword_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Sword		10359
-	427976571	SFX_Ambiance_Starting_Area_1	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_1		919366
-	441871621	SFX_Boss_Roar	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Roar_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Roar		26924
-	444886750	SFX_Ambiance_Town_3	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Town_3_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Town_Amb\SFX_Ambiance_Town_3		826422
-	448990572	SFX_Ambiance_Chimes_1	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_1		48824
-	464729469	MC_Combat_General_2_Intro	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_2_Intro_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Combat_Music\MC_Combat_General_2_Intro\MC_Combat_General_2_Intro		631488
-	476317864	MC_Victory	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Victory_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Victory_Music\MC_Victory\MC_Victory		122115
-	604209776	MC_Town	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Town_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Town_Music\MC_Town\MC_Town		1073555
-	675582577	SFX_Ambiance_Chimes_3	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_3		14149
-	709775079	SFX_Player_Spawn_Land	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Player_Spawn_Land_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\SFX_Player_Spawn_Land		5920
-	725704615	SFX_Combat_Attack_Bow	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Bow_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Bow		30658
-	784198079	SFX_Combat_Damage_Magic	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_Magic_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_Magic		35942
-	823087282	SFX_Combat_Throw	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Throw_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Throw		11073
-	838428080	MC_Defeat	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\MC_Defeat_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Defeat_Music\MC_Defeat\MC_Defeat		112947
-	864828214	SFX_Combat_Damage_General	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_General_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_General		22908
-	963589475	SFX_Ambiance_Starting_Area_2	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_2		967759
-	981204708	SFX_Player_Spawn_Float	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Player_Spawn_Float_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\SFX_Player_Spawn_Float		64580
-	984130452	SFX_Ambiance_Chimes_4	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_4		35254
-	1001673628	SFX_Boss_Screech	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Screech_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Screech		16195
-	1058053633	SFX_Combat_Attack_Fire	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Fire_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Fire		32726
-	1072611532	SFX_UI_Confirm	Y:\Desktop\Homework4GameCombined\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Confirm_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Confirm		13516
+	8808691	SFX_Alexiel_Attack_Double_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Attack_Double_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Attack_Double_1		12548
+	17469603	SFX_Victoria_Attack_Double_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Double_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Double_2		5876
+	24919479	SFX_Victoria_Skill_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Skill_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Skill_1		21528
+	51291083	SFX_Ambiance_Starting_Area_3	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_3_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_3		763315
+	67232300	MC_Godsworn_Credits	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Godsworn_Credits_9EDFC787.wem		\Interactive Music Hierarchy\Official\Credits_Music\MC_Godsworn_Credits\MC_Godsworn_Credits		1459104
+	68471464	SFX_Melinda_Attack_Single_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Attack_Single_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Attack_Single_1		35689
+	75975690	SFX_Melinda_Death_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Death_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Death_1		20105
+	101119723	MC_Main_Menu	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Main_Menu_9EDFC787.wem		\Interactive Music Hierarchy\Official\Main_Menu_Music\MC_Main_Menu\MC_Main_Menu		2173440
+	113824687	SFX_Boss_Yell	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Yell_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Yell		18630
+	129533174	SFX_Alexiel_Attack_Single_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Attack_Single_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Attack_Single_1		12289
+	134665449	SFX_Melinda_Attack_Double_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Attack_Double_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Attack_Double_1		8178
+	141268377	SFX_Combat_Attack_Magic 	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Magic _3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Magic 		32727
+	152556958	SFX_Footstep_4	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_4		2359
+	164738855	SFX_Victoria_Death_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Death_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Death_2		21617
+	179355901	SFX_Melinda_Attack_Triple_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Attack_Triple_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Attack_Triple_1		17432
+	186591648	SFX_Combat_Damage_Melee	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_Melee_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_Melee		10630
+	190270889	SFX_Ambiance_Chimes_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_2		49409
+	196529180	SFX_Footstep_6	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_6		2441
+	202278871	SFX_UI_Back	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Back_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Back		14780
+	252686037	SFX_Boss_Scream	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Scream_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Scream		33719
+	278281572	SFX_UI_Select	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Select_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Select		8128
+	281313376	SFX_Footstep_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_2		2522
+	285026230	MC_Combat_General_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_1_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Boss_Phase_1_Music\MC_Boss\MC_Combat_General_1		1947082
+	289741829	SFX_Alexiel_Death_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Death_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Death_2		7371
+	291058598	SFX_Hongjie_Skill_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Hongjie_Skill_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Hongjie_Skill_2		14248
+	303968313	MC_Starting_Area	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Starting_Area_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Tutorial_Area_Music\MC_Starting_Area\MC_Starting_Area		2007468
+	311786162	SFX_Ambiance_Chimes_5	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_5		66308
+	326699772	SFX_Footstep_7	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_7_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_7		2475
+	328176984	MC_Combat_General_2_Loop	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_2_Loop_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Combat_Music\MC_Combat_General_2_Loop\MC_Combat_General_2_Loop		2310147
+	328845731	SFX_Page_Turn	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Page_Turn_73B8771F.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\SFX_Page_Turn		8100
+	381353015	SFX_Footstep_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_1		2506
+	390574330	SFX_Victoria_Attack_Single_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Single_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Single_2		11481
+	404496039	SFX_Ambiance_Chimes_6	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_6_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_6		27846
+	414873020	SFX_Footstep_8	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_8_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_8		2484
+	418656758	SFX_Ambiance_Town_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Town_2_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Town_Amb\SFX_Ambiance_Town_2		935604
+	423694452	SFX_Combat_Attack_Sword	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Sword_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Sword		10359
+	427976571	SFX_Ambiance_Starting_Area_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_1_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_1		919366
+	441871621	SFX_Boss_Roar	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Roar_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Roar		26924
+	444886750	SFX_Ambiance_Town_3	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Town_3_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Town_Amb\SFX_Ambiance_Town_3		826422
+	448990572	SFX_Ambiance_Chimes_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_1		48824
+	464729469	MC_Combat_General_2_Intro	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Combat_General_2_Intro_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Combat_Music\MC_Combat_General_2_Intro\MC_Combat_General_2_Intro		631488
+	476317864	MC_Victory	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Victory_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Victory_Music\MC_Victory\MC_Victory		122115
+	481228875	SFX_Hongjie_Death_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Hongjie_Death_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Hongjie_Death_1		37539
+	488359456	SFX_Victoria_Death_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Death_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Death_1		28248
+	509064666	SFX_Victoria_Attack_Triple_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Triple_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Triple_2		12069
+	540170223	SFX_Footstep_3	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_3		2494
+	602253891	SFX_Melinda_Attack_Double_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Attack_Double_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Attack_Double_2		15037
+	604209776	MC_Town	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Town_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Town_Music\MC_Town\MC_Town		1073555
+	675582577	SFX_Ambiance_Chimes_3	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_3		14149
+	682063107	SFX_Melinda_Skill_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Melinda_Skill_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Melinda_Skill_1		21508
+	705598463	SFX_Victoria_Attack_Triple_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Triple_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Triple_1		36288
+	709768988	SFX_Victoria_Death_3	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Death_3_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Death_3		4534
+	709775079	SFX_Player_Spawn_Land	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Player_Spawn_Land_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\SFX_Player_Spawn_Land		5920
+	725704615	SFX_Combat_Attack_Bow	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Bow_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Bow		30658
+	726552638	HongjieSingle	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\HongjieSingle_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\HongjieSingle		29214
+	726610915	HongjieDouble	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\HongjieDouble_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\HongjieDouble		42115
+	728286345	SFX_Alexiel_Attack_Triple_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Attack_Triple_2_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Attack_Triple_2		24528
+	731195298	SFX_Footstep_5	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Footstep_5_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\Footsteps\SFX_Footstep_5		2433
+	745378345	SFX_Alexiel_Skill_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Skill_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Skill_1		17692
+	784198079	SFX_Combat_Damage_Magic	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_Magic_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_Magic		35942
+	823087282	SFX_Combat_Throw	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Throw_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Throw		11073
+	838428080	MC_Defeat	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\MC_Defeat_9EDFC787.wem		\Interactive Music Hierarchy\Official\Gameplay_Music\Defeat_Music\MC_Defeat\MC_Defeat		112947
+	864828214	SFX_Combat_Damage_General	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Damage_General_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Damage_General		22908
+	903372833	SFX_Alexiel_Death_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Death_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Death_1		5776
+	912947235	HongjieTriple	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\HongjieTriple_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\HongjieTriple		36722
+	963589475	SFX_Ambiance_Starting_Area_2	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Starting_Area_2_9EDFC787.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\SFX_Ambiance_Starting_Area_2		967759
+	969200923	SFX_Victoria_Attack_Double_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Double_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Double_1		10050
+	971186556	SFX_Hongjie_Skill_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Hongjie_Skill_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Hongjie_Skill_1		10865
+	981204708	SFX_Player_Spawn_Float	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Player_Spawn_Float_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Player\SFX_Player_Spawn_Float		64580
+	984130452	SFX_Ambiance_Chimes_4	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Ambiance_Chimes_4_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\2D_Env_Amb\Ambiance\Starting_Area_Amb\Chimes\SFX_Ambiance_Chimes_4		35254
+	987334859	SFX_Alexiel_Attack_Triple_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Alexiel_Attack_Triple_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Alexiel_Attack_Triple_1		43972
+	1001673628	SFX_Boss_Screech	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Boss_Screech_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Misc\Boss\SFX_Boss_Screech		16195
+	1026404859	SFX_Victoria_Attack_Single_1	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Victoria_Attack_Single_1_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Victoria_Attack_Single_1		9483
+	1058053633	SFX_Combat_Attack_Fire	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_Combat_Attack_Fire_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\Combat\SFX_Combat_Attack_Fire		32726
+	1072611532	SFX_UI_Confirm	C:\Users\Kevin\Documents\WwiseProjects\Godsworn_Alexiel\.cache\Mac\SFX\SFX_UI_Confirm_3F75BDB9.wem		\Actor-Mixer Hierarchy\Official\SFX\UI\SFX_UI_Confirm		13516
 
