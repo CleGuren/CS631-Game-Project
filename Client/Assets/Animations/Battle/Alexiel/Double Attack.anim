@@ -2564,9 +2564,23 @@ AnimationClip:
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.46666667
+    functionName: PlaySound
+    data: Play_SFX_Alexiel_Attack_Single_1
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.9166667
     functionName: DoDamage
     data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.6833333
+    functionName: PlaySound
+    data: Play_SFX_Alexiel_Attack_Double_1
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0

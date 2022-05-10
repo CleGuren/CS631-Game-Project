@@ -2930,6 +2930,20 @@ AnimationClip:
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events:
+  - time: 0.3
+    functionName: PlaySound
+    data: Play_SFX_Victoria_Attack_Triple_1
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.3666667
+    functionName: PlaySound
+    data: Play_SFX_Victoria_Attack_Triple_2
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 1.8833333
     functionName: DoDamage
     data: 

@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3059094315220084325}
   - component: {fileID: 3059094315220084326}
   - component: {fileID: 6496296271101885450}
+  - component: {fileID: 4423295239999303292}
   m_Layer: 0
   m_Name: General Gizlavof
   m_TagString: Enemy
@@ -133,14 +134,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enemy:
     enemyName: General Gizlavof
-    level: 5
+    level: 7
     baseHP: 100
-    currentHP: 500
-    maxHP: 500
+    currentHP: 700
+    maxHP: 700
     baseAtk: 20
-    currentAtk: 40
+    currentAtk: 48
     baseDef: 30
-    currentDef: 50
+    currentDef: 58
     ChargeDiamond: 3
     EnemyEle: 0
     mySkill:
@@ -151,6 +152,8 @@ MonoBehaviour:
   currentState: 0
   HeroToAttack: {fileID: 0}
   EnemyAnimator: {fileID: 6496296271101885450}
+  actionStarted: 0
+  animFinished: 0
   DDM: {fileID: 2445189335349321922}
 --- !u!95 &6496296271101885450
 Animator:
@@ -171,6 +174,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4423295239999303292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3059094315220084323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e57e8937417461ca012041ed30e5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &3837015338136852906
 GameObject:
   m_ObjectHideFlags: 0

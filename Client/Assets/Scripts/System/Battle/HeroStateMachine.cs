@@ -13,6 +13,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     private BattleSystem curr_BS;
     private bool alive = true;
     [SerializeField] private DamageDisplayManager DDM;
+    // [SerializeField] private AK.Wwise.Event myEvent;
     void Awake() {
         curr_BS = GameObject.Find("BattleOverseer").GetComponent<BattleSystem>();
         CurrentSkillCdList = new List<int>();
@@ -37,13 +38,13 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
                 break;
             case (State.ACTION) :
                 ActionTime();
-                Debug.Log("performing action");
                 break;
             case (State.DEAD) : 
                 if (!alive) {
                     return;
                 } else {
                     alive = false;
+                    // endOfAction = true;
                     //plays animation
                     characterAnimator.Play("Dead");
                     //not targetable by enemies
@@ -76,6 +77,7 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
 
     public void TakeDamage(float damageTaken) {
         DDM.displayDamage(damageTaken);
+        endOfAction = false;
         characterAnimator.Play("Take Damage");
         myValue.currentHP -= damageTaken;
         if (myValue.currentHP <= 0) {
@@ -131,10 +133,10 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
     public void AnimationDone() {
         //return to default 
         characterAnimator.Play("Idle");
+        endOfAction = true;
         //only applies when characters are attacking
         if (curr_BS.CharacterActionList.Count > 0) {
             curr_BS.CharacterActionList.RemoveAt(0);
-            endOfAction = true;
             currentState = State.WAITING;
         }
     }
@@ -147,5 +149,9 @@ public class HeroStateMachine : MonoBehaviour, IClickableObject
 
     public bool isIdle() {
         return currentState == State.WAITING ? true : false;
+    }
+
+    public void PlaySound(string path) {
+        AkSoundEngine.PostEvent(path, this.gameObject);
     }
 }

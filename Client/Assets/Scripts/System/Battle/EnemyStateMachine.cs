@@ -123,4 +123,8 @@ public class EnemyStateMachine : MonoBehaviour
     public bool isIdle() {
         return currentState == State.WAITING ? true : false;
     }
+
+    public void PlaySound(string path) {
+        AkSoundEngine.PostEvent(path, this.gameObject);
+    }
 }

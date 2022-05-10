@@ -505,6 +505,7 @@ GameObject:
   - component: {fileID: 1421526942056350949}
   - component: {fileID: 7377451940057361709}
   - component: {fileID: 8505578554845591899}
+  - component: {fileID: 7702135241663403084}
   m_Layer: 0
   m_Name: Hongjie
   m_TagString: Character
@@ -557,8 +558,8 @@ MonoBehaviour:
     currentAtk: 33
     baseDef: 45
     currentDef: 45
-    baseDA: 25
-    baseTA: 20
+    baseDA: 50
+    baseTA: 45
     HeroEle: 4
     HeroPrefWeapon: 0
     mySkill:
@@ -569,7 +570,7 @@ MonoBehaviour:
     - {fileID: 962026604471691083, guid: 79ad12e9c7380dd4b888fea29ddc078c, type: 3}
   currentState: 0
   CurrentSkillCdList: 
-  characterAnimator: {fileID: 0}
+  characterAnimator: {fileID: 8505578554845591899}
   endOfAction: 0
   DDM: {fileID: 339216980447625645}
 --- !u!61 &7377451940057361709
@@ -617,6 +618,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7702135241663403084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8260132309819607115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e57e8937417461ca012041ed30e5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &1567282446041507458
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1403,9 +1403,10 @@ MonoBehaviour:
     type: 3}
   Character2Prefab: {fileID: 3184483756200567244, guid: 6ea4c985dda64834f8264a352187bf66,
     type: 3}
-  Character3Prefab: {fileID: 1034952642621749657, guid: ff06ea81330de2a40b14fd984f53bff7,
+  Character3Prefab: {fileID: 8260132309819607115, guid: d2ad0d7190445424589bce48ea13b770,
     type: 3}
-  Character4Prefab: {fileID: 0}
+  Character4Prefab: {fileID: 1034952642621749657, guid: ff06ea81330de2a40b14fd984f53bff7,
+    type: 3}
   Enemy1Prefab: {fileID: 3059094315220084323, guid: ac05c7817d5406243a1b445336744fb3,
     type: 3}
   Character1Pos: {fileID: 820840886}
@@ -2058,8 +2059,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 806508310}
   m_HandleRect: {fileID: 806508309}
   m_Direction: 2
-  m_Value: 0.0000048299607
-  m_Size: 0.10620673
+  m_Value: 0.000004554247
+  m_Size: 0.10620678
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3025,8 +3026,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1507516148}
   m_HandleRect: {fileID: 1507516147}
   m_Direction: 2
-  m_Value: 0.0000046994887
-  m_Size: 0.030066596
+  m_Value: 0.000004975204
+  m_Size: 0.030066589
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

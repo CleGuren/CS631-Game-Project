@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 230857046643447520}
   - component: {fileID: -4641197650417692736}
   - component: {fileID: 8226185348021859997}
+  - component: {fileID: 7866799118257495418}
   m_Layer: 0
   m_Name: Victoria
   m_TagString: Character
@@ -122,6 +123,28 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7866799118257495418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034952642621749657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8e57e8937417461ca012041ed30e5b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1138809100180108045
 GameObject:
   m_ObjectHideFlags: 0

@@ -175,7 +175,6 @@ public class BattleSystem : MonoBehaviour
                     {
                         playerParty[i].GetComponent<HeroStateMachine>().UpdateSkillCD();
                     }
-                    UpdateTurn();
                     curr_state = BattleState.TRANSITIONING;
                 }
                 break;
@@ -184,7 +183,10 @@ public class BattleSystem : MonoBehaviour
                 {
                     curr_state = BattleState.DEFEAT;
                 }
-                else curr_state = BattleState.PLAYERTURN;
+                if (charactersCompletedAction()) {
+                    UpdateTurn();
+                    curr_state = BattleState.PLAYERTURN;
+                }
                 break;
             case (BattleState.VICTORIOUS):
                 if (victorious)
@@ -211,7 +213,7 @@ public class BattleSystem : MonoBehaviour
         Instantiate(Character1Prefab, Character1Pos);
         Instantiate(Character2Prefab, Character2Pos);
         Instantiate(Character3Prefab, Character3Pos);
-        // Instantiate(Character4Prefab, Character4Pos);
+        Instantiate(Character4Prefab, Character4Pos);
         Instantiate(Enemy1Prefab, Enemy1Pos);
     }
 
