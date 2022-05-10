@@ -132,6 +132,4 @@ public class Player : MonoBehaviour
         otherMove.x = x;
         otherMove.y = y;
     }
-
-
 }
