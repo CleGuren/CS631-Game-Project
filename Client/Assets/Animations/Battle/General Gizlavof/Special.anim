@@ -662,7 +662,7 @@ AnimationClip:
   m_Events:
   - time: 0.6166667
     functionName: PlaySound
-    data: Play_SFX_Boss_Roar
+    data: Play_SFX_Boss_Scream
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
