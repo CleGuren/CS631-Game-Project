@@ -704,11 +704,20 @@ AnimationClip:
     - time: 8.916667
       value: {fileID: 3862816825587591784, guid: e37119c3b77014064beece6cc990fc4a,
         type: 3}
-    - time: 9.016666
-      value: {fileID: -130625993203788382, guid: e37119c3b77014064beece6cc990fc4a,
+    - time: 9.025
+      value: {fileID: 8481625075326080005, guid: 339f076ff83b3474189436fe4bc4041c,
         type: 3}
-    - time: 9.1
-      value: {fileID: -8836889972675234892, guid: e37119c3b77014064beece6cc990fc4a,
+    - time: 9.15
+      value: {fileID: -416143992263826454, guid: 339f076ff83b3474189436fe4bc4041c,
+        type: 3}
+    - time: 9.266666
+      value: {fileID: 544576395696292897, guid: 339f076ff83b3474189436fe4bc4041c,
+        type: 3}
+    - time: 9.4
+      value: {fileID: -4577502420514049891, guid: 339f076ff83b3474189436fe4bc4041c,
+        type: 3}
+    - time: 9.525
+      value: {fileID: 750303602690900875, guid: 339f076ff83b3474189436fe4bc4041c,
         type: 3}
     attribute: m_Sprite
     path: Chest
@@ -879,8 +888,11 @@ AnimationClip:
     - {fileID: 528629694599773502, guid: e37119c3b77014064beece6cc990fc4a, type: 3}
     - {fileID: 1213232402250464711, guid: e37119c3b77014064beece6cc990fc4a, type: 3}
     - {fileID: 3862816825587591784, guid: e37119c3b77014064beece6cc990fc4a, type: 3}
-    - {fileID: -130625993203788382, guid: e37119c3b77014064beece6cc990fc4a, type: 3}
-    - {fileID: -8836889972675234892, guid: e37119c3b77014064beece6cc990fc4a, type: 3}
+    - {fileID: 8481625075326080005, guid: 339f076ff83b3474189436fe4bc4041c, type: 3}
+    - {fileID: -416143992263826454, guid: 339f076ff83b3474189436fe4bc4041c, type: 3}
+    - {fileID: 544576395696292897, guid: 339f076ff83b3474189436fe4bc4041c, type: 3}
+    - {fileID: -4577502420514049891, guid: 339f076ff83b3474189436fe4bc4041c, type: 3}
+    - {fileID: 750303602690900875, guid: 339f076ff83b3474189436fe4bc4041c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
